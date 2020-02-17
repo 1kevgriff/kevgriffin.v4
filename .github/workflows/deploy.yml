@@ -23,3 +23,8 @@ jobs:
       run: npm install --global @gridsome/cli 
     - name: Process
       run: gridsome build
+    - name: GitHub Pages Deploy
+      uses: maxheld83/ghpages@v0.2.1
+      env: 
+        BUILD_DIR : "dist/"
+
