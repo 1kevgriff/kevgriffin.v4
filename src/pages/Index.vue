@@ -3,7 +3,9 @@
     <div class="hero container-inner mx-auto flex flex-col sm:flex-row justify-between py-16">
       <div class="text-4xl font-bold w-full sm:w-4/5 text-center sm:text-left">
         <div class="leading-tight">Hey there! I'm Kevin!</div>
-        <div class="text-green-700 leading-tight">I'm a Microsoft MVP focused in ASP.NET (Core), Microsoft Azure, and Web Development.</div>
+        <div
+          class="text-green-700 leading-tight"
+        >I'm a Microsoft MVP focused in ASP.NET (Core), Microsoft Azure, and Web Development.</div>
       </div>
       <div class="mt-8 sm:mt-0">
         <g-image src="../../static/kevin_rockon.png" alt="hero" class="mx-auto sm:mx-0" />
@@ -12,171 +14,22 @@
     <!-- end hero -->
 
     <div class="container-inner mx-auto">
-      <p class="text-lg sm:text-xl">
-        Welcome!  
-      </p>
-
-    </div>
-
-    <!-- <div class="overflow-x-hidden">
-      <div
-        class="projects container-inner mx-auto text-xl border-t border-gray-500 border-b py-16 mb-16 relative"
-      >
-        <h2 class="font-bold mb-6" id="projects">Here are some projects I've worked on:</h2>
-
-        <div class="absolute right-0" style="top: 50px; transform: translate(100%) rotate(180deg)">
-          <svg width="170px" height="170px">
-            <use xlink:href="#dots-triangle" />
-          </svg>
-        </div>
-
-        <ul class="text-lg sm:text-xl">
-          <li class="checkmark mb-6">
-            <div>Project One</div>
-            <div
-              class="text-lg text-gray-600"
-            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque!</div>
-          </li>
-          <li class="checkmark mb-6">
-            <div>Project Two</div>
-            <div
-              class="text-lg text-gray-600"
-            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque!</div>
-          </li>
-          <li class="checkmark mb-6">
-            <div>Project Three</div>
-            <div
-              class="text-lg text-gray-600"
-            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque!</div>
-          </li>
-          <li class="checkmark mb-6">
-            <div>Project Four</div>
-            <div
-              class="text-lg text-gray-600"
-            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque!</div>
-          </li>
-        </ul>
-      </div>
-    </div> -->
-
-    <!-- <div class="overflow-x-hidden border-gray-200 border-b">
-      <div class="get-to-know-me container-inner mx-auto text-xl pb-16 relative">
-        <h2 class="font-bold mb-6" id="about">Get to know me:</h2>
-
-        <div class="absolute left-0" style="top: 50px; transform: translateX(-100%)">
-          <svg width="170px" height="170px">
-            <use xlink:href="#dots-triangle" />
-          </svg>
-        </div>
-
-        <div class="flex flex-col sm:flex-row justify-between items-center mb-16">
-          <div>
-            <g-image
-              src="../../static/avatar.jpg"
-              alt="avatar"
-              class="w-32 h-32 rounded-full mb-8 lg:mb-0"
-            />
-          </div>
-          <div
-            class="flex-1 text-lg sm:text-xl ml-6"
-          >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum quae architecto minus molestias iusto ducimus fuga quo quia libero dignissimos, fugiat modi assumenda debitis laboriosam.</div>
-        </div>
-
-        <div class="responsive-container">
-          <iframe
-            class="responsive-iframe w-full h-full top-0 left-0 border-0"
-            src="https://www.youtube.com/embed/uHo6o1TNQeE"
-            style="border:0;"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
-      </div>
-    </div> -->
-
-    <div class="overflow-x-hidden">
-      <div class="contact-me bg-background-secondary pt-16">
-        <div class="container-inner mx-auto text-xl pb-4 relative">
-          <h2 class="font-bold mb-6" id="contact">Contact me:</h2>
-
-          <div class="absolute right-0 top-0" style="transform: translate(100%) rotate(180deg)">
-            <svg width="170px" height="170px">
-              <use xlink:href="#dots-triangle" />
-            </svg>
-          </div>
-
-          <p class="mb-12">
-            Static sites cannot submit forms on their own. However, services like
-            <a href="https://www.netlify.com/docs/form-handling">Netlify Forms</a> or
-            <a href="https://formspree.io">FormSpree</a> can help you do this without a backend.
-          </p>
-
-          <div class="text-lg sm:text-lg mb-16">
-            <form action="#" class="mb-12">
-              <div class="flex flex-wrap mb-6 -mx-4">
-                <div class="w-full md:w-1/2 mb-6 md:mb-0 px-4">
-                  <label class="block mb-2 text-copy-primary" for="name">Name</label>
-
-                  <input
-                    type="text"
-                    name="name"
-                    id="name"
-                    placeholder="Jon Snow"
-                    class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4"
-                    required
-                  />
-                </div>
-
-                <div class="w-full px-4 md:w-1/2">
-                  <label class="block text-copy-primary mb-2" for="email">Email Address</label>
-
-                  <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    placeholder="email@example.com"
-                    class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4"
-                    required
-                  />
-                </div>
-              </div>
-
-              <div class="w-full mb-12">
-                <label class="block text-copy-primary mb-2" for="message">Message</label>
-
-                <textarea
-                  id="message"
-                  rows="5"
-                  name="message"
-                  class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none appearance-none focus:border-green-700 mb-2 px-4 py-4"
-                  placeholder="Enter your message here."
-                  required
-                ></textarea>
-              </div>
-
-              <div class="flex justify-end w-full">
-                <input
-                  type="submit"
-                  value="Submit"
-                  class="block bg-green-700 hover:bg-green-800 text-white text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer px-6 py-3"
-                />
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-      <!-- end contact-me -->
+      <p
+        class="text-lg sm:text-xl pb-6"
+      >This is pretty exciting! You have found my little piece of the internet, and I'm so humbled that you stopped by.</p>
+      <p
+        class="text-lg sm:text-xl pb-12"
+      >A little bit about me: I'm a husband and father of three amazing little boys. My background is originally in Computer Science (BS in CS from Old Dominion University), but nowadays I am an independent software consultant that helps businesses move into the 21st Century with their tech stacks.</p>
+      <p
+        class="text-lg sm:text-x1 pb-12"
+      >I'm a 10-time Microsoft MVP, with a focus in building web applications with ASP.NET Core and Microsoft Azure. I do regular trainings for private customers on a variety of topics, so if that is something that you're looking for, please contact me!</p>
     </div>
 
     <div class="newsletter bg-background-tertiary">
       <div class="container-inner mx-auto py-16 pb-8 text-center textl-xl">
-        <h2 class="text-2xl font-bold mb-8">Join my Newsletter</h2>
+        <h2 class="text-2xl font-bold mb-8">Let's keep the conversation going!</h2>
 
         <div class="w-4/5 mx-auto mb-8">
-          <p
-            class="mb-8 text-lg sm:text-xl"
-          >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, voluptatum. Quam, deleniti nulla.</p>
-
           <form action="#">
             <div class="flex flex-col sm:flex-row">
               <input

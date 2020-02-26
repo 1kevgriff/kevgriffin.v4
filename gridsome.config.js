@@ -23,8 +23,8 @@ module.exports = {
       options: {
         typeName: 'Documentation', // Required
         baseDir: './docs', // Where .md files are located
-        pathPrefix: '/docs', // Add route prefix. Optional
         template: './src/templates/Documentation.vue', // Optional
+        route: '/:permalink',
         plugins: [
           ['gridsome-plugin-remark-shiki', { theme: 'Material-Theme-Palenight', skipInline: true }]
         ],
@@ -54,14 +54,14 @@ module.exports = {
       options: {
         contentTypeName: 'Post',
         feedOptions: {
-          title: 'Gridsome Portfolio Starter Blog',
-          feed_url: 'https://gridsome-portfolio-starter.netlify.com/rss.xml',
-          site_url: 'https://gridsome-portfolio-starter.netlify.com/'
+          title: 'Kevin W. Griffin',
+          feed_url: 'https://consultwithgriff.com/rss.xml',
+          site_url: 'https://consultwithgriff.com/'
         },
         feedItemOptions: node => ({
           title: node.title,
           description: node.summary,
-          url: 'https://gridsome-portfolio-starter.netlify.com' + node.path,
+          url: 'https://consultwithgriff.com' + node.path,
           author: 'Andre Madarang',
           date: node.date
         }),
