@@ -45,11 +45,11 @@
             <g-link to="/training" class="text-copy-primary hover:text-gray-600">Training</g-link>
           </li>
           <li class="mr-8 mb-6 lg:mb-0">
-            <g-link to="/blog" class="text-copy-primary hover:text-gray-600">Articles</g-link>
+            <g-link to="/articles" class="text-copy-primary hover:text-gray-600">Articles</g-link>
           </li>
-          <li class="mr-8 mb-6 lg:mb-0">
-            <g-link to="/blog" class="text-copy-primary hover:text-gray-600">Live with Griff</g-link>
-          </li>
+          <!-- <li class="mr-8 mb-6 lg:mb-0">
+            <g-link to="/articles" class="text-copy-primary hover:text-gray-600">Live with Griff</g-link>
+          </li>-->
           <li class="mr-8 mb-6 lg:mb-0">
             <g-link to="/contact" class="text-copy-primary hover:text-gray-600">Contact</g-link>
           </li>
@@ -64,6 +64,13 @@
       <div class="container mx-auto flex flex-col lg:flex-row items-center justify-between py-8">
         <div class="mb-8 lg:mb-0">
           <div>Copyright {{ new Date().getFullYear() }}. All rights reserved.</div>
+          <div>
+            Template based on from
+            <a
+              class="text-white hover:text-gray-400 font-normal"
+              href="https://github.com/drehimself/gridsome-portfolio-starter"
+            >https://github.com/drehimself/gridsome-portfolio-starter</a>
+          </div>
           <div>
             <a href="/rss.xml" class="text-white hover:text-gray-400 font-normal">RSS Feed</a> |
             <a href="/sitemap.xml" class="text-white hover:text-gray-400 font-normal">Sitemap</a>

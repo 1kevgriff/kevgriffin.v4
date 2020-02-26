@@ -13,7 +13,7 @@
       </div>
       <div class="markdown-body mb-8" v-html="$page.post.content" />
       <div class="mb-8">
-        <g-link to="/blog" class="font-bold uppercase">Back to Article Listing</g-link>
+        <g-link to="/articles" class="font-bold uppercase">Back to Article Listing</g-link>
       </div>
     </div>
   </Layout>
