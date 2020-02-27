@@ -2,8 +2,9 @@
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 
 import DefaultLayout from '~/layouts/Default.vue'
-import VueScrollTo from 'vue-scrollto'
-import VueFuse from 'vue-fuse'
+import VueScrollTo from 'vue-scrollto';
+import VueFuse from 'vue-fuse';
+import VueDisqus from 'vue-disqus';
 
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
@@ -14,7 +15,8 @@ export default function (Vue, { router, head, isClient }) {
     easing: "ease",
   })
 
-  Vue.use(VueFuse)
+  Vue.use(VueFuse);
+  Vue.use(VueDisqus);
 
   head.meta.push({
     name: 'keywords',

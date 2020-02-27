@@ -19,6 +19,7 @@
     "gridsome-plugin-remark-youtube": "^1.0.1",
     "gridsome-plugin-rss": "^1.2.0",
     "lodash.pick": "^4.4.0",
+    "vue-disqus": "^3.0.5",
     "vue-fuse": "^2.2.0",
     "vue-scrollto": "^2.17.1",
     "vue-twitter": "^0.1.0"

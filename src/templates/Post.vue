@@ -15,6 +15,9 @@
       <div class="mb-8">
         <g-link to="/articles" class="font-bold uppercase">Back to Article Listing</g-link>
       </div>
+      <div class="mb-8">
+        <vue-disqus shortname="kevgriff" :identifier="$page.post.permalink"></vue-disqus>
+      </div>
     </div>
   </Layout>
 </template>
