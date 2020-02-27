@@ -30,8 +30,22 @@
         <h2 class="text-2xl font-bold mb-8">Let's keep the conversation going!</h2>
 
         <div class="w-4/5 mx-auto mb-8">
-          <form action="#">
+          <form method="POST" action="https://swiftkick.activehosted.com/proc.php" id="_form_10_">
+            <input type="hidden" name="u" value="10" />
+            <input type="hidden" name="f" value="10" />
+            <input type="hidden" name="s" />
+            <input type="hidden" name="c" value="0" />
+            <input type="hidden" name="m" value="0" />
+            <input type="hidden" name="act" value="sub" />
+            <input type="hidden" name="v" value="2" />
             <div class="flex flex-col sm:flex-row">
+              <input
+                type="text"
+                name="fullname"
+                placeholder="Your name"
+                class="flex-1 bg-background-form rounded sm:rounded-r-none px-4 py-4 leading-normal border border-border-color-primary sm:border-r-0 shadow outline-none focus:border-green-700 z-10"
+                required
+              />
               <input
                 type="email"
                 name="email"
