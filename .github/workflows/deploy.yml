@@ -31,6 +31,6 @@ jobs:
         # The name of the storage account container these assets will be uploaded to
         container_name: $web
         # The connection string for the storage account
-        connection_string: ${{AZURE_BLOB_CONNECTIONSTRING}}
+        connection_string: ${{secrets.AZURE_BLOB_CONNECTIONSTRING}}
     
 
