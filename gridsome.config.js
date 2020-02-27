@@ -14,7 +14,7 @@ const postcssPlugins = [
 if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss())
 
 module.exports = {
-  siteName: 'Kevin W. Griffin',
+  siteName: 'Kevin W. Griffin | Developer, Training, Entrepreneur',
   siteDescription: 'The personal website for technologist Kevin W. Griffin.',
   siteUrl: 'https://consultwithgriff.com',
   plugins: [
@@ -56,7 +56,7 @@ module.exports = {
       options: {
         contentTypeName: 'Post',
         feedOptions: {
-          title: 'Kevin W. Griffin',
+          title: 'Kevin W. Griffin | Developer, Training, Entrepreneur',
           feed_url: 'https://consultwithgriff.com/rss.xml',
           site_url: 'https://consultwithgriff.com/'
         },
@@ -64,7 +64,7 @@ module.exports = {
           title: node.title,
           description: node.summary,
           url: 'https://consultwithgriff.com' + node.path,
-          author: 'Andre Madarang',
+          author: 'Kevin W. Griffin',
           date: node.date
         }),
         output: {
