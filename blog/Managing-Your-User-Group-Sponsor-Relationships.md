@@ -4,7 +4,7 @@ permalink: user-group-sponsor-relationship
 categories:
   - Community, User Groups, and Conferences
 date: 2015-01-26 11:58:38
-summary: Lorem
+summary: "Who holds the leverage in a sponsor/user group relationship?"
 ---
 
 As a user group leader, you might have this feeling that you need to get sponsors for your user group.  **This is a common feeling!**  

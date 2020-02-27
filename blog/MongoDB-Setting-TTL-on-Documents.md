@@ -15,7 +15,7 @@ Come to discover, this feature [already exists](http://docs.mongodb.org/manual/t
 
 The process involves creating an index on the date object you'd like to watch.  In the example below, I am providing a property on my document called `auditDate`.  I want the document associated with that property to automatically remove itself after 5 days or *432000000* miliseconds.
 
-```
+```javascript
 dbConnection
 .collection("audit")
 .ensureIndex({

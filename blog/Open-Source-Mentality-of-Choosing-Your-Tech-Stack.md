@@ -11,7 +11,7 @@ When I initially wrote *Non-Tech Factors to Consider When Choosing Your Tech Sta
 
 [Steve and Carol](http://kevgriffin.com/non-tech-factors-to-consider-when-choosing-your-tech-stack/#comment-2671492103) got me in the comments.
 
-###How should Open Source affect your decision to choose a tech stack?
+### How should Open Source affect your decision to choose a tech stack?
 
 In a previous life, I used to work for a component vendor.  Our company built, sold, and supported a variety of components that saved developers time.  I had the opportunity to meet thousands of awesome developers who do the hard work every day in the trenches.
 
@@ -25,7 +25,7 @@ Where does a developer go in this case?  Google?  Stack-overflow? Github issues?
 
 A common phrase amongst open source maintainers is "we accept pull requests".  I used to believe this was mean-spirited, but you have to understand that folks that manage an open source project have lives and other concerns then your bug.  Roll up your sleeves and dive in.
 
-###You didn't answer the question: How should Open Source affect your decision to choose a tech stack?
+### You didn't answer the question: How should Open Source affect your decision to choose a tech stack?
 
 In the soft-factors article, I discussed that some developer-types just are not suited to work with new technology.  Same goes for open source.
 
@@ -33,7 +33,7 @@ If a developer or team is not comfortable getting their hands dirty in public co
 
 There are some exceptions to this though.  Consider massive open source projects such as jQuery, Angular, React, and the .NET Framework.  These products are open source and accept pull requests, but they are backed by large organizations who have a vested interest in keeping the projects up and running.  You cannot pick up a phone and dial support, but you can file an issue and a team of developers will take you seriously.
 
-###You are not alone
+### You are not alone
 The general developer community is amazing.  There are thousands and thousands of developers out there that will at least attempt to push you in the right direction if you hit a snag in an open source project.
 
 I love open source software, and I greatly take for granted the hard work many people have put into my favorite projects.

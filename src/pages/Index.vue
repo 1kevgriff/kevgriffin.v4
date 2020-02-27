@@ -18,7 +18,7 @@
         class="text-lg sm:text-xl pb-6"
       >This is pretty exciting! You have found my little piece of the internet, and I'm so humbled that you stopped by.</p>
       <p
-        class="text-lg sm:text-xl pb-12"
+        class="text-lg sm:text-xl pb-6"
       >A little bit about me: I'm a husband and father of three amazing little boys. My background is originally in Computer Science (BS in CS from Old Dominion University), but nowadays I am an independent software consultant that helps businesses move into the 21st Century with their tech stacks.</p>
       <p
         class="text-lg sm:text-x1 pb-12"

@@ -4,7 +4,7 @@ categories:
   - Community, User Groups, and Conferences
 permalink: user-group-food
 date: 2015-10-13 18:45:40
-summary: Lorem
+summary: "If you run a community, add some variety to your food choices."
 ---
 
 *Edit: Based off some comments, I've included options for non-lovers of meat.  Also added other comments.*

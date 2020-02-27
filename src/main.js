@@ -18,17 +18,17 @@ export default function (Vue, { router, head, isClient }) {
 
   head.meta.push({
     name: 'keywords',
-    content: 'Gridsome,Vue,Tailwind,Tailwind CSS,JavaScript,HTML,CSS,Vue.js,VueJS'
+    content: 'Gridsome,Vue,Tailwind,Tailwind CSS,JavaScript,HTML,CSS,Vue.js,VueJS,.NET,ASP.NET,ASP.NET Core,.NET Core,Microsoft Azure,Azure'
   })
 
   head.meta.push({
     name: 'description',
-    content: 'Gridsome Portfolio Starter'
+    content: 'Kevin W. Griffin'
   })
 
   head.meta.push({
     name: 'author',
-    content: 'Andre Madarang'
+    content: 'Kevin W. Griffin'
   })
 
   head.link.push({

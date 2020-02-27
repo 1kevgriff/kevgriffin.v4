@@ -4,7 +4,7 @@ permalink: one-simple-rule-for-successful-consulting
 categories:
   - Business
 date: 2014-09-03 00:16:57
-summary: Lorem
+summary: "When I recommend tools, technologies, and other solutions to my clients, I want to always make sure that the suggestion I am providing is something I would do for my own business"
 ---
 
 When you're suggesting business decisions for a client, think about it this way:

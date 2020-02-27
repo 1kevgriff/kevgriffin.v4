@@ -4,7 +4,7 @@ categories:
   - Development - ASP.NET
 permalink: signalr-transports-explained
 date: 2015-08-17 21:52:00
-summary: Lorem
+summary: "How do transports work in SignalR?"
 ---
 
 When I sit down to talk to people about SignalR, a common discussion we have is around transports and what the difference between them are.  While SignalR gives you the flexibility to choose your own transport, it is often a better bet to simply allow the library to choose for you.

@@ -6,7 +6,9 @@
     <header class="border-t-14 border-green-700">
       <nav class="container mx-auto flex flex-wrap justify-between items-center py-8">
         <div>
-          <h1>Kevin W. Griffin</h1>
+          <h1 class="text-2xl">
+            <g-link to="/">Kevin W. Griffin</g-link>
+          </h1>
           <!-- <g-link v-if="theme === 'theme-light'" to="/">
             <g-image src="../../static/logo.svg" class="w-40" alt="logo" />
           </g-link>

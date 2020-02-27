@@ -4,7 +4,7 @@ permalink: i-suck-at-writing-unit-tests
 categories:
   - Deep Thoughts
 date: 2015-02-26 22:25:55
-summary: Lorem
+summary: ""
 ---
 
 *65 tests*

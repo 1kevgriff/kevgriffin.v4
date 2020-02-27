@@ -44,7 +44,9 @@ module.exports = {
         route: '/:permalink',
         remark: {
           plugins: [
-            ['gridsome-plugin-remark-shiki', { theme: 'nord', skipInline: false }]
+            ['@noxify/gridsome-plugin-remark-embed', { 'enabledProviders': ['Youtube', 'Twitter', 'Gist'], }],
+            ['gridsome-plugin-remark-youtube'],
+            ['gridsome-plugin-remark-shiki', { theme: 'nord', skipInline: false }],
           ]
         }
       }

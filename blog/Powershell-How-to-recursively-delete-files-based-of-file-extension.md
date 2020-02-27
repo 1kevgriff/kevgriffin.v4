@@ -5,7 +5,7 @@ categories:
 permalink: powershell-how-to-recursively-delete-files-based-of-file-extension
 updated: '2016-07-15 14:23:38'
 date: 2016-07-15 14:15:43
-summary: Lorem
+summary: "How do you recursiviely delete files based off file extension in PowerShell?"
 ---
 
 File this under "took me WAY too long to figure out how to do".
@@ -16,7 +16,7 @@ I wanted to recursively delete all the .orig files.  That is apparently harder t
 
 So you don't go fumbling like I did:
 
-```
+```powershell
 Get-ChildItem . -recurse -include *.orig | remove-item
 ```
 

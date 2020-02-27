@@ -4,7 +4,7 @@ permalink: calendar-roulette
 categories:
   - Community, User Groups, and Conferences
 date: 2015-03-06 22:39:16
-summary: Lorem
+summary: "If you're running a community, pick a day and stick with it!"
 ---
 
 One trait of successful user groups is don't play calendar roulette.  Meaning: they chose a time or day each month to hold the group meeting.

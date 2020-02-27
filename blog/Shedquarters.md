@@ -4,7 +4,7 @@ date: 2017-05-26 12:57:44
 categories:
   - Business
 permalink: shedquarters
-summary: Lorem
+summary: "I upped my work at home game with a Shedquarters"
 ---
 
 ## May 25th, 2017

@@ -5,7 +5,7 @@ categories:
   - Deep Thoughts
 updated: '2015-08-20 21:52:06'
 date: 2015-08-03 09:18:46
-summary: Lorem
+summary: "I had a horrible bank ATM experience."
 ---
 
 *Note: I'm pretty much going to rant about a bank experience I had.  Lessons aren't obvious, but if you're designing something that's pretty dang important... make sure you have failsafes built-in.*  

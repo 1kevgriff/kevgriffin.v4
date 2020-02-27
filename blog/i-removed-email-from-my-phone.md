@@ -4,7 +4,7 @@ categories:
   - Deep Thoughts
 permalink: good-bye-email
 date: 2018-05-01 09:54:52
-summary: Lorem
+summary: "What's the next step after beating email addicition?"
 ---
 Several years ago, [I wrote about how I was taking steps to reduce my dependence on email](https://kevgriffin.com/beating-email-addiction/).  You should go give it a read if you haven't before.
 

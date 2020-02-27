@@ -4,7 +4,7 @@ permalink: the-non-techie-guide-to-source-control
 categories:
   - Deep Thoughts
 date: 2014-10-30 16:45:19
-summary: Lorem
+summary: "Explaining source control to non technical people."
 ---
 
 _Update 1: Brandon pointed out a mistake in my math.  Adjusted to reflect his comments._
@@ -15,7 +15,7 @@ As a consultant, I often find myself in a situation where I need to introduce a 
 
 > For technology friends: please use this post.  Please suggest changes.  Let's make it better for everyone!
 
-##The Problem I'm Seeing
+## The Problem I'm Seeing
 Recently, I walked onto a project where I was asked to review some source code and see if I could suggest some changes.  I had complete access to the original developer, so I asked her if it would be possible for me to get access to source control.
 
 Ten minutes later, I received a FTP address with username and password.  I could have easily taken down the whole system with a keystroke!  Hundred of man hours would have gone down the drain!

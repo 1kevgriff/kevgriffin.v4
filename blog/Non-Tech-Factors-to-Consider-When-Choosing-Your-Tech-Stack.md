@@ -4,7 +4,7 @@ categories:
   - Deep Thoughts
 permalink: non-tech-factors-to-consider-when-choosing-your-tech-stack
 date: 2016-05-10 21:33:01
-summary: Lorem
+summary: "Greenfield projects are typically a great deal of fun. It is something new and exciting! No legacy code that will bog down or needlessly frustrate the team."
 ---
 
 Greenfield projects are typically a great deal of fun. It is something new and exciting! No legacy code that will bog down or needlessly frustrate the team. *We will finally get to do things the RIGHT way this time.*

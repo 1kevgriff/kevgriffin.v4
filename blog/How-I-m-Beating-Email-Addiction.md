@@ -4,7 +4,7 @@ categories:
   - Deep Thoughts
 permalink: beating-email-addiction
 date: 2015-05-21 09:54:52
-summary: Lorem
+summary: "I used to be REALLY addicted to email.  When I use to wake up in the morning, first thing I would do is check my email on the phone.  After sitting at my desk, I would open my email tab and leave it up all day.  At night, I would habitually pull out my phone to see if a new email came in.  It was like I was a drug addict always needing a fix.  I couldn't do it anymore."
 ---
 
 Today, I really want to talk about email, because I see people everywhere having the same issue with email that I had.  I used to be REALLY addicted to email.  When I use to wake up in the morning, first thing I would do is check my email on the phone.  After sitting at my desk, I would open my email tab and leave it up all day.  At night, I would habitually pull out my phone to see if a new email came in.

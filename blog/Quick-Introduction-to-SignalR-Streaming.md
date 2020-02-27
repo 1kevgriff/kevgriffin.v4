@@ -10,7 +10,7 @@ tags:
   - websockets
   - streaming
   - .net core
-summary: Lorem
+summary: "What is streaming in SignalR?  I'll show you!"
 ---
 For my entry this year for [C# Advent](https://crosscuttingconcerns.com/The-Second-Annual-C-Advent), I wanted to do something a little bit different.
 
@@ -20,6 +20,6 @@ And WOW!  I'm super impressed with that I saw.
 
 Check out my video introduction below, and lemme know what you think in the comments!
 
-<iframe width="750" height="422" src="https://www.youtube.com/embed/xLtWgRzB2_g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+`youtube:https://www.youtube.com/embed/xLtWgRzB2_g`
 
 Source code for this project is available at on [GitHub](https://github.com/swiftkickin/signalr-streaming-v1).

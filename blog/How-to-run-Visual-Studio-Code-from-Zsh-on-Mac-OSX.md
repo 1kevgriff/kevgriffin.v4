@@ -4,7 +4,7 @@ categories:
   - Development
 permalink: how-to-run-visual-studio-code-from-zsh-on-mac-osx
 date: 2015-05-07 13:27:04
-summary: Lorem
+summary: "Using Visual Studio Code from Zsh on OSX?"
 ---
 
 **EDIT:** [You can just do this from Visual Studio Code now.](https://code.visualstudio.com/docs/setup/osx)

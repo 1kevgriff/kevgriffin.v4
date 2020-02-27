@@ -1,5 +1,5 @@
 ---
-title: Maintaining SignalR ConnectionId&rsquo;s Across Page Instances
+title: Maintaining SignalR ConnectionIds Across Page Instances
 categories:
   - Development
 permalink: maintaining-signalr-connectionids-across-page-instances
@@ -16,26 +16,34 @@ When you start a connection to SignalR for the first time, you are assigned a Co
 If you were to refresh the page, SignalR will assign you a NEW ConnectionId.  This could be good or bad… but if you’re trying to maintain some sense of state between your clients and the hub, it’s bad.
 
 So I looked into how to make SignalR reuse ConnectionIds in the case of a page refresh.  There are really two steps involved.
-<h2>1) Set a cookie on the client</h2>
-When you start() a new connection, SignalR will return a ConnectionId.  You’ll want to set a cookie with that ConnectionId in it.
-<pre>    $.connection.hub.start().done(function () {
-        alert("Connected!");
-        var myClientId = $.connection.hub.id;
-        setCookie("srconnectionid", myClientId);
-    });
 
-    function setCookie(cName, value, exdays) {
-        var exdate = new Date();
-        exdate.setDate(exdate.getDate() + exdays);
-        var c_value = escape(value) + ((exdays == null) ? "" : "; expires=" + exdate.toUTCString());
-        document.cookie = cName + "=" + c_value;
-    }</pre>
+1. Set a cookie on the client
+   When you start() a new connection, SignalR will return a ConnectionId.  You’ll want to set a cookie with that ConnectionId in it.
+
+```javascript
+$.connection.hub.start().done(function() {
+  alert("Connected!");
+  var myClientId = $.connection.hub.id;
+  setCookie("srconnectionid", myClientId);
+});
+
+function setCookie(cName, value, exdays) {
+  var exdate = new Date();
+  exdate.setDate(exdate.getDate() + exdays);
+  var c_value =
+    escape(value) + (exdays == null ? "" : "; expires=" + exdate.toUTCString());
+  document.cookie = cName + "=" + c_value;
+}
+```
+
 As you can see, this gets the ConnectionId from the hub connection and stores it in a cookie.
 
-2) Use your own IConnectionIdFactory
+2. Use your own IConnectionIdFactory
 
 This might be scary territory for you, but it’s actually pretty simple.  We want to create our own version of the IConnectionIdFactory interface for SignalR to use.
-<pre>    public class MyConnectionFactory : IConnectionIdFactory
+
+```csharp
+public class MyConnectionFactory : IConnectionIdFactory
     {
         public string CreateConnectionId(IRequest request)
         {
@@ -46,13 +54,23 @@ This might be scary territory for you, but it’s actually pretty simple.  We w
 
             return Guid.NewGuid().ToString();
         }
-    }</pre>
+    }
+```
+
 This does two things.  First, it’ll check your cookie for a ConnectionId it should use.  If it exists, we’ll simply return that ConnectionId and all will be good in the world.
 
 If the cookie does NOT exist, we need to generate one.  By default, SignalR uses a GUID, so we’ll just repeat that functionality.  You can use any value you want, but make sure it’s unique.
 
 Don’t forget to wire it up!  Add this to you Global.asax file under Application_Start().
-<pre>AspNetHost.DependencyResolver.Register(typeof(IConnectionIdFactory), () =&gt; new MyConnectionFactory());</pre>
+
+```csharp
+AspNetHost.DependencyResolver.Register(typeof(IConnectionIdFactory), () =&gt; new MyConnectionFactory());
+```
+
 And you’re all set!  SignalR will now use your new ConnectionIdFactory to generate or reuse ConnectionIds.
 
 Enjoy!
+
+```
+
+```

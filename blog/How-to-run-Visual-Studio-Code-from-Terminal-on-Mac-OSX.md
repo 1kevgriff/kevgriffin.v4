@@ -4,7 +4,7 @@ categories:
   - Development
 permalink: how-to-run-visual-studio-code-from-terminal-on-mac-osx
 date: 2015-05-07 13:20:28
-summary: Lorem
+summary: "Using Visual Studio Code on OSX?"
 ---
 
 **Edit 06/24/2016:** [You can just do this from Visual Studio Code now.](https://code.visualstudio.com/docs/setup/osx)

@@ -3,7 +3,7 @@ title: RevolutionConf 2017 Event Recap
 categories:
   - 'Community, User Groups, and Conferences'
 date: 2017-06-08 14:34:43
-summary: Lorem
+summary: "RevolutionConf 2017 went fantastically!"
 tags:
 ---
 
@@ -13,7 +13,7 @@ I am one of the primary organizers of RevolutionConf - partnered with my good fr
 
 This conference is one of the crowning acheivements of my career.  I do not believe I can describe in words the feeling that comes when professionals from ALL OVER THE WORLD unite to do something awesome.
 
-![](https://griffcdn.blob.core.windows.net/kevgriffinpublic/revolutionconf-2017-recap/20170601_174425048_iOS-min.jpg)
+![](./images/20170601_174425048_iOS-min.jpg)
 
 RevolutionConf is a "technology agnostic" conference.  What does that mean?  
 
@@ -29,7 +29,7 @@ This is the hardest thing to do.  We urged our speakers to consider topics that 
 ## Not Your Common Event Recap
 This recap is meant to give you an "insider" view of what went right and what could've been better about RevolutionConf.  I'm a huge advocate about learning in public - so here we go!
 
-![](https://griffcdn.blob.core.windows.net/kevgriffinpublic/revolutionconf-2017-recap/20170602_173432593_iOS-min.jpg)
+![](./images/20170602_173432593_iOS-min.jpg)
 
 ## What went right
 
@@ -83,7 +83,7 @@ Every great event needs to have a dedicated networking time.  This year, we star
 
 Here is a drone overview of the event as it was kicking off.
 
-<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/Ds27K9yYWCM" frameborder="0" allowfullscreen></iframe>
+`youtube:https://www.youtube.com/embed/Ds27K9yYWCM`
 
 ## What could've been better
 
