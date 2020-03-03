@@ -49,6 +49,13 @@ Other conferences might specify "we only cover travel for speakers traveling wit
 It's okay to email the conference with clarifying questions.  Please do that.  However, please do not submit to the conference that only covers travel within North America and then request full flight coverage from South Sudan.  You're going to put the organizer in an awkward spot if they're not able to accomodate.
 
 ### Titles and Abstracts
+My intention here is not to advise you on how to write a winning title and abstract for a conference.  There are entire books and Twitter threads on this topic. 
+
+However, conference organizers have some feedback for you.
+
+First, the title of your talk should not be longer than your abstract.  During review processes, it is common for only titles to be glanced at.  A good title will get you an abstract review.  A long title might get you passed over.
+
+Oh 
 
 ### Judge the Audience
 
