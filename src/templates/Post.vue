@@ -38,6 +38,7 @@ query Post ($path: String!) {
 </page-query>
 
 <script>
+import kevin_rocks from "../kevin_rockon.png";
 export default {
   metaInfo() {
     return {
@@ -47,7 +48,7 @@ export default {
         { name: "twitter:description", content: this.$page.post.summary },
         { name: "twitter:title", content: this.$page.post.title },
         { name: "twitter:site", content: "@1kevgriff" },
-        { name: "twitter:image", content: "" },
+        { name: "twitter:image", content: kevin_rocks },
         { name: "twitter:creator", content: "@1kevgriff" },
         { name: "description", content: this.$page.post.summary }
       ]
