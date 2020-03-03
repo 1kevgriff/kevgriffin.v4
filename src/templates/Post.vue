@@ -48,7 +48,7 @@ export default {
         { name: "twitter:description", content: this.$page.post.summary },
         { name: "twitter:title", content: this.$page.post.title },
         { name: "twitter:site", content: "@1kevgriff" },
-        { name: "twitter:image", content: kevin_rocks },
+        { name: "twitter:image", content: 'https://consultwithgriff.com' + kevin_rocks },
         { name: "twitter:creator", content: "@1kevgriff" },
         { name: "description", content: this.$page.post.summary }
       ]
