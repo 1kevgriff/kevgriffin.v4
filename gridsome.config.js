@@ -44,8 +44,8 @@ module.exports = {
         route: '/:permalink',
         remark: {
           plugins: [
-            ['@noxify/gridsome-plugin-remark-embed', { 'enabledProviders': ['Youtube', 'Twitter', 'Gist'], }],
             ['gridsome-plugin-remark-youtube'],
+            ['gridsome-plugin-remark-twitter', { omitScript: true }],
             ['gridsome-plugin-remark-shiki', { theme: 'nord', skipInline: false }],
           ]
         }
@@ -86,6 +86,7 @@ module.exports = {
       }
     }
   ],
+  script: [{ src: "https://platform.twitter.com/widgets.js" }],
   templates: {
     Tag: '/tag/:id'
   },
