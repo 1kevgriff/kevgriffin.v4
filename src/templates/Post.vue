@@ -27,6 +27,7 @@ query Post ($path: String!) {
   post: post (path: $path) {
     title
     date (format: "MMMM D, Y")
+    summary
     content
     tags {
       title
@@ -40,7 +41,16 @@ query Post ($path: String!) {
 export default {
   metaInfo() {
     return {
-      title: this.$page.post.title
+      title: this.$page.post.title,
+      meta: [
+        { name: "twitter:card", content: "summary" },
+        { name: "twitter:description", content: this.$page.post.summary },
+        { name: "twitter:title", content: this.$page.post.title },
+        { name: "twitter:site", content: "@1kevgriff" },
+        { name: "twitter:image", content: "" },
+        { name: "twitter:creator", content: "@1kevgriff" },
+        { name: "description", content: this.$page.post.summary }
+      ]
     };
   }
 };
