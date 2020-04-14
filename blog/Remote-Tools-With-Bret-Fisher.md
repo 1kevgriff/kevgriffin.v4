@@ -2,6 +2,7 @@
 title: Talking Remote Tools for Developers with Bret Fisher
 categories:
   - 'Community, User Groups, and Conferences'
+permalink: remote-tools-with-bret-fisher-april-2020
 date: 2020-04-14 19:24:00
 summary: "Recently, I got to hang out with my friend Bret Fisher to talk about remote tools for developers."
 tags: 
