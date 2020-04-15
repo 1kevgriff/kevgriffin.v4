@@ -10,7 +10,7 @@ export default {
       meta: [
         {
           "http-equiv": "refresh",
-          content: `0; URL=how-to-run-visual-studio-code-from-mac-osx`
+          content: `0; URL=/how-to-run-visual-studio-code-from-mac-osx`
         }
       ],
       link: [
