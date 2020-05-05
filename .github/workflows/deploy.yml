@@ -19,9 +19,11 @@ jobs:
     - uses: actions/checkout@v2
     - name: NPM install
       run: npm install
+    - name: NPM link local plugins
+      run: npm link .\localPlugins\email-cta-insert\
     - name: Install Gridsome
       run: npm install --global @gridsome/cli 
-    - name: Process
+    - name: Gridsome Build
       run: gridsome build
     - name: Azure Blob Storage Upload
       uses: bacongobbler/azure-blob-storage-upload@v1.0.0
