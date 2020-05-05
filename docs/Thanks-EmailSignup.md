@@ -1,5 +1,5 @@
 ---
-title: Training
+title: You're pretty awesome!
 date: 2017-05-03 12:50:43
 permalink: thanks-signup
 categories:
