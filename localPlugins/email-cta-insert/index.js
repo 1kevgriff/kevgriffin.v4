@@ -3,7 +3,7 @@ const visit = require('unist-util-visit');
 module.exports = (options) => {
 
     var acHtml = `
-    <div class="container-inner mx-auto py-16 pb-8 text-center textl-xl">
+    <div class="border-solid border-4 container-inner mx-auto py-16 pb-8 text-center textl-xl">
     <h2 class="text-2xl font-bold mb-8">Let's keep the conversation going!</h2>
 
     <div class="w-4/5 mx-auto mb-8">
@@ -20,7 +20,7 @@ module.exports = (options) => {
             type="text"
             name="fullname"
             placeholder="Your name"
-            class="md:w-full bg-background-form rounded sm:rounded-r-none px-4 py-4 leading-normal border border-border-color-primary sm:border-r-0 shadow outline-none focus:border-green-700 z-10"
+            class="w-full bg-background-form rounded sm:rounded-r-none px-4 py-4 leading-normal border border-border-color-primary sm:border-r-0 shadow outline-none focus:border-green-700 z-10"
             required
           />
           <div class="mt-5">
@@ -28,7 +28,7 @@ module.exports = (options) => {
             type="email"
             name="email"
             placeholder="Your email address"
-            class="md:w-full bg-background-form rounded sm:rounded-r-none px-4 py-4 leading-normal border border-border-color-primary sm:border-r-0 shadow outline-none focus:border-green-700 z-10"
+            class="w-full bg-background-form rounded sm:rounded-r-none px-4 py-4 leading-normal border border-border-color-primary sm:border-r-0 shadow outline-none focus:border-green-700 z-10"
             required
           />
           </div>
