@@ -23,6 +23,8 @@ Then from Terminal you can type:
 `code .` -- opens current directory in Visual Studio Code  
 `code somefile` -- opens somefile in Visual Studio Code  
 
+`cta:`
+
 ## Zsh
 
 Using [Visual Studio Code](https://code.visualstudio.com) on your Mac, but can't call it from Zsh?

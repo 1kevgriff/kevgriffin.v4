@@ -33,6 +33,8 @@ That's the virtual encyclopedia in action.
 
 There is much more to what makes up a Mastermind group.  But we'll get to that.
 
+`cta:`
+
 ## Historical context
 In the regular talk I do on this topic, I like to discuss historical evidence that this concept is sound.  Not to bore you with history, I'll mention my favorite example.
 
