@@ -4,6 +4,13 @@ class TailwindExtractor {
   }
 }
 
+var emailCtaClass = [
+  "border-solid",
+  "border-4",
+  "w-full",
+  "mt-5"
+]
+
 module.exports = {
   content: [
     './src/**/*.vue',
@@ -16,6 +23,7 @@ module.exports = {
     './blog/**/*.md',
   ],
   whitelist: [
+    ...emailCtaClass,
     'body',
     'html',
     'img',
