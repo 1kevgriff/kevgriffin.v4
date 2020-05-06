@@ -4,7 +4,7 @@ module.exports = (options) => {
 
     var acHtml = `
     <div class="border-solid border-4 container-inner mx-auto py-16 pb-8 text-center textl-xl">
-    <h2 class="text-2xl font-bold mb-8">Let's keep the conversation going!</h2>
+    <h2 class="text-2xl font-bold mb-8">Live stream notifications? New posts? Thought-provoking conversations? Sign up today!</h2>
 
     <div class="w-4/5 mx-auto mb-8">
       <form method="POST" action="https://swiftkick.activehosted.com/proc.php" id="_form_10_">
