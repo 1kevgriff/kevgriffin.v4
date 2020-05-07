@@ -6,9 +6,18 @@ import VueScrollTo from 'vue-scrollto';
 import VueFuse from 'vue-fuse';
 import VueDisqus from 'vue-disqus';
 
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import { config, library } from '@fortawesome/fontawesome-svg-core';
+import { faTwitch } from '@fortawesome/free-brands-svg-icons';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+
+config.autoAddCss = false;
+library.add(faTwitch);
+
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
-  Vue.component('Layout', DefaultLayout)
+  Vue.component('Layout', DefaultLayout);
+  Vue.component('font-awesome', FontAwesomeIcon);
 
   Vue.use(VueScrollTo, {
     duration: 500,

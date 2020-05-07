@@ -9,12 +9,6 @@
           <h1 class="text-2xl">
             <g-link to="/">Kevin W. Griffin</g-link>
           </h1>
-          <!-- <g-link v-if="theme === 'theme-light'" to="/">
-            <g-image src="../../static/logo.svg" class="w-40" alt="logo" />
-          </g-link>
-          <g-link v-else to="/">
-            <g-image src="../../static/logo_dark_mode.svg" class="w-40" alt="logo" />
-          </g-link>-->
         </div>
         <div class="block lg:hidden">
           <button
@@ -49,9 +43,11 @@
           <li class="mr-8 mb-6 lg:mb-0">
             <g-link to="/articles" class="text-copy-primary hover:text-gray-600">Articles</g-link>
           </li>
-          <!-- <li class="mr-8 mb-6 lg:mb-0">
-            <g-link to="/articles" class="text-copy-primary hover:text-gray-600">Live with Griff</g-link>
-          </li>-->
+          <li class="mr-8 mb-6 lg:mb-0">
+            <a href="https://twitch.tv/1kevgriff" class="text-copy-primary hover:text-gray-600">
+              <font-awesome :icon="['fab', 'twitch']" size="lg" v-bind:class="onAir" />&nbsp;Live with Griff
+            </a>
+          </li>
           <li class="mr-8 mb-6 lg:mb-0">
             <g-link to="/contact" class="text-copy-primary hover:text-gray-600">Contact</g-link>
           </li>
@@ -191,6 +187,13 @@ export default {
       isOpen: false,
       theme: ""
     };
+  },
+  computed: {
+    onAir() {
+      return {
+        onAir: true
+      };
+    }
   },
   methods: {
     toggle() {
