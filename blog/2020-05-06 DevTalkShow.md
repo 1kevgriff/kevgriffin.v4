@@ -13,8 +13,8 @@ Thanks for attending The Dev Talk Show!  If you missed the episode, catch the re
 
 # Links to Resources
 
-[Logic Apps on Azure](https://azure.microsoft.com/en-us/services/logic-apps/)
-[Custom Connector in Azure Logic Apps](https://docs.microsoft.com/en-us/connectors/custom-connectors/create-logic-apps-connector)
+[Logic Apps on Azure](https://azure.microsoft.com/en-us/services/logic-apps/)  
+[Custom Connector in Azure Logic Apps](https://docs.microsoft.com/en-us/connectors/custom-connectors/create-logic-apps-connector)  
 [The Dev Talk Show](https://thedevtalkshow.com/)
 
 
