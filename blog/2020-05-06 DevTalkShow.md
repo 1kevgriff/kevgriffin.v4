@@ -1,7 +1,7 @@
 ---
 title: The Dev Talk Show Recap and Resources
 date: 2020-05-07 00:30:00
-permalink: devtalkshow
+permalink: thedevtalkshow
 categories:
   - Misc
 excerpt: "Thanks for Attending The Dev Talk Show!"
