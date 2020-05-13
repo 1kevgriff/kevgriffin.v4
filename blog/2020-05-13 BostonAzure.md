@@ -15,7 +15,7 @@ Thanks for attending Boston Azure!  If you missed the meetup, catch the replay a
 
 `TODO: Add slides!`  
 
-[Twitter](https://twitter.com/1kevgriff)
+[Twitter](https://twitter.com/1kevgriff)  
 [My Twitch Channel](https://twitch.tv/1kevgriff)  
 [Logic Apps on Azure](https://azure.microsoft.com/en-us/services/logic-apps/)  
 [Custom Connector in Azure Logic Apps](https://docs.microsoft.com/en-us/connectors/custom-connectors/create-logic-apps-connector)  
