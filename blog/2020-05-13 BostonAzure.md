@@ -9,7 +9,7 @@ excerpt: "Thanks for Attending Boston Azure!"
 
 Thanks for attending Boston Azure!  If you missed the meetup, catch the replay at:
 
-`TODO: Insert replay here`  
+`youtube:https://www.youtube.com/watch?v=iibGXI2YHRw`  
 
 # Links to Resources
 
