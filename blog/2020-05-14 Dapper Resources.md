@@ -1,6 +1,6 @@
 ---
 title: Better Object Mapping with Dapper Resources
-date: 2020-05-13 00:30:00
+date: 2020-05-14 00:30:00
 permalink: dapper
 categories:
   - Misc
