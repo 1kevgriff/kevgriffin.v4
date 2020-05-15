@@ -11,8 +11,10 @@ Thanks for my talk on `Better Object Mapping with Dapper`.  Please check out the
 
 ## Some questions, answered
 
-How do you work with multiple result sets with Dapper? (Coming soon)  
+[How do you work with multiple result sets with Dapper?](/dapper-stored-procedures)  
 How do you call a stored procedure with Dapper? (Coming soon)  
+Retrieving Output Parameters Using Dapper (Coming soon)  
+
 
 Do you have questions about Dapper?  Drop me a message on [Twitter](https://twitter.com/1kevgriff) and I'll add it to my list!  
 
