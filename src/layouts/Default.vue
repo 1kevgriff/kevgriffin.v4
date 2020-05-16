@@ -64,7 +64,7 @@
             <font-awesome :icon="['fas', 'search']" @click="showSearch = !showSearch" class="cursor-pointer" />
           </li>
         </ul>
-        <div v-if="showSearch" class="flex w-full justify-end">
+        <div v-show="showSearch" class="flex w-full justify-end">
           <search-input />
         </div>
       </nav>
