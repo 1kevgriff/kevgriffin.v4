@@ -55,7 +55,7 @@
           <li class="mr-8 mb-6 lg:mb-0">
             <a href="https://twitch.tv/1kevgriff">
               <img
-                alt="Custom badge"
+                alt="Am I streaming?"
                 src="https://img.shields.io/endpoint?style=for-the-badge&url=https%3A%2F%2Fgriffin-twitch-functions.azurewebsites.net%2Fapi%2FIsChannelOnline%3Fcode%3DxCnE0Jr1XRSamEmyhLUYuJE%2FQ34ovvbST19kl3vOXbvnxIBKCBxzvw%3D%3D%26channelName%3D1kevgriff"
               />
             </a>
@@ -190,6 +190,12 @@ export default {
   },
   mounted() {
     this.theme = localStorage.getItem("theme") || "theme-light";
+
+    console.log("cta");
+    var cta = document.getElementById("currentPageField");
+    if (cta) {
+      cta.value = window.location.href;
+    }
   },
   data() {
     return {
@@ -204,7 +210,8 @@ export default {
     updateTheme(theme) {
       this.theme = theme;
     }
-  }
+  },
+  created() {}
 };
 </script>
 
