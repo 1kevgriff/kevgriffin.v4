@@ -190,6 +190,12 @@ export default {
   },
   mounted() {
     this.theme = localStorage.getItem("theme") || "theme-light";
+
+    console.log("cta");
+    var cta = document.getElementById("currentPageField");
+    if (cta) {
+      cta.value = window.location.href;
+    }
   },
   data() {
     return {
@@ -204,7 +210,8 @@ export default {
     updateTheme(theme) {
       this.theme = theme;
     }
-  }
+  },
+  created() {}
 };
 </script>
 
