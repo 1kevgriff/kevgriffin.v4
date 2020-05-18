@@ -15,6 +15,7 @@ module.exports = (options) => {
         <input type="hidden" name="m" value="0" />
         <input type="hidden" name="act" value="sub" />
         <input type="hidden" name="v" value="2" />
+        <input type="hidden" name="field[8]" value="${window.location.href}"
         <div>
           <input
             type="text"
@@ -41,7 +42,10 @@ module.exports = (options) => {
         </div>
       </form>
     </div>
-  </div>`;
+  </div>
+  <script type="text/javascript">
+    window.cfields = {"8", "ctalocation"};
+  </script>`;
 
     return tree => {
         visit(tree, 'inlineCode', node => {
