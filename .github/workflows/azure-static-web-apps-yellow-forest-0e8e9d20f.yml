@@ -32,9 +32,8 @@ jobs:
     - name: NPM link local plugins
       run: yarn link "griffin-email-cta"
 
-
     - name: Install Gridsome
-      run: yarn install --global @gridsome/cli 
+      run: yarn global add @gridsome/cli
 
     - name: Gridsome Build
       run: gridsome build
