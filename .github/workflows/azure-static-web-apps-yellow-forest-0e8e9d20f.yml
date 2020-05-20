@@ -22,11 +22,11 @@ jobs:
         version: 12.x
 
     - uses: actions/checkout@v1
-    - name: NPM install
-      run: npm install
+    - name: YARN install
+      run: YARN install
 
     - name: NPM link local plugins
-      run: npm link ./localPlugins/email-cta-insert
+      run: YARN link ./localPlugins/email-cta-insert
 
     - name: Install Gridsome
       run: npm install --global @gridsome/cli 
