@@ -22,21 +22,18 @@ jobs:
         version: 12.x
 
     - uses: actions/checkout@v1
-    - name: yarn install
-      run: yarn install
-
-    - name: Yarn Set Up Linkable Package
-      working-directory: ./localPlugins/email-cta-insert
-      run: yarn link
-
+    - name: NPM install
+      run: npm install
     - name: NPM link local plugins
-      run: yarn link "griffin-email-cta"
+      run: npm link ./localPlugins/email-cta-insert
+    - name: Install Gridsome
+      run: npm install --global @gridsome/cli
 
     - name: Install Gridsome
-      run: yarn global add @gridsome/cli
+      run: npm install -g @gridsome/cli
 
     - name: Gridsome Build
-      run: gridsome build
+      run: npm run build
 
     - name: Build And Deploy
       id: builddeploy
