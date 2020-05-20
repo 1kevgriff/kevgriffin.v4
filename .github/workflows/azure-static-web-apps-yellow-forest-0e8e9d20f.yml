@@ -23,6 +23,8 @@ jobs:
         PRE_BUILD_COMMAND: >
           npm install --global @gridsome/cli 
           npm link ./localPlugins/email-cta-insert
+        DISABLE_NODEJS_BUILD: true
+        POST_BUILD_COMMAND: gridsome build
       with:
         azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_YELLOW_FOREST_0E8E9D20F }}
         repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
