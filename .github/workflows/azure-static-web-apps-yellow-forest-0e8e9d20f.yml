@@ -22,14 +22,14 @@ jobs:
         version: 12.x
 
     - uses: actions/checkout@v1
-    - name: YARN install
-      run: YARN install
+    - name: yarn install
+      run: npm install
 
     - name: NPM link local plugins
-      run: YARN link ./localPlugins/email-cta-insert
+      run: yarn link ./localPlugins/email-cta-insert
 
     - name: Install Gridsome
-      run: npm install --global @gridsome/cli 
+      run: yarn install --global @gridsome/cli 
 
     - name: Gridsome Build
       run: gridsome build
