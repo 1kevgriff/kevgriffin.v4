@@ -16,14 +16,23 @@ jobs:
     name: Build and Deploy Job
     steps:
     - uses: actions/checkout@v1
+
+    - name: NPM install
+      run: npm install
+
+    - name: NPM link local plugins
+      run: npm link ./localPlugins/email-cta-insert
+
+    - name: Install Gridsome
+      run: npm install --global @gridsome/cli 
+
+    - name: Gridsome Build
+      run: gridsome build
+
     - name: Build And Deploy
       id: builddeploy
       uses: Azure/static-web-apps-deploy@v0.0.1-preview
       env: 
-        PRE_BUILD_COMMAND: >
-          npm install --global @gridsome/cli 
-          npm link ./localPlugins/email-cta-insert
-          gridsome build
         DISABLE_NODEJS_BUILD: true
       with:
         azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_YELLOW_FOREST_0E8E9D20F }}
