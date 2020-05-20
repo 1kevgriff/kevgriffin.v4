@@ -25,8 +25,13 @@ jobs:
     - name: yarn install
       run: yarn install
 
+    - name: Yarn Set Up Linkable Package
+      working-directory: ./localPlugins/email-cta-insert
+      run: yarn link
+
     - name: NPM link local plugins
-      run: yarn link ~/localPlugins/email-cta-insert
+      run: yarn link "griffin-email-cta"
+
 
     - name: Install Gridsome
       run: yarn install --global @gridsome/cli 
