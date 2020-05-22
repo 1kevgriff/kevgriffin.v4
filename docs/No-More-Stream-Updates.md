@@ -9,4 +9,4 @@ excerpt: "You won't receive anymore stream notifications from me."
 
 ## Stream Notifications Are Disabled
 
-Sorry spamming you!  I've removed you from the stream notification list, but you'll still continue to receive other emails from me!
+Sorry for spamming you!  I've removed you from the stream notification list, but you'll still continue to receive other emails from me!
