@@ -157,8 +157,6 @@ import axios from "axios";
 export default {
   metaInfo: {
     title: "Home"
-<<<<<<< Updated upstream
-=======
   },
   data() {
     return {
@@ -185,22 +183,19 @@ export default {
               ctaLocation: window.location.href
             };
 
-            axios
-              .post(`${window.functionsUrl}ValidateCtaForm`, payload)
-              .then(
-                res => {
-                  if (res.status == "302") {
-                    window.location.pathname = "thanks-signup";
-                  }
-                },
-                reason => {
-                  console.log("Error submitting form");
+            axios.post(`${window.functionsUrl}ValidateCtaForm`, payload).then(
+              res => {
+                if (res.status == "302") {
+                  window.location.pathname = "thanks-signup";
                 }
-              );
+              },
+              reason => {
+                console.log("Error submitting form");
+              }
+            );
           });
       });
     }
->>>>>>> Stashed changes
   }
 };
 </script>
