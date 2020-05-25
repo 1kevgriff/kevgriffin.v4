@@ -182,6 +182,7 @@ query {
 <script>
 import SearchInput from "../components/SearchInput";
 import ThemeSwitcher from "../components/ThemeSwitcher";
+import axios from "axios";
 
 export default {
   components: {
@@ -190,11 +191,47 @@ export default {
   },
   mounted() {
     this.theme = localStorage.getItem("theme") || "theme-light";
+    var ctaForm = document.getElementById("ctaForm");
+    var cta = document.getElementById("ctaFormButton");
 
-    console.log("cta");
-    var cta = document.getElementById("currentPageField");
+    if (ctaForm) {
+      ctaForm.addEventListener("submit", evt => {
+        console.log("whoa");
+        evt.preventDefault();
+      });
+    }
+
     if (cta) {
-      cta.value = window.location.href;
+      cta.addEventListener("click", evt => {
+        evt.preventDefault();
+
+        grecaptcha.ready(() => {
+          grecaptcha
+            .execute(window.recaptcha_site_key, { action: "submit" })
+            .then(token => {
+              // redirect to azure function
+              var payload = {
+                name: document.getElementById("ctaFormFullName").value,
+                emailAddress: document.getElementById("ctaFormEmailAddress").value,
+                token: token,
+                ctaLocation: window.location.href
+              };
+
+              axios
+                .post(`${window.functionsUrl}ValidateCtaForm`, payload)
+                .then(
+                  res => {
+                    if (res.status == "302") {
+                      window.location.href = res.headers.location;
+                    }
+                  },
+                  reason => {
+                    console.log("Error submitting form");
+                  }
+                );
+            });
+        });
+      });
     }
   },
   data() {

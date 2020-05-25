@@ -3,6 +3,11 @@
 
 <head>
     ${head}
+    <script>
+        window.recaptcha_site_key = "6LfgtvoUAAAAAAcrlyVzr4R4Cx4WVi7MvMnBzM5O";
+        window.functionsUrl = "${process.env.GRIDSOME_FUNCTIONS_URL}";
+    </script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LfgtvoUAAAAAAcrlyVzr4R4Cx4WVi7MvMnBzM5O"></script>
 </head>
 
 <body ${bodyAttrs}>

@@ -31,20 +31,13 @@
           class="text-2xl font-bold mb-8"
         >Live stream notifications? New posts? Thought-provoking conversations? Sign up today!</h2>
         <div class="w-4/5 mx-auto mb-8">
-          <form method="POST" action="https://swiftkick.activehosted.com/proc.php" id="_form_10_">
-            <input type="hidden" name="u" value="10" />
-            <input type="hidden" name="f" value="10" />
-            <input type="hidden" name="s" />
-            <input type="hidden" name="c" value="0" />
-            <input type="hidden" name="m" value="0" />
-            <input type="hidden" name="act" value="sub" />
-            <input type="hidden" name="v" value="2" />
-            <input type="hidden" id="currentPageField" name="field[8]" />
+          <form method="POST" @submit="formSubmit">
             <div>
               <input
                 type="text"
                 name="fullname"
                 placeholder="Your name"
+                v-model="name"
                 class="w-full bg-background-form rounded sm:rounded-r-none px-4 py-4 leading-normal border border-border-color-primary sm:border-r-0 shadow outline-none focus:border-green-700 z-10"
                 required
               />
@@ -52,6 +45,7 @@
                 <input
                   type="email"
                   name="email"
+                  v-model="emailAddress"
                   placeholder="Your email address"
                   class="w-full bg-background-form rounded sm:rounded-r-none px-4 py-4 leading-normal border border-border-color-primary sm:border-r-0 shadow outline-none focus:border-green-700 z-10"
                   required
@@ -158,9 +152,52 @@
 </template>
 
 <script>
+import axios from "axios";
+
 export default {
   metaInfo: {
     title: "Home"
+  },
+  data() {
+    return {
+      name: "",
+      emailAddress: ""
+    };
+  },
+  methods: {
+    formSubmit(evt) {
+      evt.preventDefault();
+
+      grecaptcha.ready(() => {
+        grecaptcha
+          .execute(window.recaptcha_site_key, { action: "submit" })
+          .then(token => {
+            // Add your logic to submit to your backend server here.
+            console.log(token);
+
+            // redirect to azure function
+            var payload = {
+              name: this.name,
+              emailAddress: this.emailAddress,
+              token: token,
+              ctaLocation: window.location.href
+            };
+
+            axios
+              .post(`${window.functionsUrl}ValidateCtaForm`, payload)
+              .then(
+                res => {
+                  if (res.status == "302") {
+                    window.location.href = res.headers.location;
+                  }
+                },
+                reason => {
+                  console.log("Error submitting form");
+                }
+              );
+          });
+      });
+    }
   }
 };
 </script>
