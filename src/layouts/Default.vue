@@ -218,7 +218,7 @@ export default {
               };
 
               axios
-                .post(`${process.env.GRIDSOME_FUNCTIONS_URL}ValidateCtaForm`, payload)
+                .post(`${window.functionsUrl}ValidateCtaForm`, payload)
                 .then(
                   res => {
                     if (res.status == "302") {
