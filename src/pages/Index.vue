@@ -185,9 +185,7 @@ export default {
 
             axios.post(`${window.functionsUrl}ValidateCtaForm`, payload).then(
               res => {
-                if (res.status == "302") {
-                  window.location.pathname = "thanks-signup";
-                }
+                window.location.pathname = "thanks-signup";
               },
               reason => {
                 console.log("Error submitting form");

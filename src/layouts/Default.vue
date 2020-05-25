@@ -202,7 +202,6 @@ export default {
     }
 
     if (cta) {
-
       cta.addEventListener("click", evt => {
         evt.preventDefault();
 
@@ -213,23 +212,20 @@ export default {
               // redirect to azure function
               var payload = {
                 name: document.getElementById("ctaFormFullName").value,
-                emailAddress: document.getElementById("ctaFormEmailAddress").value,
+                emailAddress: document.getElementById("ctaFormEmailAddress")
+                  .value,
                 token: token,
                 ctaLocation: window.location.href
               };
 
-              axios
-                .post(`${window.functionsUrl}ValidateCtaForm`, payload)
-                .then(
-                  res => {
-                    if (res.status == "302") {
-                      window.location.pathname = "thanks-signup";
-                    }
-                  },
-                  reason => {
-                    console.log("Error submitting form");
-                  }
-                );
+              axios.post(`${window.functionsUrl}ValidateCtaForm`, payload).then(
+                res => {
+                  window.location.pathname = "thanks-signup";
+                },
+                reason => {
+                  console.log("Error submitting form");
+                }
+              );
             });
         });
       });
