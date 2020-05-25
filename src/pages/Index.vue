@@ -161,6 +161,50 @@
 export default {
   metaInfo: {
     title: "Home"
+<<<<<<< Updated upstream
+=======
+  },
+  data() {
+    return {
+      name: "",
+      emailAddress: ""
+    };
+  },
+  methods: {
+    formSubmit(evt) {
+      evt.preventDefault();
+
+      grecaptcha.ready(() => {
+        grecaptcha
+          .execute(window.recaptcha_site_key, { action: "submit" })
+          .then(token => {
+            // Add your logic to submit to your backend server here.
+            console.log(token);
+
+            // redirect to azure function
+            var payload = {
+              name: this.name,
+              emailAddress: this.emailAddress,
+              token: token,
+              ctaLocation: window.location.href
+            };
+
+            axios
+              .post(`${window.functionsUrl}ValidateCtaForm`, payload)
+              .then(
+                res => {
+                  if (res.status == "302") {
+                    window.location.pathname = "thanks-signup";
+                  }
+                },
+                reason => {
+                  console.log("Error submitting form");
+                }
+              );
+          });
+      });
+    }
+>>>>>>> Stashed changes
   }
 };
 </script>

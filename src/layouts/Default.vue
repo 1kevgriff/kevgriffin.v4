@@ -194,7 +194,40 @@ export default {
     console.log("cta");
     var cta = document.getElementById("currentPageField");
     if (cta) {
+<<<<<<< Updated upstream
       cta.value = window.location.href;
+=======
+      cta.addEventListener("click", evt => {
+        evt.preventDefault();
+
+        grecaptcha.ready(() => {
+          grecaptcha
+            .execute(window.recaptcha_site_key, { action: "submit" })
+            .then(token => {
+              // redirect to azure function
+              var payload = {
+                name: document.getElementById("ctaFormFullName").value,
+                emailAddress: document.getElementById("ctaFormEmailAddress").value,
+                token: token,
+                ctaLocation: window.location.href
+              };
+
+              axios
+                .post(`${window.functionsUrl}ValidateCtaForm`, payload)
+                .then(
+                  res => {
+                    if (res.status == "302") {
+                      window.location.pathname = "thanks-signup";
+                    }
+                  },
+                  reason => {
+                    console.log("Error submitting form");
+                  }
+                );
+            });
+        });
+      });
+>>>>>>> Stashed changes
     }
   },
   data() {
