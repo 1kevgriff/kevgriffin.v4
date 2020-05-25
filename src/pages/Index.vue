@@ -39,6 +39,7 @@
             <input type="hidden" name="m" value="0" />
             <input type="hidden" name="act" value="sub" />
             <input type="hidden" name="v" value="2" />
+            <input type="hidden" id="currentPageField" name="field[8]" />
             <div>
               <input
                 type="text"
