@@ -106,6 +106,8 @@ public static async Task<IActionResult> Run(
 
 I noticed there were a couple reCAPTCHA packages on Nuget, but them seemed sketchy or out of date with the latest updates to reCAPTCHA.  Sometimes you don't need a package when a simple HTTP request will do.  And that's exactly what I did.
 
+`cta:`
+
 reCAPTCHA asks for two pieces of information (and one optional):
 
 * `secret` is your server-side, secret key.  This should never be shared publicly.
