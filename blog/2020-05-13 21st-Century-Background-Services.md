@@ -1,17 +1,18 @@
 ---
-title: Boston Azure Recap and Resources
+title: 21st Century Background Services Resources and Replays
 date: 2020-05-13 00:30:00
-permalink: boston-azure
+permalink: 21st-century
 categories:
   - Misc
-excerpt: "Thanks for Attending Boston Azure!"
+excerpt: "Thanks for 21st Century Background Services!"
 ---
 
-Thanks for attending Boston Azure!  If you missed the meetup, catch the replay at:
+Thanks for 21st Century Background Services with Azure Logic Apps and Azure Functions!  If you missed the talk, catch a replay at:
 
+## Replays
 `youtube:https://www.youtube.com/watch?v=iibGXI2YHRw`  
 
-# Links to Resources
+## Links to Resources
 
 `TODO: Add slides!`  
 
