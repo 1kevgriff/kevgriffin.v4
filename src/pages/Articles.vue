@@ -11,13 +11,13 @@
         </h2>
         <div class="text-copy-secondary mb-4">
           <span>{{ post.node.date }}</span>
-          <span>&middot;</span>
+          <span>&nbsp;&middot;&nbsp;</span>
           <span>{{ post.node.timeToRead }} min read</span>
         </div>
-        <!-- 
+        
         <div class="text-lg mb-4">
-          {{ post.node.summary }}
-        </div>-->
+          {{ post.node.excerpt }}
+        </div>
 
         <div class="mb-8">
           <g-link :to="post.node.path" class="font-bold uppercase">Read More</g-link>
@@ -49,6 +49,7 @@ query Posts ($page: Int) {
         title
         date (format: "MMMM D, Y")
         summary
+        excerpt
         timeToRead
         path
       }
