@@ -174,14 +174,6 @@
   </div>
 </template>
 
-<static-query>
-query {
-  metadata {
-    siteName
-  }
-}
-</static-query>
-
 <script>
 import SearchInput from "../components/SearchInput";
 import ThemeSwitcher from "../components/ThemeSwitcher";

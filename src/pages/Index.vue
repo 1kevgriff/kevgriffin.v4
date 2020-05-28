@@ -13,6 +13,13 @@
     </div>
     <!-- end hero -->
 
+    <div class="container-inner mx-auto border-4 border-green-700 bg-opacity-50 mb-5 p-5">
+      <h3 class="text-center text-2xl text-green-700 font-bold mb-5">Have you seen my latest article?</h3>
+      <p class="text-center mb-3">
+        <a :href="$page.posts.edges[0].node.path">{{$page.posts.edges[0].node.title}}</a></p>
+      <p class="border-l-4 px-4 border-green-700">{{$page.posts.edges[0].node.excerpt}}</p>
+    </div>
+
     <div class="container-inner mx-auto">
       <p
         class="text-lg sm:text-xl pb-6"
@@ -150,6 +157,24 @@
     </div>
   </Layout>
 </template>
+
+<page-query>
+query {
+  posts: allPost {
+    edges {
+      node {
+               id
+        title
+        date (format: "MMMM D, Y")
+        summary
+        excerpt
+        timeToRead
+        path
+      }
+    }
+  }
+}
+</page-query>
 
 <script>
 import axios from "axios";
