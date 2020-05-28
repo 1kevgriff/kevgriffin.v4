@@ -91,5 +91,10 @@ module.exports = {
   },
   plugins: [
     // Some useful comment
-  ]
+  ],
+  purge: [
+    './src/**/*.html',
+    './src/**/*.vue',
+    './src/**/*.jsx',
+  ],
 }
