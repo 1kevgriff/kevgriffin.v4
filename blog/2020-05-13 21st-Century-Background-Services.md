@@ -10,11 +10,12 @@ excerpt: "Thanks for 21st Century Background Services!"
 Thanks for 21st Century Background Services with Azure Logic Apps and Azure Functions!  If you missed the talk, catch a replay at:
 
 ## Replays
+
 `youtube:https://www.youtube.com/watch?v=iibGXI2YHRw`  
 
 ## Links to Resources
 
-`TODO: Add slides!`  
+[Download Slides](/pdfs/21stCenturyBackgroundServicesWithAzureLogicAppsAndAzureFunctions.pdf)
 
 [Twitter](https://twitter.com/1kevgriff)  
 [My Twitch Channel](https://twitch.tv/1kevgriff)  
