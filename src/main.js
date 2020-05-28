@@ -11,6 +11,8 @@ import { config, library } from '@fortawesome/fontawesome-svg-core';
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import '@fortawesome/fontawesome-svg-core/styles.css';
 
+import VueAppInsights from 'vue-application-insights';
+
 config.autoAddCss = false;
 library.add(faSearch);
 
@@ -18,6 +20,10 @@ export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout);
   Vue.component('font-awesome', FontAwesomeIcon);
+
+  Vue.use(VueAppInsights, {
+    id: 'e6df3725-9377-4cc0-b067-44110ce1eace'
+  });
 
   Vue.use(VueScrollTo, {
     duration: 500,
