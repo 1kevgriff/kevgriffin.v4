@@ -22,15 +22,15 @@ jobs:
         version: 12.x
 
     - uses: actions/checkout@v1
+    
     - name: NPM install
       run: npm install
+
     - name: NPM link local plugins
       run: npm link ./localPlugins/email-cta-insert
+      
     - name: Install Gridsome
       run: npm install --global @gridsome/cli
-
-    - name: Install Gridsome
-      run: npm install -g @gridsome/cli
 
     - name: Gridsome Build
       run: npm run build

@@ -1,3 +1,10 @@
+var emailCtaClass = [
+  "border-solid",
+  "border-4",
+  "w-full",
+  "mt-5"
+];
+
 module.exports = {
   theme: {
     extend: {
@@ -91,5 +98,17 @@ module.exports = {
   },
   plugins: [
     // Some useful comment
-  ]
+  ],
+  purge: {
+    content: [
+      './src/**/*.html',
+      './src/**/*.vue',
+      './src/**/*.js',
+    ],
+    options: {
+      whitelist: [...emailCtaClass],
+      whitelistPatterns: [/^fa-/, /^svg-inline--fa/], 
+      whitelistPatternsChildren: [/^token/, /^pre/, /^code/], 
+    }
+  },
 }
