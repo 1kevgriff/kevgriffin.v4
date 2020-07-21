@@ -4,10 +4,10 @@ date: 2020-05-13 00:30:00
 permalink: 21st-century
 categories:
   - Misc
-excerpt: "Thanks for 21st Century Background Services!"
+excerpt: "Thanks for attending 21st Century Background Services!"
 ---
 
-Thanks for 21st Century Background Services with Azure Logic Apps and Azure Functions!  If you missed the talk, catch a replay at:
+Thanks for attending 21st Century Background Services with Azure Logic Apps and Azure Functions!  If you missed the talk, catch a replay at:
 
 ## Replays
 
