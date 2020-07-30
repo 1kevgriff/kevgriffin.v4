@@ -15,7 +15,7 @@ Thanks for attending Building Custom Vue.JS Services and Plugins!  If you missed
 
 ## Links to Resources
 
-`TODO: Insert slides here`
+[Download Slides](/pdfs/BuildingCustomVueJSServicesandPlugins_20200720.pdf)
 
 [Twitter](https://twitter.com/1kevgriff)  
 [My Twitch Channel](https://twitch.tv/1kevgriff)  
