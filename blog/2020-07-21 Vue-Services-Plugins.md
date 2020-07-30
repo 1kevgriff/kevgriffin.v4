@@ -11,7 +11,8 @@ Thanks for attending Building Custom Vue.JS Services and Plugins!  If you missed
 
 ## Replays
 
-`TODO: Insert replay here`
+Here is an offering from the Vue.JS Online Meetup on July 22nd, 2020:
+`youtube:https://www.youtube.com/watch?v=TH9bN2nnd0s`
 
 ## Links to Resources
 
