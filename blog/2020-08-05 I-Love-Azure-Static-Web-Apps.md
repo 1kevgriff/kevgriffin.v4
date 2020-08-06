@@ -7,7 +7,7 @@ categories:
 excerpt: "I've spent a little bit of time working with Azure Static Web Apps in their preview phase, and it's an amazing solution to a couple core problems I had with deploying static apps."
 ---
 
-As a web developer, I have fully embraced the idea that to extract pure performance out of our web applications we need to reduce the amount of time that a server needs to churn on request.  Statically generate web sites really scratch that itch.
+As a web developer, I have fully embraced the idea that to extract pure performance out of our web applications we need to reduce the amount of time that a server needs to churn on request.  Statically generated web sites really scratch that itch.
 
 Take this site for example.  It's statically generated with an amazing tool called Gridsome.  And it's not the only tool in town.  I've successfully used Jekyll, Hugo, Gatsby, and others to build these types of sites.
 
@@ -25,7 +25,7 @@ In order for reCAPTCHA to work, you need a server-side aspect that can handle th
 
 How did I solve the problem?
 
-Azure Functions!  I used to be a naysayer of Serverless, but I'll tell you what, Azure Functions really saved my butt here.  One Azure Function later, and I was good to go!
+Azure Functions!  I used to be a naysayer of Serverless, but I'll tell you what... Azure Functions really saved my butt here.  One Azure Function later, and I was good to go!
 
 ## What if there was a better way?
 

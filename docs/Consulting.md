@@ -30,6 +30,6 @@ If you stop and blink, technology is changing before your eyes! I have worked wi
 
 Another core aspect of the consulting work I've done is focused on performance. Sometimes it's easy to lose track of the bigger picture when developing application, and before you know it your servers are pegged and pages take minutes to load.
 
-## Let's Connection
+## Let's Connect!
 
 Shoot me an [email](mailto:connect@consultwithgriff.com) with a little information about your needs, and I'll respond with availability and a rate sheet.
