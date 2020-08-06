@@ -15,7 +15,7 @@ Why use a static site generator (SSG)?  Again, take my site.  Rarely does the co
 
 So where do you host static web apps?  There are a lot of options available to you.  I've deployed static sites to GitHub Pages.  We used to use Netlify for our old marketing sites.  I've configured Azure Blob Storage to host static content.
 
-Let's talk more about that last option for a moment.  Azure Blob Storage is an amazing solution to this problem, and its use this way was more discovered by accident.  I remember having conversations with friends in 2010 about hosting files this way, and then much later Azure adding support directly in the portal to turn this configuration on.
+Let's talk more about that last option for a moment.  Azure Blob Storage is an amazing solution to this problem, and its use for hosting static web pages was more discovered by accident.  I remember having conversations with friends in 2010 about hosting files this way, and then much later Azure added support directly in the portal to turn this configuration on.
 
 ## Sometimes you just need to write code
 
@@ -45,7 +45,7 @@ There is one small drawback to Static Web Apps.  You have to store your code in 
 
 ![](./images/i-love-static-web-apps-002.png)
 
-Once GitHub is connected, and you've configured the repository and branch that Azure Static Apps should, you need to tell Azure where the apps live in your repo.
+Once GitHub is connected, and you've configured the repository and branch that Azure Static Apps should use, you'll need to tell Azure where the apps live in your repo.
 
 ![](./images/i-love-static-web-apps-003.png)
 
