@@ -37,17 +37,17 @@ Recently, Azure released [Static Web Apps](https://azure.microsoft.com/en-us/ser
 
 ## What's the process of deploying to Azure Static Web Apps?  
 
-![](images/i-love-static-web-apps-001.png)
+![](./images/i-love-static-web-apps-001.png)
 
 ### Setting up the Instance
 
 There is one small drawback to Static Web Apps.  You have to store your code in GitHub, but odds are you do that anyway.  You have to store code in GitHub BECAUSE Azure Static Web Apps uses GitHub Actions to perform the build and deployment tasks that make all this tick.
 
-![](images/i-love-static-web-apps-002.png)
+![](./images/i-love-static-web-apps-002.png)
 
 Once GitHub is connected, and you've configured the repository and branch that Azure Static Apps should, you need to tell Azure where the apps live in your repo.
 
-![](images/i-love-static-web-apps-003.png)
+![](./images/i-love-static-web-apps-003.png)
 
 You need to set three paths.
 
@@ -63,15 +63,15 @@ You need to set three paths.
 
 After Azure Static Web Apps creates the YAML file for the GitHub Actions, it'll kick off an initial build of the workflow.
 
-![](images/i-love-static-web-apps-004.png)
+![](./images/i-love-static-web-apps-004.png)
 
-![](images/i-love-static-web-apps-006.png)
+![](./images/i-love-static-web-apps-006.png)
 
 ### Profit
 
 When your build completes, it'll automatically deploy to a Static App on Azure.  These sites are accessible via randomly generated URLs.
 
-![](images/i-love-static-web-apps-005.png)
+![](./images/i-love-static-web-apps-005.png)
 
 > At the moment, I don't see a way to override the URL.  I'm assuming this is a preview thing and will be corrected when everything goes GA.
 
@@ -81,8 +81,7 @@ While converting my blog over to Azure Static Web Apps, I created a new pull req
 
 To my amazement, a GitHub Action kicked off and it created a test site for me to view my changes.  This is awesome.
 
-
-![](images/i-love-static-web-apps-007.png)
+![](./images/i-love-static-web-apps-007.png)
 
 After merging the pull request or deleting the pull request, the test site will go away.  I love actions that clean up after themselves!
 
