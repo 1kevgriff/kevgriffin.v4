@@ -9,9 +9,9 @@ excerpt: "I've spent a little bit of time working with Azure Static Web Apps in 
 
 As a web developer, I have fully embraced the idea that to extract pure performance out of our web applications we need to reduce the amount of time that a server needs to churn on request.  Statically generate web sites really scratch that itch.
 
-Take this site for example.  It's statically generated with an amazing tool called Gridsome.  And it's not the only tool in town.  I've successfulled yet Jekyll, Hugo, Gatsby, and others to build these types of sites.
+Take this site for example.  It's statically generated with an amazing tool called Gridsome.  And it's not the only tool in town.  I've successfully used Jekyll, Hugo, Gatsby, and others to build these types of sites.
 
-Why use a static site generator (SSG)?  Again, take my site.  Rarely does the content on this site change.  And that's more of a testament to my need to update it more often, but I digress.  Even if I were publishing articles daily, this site would only update daily.  There is no need to maintain a database or anything like that *cough* Wordpress *cough*.  If you request "consultwithgriff.com/courses", you should just get a pile of HTML that's sitting on a server somewhere.  Add some caching in front of it (which I do, with Cloudflare) and you have a stupid-fast web site.
+Why use a static site generator (SSG)?  Again, take my site.  Rarely does the content on this site change.  And that's more of a testament to my need to update it more often, but I digress.  Even if I were publishing articles daily, this site would only update daily.  There is no need to maintain a database or anything like that *cough* Wordpress *cough*.  If you request `consultwithgriff.com/courses`, you should just get a pile of HTML that's sitting on a server somewhere.  Add some caching in front of it (which I do, with Cloudflare) and you have a stupid-fast web site.
 
 So where do you host static web apps?  There are a lot of options available to you.  I've deployed static sites to GitHub Pages.  We used to use Netlify for our old marketing sites.  I've configured Azure Blob Storage to host static content.
 
@@ -19,7 +19,7 @@ Let's talk more about that last option for a moment.  Azure Blob Storage is an a
 
 ## Sometimes you just need to write code
 
-There is a drawback to static sites.  If you've read my article on adding reCAPTCHA to my site, you'll see that I had a bit of a problem that needed to be overcome.
+There is a drawback to static sites.  If you've read [my article on adding reCAPTCHA to my site](/recaptcha-static-sites-azure-functions), you'll see that I had a bit of a problem that needed to be overcome.
 
 In order for reCAPTCHA to work, you need a server-side aspect that can handle the communication with reCAPTCHA servers.  It would defeat the purpose of reCAPTCHA to have that stuff client-side.
 
