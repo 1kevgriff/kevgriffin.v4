@@ -8,7 +8,7 @@ categories:
 excerpt: "What happens when an amazing client turns into a nightmare client in the matter of weeks.  You might be dealing with a Stockholm Client."
 ---
 
-> Hey!  I actually wrote this a part of the `Journey to $100 Million` podcast by friends at [Array Digital](https://thisisarray.com/stockholm-clients/) run.  Check it out!
+> Hey!  I actually wrote this as a part of the `Journey to $100 Million` podcast by friends at [Array Digital](https://thisisarray.com/stockholm-clients/).  Check it out!
 
 Have you heard of Stockholm Syndrome?  It’s a fascinating case where people taken hostage by a kidnapper start to develop psychological alliances with their captors.  After being in custody for a prolonged period of time, the kidnapped will start to sympathize and protect the folks that are putting them in danger.
 
@@ -31,6 +31,8 @@ There were in-person meetings where I was verbally yelled at and reprimanded by 
 There wasn’t a way that I could win.  But I kept moving forward with the client.
 
 Every person I’ve told this story tells me, “why haven’t you fired them?”
+
+`cta:`
 
 And it’s because they were a Stockholm client.  I was sympathizing with them and thinking that I was the problem.  This caused me to be regularly stressed out, and neglectful of other aspects of my life and career.  
 
