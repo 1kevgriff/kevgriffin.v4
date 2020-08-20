@@ -21,5 +21,7 @@ Here is a replay of this talk that I did at NDC London 2020:
 
 ## Links and Resources
 
+[Vue.JS](https://vuejs.org/)
+
 
 `cta:`
