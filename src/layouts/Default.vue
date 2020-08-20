@@ -143,7 +143,7 @@
             </a>
           </li>
 
-          <li>
+          <li class="mr-8">
             <a
               href="https://instagram.com/1kevgriff"
               target="_blank"
@@ -153,6 +153,26 @@
                 <path
                   d="M10.002 4.872A5.12 5.12 0 0 0 4.876 10a5.12 5.12 0 0 0 5.126 5.128A5.12 5.12 0 0 0 15.13 10a5.12 5.12 0 0 0-5.127-5.128zm0 8.462A3.34 3.34 0 0 1 6.67 10a3.337 3.337 0 0 1 3.333-3.334A3.337 3.337 0 0 1 13.335 10a3.34 3.34 0 0 1-3.333 3.334zm6.532-8.671c0 .664-.535 1.196-1.195 1.196a1.196 1.196 0 1 1 1.196-1.196zm3.396 1.213c-.076-1.602-.442-3.02-1.615-4.19C17.145.516 15.727.15 14.125.07c-1.65-.093-6.6-.093-8.25 0-1.597.076-3.016.442-4.19 1.611C.512 2.851.151 4.27.07 5.871c-.093 1.652-.093 6.601 0 8.253.076 1.602.442 3.02 1.615 4.19 1.174 1.17 2.588 1.535 4.19 1.616 1.65.093 6.6.093 8.25 0 1.602-.076 3.02-.442 4.19-1.616 1.169-1.17 1.534-2.588 1.615-4.19.093-1.652.093-6.596 0-8.248zm-2.133 10.02a3.375 3.375 0 0 1-1.9 1.9c-1.317.523-4.44.402-5.895.402-1.454 0-4.582.116-5.894-.402a3.375 3.375 0 0 1-1.9-1.9c-.523-1.317-.402-4.441-.402-5.896s-.116-4.583.401-5.895a3.375 3.375 0 0 1 1.901-1.901c1.316-.523 4.44-.402 5.894-.402 1.455 0 4.582-.116 5.894.402a3.375 3.375 0 0 1 1.901 1.9c.522 1.317.402 4.441.402 5.896s.12 4.583-.402 5.895z"
                   fill-rule="nonzero"
+                />
+              </svg>
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://consultwithgriff.com/rss.xml"
+              target="_blank"
+              class="text-white hover:text-gray-400"
+            >
+              <svg
+                width="20"
+                height="20"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="m 0,0 v 60.373 c 149.973,0 271.573,121.6 271.573,271.573 h 60.373 C 331.84,148.587 183.253,0 0,0 Z m 0,120.64 v 60.373 c 83.307,0 150.827,67.627 150.827,150.827 H 211.2 C 211.2,215.253 116.587,120.64 0,120.64 Z m 93.014,164.69301 a 46.507,46.507 0 0 1 -46.507,46.507 46.507,46.507 0 0 1 -46.507,-46.507 46.507,46.507 0 0 1 46.507,-46.507 46.507,46.507 0 0 1 46.507,46.507"
+                  fill-rule="inherit"
                 />
               </svg>
             </a>
@@ -182,7 +202,7 @@ import axios from "axios";
 export default {
   components: {
     SearchInput,
-    ThemeSwitcher
+    ThemeSwitcher,
   },
   mounted() {
     this.theme = localStorage.getItem("theme") || "theme-light";
@@ -190,34 +210,34 @@ export default {
     var cta = document.getElementById("ctaFormButton");
 
     if (ctaForm) {
-      ctaForm.addEventListener("submit", evt => {
+      ctaForm.addEventListener("submit", (evt) => {
         console.log("whoa");
         evt.preventDefault();
       });
     }
 
     if (cta) {
-      cta.addEventListener("click", evt => {
+      cta.addEventListener("click", (evt) => {
         evt.preventDefault();
 
         grecaptcha.ready(() => {
           grecaptcha
             .execute(window.recaptcha_site_key, { action: "submit" })
-            .then(token => {
+            .then((token) => {
               // redirect to azure function
               var payload = {
                 name: document.getElementById("ctaFormFullName").value,
                 emailAddress: document.getElementById("ctaFormEmailAddress")
                   .value,
                 token: token,
-                ctaLocation: window.location.href
+                ctaLocation: window.location.href,
               };
 
               axios.post(`${window.functionsUrl}ValidateCtaForm`, payload).then(
-                res => {
+                (res) => {
                   window.location.pathname = "thanks-signup";
                 },
-                reason => {
+                (reason) => {
                   console.log("Error submitting form");
                 }
               );
@@ -229,7 +249,7 @@ export default {
   data() {
     return {
       isOpen: false,
-      theme: ""
+      theme: "",
     };
   },
   methods: {
@@ -238,9 +258,9 @@ export default {
     },
     updateTheme(theme) {
       this.theme = theme;
-    }
+    },
   },
-  created() {}
+  created() {},
 };
 </script>
 
