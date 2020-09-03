@@ -31,7 +31,7 @@ Azure Functions!  I used to be a naysayer of Serverless, but I'll tell you what.
 
 I liked Azure Blob Storage for hosting my sites, and I liked Azure Functions for hosting my server-side needs.  But that meant I had to maintain TWO separate pieces of architecture.
 
-Recently, Azure released [Static Web Apps](https://azure.microsoft.com/en-us/services/app-service/static/) which helps to combine all the great parts of static web sites with Azure Functions, in one easy to use package! 
+Recently, Azure released [Static Web Apps](https://azure.microsoft.com/en-us/services/app-service/static?WT.mc_id=DOP-MVP-4029061) which helps to combine all the great parts of static web sites with Azure Functions, in one easy to use package! 
 
 `cta:`
 
