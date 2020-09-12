@@ -31,7 +31,7 @@ module.exports = (options) => {
             data-element="submit"
             class="w-40 uppercase bg-green-700 text-white rounded text-lg py-3 px-8 tracking-wide shadow focus:outline-none hover:bg-green-800 focus:bg-green-800 z-10 w-full sm:w-auto mt-5"
           >
-            <span>Subscribe</span>
+            <span>Give me those tips!</span>
           </button>
         </div>
       </form>
