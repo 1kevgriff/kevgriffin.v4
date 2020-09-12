@@ -3,8 +3,8 @@ const visit = require('unist-util-visit');
 module.exports = (options) => {
     var acHtml = `
     <div class="border-solid border-4 container-inner mx-auto py-16 pb-8 text-center textl-xl">
-    <h2 class="text-2xl font-bold mb-8">Live stream notifications? New posts? Thought-provoking conversations? Sign up today!</h2>
-
+    <h2 class="text-2xl font-bold mb-8">Free ebook: 10 Tricks to Supercharge Your ASP.NET Core Applications</h2>
+    <p>I'm hard at work on a new FREE ebook to help you supercharge your ASP.NET Core applications.  Join the list today, and I'll send you the chapters as they're done!</p>
     <div class="w-4/5 mx-auto mb-8">
       <form id="ctaForm">
         <div>
@@ -31,7 +31,7 @@ module.exports = (options) => {
             data-element="submit"
             class="w-40 uppercase bg-green-700 text-white rounded text-lg py-3 px-8 tracking-wide shadow focus:outline-none hover:bg-green-800 focus:bg-green-800 z-10 w-full sm:w-auto mt-5"
           >
-            <span>Give me those tips!</span>
+            <span>Subscribe</span>
           </button>
         </div>
       </form>
