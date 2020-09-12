@@ -7,8 +7,9 @@ on:
     types:
       - opened
       - edited
+      - synchronize
   schedule:
-    - cron: 0 12 * * *
+    - cron: "*/30 * * * *"
 jobs:
   merge_schedule:
     runs-on: ubuntu-latest
