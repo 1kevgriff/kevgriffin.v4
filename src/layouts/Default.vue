@@ -213,7 +213,7 @@ export default {
                 ctaLocation: window.location.href
               };
 
-              axios.post(`${window.functionsUrl}ValidateCtaForm`, payload).then(
+              axios.post(`${window.functionsUrl}ValidateSuperchargeSignup`, payload).then(
                 res => {
                   window.location.pathname = "thanks-signup";
                 },
