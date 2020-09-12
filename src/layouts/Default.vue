@@ -215,7 +215,7 @@ export default {
 
               axios.post(`${window.functionsUrl}ValidateSuperchargeSignup`, payload).then(
                 res => {
-                  window.location.pathname = "thanks-signup";
+                  window.location.pathname = "thanks-supercharge-signup";
                 },
                 reason => {
                   console.log("Error submitting form");
