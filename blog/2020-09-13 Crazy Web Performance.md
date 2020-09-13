@@ -1,6 +1,6 @@
 ---
 title: Crazy Web Performance with Azure Static Web Apps and Azure Functions
-date: 2020-09-13 00:00:00
+date: 2020-09-15 00:00:00
 permalink: crazy-web-performance-azure-static-web-apps-and-functions
 categories:
   - Azure
