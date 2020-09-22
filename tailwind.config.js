@@ -98,6 +98,10 @@ module.exports = {
   plugins: [
     // Some useful comment
   ],
+  future: {
+    purgeLayersByDefault: true,
+    removeDeprecatedGapUtilities: true,
+  },
   purge: {
     content: [
       './src/**/*.html',
