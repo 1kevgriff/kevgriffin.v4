@@ -38,7 +38,7 @@ query Post ($path: String!) {
 </page-query>
 
 <script>
-import kevin_rocks from "../kevin_rockon.png";
+import kevin_rocks from "../../static/kevin_rockon.jpg";
 export default {
   metaInfo() {
     return {
