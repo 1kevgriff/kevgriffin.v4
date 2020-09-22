@@ -8,7 +8,7 @@
         >I'm a Microsoft MVP focused in ASP.NET (Core), Microsoft Azure, and Web Development.</div>
       </div>
       <div class="mt-8 sm:mt-0">
-        <g-image src="../../static/kevin_rockon.png" width="500" alt="hero" class="mx-auto sm:mx-0" />
+        <g-image src="../../static/kevin_rockon.jpg" width="500" alt="hero" class="mx-auto sm:mx-0" />
       </div>
     </div>
     <!-- end hero -->
