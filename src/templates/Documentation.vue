@@ -25,8 +25,7 @@ query Documentation ($id: ID!) {
 export default {
   metaInfo() {
     return {
-      title: this.$page.documentation.title,
-      description: this.$page.post.summary,
+      title: this.$page.documentation.title
     };
   },
 };
