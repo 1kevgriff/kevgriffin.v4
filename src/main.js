@@ -33,11 +33,6 @@ export default function (Vue, { router, head, isClient }) {
   });
 
   head.meta.push({
-    name: 'description',
-    content: 'Kevin W. Griffin | Developer, Training, Entrepreneur'
-  });
-
-  head.meta.push({
     name: 'author',
     content: 'Kevin W. Griffin'
   });
