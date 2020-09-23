@@ -8,7 +8,6 @@ const tailwindcss = require("tailwindcss");
 
 module.exports = {
   siteName: 'Kevin W. Griffin | Developer, Training, Entrepreneur',
-  siteDescription: 'The personal website for technologist Kevin W. Griffin.',
   siteUrl: 'https://consultwithgriff.com',
   plugins: [
     {
