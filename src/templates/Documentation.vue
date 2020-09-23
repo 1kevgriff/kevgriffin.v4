@@ -1,7 +1,9 @@
 <template>
   <Layout>
     <div class="container-inner mx-auto my-16">
-      <h1 class="text-4xl font-bold leading-tight">{{ $page.documentation.title }}</h1>
+      <h1 class="text-4xl font-bold leading-tight">
+        {{ $page.documentation.title }}
+      </h1>
       <div class="markdown-body">
         <VueRemarkContent />
       </div>
@@ -23,10 +25,11 @@ query Documentation ($id: ID!) {
 export default {
   metaInfo() {
     return {
-      title: this.$page.documentation.title
-    }
-  }
-}
+      title: this.$page.documentation.title,
+      description: this.$page.post.summary,
+    };
+  },
+};
 </script>
 
 <style src="../css/github-markdown.css" />

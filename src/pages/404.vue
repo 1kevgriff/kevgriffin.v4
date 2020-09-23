@@ -11,7 +11,8 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Page Not Found'
+    title: 'Page Not Found',
+    description: "Kevin W. Griffin | Developer, Training, Entrepreneur"
   }
 }
 </script>

@@ -63,7 +63,8 @@ import PaginationPosts from "../components/PaginationPosts";
 
 export default {
   metaInfo: {
-    title: "Articles"
+    title: "Articles",
+    description: "Kevin W. Griffin | Developer, Training, Entrepreneur"
   },
   components: {
     PaginationPosts

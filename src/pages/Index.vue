@@ -181,7 +181,8 @@ import axios from "axios";
 
 export default {
   metaInfo: {
-    title: "Home"
+    title: "Home",
+    description: "Kevin W. Griffin | Developer, Training, Entrepreneur"
   },
   data() {
     return {
