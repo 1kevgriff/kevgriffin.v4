@@ -63,7 +63,10 @@ export default {
         { name: "twitter:creator", content: "@1kevgriff" },
         {
           name: "description",
-          content: this.$page.post.summary || this.$page.post.excerpt,
+          content:
+            this.$page.post.summary && this.$page.post.summary.trim() != ""
+              ? this.$page.post.summary
+              : this.$page.post.excerpt,
         },
       ],
       link: [
