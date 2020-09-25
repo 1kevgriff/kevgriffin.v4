@@ -60,7 +60,7 @@ export default {
           content: "https://consultwithgriff.com" + kevin_rocks,
         },
         { name: "twitter:creator", content: "@1kevgriff" },
-        { name: "description", content: this.$page.post.summary },
+        { name: "description", content: this.$page.post.summary || this.$page.post.excerpt },
       ],
       link: [{ rel: "canonical", href: "https://consultwithgriff.com" + this.$page.post.path }],
     };
