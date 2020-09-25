@@ -7,7 +7,7 @@
 const tailwindcss = require("tailwindcss");
 
 module.exports = {
-  siteName: 'Kevin W. Griffin | Developer, Training, Entrepreneur',
+  siteName: 'Kevin W. Griffin',
   siteUrl: 'https://consultwithgriff.com',
   plugins: [
     {
