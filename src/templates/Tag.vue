@@ -46,6 +46,7 @@
 query Tag ($id: ID!, $page: Int) {
   tag: tag (id: $id) {
     title
+    path
     belongsTo (page: $page, perPage: 3) @paginate {
       totalCount
       pageInfo {
@@ -79,6 +80,7 @@ export default {
     return {
       title: "Tag: " + this.$page.tag.title,
       description: "Kevin W. Griffin | Developer, Training, Entrepreneur",
+      link: [{ rel: "canonical", href: "https://consultwithgriff.com" + this.$page.tag.path }],
     };
   },
   components: {
