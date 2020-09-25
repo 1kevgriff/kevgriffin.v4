@@ -17,6 +17,7 @@ query Documentation ($id: ID!) {
   documentation(id: $id) {
     title
     excerpt
+    path
   }
 }
 </page-query>
@@ -25,7 +26,8 @@ query Documentation ($id: ID!) {
 export default {
   metaInfo() {
     return {
-      title: this.$page.documentation.title
+      title: this.$page.documentation.title,
+      link: [{ rel: "canonical", href: "https://consultwithgriff.com" + this.$page.documentation.path }],
     };
   },
 };

@@ -15,7 +15,7 @@ Developers are terrible at testing their own software.  I'm my own worst tester
 
 Hopefully your company employs a bug track of some sort.  For example, my company uses FogBugz for all of our bug tracking.  However, not many people in my company understand how to write a useful bug report.  My goal is to outline some of the minor things that can be done to make a bug report more helpful to the developer who's going to be using it.
 
-<h1>1. Use descriptive titles</h1>
+<h3>1. Use descriptive titles</h3>
 Whenever I see a bug with a title like "Got an error in (name a section of the app)", I die a little inside.  I also see bug titles every day where it's just the name of the section of the app, for example "Order Screen" or "Customer Profile".  Imagine you're a developer who's going through a bug list.  I tend to put these bugs off until later because in order to figure out what I need to do, I have to open the bug.
 
 Instead, let's try for bug titles like this: "Error 'unable to save user information' when on the user profile screen".  I know what the error is, and where it is.  That's helpful!  Or "Order Confirmation: Clicking OK doesn't respond".  Again, very helpful.  As the developer, I don't have to guess what the problem is.
