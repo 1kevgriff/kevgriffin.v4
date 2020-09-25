@@ -79,8 +79,18 @@ export default {
   metaInfo() {
     return {
       title: "Tag: " + this.$page.tag.title,
-      description: "Kevin W. Griffin | Developer, Training, Entrepreneur",
-      link: [{ rel: "canonical", href: "https://consultwithgriff.com" + this.$page.tag.path }],
+      meta: [
+        {
+          name: "description",
+          content: "Kevin W. Griffin | Developer, Training, Entrepreneur",
+        },
+      ],
+      link: [
+        {
+          rel: "canonical",
+          href: "https://consultwithgriff.com" + this.$page.tag.path,
+        },
+      ],
     };
   },
   components: {
