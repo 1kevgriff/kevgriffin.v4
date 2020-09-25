@@ -12,10 +12,16 @@
 export default {
   metaInfo() {
     return {
-      title: `Redirecting to home page...`,
+      title: `New site! Bad link!`,
       tag: {
         title: "Redirect",
       },
+      meta: [
+        {
+          name: "description",
+          content: "This is temporary page because this link is no longer valid.  Sorry!",
+        }
+      ]
     };
   },
 };
