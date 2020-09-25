@@ -8,9 +8,15 @@
 const fs = require('fs');
 const path = require('path');
 const pick = require('lodash.pick');
-const { pathPrefix } = require('./gridsome.config')
+const { pathPrefix } = require('./gridsome.config');
+
+const redirectPages = require("./createPages");
 
 module.exports = function (api, options) {
+  api.createPages(({ createPage }) => {
+    redirectPages(createPage);
+  });
+
   api.loadSource(store => {
     /*
     Clean the pathPrefix
@@ -23,7 +29,7 @@ module.exports = function (api, options) {
     'path/'  =>  '/path'
     '/path/' =>  '/path'
     */
-    const cleanedPathPrefix = `${pathPrefix ? ['', ...pathPrefix.split('/').filter(dir=>dir.length)].join('/') : ''}`
+    const cleanedPathPrefix = `${pathPrefix ? ['', ...pathPrefix.split('/').filter(dir => dir.length)].join('/') : ''}`
 
     /*
     Query
