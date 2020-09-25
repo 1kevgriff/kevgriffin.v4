@@ -1,8 +1,10 @@
 <template>
-  <p>
-    Redirecting to home page... If this link isn't working, try
-    <a href="/">clicking here</a>
-  </p>
+  <Layout>
+    <p>
+      Redirecting to home page... If this link isn't working, try
+      <a href="/">clicking here</a>
+    </p>
+  </Layout>
 </template>
 
 <script>
