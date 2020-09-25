@@ -7,7 +7,7 @@ date: 2020-04-07 13:27:04
 summary: "Using Visual Studio Code on OSX?  Here's how to set up the command line for Zsh or Terminal."
 ---
 
-**EDIT:** [You can just do this from Visual Studio Code now.](https://code.visualstudio.com/docs/setup/osx)
+**EDIT:** [You can just do this from Visual Studio Code now.](https://code.visualstudio.com/docs/setup/mac)
 
 ## Terminal
 

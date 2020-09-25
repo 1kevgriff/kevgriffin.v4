@@ -15,7 +15,7 @@ Ask any developer who has worked on a long-term project and they will tell you t
 WebForms? The hard technical decisions you make at the beginning of the project can echo for years!
 
 >For some guidance on how to select your ASP.NET tech stack, watch this
-on-demand webinar on [*Choosing the Right Tech Stack*](http://www.telerik.com/campaigns/devcraft/choosing-the-right-tech-stack?utm_medium=external&utm_source=kgriffin&utm_campaign=dt-devcraft-apr16-webinar&utm_content=article) - (sponsored).
+on-demand webinar on [*Choosing the Right Tech Stack*](https://www.telerik.com/campaigns/devcraft/choosing-the-right-tech-stack?utm_medium=external&utm_source=kgriffin&utm_campaign=dt-devcraft-apr16-webinar&utm_content=article) - (sponsored).
 
 Because it is so challenging, many developers will concentrate on the technical aspects of selecting a stack while completely ignoring the developers themselves. If you are the technical director of a project, you cannot proclaim “this is the stack we will use” without a firm understanding of how that will be accepted by the team or even simply the knowledge of what the needs of the project will be.
 
@@ -89,6 +89,6 @@ Sometimes we wish decisions could simply be a matter of bits and bytes, but ther
 The best advice that can be given is to discuss the pros and cons of every choice available within your teams. If teams are completely involved in the process of making technical decisions, the product outcome will be better because of it.
 
 > What tools are available in the ASP.NET stack then? Jeremy Likness has an [excellent
-article](http://developer.telerik.com/featured/how-to-web-asp-net/?utm_medium=external&utm_source=kgriffin&utm_campaign=dt-devcraft-apr16-webinar&utm_content=article) on the current state of ASP.NET development tools. Use the tools discussed in Jeremy’s article to start a dialog with your team. (sponsored) 
+article](https://developer.telerik.com/featured/how-to-web-asp-net/?utm_medium=external&utm_source=kgriffin&utm_campaign=dt-devcraft-apr16-webinar&utm_content=article) on the current state of ASP.NET development tools. Use the tools discussed in Jeremy’s article to start a dialog with your team. (sponsored) 
 
 A great team, when given flexibility, will always produce a solid product.

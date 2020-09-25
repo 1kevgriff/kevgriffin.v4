@@ -89,7 +89,7 @@ After merging the pull request or deleting the pull request, the test site will 
 
 ## Conclusions
 
-Overall, I'm in love with Azure Static Web Apps.  The first time I played with it on my [Twitch stream](https://twitch.tv/1kevgriff), I had a couple issues with configuration.  But a couple weeks later, when I tried another repo, it worked perfectly the first time!
+Overall, I'm in love with Azure Static Web Apps.  The first time I played with it on my [Twitch stream](https://www.twitch.tv/1kevgriff), I had a couple issues with configuration.  But a couple weeks later, when I tried another repo, it worked perfectly the first time!
 
 While Azure Static Web Apps is in preview, give it a try!  Build a simple Gridsome or Gatsby site.  I'm sure you'll love it too!
 

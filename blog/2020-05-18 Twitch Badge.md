@@ -7,7 +7,7 @@ categories:
 excerpt: "I wanted viewers of my site to know if and when I was currently streaming on my Twitch channel.  So I created a handy badge that tells them when I'm online.  Here's how I did it!"
 ---
 
-On my [stream](https://twitch.tv/1kevgriff), I wanted to play around with building out some tools that help me connect better with my readers and viewers.
+On my [stream](https://www.twitch.tv/1kevgriff), I wanted to play around with building out some tools that help me connect better with my readers and viewers.
 
 > Check out the stream below!
 
@@ -73,7 +73,7 @@ With my new Azure Function deployed, I need to set up to show if it said online 
 
 My buddy, [Mike Buckbee](https://twitter.com/mbuckbee), had an amazing idea - why not make it look like build badges used on various GitHub pages.  Another buddy, [Calvin Allen](https://twitter.com/_CalvinAllen), pointed out I could use [Shields.io](https://shields.io/) to build the badge automatically.
 
-To that extent, I could give [Shields.io my Azure Functions endpoint](https://shields.io/endpoint) and it would build the badge for me.
+To that extent, I could give [Shields.io my Azure Functions endpoint](https://shields.io/endpoint/) and it would build the badge for me.
 
 My updated Azure Function to return the JSON necessary for Shields.io to build a badge.
 
@@ -141,4 +141,4 @@ src="https://img.shields.io/endpoint?style=for-the-badge&url=https%3A%2F%2Fgriff
 ## Wrap up!
 This was a fun little project that took me about 2 hours to figure out, start to finish.  Full source code is available at [https://github.com/1kevgriff/Griffin.TwitchBot](https://github.com/1kevgriff/Griffin.TwitchBot)..
 
-Thanks for following along, and [follow me on Twitch](https://twitch.tv/1kevgriff) to see when I go live!
+Thanks for following along, and [follow me on Twitch](https://www.twitch.tv/1kevgriff) to see when I go live!

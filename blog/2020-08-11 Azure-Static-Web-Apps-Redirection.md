@@ -9,7 +9,7 @@ excerpt: "When deploying to Azure Static Web Apps, a common question that comes 
 
 > TLDR; Look at the [source code](https://github.com/1kevgriff/azure-static-web-apps-routing)
 
-While on [stream](https://twitch.tv/1kevgriff) one afternoon, I was working on a solution for moving a Wordpress site to Gridsome, with the goal of deploying to Azure Static Web Apps.  However, I hit a wall that I needed to overcome.
+While on [stream](https://www.twitch.tv/1kevgriff) one afternoon, I was working on a solution for moving a Wordpress site to Gridsome, with the goal of deploying to Azure Static Web Apps.  However, I hit a wall that I needed to overcome.
 
 Gridsome URLs take a format like `https://consultwithgriff.com/{something}` and the `{something}` points directly to a folder on the filesystem.  That is how all the URLs in the system work.
 

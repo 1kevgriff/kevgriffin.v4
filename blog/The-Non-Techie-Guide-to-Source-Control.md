@@ -104,7 +104,7 @@ Plans for individual user private repositories start as low as $7/month. For org
 
 Don't want your source code to leave your private network? That's fine, git can do that too. 
 
-Github has a [Enterprise install](https://enterprise.github.com) that you can run inside your network.
+Github has a [Enterprise install](https://github.com/enterprise) that you can run inside your network.
 
 There are open source ways to do this as well, where you have a self-hosted server that stores your code repos and maybe provides a web interface. [Digital Ocean has a good writeup](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-private-git-server-on-a-vps) on this.
 

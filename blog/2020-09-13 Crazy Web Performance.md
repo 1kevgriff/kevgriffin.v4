@@ -9,7 +9,7 @@ excerpt: "With the new Azure Static Web Apps, you can include Azure Functions as
 
 >This article is part of [#ServerlessSeptember](https://aka.ms/ServerlessSeptember2020). You'll find other helpful articles, detailed tutorials, and videos in this all-things-Serverless content collection. New articles from community members and cloud advocates are published every week from Monday to Thursday through September.  
 >  
->Find out more about how Microsoft Azure enables your Serverless functions at [https://docs.microsoft.com/azure/azure-functions/](https://docs.microsoft.com/azure/azure-functions/?WT.mc_id=servsept20-devto-cxaall).  
+>Find out more about how Microsoft Azure enables your Serverless functions at [https://docs.microsoft.com/azure/azure-functions/](https://docs.microsoft.com/en-us/azure/azure-functions/?WT.mc_id=servsept20-devto-cxaall).  
 
 A couple weeks ago, I wrote a [post](/i-love-azure-static-web-apps/) that went semi-viral on social media.  It was essentially a love letter to Azure Static Web Apps, and why I thought you should look at it.
 

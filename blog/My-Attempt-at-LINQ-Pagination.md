@@ -7,7 +7,7 @@ date: 2009-10-16 06:00:10
 summary: Lorem
 ---
 
-<p>Today I’ve been diving into an easy way to paginate record sets in my applications.&#160; Searching around the internet yielded several good walkthroughs on how to do this.&#160; My favorite way came from my friend, <a href="http://www.gotnet.biz/Blog/post/Efficient-Paging-in-SQL-Server-via-LINQ.aspx">Kevin Hazzard</a>, He discussed using the Skip() and Take() extension methods to form fit LINQ into building a SQL statement that’ll do all the heavy lifting for you.</p>  <p>Copying from Kevin’s example, I built the following code snippet:</p>
+<p>Today I’ve been diving into an easy way to paginate record sets in my applications.&#160; Searching around the internet yielded several good walkthroughs on how to do this.&#160; My favorite way came from my friend, Kevin Hazzardh, He discussed using the Skip() and Take() extension methods to form fit LINQ into building a SQL statement that’ll do all the heavy lifting for you.</p>  <p>Copying from Kevin’s example, I built the following code snippet:</p>
 
 ```csharp
 int pageNumber = 1;

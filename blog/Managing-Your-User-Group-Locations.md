@@ -32,7 +32,7 @@ My colleague, Bret Fisher, runs a local Meteor meetup at a Starbucks.  They take
 Your first venue needs to be a place people know about.  Get folks coming out.  The rest will take care of itself.
 
 ##Consistency and Venue Hopping
-Make sure that the venue you choose is stable.  I've [discussed in the past](http://kevgriffin.com/calendar-roulette/) that you shouldn't jump dates.  Consistency is key!
+Make sure that the venue you choose is stable.  I've [discussed in the past](http://consultwitgriff.com/calendar-roulette/) that you shouldn't jump dates.  Consistency is key!
 
 Venues are the same way.  Your goal is to provide a location that becomes a habit to people.  
 

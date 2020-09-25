@@ -156,4 +156,4 @@ The `ErrorCodes` collection will contain errors, but you'd need to read and inte
 
 If you're looking at trying to add services to static sites, definitely consider serverless options.  I was definitely a holdout in the early days of Azure Functions and AWS Lambda, but every day I see little tasks that are perfect for serverless functions.
 
-I hope this article has been useful for you.  If it has, leave some love below.  Or better yet, follow me on [Twitch](https://twitch.tv/1kevgriff), [YouTube](https://www.youtube.com/c/swiftkick), and [Twitter](https://twitter.com/1kevgriff).
+I hope this article has been useful for you.  If it has, leave some love below.  Or better yet, follow me on [Twitch](https://www.twitch.tv/1kevgriff), [YouTube](https://www.youtube.com/c/swiftkick), and [Twitter](https://twitter.com/1kevgriff).

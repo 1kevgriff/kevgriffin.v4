@@ -7,11 +7,11 @@ categories:
 summary: Lorem
 ---
 
-On some recent work I was doing with [Winsitter](http://winsitter.com), I needed an approach that would systematically remove documents after a specified period of time within MongoDB.
+On some recent work I was doing with Winsitter, I needed an approach that would systematically remove documents after a specified period of time within MongoDB.
 
 Previously, I would have written cron jobs or helpers to clean up the old data.  No longer!
 
-Come to discover, this feature [already exists](http://docs.mongodb.org/manual/tutorial/expire-data/) inside of MongoDB.  It is called setting the TTL or Time to Live of a document.
+Come to discover, this feature [already exists](https://docs.mongodb.org/manual/tutorial/expire-data/) inside of MongoDB.  It is called setting the TTL or Time to Live of a document.
 
 The process involves creating an index on the date object you'd like to watch.  In the example below, I am providing a property on my document called `auditDate`.  I want the document associated with that property to automatically remove itself after 5 days or *432000000* miliseconds.
 
