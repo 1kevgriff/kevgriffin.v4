@@ -11,6 +11,13 @@ excerpt: "Online learning? In person training?  I have you covered!"
 
 ***
 
+### Building APIs with ASP.NET Core
+
+> As web applications grow in popularity and we see a greater uptick in web frameworks, creating robust application programming interfaces (APIs) for internal and external use is becoming increasingly more important.This course will teach developers the fundamentals of building APIs with ASP.NET Core, including testing, validation, and designing interfaces that will allow them to be good API citizens.
+[Join SkillMeUp and Watch Today!](https://skillmeup.com/courses/player/building-apis-with-asp-net-core)
+
+***
+
 ### Monitoring and Troubleshooting Applications with Application Insights
 
 > This course covers the fundamentals for tracking the performance and health of your applications with Application Insights on Azure. We will begin with how to provision an Application Insights instance on Azure followed by how to configure your applications to send telemetry data.Once your application is sending telemetry, we will walk though the scenarios on how to use Application Insights to investigate application failures and poor performance.This course will conclude with an overview of the Application Insights Log Analytics, and how to write KQL (Kusto Query Language) to extract more information from your telemetry.
