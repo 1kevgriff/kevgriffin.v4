@@ -7,7 +7,7 @@ categories:
 excerpt: ""
 ---
 
-I saw an awesome tweet on Twitter the other day:
+I saw an awesome tweet on Twitter today:
 
 https://twitter.com/buhakmeh/status/1316360387886014464
 
@@ -28,3 +28,5 @@ dotnet new --update-apply
 ```
 
 > Checks if there are updates available for the template packs that are currently installed and installs them. Available since .NET Core 3.0 SDK.
+
+`cta:`
