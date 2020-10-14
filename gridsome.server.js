@@ -48,7 +48,7 @@ module.exports = function (api, options) {
     Using page-queries,   axios( this.$page.metaData.pathPrefix   + "/fileName" )
     */
     store.addMetadata('pathPrefix', cleanedPathPrefix)
-  })
+  });
 
   api.beforeBuild(({ config, store }) => {
 
