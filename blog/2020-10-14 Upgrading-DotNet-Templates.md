@@ -4,7 +4,7 @@ date: 2020-10-14 00:00:00
 permalink: how-to-upgrade-dotnet-cli-templates
 categories:
   - .NET
-excerpt: ""
+excerpt: "How do you update the .NET CLI templates?  Turns out there is a command just for you!s"
 ---
 
 I saw an awesome tweet on Twitter today:
