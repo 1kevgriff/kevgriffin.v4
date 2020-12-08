@@ -1,10 +1,10 @@
 <template>
   <div
-    class="content-wrapper bg-background-primary font-sans text-copy-primary leading-normal flex flex-col min-h-screen"
+    class="flex flex-col min-h-screen font-sans leading-normal content-wrapper bg-background-primary text-copy-primary"
     :class="theme"
   >
-    <header class="border-t-14 border-green-700">
-      <nav class="container mx-auto flex flex-wrap justify-between items-center py-8">
+    <header class="border-green-700 border-t-14">
+      <nav class="container flex flex-wrap items-center justify-between py-8 mx-auto">
         <div>
           <h1 class="text-2xl">
             <g-link to="/">Kevin W. Griffin</g-link>
@@ -19,10 +19,10 @@
         <div class="block lg:hidden">
           <button
             @click="toggle"
-            class="flex items-center px-3 py-2 border rounded border-gray-500 hover:text-gray-600 hover:border-gray-600"
+            class="flex items-center px-3 py-2 border border-gray-500 rounded hover:text-gray-600 hover:border-gray-600"
           >
             <svg
-              class="current-color h-3 w-3"
+              class="w-3 h-3 current-color"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -31,31 +31,31 @@
           </button>
         </div>
         <ul
-          class="uppercase tracking-wide font-bold w-full block flex-grow lg:flex lg:flex-initial lg:w-auto items-center mt-8 lg:mt-0"
+          class="items-center flex-grow block w-full mt-8 font-bold tracking-wide uppercase lg:flex lg:flex-initial lg:w-auto lg:mt-0"
           :class="isOpen ? 'block': 'hidden'"
         >
-          <!-- <li class="mr-8 mb-6 lg:mb-0">
+          <!-- <li class="mb-6 mr-8 lg:mb-0">
             <search-input />
           </li>-->
-          <!-- <li class="mr-8 mb-6 lg:mb-0">
+          <!-- <li class="mb-6 mr-8 lg:mb-0">
             <theme-switcher :theme="theme" @themeChanged="updateTheme" />
           </li>-->
-          <li class="mr-8 mb-6 lg:mb-0">
+          <li class="mb-6 mr-8 lg:mb-0">
             <g-link to="/consulting" class="text-copy-primary hover:text-gray-600">Consulting</g-link>
           </li>
-          <li class="mr-8 mb-6 lg:mb-0">
+          <li class="mb-6 mr-8 lg:mb-0">
             <g-link to="/training" class="text-copy-primary hover:text-gray-600">Training</g-link>
           </li>
-          <li class="mr-8 mb-6 lg:mb-0">
+          <li class="mb-6 mr-8 lg:mb-0">
             <g-link to="/articles" class="text-copy-primary hover:text-gray-600">Articles</g-link>
           </li>
-          <li class="mr-8 mb-6 lg:mb-0">
+          <li class="mb-6 mr-8 lg:mb-0">
             <g-link to="/courses" class="text-copy-primary hover:text-gray-600">Courses</g-link>
           </li>
-          <li class="mr-8 mb-6 lg:mb-0">
+          <li class="mb-6 mr-8 lg:mb-0">
             <g-link to="/contact" class="text-copy-primary hover:text-gray-600">Contact</g-link>
           </li>
-          <li class="mr-8 mb-6 lg:mb-0">
+          <li class="mb-6 mr-8 lg:mb-0">
             <a href="https://www.twitch.tv/1kevgriff">
               <img
                 alt="Am I streaming?"
@@ -70,20 +70,20 @@
     <div class="flex-grow">
       <slot />
     </div>
-    <footer class="bg-green-700 text-white">
-      <div class="container mx-auto flex flex-col lg:flex-row items-center justify-between py-8">
+    <footer class="text-white bg-green-700">
+      <div class="container flex flex-col items-center justify-between py-8 mx-auto lg:flex-row">
         <div class="mb-8 lg:mb-0">
           <div>Copyright {{ new Date().getFullYear() }}. All rights reserved.</div>
           <div>
             Template based on from
             <a
-              class="text-white hover:text-gray-400 font-normal"
+              class="font-normal text-white hover:text-gray-400"
               href="https://github.com/drehimself/gridsome-portfolio-starter"
             >https://github.com/drehimself/gridsome-portfolio-starter</a>
           </div>
           <div>
-            <a href="/rss.xml" class="text-white hover:text-gray-400 font-normal">RSS Feed</a> |
-            <a href="/sitemap.xml" class="text-white hover:text-gray-400 font-normal">Sitemap</a>
+            <a href="/rss.xml" class="font-normal text-white hover:text-gray-400">RSS Feed</a> |
+            <a href="/sitemap.xml" class="font-normal text-white hover:text-gray-400">Sitemap</a>
           </div>
         </div>
         <ul class="flex items-center">
@@ -213,9 +213,9 @@ export default {
                 ctaLocation: window.location.href
               };
 
-              axios.post(`${window.functionsUrl}ValidateSuperchargeSignup`, payload).then(
+              axios.post(`${window.functionsUrl}ValidateSignalSignup`, payload).then(
                 res => {
-                  window.location.pathname = "thanks-supercharge-signup";
+                  window.location.pathname = "thanks-signalr-signup";
                 },
                 reason => {
                   console.log("Error submitting form");
