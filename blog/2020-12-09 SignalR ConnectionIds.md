@@ -1,19 +1,19 @@
 ---
-title: Quick Tips for Handling SignalR Connections and ConnectionIds
+title: Managing SignalR ConnectionIds (or why you shouldn't)
 date: 2020-12-09 00:00:00
 permalink: signalr-connection-ids
 categories:
   - .NET
   - ASP.NET
-summary: ""
-excerpt: ""
+summary: "For C# Advent 2020, I want to talk about SignalR ConnectionIds and the biggest mistake I see people making when trying to manage them theirselves."
+excerpt: "One of the commons issues I see when reading questions on StackOverflow or Reddit is that many SignalR users do not know how to effectively manage connections their hubs. Or worse, they make mistakes that'll cause performance problems in the long run."
 ---
 
 > This is my entry for [C# Advent 2020](https://www.csadvent.christmas/)! Thank you to [Matthew Groves](https://twitter.com/mgroves) for inviting me to participate.
 
 Over the past couple weeks, I've been actively working on a new course to teach ASP.NET Core developers how to effectively use SignalR within their applications.
 
-One of the commons issues I see when reading questions on StackOverflow or Reddit is that many SignalR users do not know how to effectively manage connections to their hubs. Or worse, they make mistakes that'll cause performance problems in the long run.
+One of the commons issues I see when reading questions on StackOverflow or Reddit is that many SignalR users do not know how to effectively manage connections their hubs. Or worse, they make mistakes that'll cause performance problems in the long run.
 
 ## Overview: Connections
 
@@ -29,10 +29,11 @@ The important thing to note with connections, and more importantly connection ID
 
 ## Do not track ConnectionIds
 
-I've got myself into an heated discussion with folks about this before, but I do not advise tracking ConnectionIds. More than once, I've seen this particular workflow:
+I've got myself into an discussion with folks about this before, but I do not advise tracking ConnectionIds. More than once, I've seen this particular workflow:
 
-On connection: map connection ID, user name, roles, etc within the database or some caching system (Redis, for example).
-On disconnection: removing the mapping from the data store.
+>On connection: map connection ID, user name, roles, etc within the database or some caching system (Redis, for example).  
+
+>On disconnection: removing the mapping from the data store.
 
 Use case: I need to send a notification to all connections for user "Kevin".
 
@@ -46,6 +47,10 @@ This _might_ work. But there is a fundlamental flaw. It will not work in scaled 
 If you're running multiple versions of your server at any moment, I'm going to assume you're using Redis backplane or Azure SignalR Server. Either way, you're going to run into issues.
 
 > Note: A lot of my experience is with Redis backplane, where I have replicated this issue many times. I didn't consider it a bug. Azure SignalR Server _might_ not have the same behavior, but still, you shouldn't do this.
+
+Additionally, you're writing A LOT of unnecessary code when you could simply use the built in mechanisms of SignalR to do this work for you.  
+
+`cta:`
 
 ## What's a better alternative?
 
@@ -78,4 +83,23 @@ SignalR will automatically clean up these connections too.
 
 And better yet, using groups works perfectly in scaled solutions.  
 
-`cta:`
+## Users
+
+Groups aren't the only way to solve this problem.
+
+This isn't my favorite method, but you can [send messages directly to users based off user prinicple name](https://docs.microsoft.com/en-us/aspnet/core/signalr/groups?view=aspnetcore-5.0#users-in-signalr).
+
+```csharp
+public Task NotifyUser(string user, string message)
+{
+    return Clients.User(user).SendAsync("notify", message);
+}
+```
+
+Why is it not my favorite?  Eh, I just think it's more difficult to use and requires more upfront planning to ensure you have the correct user principle name for sending the message.  I don't use `User()` in any of my projects.
+
+## Wrapping Up
+
+As engineers, it is easy to complicate solutions in our heads.  I've made the same mistakes myself, but thinking that the best solution needs to be the most complicated.  Sometimes when you take a step back, a better, easier solution can present itself.
+
+I hope this guide was useful for you.  If you have further questions about SignalR, [please feel free to reach out](/contact).  
