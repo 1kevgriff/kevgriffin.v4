@@ -18,6 +18,7 @@ module.exports = {
         template: './src/templates/Documentation.vue', // Optional
         route: '/:permalink',
         plugins: [
+          ['griffin-email-cta', {}],
           ['gridsome-plugin-remark-shiki', { theme: 'Material-Theme-Palenight', skipInline: true }]
         ],
       }
