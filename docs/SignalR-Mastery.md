@@ -21,4 +21,6 @@ SignalR is a library for .NET which allows developers to add real-time capabilit
 
 In this course, we'll take a structured look at how SignalR works and how you can harness it within your .NET applications.  
 
-[Get the Course](https://udemy.com)  
+**The course hasn't launched yet!  But get on the list to get notified of when it does!**
+
+`cta:`
