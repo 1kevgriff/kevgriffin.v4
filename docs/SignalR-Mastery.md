@@ -7,13 +7,17 @@ categories:
 excerpt: "Become a SignalR Master with this comprehensive course from Microsoft MVP, Kevin Griffin."
 ---
 
+![SignalR Mastery](./images/signalr-mastery-thumbnail.png)
+
+[Get the course for $12.99](https://signalrmastery.com)
+
 The web isn't static.  As more and more people live and work on the internet, developers need to make an effort to build robust, adaptive applications that can keep up with the fast pace of business.
 
 In the 2000s, it was perfectly acceptable for a page to be static.  Imagine you're working with a product inventory application.  Are other people working against the same data?  Can you be sure the current price of the product is valid?  Did it change?  How would you even know?  Refresh the page to load updated data and see. 
 
 What if the page could... update itself?  In real-time?  
 
-Once upon a time, this was a complicated solution to implement in a performant manner.  Today, it's as simple as creating a WebSocket! 
+Once upon a time, this was a complicated solution to implement in a performant manner.  Today, it's as simple as creating a WebSocket!  
 
 How do you manage thousands or millions of WebSockets across multiple servers?  Reliably?  What if the environment cannot support a WebSocket connection?  What do you fall back to?
 
@@ -21,6 +25,6 @@ SignalR is a library for .NET which allows developers to add real-time capabilit
 
 In this course, we'll take a structured look at how SignalR works and how you can harness it within your .NET applications.  
 
-**The course hasn't launched yet!  But get on the list to get notified of when it does!**
+[Get the course for $12.99](https://signalrmastery.com)
 
 `cta:`
