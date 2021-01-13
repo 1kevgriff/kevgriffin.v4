@@ -3,8 +3,8 @@ const visit = require('unist-util-visit');
 module.exports = (options) => {
     var acHtml = `
     <div class="border-solid border-4 container-inner mx-auto py-16 pb-8 text-center text-xl">
-    <h2 class="text-2xl font-bold mb-8">Upcoming Course: SignalR Mastery</h2>
-    <p>I'm building a new video course designed to help you become a master with SignalR and embracing real-time web applications.  Join the list and you'll be notified as soon as we go live around January 13th!</p>
+    <h2 class="text-2xl font-bold mb-8">New Course: SignalR Mastery</h2>
+    <p>Become a master with SignalR and embracing real-time web applications.  Join the list and learn more!</p>
     <div class="w-4/5 mx-auto mb-8">
       <form id="ctaForm">
         <div>
