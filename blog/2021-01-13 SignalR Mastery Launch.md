@@ -6,6 +6,7 @@ categories:
   - .NET
   - ASP.NET
   - Web Development
+coverImage: "./images/signalr-mastery-thumbnail.png"
 summary: "Do you want to become a master in building real-time applications on .NET?  I have the course for you!"
 excerpt: "Do you want to become a master in building real-time applications on .NET?  My new course is designed to take you on a journey through all the bits and advanced topics of SignalR, a real-time communication library built on .NET!"
 ---
