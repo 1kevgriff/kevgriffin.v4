@@ -27,7 +27,7 @@ jobs:
       run: npm install
 
     - name: NPM link local plugins
-      run: npm link ./localPlugins/email-cta-insert
+      run: npm link ./localPlugins/email-cta-insert ./localPlugins/signalr-mastery
       
     - name: Install Gridsome
       run: npm install --global @gridsome/cli

@@ -20,6 +20,7 @@
     "gridsome-plugin-remark-youtube": "^1.0.1",
     "gridsome-plugin-rss": "^1.2.0",
     "griffin-email-cta": "file:localPlugins/email-cta-insert",
+    "signalr-mastery-cta": "file:localPlugins/signalr-mastery",
     "lodash.pick": "^4.4.0",
     "vue-disqus": "^4.0.1",
     "vue-fuse": "^2.2.1",

@@ -13,6 +13,8 @@ excerpt: "One of the commons issues I see when reading questions on StackOverflo
 
 Over the past couple of weeks, I've been actively working on a new course to teach ASP.NET Core developers on how to effectively use SignalR within their applications.
 
+`signalrmastery:`
+
 One of the commons issues I see when reading questions on StackOverflow or Reddit is that many SignalR users do not know how to effectively manage connections to their hubs. Or worse, they make mistakes that'll cause performance problems in the long run.
 
 ## Overview: Connections
