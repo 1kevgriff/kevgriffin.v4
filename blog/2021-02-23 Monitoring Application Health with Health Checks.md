@@ -20,11 +20,11 @@ Your application isn't just your code.
 
 Failures in your application often are not just because the code you wrote is bad 😈, it's often because services or dependencies you depend on are having an issue.
 
-Here's an example:  One of my clients has a relatively simple infrastructure.  We have an [ASP.NET](http://asp.NET) Core application running in Microsoft Azure App Services, and we take advantage of Azure SQL, Azure Storage, and Azure Redis Cache (wowza Azure!!).  
+Here's an example:  One of my clients has a relatively simple infrastructure.  We have an ASP.NET Core application running in Microsoft Azure App Services, and we take advantage of Azure SQL, Azure Storage, and Azure Redis Cache (wowza Azure!!).  
 
 In addition "all Azure services", we have a virtual machine (also running in Azure) that hosts a instance of Discourse.
 
-How do I define how healthy my application?  It's not necessarily the health of one component, but the sum all the components?
+How do I define how healthy my application?  It's not necessarily the health of one component, but the sum all the components!
 
 If Azure SQL is down or have a blip, that impacts my overall system.
 
