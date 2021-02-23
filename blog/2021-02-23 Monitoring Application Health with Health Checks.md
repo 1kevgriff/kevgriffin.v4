@@ -6,7 +6,7 @@ categories:
   - .NET
   - ASP.NET
   - Web Development
-summary: ""
+summary: "Failures in your application often are not just because the code you wrote is bad, it's often because services or dependencies you depend on are having an issue.  Health Checks in ASP.NET Core help you identify the problem areas."
 excerpt: ""
 ---
 
@@ -18,7 +18,7 @@ Your application isn't just your code.
 
 *It's your code plus the infrastructure you run on.*
 
-Failures in your application often are not just because the code you wrote is bad, it's often because services or dependencies you depend on are having an issue.
+Failures in your application often are not just because the code you wrote is bad 😈, it's often because services or dependencies you depend on are having an issue.
 
 Here's an example:  One of my clients has a relatively simple infrastructure.  We have an [ASP.NET](http://asp.NET) Core application running in Microsoft Azure App Services, and we take advantage of Azure SQL, Azure Storage, and Azure Redis Cache (wowza Azure!!).  
 
