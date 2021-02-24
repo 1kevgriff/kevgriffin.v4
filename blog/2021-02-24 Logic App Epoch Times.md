@@ -13,6 +13,10 @@ Recently, I've been building a handful of Azure Logic Apps that work with Stripe
 
 Stripe will commonly use Epoch time for it's dates.
 
+But Epoch time is pretty useless for anything that is human-facing, and it's not necessarily the default for a lot of Microsoft solutions.  
+
+I needed a way in Azure Logic Apps to easily convert an Epoch Date into a readable format.
+
 ## What is Epoch Time?
 
 [Epoch Time](https://en.wikipedia.org/wiki/Epoch_(computing)) is the number of seconds that have surpassed since Midnight, January 1st, 1970.  This is also commonly known as `Unix Epoch`.
