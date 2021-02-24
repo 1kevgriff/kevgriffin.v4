@@ -16,6 +16,8 @@ Recently, I updated a client application to the latest versions of SignalR (incl
 
 The particular error we were seeings was `AbortController is undefined`, and tracing it backwards to the `FetchHttpClient` class of SignalR shows a small issue:
 
+[https://github.com/dotnet/aspnetcore/blob/main/src/SignalR/clients/ts/signalr/src/FetchHttpClient.ts](https://github.com/dotnet/aspnetcore/blob/main/src/SignalR/clients/ts/signalr/src/FetchHttpClient.ts)
+
 ```typescript
 if (typeof fetch === "undefined") {
     // In order to ignore the dynamic require in webpack builds we need to do this magic
