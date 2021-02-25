@@ -1,6 +1,6 @@
 ---
 title: SignalR AbortController is Undefined on Older Browsers
-date: 2021-02-23 00:00:00
+date: 2021-02-25 00:00:00
 permalink: signalr-abortcontroller-undefined
 categories:
   - .NET

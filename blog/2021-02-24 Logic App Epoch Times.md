@@ -1,6 +1,6 @@
 ---
 title: Converting Epoch Time into DateTime with Azure Logic Apps
-date: 2021-02-23 00:00:00
+date: 2021-02-24 00:00:00
 permalink: azure-logic-apps-epoch-time
 categories:
   - Azure
