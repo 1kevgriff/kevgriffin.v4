@@ -6,8 +6,8 @@ categories:
   - .NET
   - ASP.NET
   - Web Development
-summary: ""
-excerpt: ""
+summary: "Recently, I updated a client application to the latest versions of SignalR (including the NPM module). One of our users uses a SmartTV to view the page, and it stopped working due to 'AbortController is Undefined'."
+excerpt: "Recently, I updated a client application to the latest versions of SignalR (including the NPM module). One of our users uses a SmartTV to view the page, and it stopped working due to 'AbortController is Undefined'."
 ---
 
 Recently, I updated a client application to the latest versions of SignalR (including the NPM module).  One of our users uses a SmartTV to view the page, and it stopped working.
