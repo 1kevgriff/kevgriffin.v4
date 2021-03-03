@@ -1,6 +1,6 @@
 ---
 title: SignalR AbortController is Undefined on Older Browsers
-date: 2021-02-25 00:00:00
+date: 2021-03-03 11:00:00
 permalink: signalr-abortcontroller-undefined
 categories:
   - .NET
@@ -39,9 +39,10 @@ if (typeof fetch === "undefined") {
     this.abortControllerType = AbortController;
 }
 ```
+
 The error occurs on the line `this.abortControllerType = AbortController;`.  But why do we get here?  Well it's because some older browsers, like Chrome 56, don't support `AbortController` but do support `fetch`.  That's how this issue occurs.
 
-In [a similar issue on GitHub](https://github.com/dotnet/aspnetcore/issues/29424) the team said this is pretty much a `wont fix` because it's an older browser.
+I filed an issue on [GitHub](https://github.com/dotnet/aspnetcore/issues/30458) about this, and I got the response I was expecting.  `Wontfix` because why would you support Chrome 56ish?  I honestly don't blame the team here.  
 
 So how can you work around it?  My theory was to check if `fetch` and `AbortController` existed BEFORE loading SignalR.  This is done early in my application:
 
@@ -54,4 +55,8 @@ if (typeof fetch !== "undefined" && typeof AbortController === "undefined") {
 
 Why does this work?  Well, if `fetch` is defined but `AbortController` is not, we know we're going to have issues.  SignalR has its own polyfill for `fetch` if `fetch` doesn't exist.  So we simply make fetch undefined globally and let SignalR do it's work for us!
 
-I hope this helps you in the future!  If it did, hit me up and [Twitter](https://twitter.com/1kevgriff) and let me know!
+`cta: `
+
+> NOTE: no warranty how this affects other libraries that use `fetch`.  I'm using Axios in addition to our SignalR stuff, and had zero problems.
+
+I hope this helps you in the future!  If it did, hit me up and [Twitter](https://twitter.com/1kevgriff) and let me know!  
