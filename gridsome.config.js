@@ -78,7 +78,7 @@ module.exports = {
         cacheTime: 600000, // default
       }
     },
-    {{
+    {
       use: 'gridsome-plugin-gtm',
       options: {
         id: 'G-3SXBHVCG6F',
