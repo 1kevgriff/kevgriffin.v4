@@ -78,10 +78,11 @@ module.exports = {
         cacheTime: 600000, // default
       }
     },
-    {
-      use: '@gridsome/plugin-google-analytics',
+    {{
+      use: 'gridsome-plugin-gtm',
       options: {
-        id: 'UA-28954757-1'
+        id: 'G-3SXBHVCG6F',
+        enabled: true,
       }
     }
   ],
