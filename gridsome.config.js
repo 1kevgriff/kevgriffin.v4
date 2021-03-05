@@ -79,11 +79,12 @@ module.exports = {
       }
     },
     {
-      use: 'gridsome-plugin-gtm',
+      use: 'gridsome-plugin-gtag',
       options: {
-        id: 'G-G6TPE6V0YJ',
-        enabled: true,
-      }
+        config: {
+          id: 'G-G6TPE6V0YJ',
+        },
+      },
     }
   ],
   templates: {
