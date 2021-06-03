@@ -9,7 +9,7 @@ summary: Lorem
 
 For a lot of JavaScript developers that are moving over from traditional "browser" development to node.js, they might be casually aware of the require keyword that node.js provides you.
 
-If you're wondering what I'm talking about, allow me to explain.  In node.js, you can use the node package manager (NPM) to install packages that your application can use.  <a href="http://expressjs.com/" target="_blank">Express</a>, for example,<a href="http://expressjs.com/" target="_blank"> </a>is a great framework for serving up web applications, and you can grab it via NPM.
+If you're wondering what I'm talking about, allow me to explain.  In node.js, you can use the node package manager (NPM) to install packages that your application can use.  <a href="https://expressjs.com/" target="_blank">Express</a>, for example,<a href="https://expressjs.com/" target="_blank"> </a>is a great framework for serving up web applications, and you can grab it via NPM.
 
 To load Express into your application, you tell node.js that you "require" it be loading into memory.
 

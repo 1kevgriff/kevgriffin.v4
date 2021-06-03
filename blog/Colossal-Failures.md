@@ -25,7 +25,7 @@ Second, Adam talked about having to build a set complete with a talking ATM.  H
 
 <span style="color: #2e2e2e;">Failing is a method of learning.  Failing is a bit of a subjective term.  If you've made a mistake, you’ve failed.  Some failures are easier to rebound from than others.  However, failures are worth it if you learn something from them. </span>
 
-<span style="color: #2e2e2e;">Adam learned that while he does good work by himself, the common trait of both his examples was that he didn’t ask for help.  Some jobs are too large for a single person to take on by themselves.  Keep a good network around you of people you trust and respect.  These people can be lifelines in the most frustrating times of a project.  Don’t have a network?  Look for a <a href="http://www.communitymegaphone.com">community event</a> in your area.</span>
+<span style="color: #2e2e2e;">Adam learned that while he does good work by himself, the common trait of both his examples was that he didn’t ask for help.  Some jobs are too large for a single person to take on by themselves.  Keep a good network around you of people you trust and respect.  These people can be lifelines in the most frustrating times of a project.  Don’t have a network?  Look for a community event in your area.</span>
 
 **How have I failed?**
 

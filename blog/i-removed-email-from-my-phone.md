@@ -11,7 +11,7 @@ Several years ago, [I wrote about how I was taking steps to reduce my dependence
 
 Like a good diet, I fell off that bandwagon after months and months of doing `really well`.
 
-Since I own my own business, I spend a lot of time in email conversing with clients, employees, contractors, and random people I'm trying to convince to give me money. I organize [conferences](https://revolutionconf.com), [user groups](http://hrnug.org), and a variety of other professional events. I'm active in my church, and get CCed on just about everything.
+Since I own my own business, I spend a lot of time in email conversing with clients, employees, contractors, and random people I'm trying to convince to give me money. I organize [conferences](https://revolutionconf.com), [user groups](https://hrnug.org), and a variety of other professional events. I'm active in my church, and get CCed on just about everything.
 
 I came to the realization that email itself was making me anxious.
 

@@ -1,26 +1,30 @@
 <template>
   <Layout>
-    <div class="container-inner mx-auto py-16">
+    <div class="py-16 mx-auto container-inner">
       <div
         v-for="post in $page.posts.edges"
         :key="post.id"
-        class="post border-gray-400 border-b mb-12"
+        class="mb-12 border-b border-gray-400 post"
       >
         <h2 class="text-3xl font-bold">
-          <g-link :to="post.node.path" class="text-copy-primary">{{ post.node.title }}</g-link>
+          <g-link :to="post.node.path" class="text-copy-primary">{{
+            post.node.title
+          }}</g-link>
         </h2>
-        <div class="text-copy-secondary mb-4">
+        <div class="mb-4 text-copy-secondary">
           <span>{{ post.node.date }}</span>
           <span>&nbsp;&middot;&nbsp;</span>
           <span>{{ post.node.timeToRead }} min read</span>
         </div>
-        
-        <div class="text-lg mb-4">
+
+        <div class="mb-4 text-lg">
           {{ post.node.excerpt }}
         </div>
 
         <div class="mb-8">
-          <g-link :to="post.node.path" class="font-bold uppercase">Read More</g-link>
+          <g-link :to="post.node.path" class="font-bold uppercase"
+            >Read More</g-link
+          >
         </div>
       </div>
       <!-- end post -->
@@ -64,11 +68,17 @@ import PaginationPosts from "../components/PaginationPosts";
 export default {
   metaInfo: {
     title: "Articles",
-    description: "Kevin W. Griffin | Developer, Training, Entrepreneur"
+    description: "Kevin W. Griffin | Developer, Training, Entrepreneur",
+    link: [
+      {
+        rel: "canonical",
+        href: "https://consultwithgriff.com" + this.$page.post.path,
+      },
+    ],
   },
   components: {
-    PaginationPosts
-  }
+    PaginationPosts,
+  },
 };
 </script>
 

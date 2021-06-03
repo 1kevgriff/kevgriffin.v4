@@ -35,7 +35,7 @@ As far as clients are concerned, JavaScript is the main way.  In fact, when I d
 
 I would be a bad blogger if I just left you hanging.  Here’s my 5 minute SignalR demo for you:
 
-`youtube:http://www.youtube.com/watch?v=tEBaDo_sFfA`
+`youtube:https://www.youtube.com/watch?v=tEBaDo_sFfA`
 
 The video does a really good job of showing you all the steps.  There are two parts to a basic SignalR application.  First is the server side, which we build a construct called a <strong>Hub</strong>.  Think of a Hub as a central location for all connections for your application.
 
@@ -87,4 +87,4 @@ Ok.  LASTLY, there is this call to <em>\$.connection.hub.start()<strong>.  </s
 
 SignalR is extremely easy to use, and I’m definitely recommending it as a replacement for 90% of the .NET AJAX work I’m seeing done in the community.  Take a couple minutes, download the package via NuGet and try it out for yourself.  You won’t be disappointed.
 
-Feel free to ask any questions, and hit me up on the Twitters <a href="http://twitter.com/1kevgriff">@1kevgriff</a>.
+Feel free to ask any questions, and hit me up on the Twitters <a href="https://twitter.com/1kevgriff">@1kevgriff</a>.

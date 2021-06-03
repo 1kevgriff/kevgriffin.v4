@@ -9,7 +9,7 @@ summary: Lorem
 
 When I initially wrote *Non-Tech Factors to Consider When Choosing Your Tech Stack*, I left out one important conversation point: Open Source.
 
-[Steve and Carol](http://consultwithgriff.com/non-tech-factors-to-consider-when-choosing-your-tech-stack/#comment-2671492103) got me in the comments.
+[Steve and Carol](https://consultwithgriff.com/non-tech-factors-to-consider-when-choosing-your-tech-stack/#comment-2671492103) got me in the comments.
 
 ### How should Open Source affect your decision to choose a tech stack?
 

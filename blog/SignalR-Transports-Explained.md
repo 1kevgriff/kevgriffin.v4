@@ -13,7 +13,7 @@ When I sit down to talk to people about SignalR, a common discussion we have is 
 
 There are two pieces of the puzzle that need to be evaluated before a transport is chosen.  The **client** and the **server**.  Keep in mind, a SignalR client can be something other than JavaScript.. and the server can be something not running on IIS.  
 
-If you [head over to SignalR documentation](http://www.asp.net/signalr/overview/getting-started/introduction-to-signalr#transports), they provide a really great overview on how SignalR chooses a transport.
+If you [head over to SignalR documentation](https://www.asp.net/signalr/overview/getting-started/introduction-to-signalr#transports), they provide a really great overview on how SignalR chooses a transport.
 
 A simple way to explain the process is this:  
 

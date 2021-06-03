@@ -90,7 +90,7 @@ Next is how/where you will host your source control. Here's some options I think
 
 ### GitHub
 
-[GitHub](http://github.com) is starting to become the defacto standard for all new software projects.  In fact, I recommend it to all my clients.  You have the option of using GitHub for free, if you don't mind all your source control being publicly available.  If that's NOT an option for you (and it's okay), then you have the option to pay for "private repositories".
+[GitHub](https://github.com) is starting to become the defacto standard for all new software projects.  In fact, I recommend it to all my clients.  You have the option of using GitHub for free, if you don't mind all your source control being publicly available.  If that's NOT an option for you (and it's okay), then you have the option to pay for "private repositories".
 
 For any repositories that you host, you're able to control who has access to it.  There is no limit on the number of users you can add to a repository.
 

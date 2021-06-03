@@ -76,7 +76,7 @@ Second, we had budget for speaker travel and expenses.  Our social agreement wit
 I can safely say we gave away 20 scholarships to RevolutionConf.  Boom.
 
 **Our A/V Team**  
-For technical events, having a good audio/video team is essential for success.  We lucked out by hiring [Elite Presentations](http://eliteavelements.com/).  This team was as professional as you could get, and we did not have a single A/V problem they were not prepared for.
+For technical events, having a good audio/video team is essential for success.  We lucked out by hiring [Elite Presentations](https://eliteavelements.com/).  This team was as professional as you could get, and we did not have a single A/V problem they were not prepared for.
 
 **Luau**  
 Every great event needs to have a dedicated networking time.  This year, we started the tradition of the RevolutionConf Luau.  HOLY CRAP this was a fun time.
