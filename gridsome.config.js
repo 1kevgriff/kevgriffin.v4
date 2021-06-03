@@ -72,6 +72,13 @@ module.exports = {
     {
       use: '@gridsome/plugin-sitemap',
       options: {
+        exclude: [
+          "/no-more-stream-notifications/",
+          "/thanks-supercharge-signup/",
+          "/thanks-signalr-signup/",
+          "/thanks-signup/",
+          "/thanks-confirm/",
+        ],
         cacheTime: 600000, // default
       }
     },
