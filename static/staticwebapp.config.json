@@ -34,6 +34,16 @@
             "route": "/wp-content/*",
             "redirect": "/",
             "statusCode": 301
+        },
+        {
+            "route": "/how-to-run-visual-studio-code-from-terminal-on-mac-osx",
+            "redirect": "/how-to-run-visual-studio-code-from-mac-osx",
+            "statusCode": 301
+        },
+        {
+            "route": "/how-to-run-visual-studio-code-from-zsh-on-mac-osx",
+            "redirect": "/how-to-run-visual-studio-code-from-mac-osx",
+            "statusCode": 301
         }
     ]
 }

@@ -72,9 +72,6 @@ module.exports = {
     {
       use: '@gridsome/plugin-sitemap',
       options: {
-        exclude: [
-          "/how-to-run-visual-studio-code-from-terminal-on-mac-osx",
-          "/how-to-run-visual-studio-code-from-zsh-on-mac-osx"],
         cacheTime: 600000, // default
       }
     },
