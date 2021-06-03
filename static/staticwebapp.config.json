@@ -16,6 +16,11 @@
             "statusCode": 301
         },
         {
+            "route": "/tag/*",
+            "redirect": "/",
+            "statusCode": 301
+        },
+        {
             "route": "/page/*",
             "redirect": "/",
             "statusCode": 301
