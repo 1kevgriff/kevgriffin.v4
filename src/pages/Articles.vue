@@ -66,15 +66,23 @@ query Posts ($page: Int) {
 import PaginationPosts from "../components/PaginationPosts";
 
 export default {
-  metaInfo: {
-    title: "Articles",
-    description: "Kevin W. Griffin | Developer, Training, Entrepreneur",
-    link: [
-      {
-        rel: "canonical",
-        href: "https://consultwithgriff.com" + this.$page.post.path,
-      },
-    ],
+  metaInfo() {
+    console.log(this.$page.posts.pageInfo.currentPage);
+    
+    return {
+      title: "Articles",
+      description: "Kevin W. Griffin | Developer, Training, Entrepreneur",
+      link: [
+        {
+          rel: "canonical",
+          href:
+            this.$page.posts.pageInfo.currentPage > 1
+              ? "https://consultwithgriff.com/articles/" +
+                this.$page.posts.pageInfo.currentPage
+              : "https://consultwithgriff.com/articles/",
+        },
+      ],
+    };
   },
   components: {
     PaginationPosts,

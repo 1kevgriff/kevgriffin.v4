@@ -32,7 +32,7 @@ export default {
     link: [
       {
         rel: "canonical",
-        href: "https://consultwithgriff.com" + this.$page.post.path,
+        href: "https://consultwithgriff.com/contact"
       },
     ],
   },
