@@ -1,11 +1,14 @@
 ---
 title: How to Redirect with Azure Static Web Apps
 date: 2020-08-11 00:30:00
+updated: 2021-06-03 03:33:00
 permalink: how-to-redirect-with-azure-static-web-apps
 categories:
   - Microsoft Azure
 excerpt: "When deploying to Azure Static Web Apps, a common question that comes up is \"How do I do 301 redirects?\".  Let's explore how in this simple tutorial."
 ---
+
+> Updated 2021-06-03: Now that Azure Static Web Apps is GA, 
 
 > TLDR; Look at the [source code](https://github.com/1kevgriff/azure-static-web-apps-routing)
 
@@ -23,7 +26,7 @@ And with it being a static web app, there is no server component for me to add a
 
 Turns out, the awesome team behind Azure Static Web Apps thought about this and built a mechanism for doing server-side redirects.
 
-To get started, you'll want to create a new file called `routes.json`.  This file needs to exist AT PUBLISH time in the root of your build directory.
+To get started, you'll want to create a new file called `staticwebapp.config.json`.  This file needs to exist AT PUBLISH time in the root of your build directory.
 
 > In other words, if you commit your changes to GitHub and Azure Static Web Apps kicks in.  It'll start the appropriate GitHub Action to build your app.  At the end of the process, your "build" directory (or "dist" or whatever) will be copied off of disk into Azure.  Make sure `routes.json` is sitting in that build directory at the end of the process.  In Gridsome, this is done via the "static" directory which copies everything into the build directory at the end of the process.  Most other static site generators have a process for this too. 
 
@@ -32,14 +35,16 @@ To get started, you'll want to create a new file called `routes.json`.  This fil
     "routes": [
         {
             "route": "/routeTypedIntoBrowser",
-            "serve": "/redirectToMe",
+            "redirect": "/redirectToMe",
             "statusCode": 301
         }
     ]
 }
 ```
 
-The `routes.json` does a lot more than just redirects, but for today let's just look at the `routes` section.  Notice it's an array of objects.  If you want to set up a redirect, create an entry with the "route" that someone would type into the browser, and then Azure Static Web Apps will "serve" up the url or path you define.  Lastly, make sure your status code is 301 or 302 so the browser (or HTTP client) can take appropriate action.
+The `staticwebapp.config.json` does a lot more than just redirects, but for today let's just look at the `routes` section.  Notice it's an array of objects.  If you want to set up a redirect, create an entry with the "route" that someone would type into the browser, and then Azure Static Web Apps will "serve" up the url or path you define.  Lastly, make sure your status code is 301 or 302 so the browser (or HTTP client) can take appropriate action.
+
+[Check out the reference](https://docs.microsoft.com/en-us/azure/static-web-apps/configuration)
 
 `cta:`
 
