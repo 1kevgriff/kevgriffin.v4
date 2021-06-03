@@ -1,0 +1,2497 @@
+[
+    {
+        "route": "https://consultwithgriff.com/blog/index.php/2010/12/06/speaking-at-nova-code-camp/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/shows/the-secret-life-of-cosmos-db-change-feed-and-how-it-enables-serverless-schema-less-nirvana-2019-04-26/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/blog/index.php/2011/05/27/review-officewriter-by-softartisans/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/blog/index.php/2010/06/01/beginner-guide-to-preparing-for-azure/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/blog/index.php/2010/09/06/project-sector-5-work-in-progress-teaser/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/blog/index.php/2011/02/28/announcing-madexpo/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/Blog/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/blog/index.php/2010/08/12/windows-phone-7-in-7-minutes/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/blog/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/shows/oauth-2-0-and-openid-connect-in-plain-english-2018-10-17/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/blog/index.php/feed/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/josh-carlisle/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/shows/automating-proof-of-concepts-using-azure-and-net-core-2019-03-19/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/shows/upgrading-your-asp-net-4-0-skills-to-asp-net-core-2019-04-16/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/blog/index.php/2011/02/16/a-user-group-leader-guide-to-the-ineta-community-speakers-program/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/blog/index.php/2009/10/05/jquery-from-the-ground-up-materials-richcc/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/blog/index.php/2010/01/05/console-games-why-do-we-have-to-press-start/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/shows/taking-your-talk-from-idea-to-submission-2018-12-06/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/shows/creating-conversational-interfaces-with-google-assistant-2018-07-27/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/developer/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/asp-net/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/shows/leadership-for-the-reluctant-leader-2018-06-17/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/shows/what-s-new-in-signalr-core-2-2018-07-27/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/blog/index.php/2009/10/13/jquery-from-the-ground-up-novacc/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/shows/be-more-productive-than-ever-with-azure-functions-2018-07-27/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/shows/picking-your-next-web-framework-2018-09-25/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/shows/tools-for-navigating-toxic-teams-2018-11-20/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/shows/serverless-forecast-cloudy-with-a-chance-of-webhooks-2018-07-27/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/shows/being-a-geek-leader-2018-07-27/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/shows/taming-the-wilderness-an-overview-of-the-javascript-ecosystem-2019-01-21/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/shows/the-secret-to-using-hololens-spatial-mapping-in-unity-2018-07-27/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/shows/nosql-shouldn%E2%80%99t-mean-nosecurity-2018-07-27/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/reflection/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/shows/docker-compose-2018-07-27/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/author/kevin-griffin/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/shows/unbelievable-and-complex-advancements-in-machine-learning-with-ankur-kalra-2018-07-27/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/user-experience/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/ux/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/problem-solving/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/women-in-tech/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/finance/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/event-driven-architecture/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/shows/securing-your-customers-2018-08-22/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/user-retention/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/design/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/azure-data-lakes/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/speed/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/unity/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/microservices/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/chris-demars/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/async/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/application-performance/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/asp-net-core/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/open-id/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/shows/believe-in-the-power-of-css-2018-07-27/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/o-auth/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/shows/speed-and-stability-in-mobile-and-web-2018-07-27/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/mvp/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/data-science/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/business/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/software/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/augmented-reality/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/kevin-griffin/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/technology/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/paul-chin-jr/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/nosql/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/smart-home/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/john-rouda/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/swift-kick-show/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/ethics/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/data/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/email/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/sydney-andrews/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/continued-education/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/matt-groves/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/signal-r/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/tools/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/speaking-gigs/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/page/22/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/shows/serverless-architecture-a-valentine%E2%80%99s-day-love-story-2018-07-27/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/chad-carter/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/page/23/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/shows/azure-cosmosdb-2018-07-27/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/azure-function/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/blog/index.php/tag/visual-studio-2010/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/page/2/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/kendall-miller/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/author/kevin-griffin/page/34/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/author/kevin-griffin/page/5/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/30-days/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/azure-functions/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/applications/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/brackets/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/bug/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/boot-to-vhd/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/anniversary/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/activereports/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/bing/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/expectations/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/devexpress/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/hacks/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/code-camp/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/electronics/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/hrnug/page/3/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/family/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/ie9/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/charity/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/devintersection/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/free/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/intellisense/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/developer-fusion/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/css/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/dreambuildplay/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/cad/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/extension-methods/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/ineta/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/community/page/3/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/debugging/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/debugview/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/node/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/mentor/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/node-js/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/mobile/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/inversion-of-control/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/linq/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/author/kevin-griffin/page/7/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/jquery/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/jquery-from-the-ground-up-2/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/vote/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/williamsburg/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/travel/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/require/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/wordpress/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/rendersection/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/sharepoint-saturday/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/online/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/training/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/presentations/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/npm/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/spam/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/philly-code-camp/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/silverlight-4/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/websockets/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/tidbits/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/reporting/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/review/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/workshop/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/webforms/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/tricks/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/wp7/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/zsh/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/xtrareports/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/revolution-conf/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/year-in-review/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/shows/live-to-code-don-t-code-to-live-2018-07-27/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/forever-frame/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/shows/data-science-for-developers-2018-07-27/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/antech/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/author/kevin-griffin/page/16/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/page/24/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/page/5/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/connection-string/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/author/kevin-griffin/page/18/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/customers/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/blog/index.php/2010/01/28/community-megaphone-podcast-with-joelcochran/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/dahlgren/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/failures/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/amazon/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/demos/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/wp-content/uploads/2012/11/nodeinspector3.png/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/client-app-dev/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/shows/shared-ip-smtp-and-dns-oh-my-2018-07-27/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/page/9/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/expression/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/email/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/frameworks/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/logo/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/jquery/page/3/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/kids/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/net/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/inbox-zero/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/web-development/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/visual-studio/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/spring-dell-center/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/emily-freeman/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/sublime-text/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/skills-upgrade/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/rss-tag/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/docker/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/bret-fisher/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/referrals/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/pittsburgh/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/windows-7/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/picks/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/smartglass/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/xaml/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/wip/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/writing/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/soft-skills/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/big-data/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/stringbuilder/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/wp-content/uploads/2012/11/nodeinspecto2.png/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/ui/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/voice-interface/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/wp-content/uploads/2012/02/image.png/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/blog/index.php/2009/12/31/2009-year-in-review/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/phone/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/success/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/soft-skills/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/author/kevin-griffin/page/11/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/wp-content/uploads/2012/11/nodeinspector.png/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/page/20/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/author/kevin-griffin/page/12/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/audio/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/add-new-tag/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/2012/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/birthday/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/asp-net/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/author/kevin-griffin/page/30/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/page/16/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/page/28/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/aspnet/page/2/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/page/4/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/certification/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/array/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/page/3/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/c/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/aspnet-2/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/page/6/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/freezing/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/facebook/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/game-development/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/chrome/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/grapecity/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/gps/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/exercise/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/double-fine/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/cache/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/parameter/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/rad/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/madexpo/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/officewriter/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/horror/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/oledb/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/hrnug/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/orf/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/hub/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/roanoke/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/ncache/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/harrisburg/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/navigation/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/labor/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/powershell/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/rollbase/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/mvc/page/2/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/richmond-code-camp/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/mythbusters/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/msdn/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/softartisans/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/user-group-tips/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/weight/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/start-button/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/windows-phone/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/sql/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/tdd/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/web-role/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/survey/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/somdgc/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/author/kevin-griffin/page/3/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/author/kevin-griffin/page/9/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/amtrak/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/author/kevin-griffin/page/14/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/author/kevin-griffin/page/35/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/windows/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/page/32/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/page/30/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/author/kevin-griffin/page/25/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/framework/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/conferences/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/author/kevin-griffin/page/21/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/2009/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/shows/intro-to-azure-data-lake-2018-07-27/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/aspnet/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/page/11/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/author/kevin-griffin/page/19/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/abstracts/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/wpf/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/shows/five-fast-fixes-for-your-app%E2%80%99s-user-experience-2018-07-27/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/codestock/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/call-for-speakers/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/cast/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/command-line/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/community-speaking/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/blogging/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/azure/page/2/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/community-megaphone/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/boot-camp/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/connectionid/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/prices/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/election/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/dcdnug/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/dane-morgridge/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/fun/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/hrnug/page/2/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/mvvm/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/consulting/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/long-polling/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/pillars/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/edit-and-continue/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/dcagc/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/ioc/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/phf/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/nodejs/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/retail/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/richcc/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/raleigh-code-camp/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/reports/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/developer/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/startups/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/alexa/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/richmond/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/tabs/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/ankur-kalra/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/winsitter-2/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/robotics/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/sessions/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/win7/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/technology/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/beginner/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/azure/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/google-assistant/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/protocol/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/software-development/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/shows/from-software-developer-to-data-person-to-both-2018-08-05/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/layout/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/greg-norman/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/shows/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/frank-lavigne/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/mike-rollins/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/sean-merron/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/shows/real-world-ux-problem-solving-2018-07-27/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/core/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/page/7/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/css/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/page/19/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/machine-learning/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/david-neal/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/author/kevin-griffin/page/24/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/most-valuable-professional/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/romney/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/formatting/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/moustache/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/di/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/progress-software/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/70-536/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/janrain/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/clients/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/2013/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/author/kevin-griffin/page/10/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/ruby/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/blog/index.php/2009/10/21/jquery-from-the-ground-up-part-i-what-is-jquery/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/ai/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/blog/index.php/2009/12/07/hrnug-version-2-0/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/blog/index.php/2009/10/23/jquery-from-the-ground-up-part-ii-getting-jquery/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/sitefinity/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/signalr/page/2/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/security/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/web-applications/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/cosmos-db/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/wp-content/uploads/2012/08/logo.png/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/blog/index.php/2010/07/22/word-of-warning-for-people-using-3rd-party-reporting-tools-in-azure/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/john-athayde/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/hololens/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/metrics/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/shows/azure-cosmosdb-2018-07-27/sidney@seesharprun.net",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/page/25/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/author/kevin-griffin/page/15/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/adobe/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/ajax/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/shows/azure-cosmosdb-2018-07-27/swiftkick.in",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/page/31/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/aspnet/page/3/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/2010/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/page/34/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/author/kevin-griffin/page/26/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/author/kevin-griffin/page/28/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/author/kevin-griffin/page/29/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/christmas/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/business/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/development/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/documentation/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/community/page/2/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/banking/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/codemash/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/drones/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/community/page/4/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/competiiton/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/code-camp/page/2/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/community/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/refresh/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/hrva/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/interview/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/event/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/give-camp/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/html/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/movember/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/jquery/page/2/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/gitignore/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/internet/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/mango/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/languages/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/ie/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/interval-polling/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/ps3/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/fitfeb/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/feeds/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/novacc/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/walmart/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/madkidz/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/joel-cochran/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/rails/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/server-sent-events/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/live-meeting/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/goals/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/net/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/personal-finance/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/database/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/linda-nichols/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/devops/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/author/kevin-griffin/page/4/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/stories/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/author/kevin-griffin/page/8/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/ads/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/shows/finding-your-voice-as-a-new-or-aspiring-developer-2018-08-22/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/blend/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/win8/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/author/kevin-griffin/page/6/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/page/27/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/web/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/callbacks/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/telerik/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/malvern/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/serverless/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/sector-5-2/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/wildcard/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/raleigh/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/unity/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/visual-studio-2010/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/beginner/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/shows/docker-compose-2018-07-27/bretfisher.com",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/wp-content/uploads/2012/11/nodeinspector.png",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/author/kevin-griffin/page/13/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/net-core/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/wp-content/uploads/2012/02/image.png",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/user-group/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/reviews-2/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/speaking/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/wp-content/uploads/2012/11/nodeinspector3.png",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/wp-content/uploads/2012/11/nodeinspecto2.png",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/wp-content/uploads/2012/08/logo.png",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/web-developer/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/loss/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/atm/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/author/kevin-griffin/page/33/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/teams/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/terminal/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/page/17/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/blunder/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/entity-framework/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/performance/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/blog/index.php/2010/09/20/jquery-tidbits-jquery-trim/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/windows-phone-7/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/virginia/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/blog/index.php/2010/07/22/word-of-warning-for-people-using-3rd-party-reporting-tools-in-azure",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/viewstate/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/ux/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/blog/index.php/2010/09/08/windows-phone-7-firestarterhampton-roads/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+KevinGriffin+%28Kevin+Griffin%29",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/blog/index.php/2010/02/23/using-jquery-tabs-and-asp-net-mvc-partial-views-for-ajax-goodness/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/blog",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/blog/index.php/2010/09/08/windows-phone-7-firestarterhampton-roads/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/books/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/web-forms/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/osx/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/author/kevin-griffin/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/links/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/caching/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tags/css-grid/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/source-control/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/azure/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/web-apps/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/web-site/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/visual-studio-2008/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/jquery-ui/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/ui/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/tag/html5-2/rss/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/blog/index.php/2011/02/14/speaking-at-dahlgren-net-users-group/",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/shows",
+        "redirect": "/",
+        "statusCode": 301
+    },
+    {
+        "route": "https://consultwithgriff.com/blog/index.php/2011/03/07/test-driven-development-firestarter/",
+        "redirect": "/",
+        "statusCode": 301
+    }
+]
