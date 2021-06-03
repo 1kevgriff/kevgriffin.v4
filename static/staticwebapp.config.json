@@ -1,0 +1,14 @@
+{
+    "routes": [
+        {
+            "route": "/blog/index.php/2010/12/06/speaking-at-nova-code-camp",
+            "redirect": "/",
+            "statusCode": 301
+        },
+        {
+            "route": "/2015-building-real-time-web-applications-with-signalr",
+            "redirect": "/",
+            "statusCode": 301
+        }
+    ]
+}

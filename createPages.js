@@ -1,6 +1,4 @@
 module.exports = function (createPage) {
-    createPage({ path: '/2009-year-in-review/', component: './src/templates/Redirect.vue', context: { tag: { title: 'Redirect' } } });
-    createPage({ path: '/2015-building-real-time-web-applications-with-signalr/', component: './src/templates/Redirect.vue', context: { tag: { title: 'Redirect' } } });
     createPage({ path: '/30-day-facebook-ad-experiment/', component: './src/templates/Redirect.vue', context: { tag: { title: 'Redirect' } } });
     createPage({ path: '/30-day-facebook-ad-week-1-recap/', component: './src/templates/Redirect.vue', context: { tag: { title: 'Redirect' } } });
     createPage({ path: '/30-days-facebook-ad-challenge-results/', component: './src/templates/Redirect.vue', context: { tag: { title: 'Redirect' } } });
