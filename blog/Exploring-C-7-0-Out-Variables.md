@@ -3,6 +3,10 @@ title: "Exploring C# 7.0: Out Variables"
 permalink: exploring-csharp70-out-variables
 categories:
   - "Development - C#"
+tags:
+  - .net
+  - dotnet
+  - asp.net
 date: 2016-11-08 18:41:48
 summary: "New in C# 7.0 - out varibles will save you some time!"
 ---

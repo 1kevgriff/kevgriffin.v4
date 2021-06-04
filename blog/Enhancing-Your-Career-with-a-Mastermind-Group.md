@@ -209,7 +209,7 @@ As you adventure out into the world, watering holes will being to show themselve
 
 General networking practices apply here.  Are you active on Twitter, LinkedIn, or Reddit?  Pick a place, and ask someone there if they'd be interested in jumping on a call every week or two.  All my Mastermind groups have started this way?  If you're not being invited, do the inviting!
 
-Some services, like [Mastermind Hunt](https://mastermindhunt.com), exist to help make this easier for you too.  Mastermind Hunt is a marketplace for people looking for groups, and aims to make it happen organically.  Use code `kevin` for a free month and see if you find a group there.
+Some services, like ~Mastermind Hunt~, exist to help make this easier for you too.  Mastermind Hunt is a marketplace for people looking for groups, and aims to make it happen organically.  Use code `kevin` for a free month and see if you find a group there.
 
 ## Wrapping up
 Whatever you do, don't buy into a Mastermind group.  There are a series of "gurus" on the internet who will promise you the world by joining their "mastermind group" for the low price of XYZ dollars a year.  These are scams, and glorified Facebook Groups.  You will not get value out of these relationsships.

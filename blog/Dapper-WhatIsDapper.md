@@ -4,6 +4,13 @@ date: 2020-05-15 09:30:00
 permalink: what-is-dapper
 categories:
   - .NET
+tags:
+  - .net
+  - dotnet
+  - asp.net
+  - databases
+  - sql
+  - relational databases
 excerpt: "I have a pretty firm opinion that if you're using a relational database with .NET, you need to have Dapper in your stack."
 ---
 
