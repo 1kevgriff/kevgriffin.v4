@@ -92,7 +92,7 @@ module.exports = {
     }
   ],
   templates: {
-    Tag: '/tag/:id'
+    Tag: '/article-tags/:id'
   },
   transformers: {
     remark: {
