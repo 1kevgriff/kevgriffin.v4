@@ -10,7 +10,7 @@ summary: "SignalR doesn't guarantee the deliverability of messages sent from the
 excerpt: "Kevin, I have two clients.  Client 1 sends a message to client 2.  Client 1 loses its connection to the server.  Client 2, during this time, sends a message to Client 1.  That message is lost because Client 1 was disconnected.  How can we solve this problem?"
 ---
 
-I recently received a new question in [SignalR Mastery](https://signalrmastery.com) asking about message deliverability?
+I recently received a new question in [SignalR Mastery](https://www.udemy.com/course/signalr-mastery/learn/?referralCode=5F129296A976F8353B79) asking about message deliverability?
 
 > Kevin, I have two clients.  Client 1 sends a message to client 2.  Client 1 loses its connection to the server.  Client 2, during this time, sends a message to Client 1.  That message is lost because Client 1 was disconnected.  How can we solve this problem?
 

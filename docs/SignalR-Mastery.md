@@ -9,7 +9,7 @@ excerpt: "Become a SignalR Master with this comprehensive course from Microsoft 
 
 ![SignalR Mastery](./images/signalr-mastery-thumbnail.png)
 
-[Get the course](https://signalrmastery.com)
+[Get the course](https://www.udemy.com/course/signalr-mastery/learn/?referralCode=5F129296A976F8353B79)
 
 The web isn't static.  As more and more people live and work on the internet, developers need to make an effort to build robust, adaptive applications that can keep up with the fast pace of business.
 
@@ -25,6 +25,6 @@ SignalR is a library for .NET which allows developers to add real-time capabilit
 
 In this course, we'll take a structured look at how SignalR works and how you can harness it within your .NET applications.  
 
-[Get the course](https://signalrmastery.com)
+[Get the course](https://www.udemy.com/course/signalr-mastery/learn/?referralCode=5F129296A976F8353B79)
 
 `cta:`

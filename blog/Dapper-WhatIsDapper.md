@@ -246,10 +246,10 @@ I also use Dapper in every single application I scaffold out.  It's *that* criti
 
 Yes!  And even better, it's built by the good folks over at [StackOverflow](https://stackoverflow.com).  Maybe you've heard of it.  It's one of the most frequented websites on the internet, and they do not play around when it comes to performance.  
 
-Dapper was created by their team in order to make mapping data to objects as painless as possible while being fast. [Check out their performance benchmarks](https://github.com/StackExchange/Dapper#performance)
+Dapper was created by their team in order to make mapping data to objects as painless as possible while being fast. [Check out their performance benchmarks](https://github.com/DapperLib/Dapper#performance)
 
 ## Give it a try!
 
-If you're jumping into Dapper for the first time, take it easy!  There are a lot of great examples in the [GitHub repo](https://github.com/StackExchange/Dapper) for getting started.
+If you're jumping into Dapper for the first time, take it easy!  There are a lot of great examples in the [GitHub repo](https://github.com/DapperLib/Dapper) for getting started.
 
 If you run into problems, feel free to ask me on [Twitter](https://twitter.com/1kevgriff).  I'm happy to research your questions and write some detailed explainations on more complex use-cases.

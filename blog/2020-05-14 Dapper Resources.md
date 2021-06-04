@@ -26,6 +26,6 @@ Do you have questions about Dapper?  Drop me a message on [Twitter](https://twit
 
 [Twitter](https://twitter.com/1kevgriff)  
 [My Twitch Channel](https://www.twitch.tv/1kevgriff)  
-[Dapper GitHub Repo](https://github.com/StackExchange/Dapper)  
+[Dapper GitHub Repo](https://github.com/DapperLib/Dapper)  
 
 `cta:`

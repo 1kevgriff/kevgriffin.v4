@@ -74,4 +74,4 @@ The above process works REALLY well, but I'm not happy with the bitrate I'm gett
 
 If you have ideas, please let me know on [Twitter](https://twitter.com/1kevgriff)!
 
-Until then, make sure you're following me on [YouTube](https://youtube.com/swiftkick) and [Twitch](https://twitch.tv/1kevgriff) so you know when I go live!  
+Until then, make sure you're following me on [YouTube](https://youtube.com/swiftkick) and [Twitch](https://www.twitch.tv/1kevgriff) so you know when I go live!  

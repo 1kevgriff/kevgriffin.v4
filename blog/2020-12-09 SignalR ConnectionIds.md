@@ -9,7 +9,7 @@ summary: "For C# Advent 2020, I want to talk about SignalR ConnectionIds and the
 excerpt: "One of the commons issues I see when reading questions on StackOverflow or Reddit is that many SignalR users do not know how to effectively manage connections their hubs. Or worse, they make mistakes that'll cause performance problems in the long run."
 ---
 
-> This is my entry for [C# Advent 2020](https://www.csadvent.christmas/)! Thank you to [Matthew Groves](https://twitter.com/mgroves) for inviting me to participate.
+> This is my entry for C# Advent 2020! Thank you to [Matthew Groves](https://twitter.com/mgroves) for inviting me to participate.
 
 Over the past couple of weeks, I've been actively working on a new course to teach ASP.NET Core developers on how to effectively use SignalR within their applications.
 

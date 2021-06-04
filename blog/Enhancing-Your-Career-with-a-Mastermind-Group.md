@@ -3,7 +3,9 @@ title: Enhancing Your Career with a Mastermind Group
 date: 2019-02-08 11:04:49
 categories:
   - Business
-tags: career, mastermind
+tags:
+  - career
+  - mastermind
 permalink: Enhancing-Your-Career-with-a-Mastermind-Group
 summary: "When I quit my job to create my own business, I needed a group to help support me and give me advice.  These MasterMind sessions were my key to growth and success."
 ---

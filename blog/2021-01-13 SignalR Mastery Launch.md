@@ -11,9 +11,9 @@ summary: "Do you want to become a master in building real-time applications on .
 excerpt: "Do you want to become a master in building real-time applications on .NET?  My new course is designed to take you on a journey through all the bits and advanced topics of SignalR, a real-time communication library built on .NET!"
 ---
 
-[![SignalR Mastery](./images/signalr-mastery-thumbnail.png)](https://signalrmastery.com)
+[![SignalR Mastery](./images/signalr-mastery-thumbnail.png)](https://www.udemy.com/course/signalr-mastery/learn/?referralCode=5F129296A976F8353B79)
 
-[Get the course](https://signalrmastery.com)
+[Get the course - signalrmastery.com](https://www.udemy.com/course/signalr-mastery/learn/?referralCode=5F129296A976F8353B79)
 
 Today, I am officially launching my new course, SignalR Mastery!  
 
@@ -29,7 +29,7 @@ SignalR Mastery was born!  It's my new approach to teaching.  Each video in the 
 
 `cta: `
 
-What's the course about? [See the full course outline, including upcoming bits.](https://signalrmastery.com)  Here is the synopsis:
+What's the course about? [See the full course outline, including upcoming bits.](https://www.udemy.com/course/signalr-mastery/learn/?referralCode=5F129296A976F8353B79)  Here is the synopsis:
 
 > The web isn't static.  As more and more people live and work on the internet, developers need to make an effort to build robust, adaptive applications that can keep up with the fast pace of business.
 
@@ -49,4 +49,4 @@ I couldn't have done it without the amazing support of my friends and family!  B
 
 I hope you enjoy the course!  
 
-[Get the course](https://signalrmastery.com)
+[Get the course](https://www.udemy.com/course/signalr-mastery/learn/?referralCode=5F129296A976F8353B79)
