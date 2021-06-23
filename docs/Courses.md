@@ -15,7 +15,7 @@ excerpt: "Online learning? In person training?  I have you covered!"
 
 > In this course, we'll take a structured look at how SignalR works and how you can harness it within your .NET applications.  
 
-[Learn More](/signalr-mastery)
+[Learn More](https://signalrmastery.com)
 
 ***
 
