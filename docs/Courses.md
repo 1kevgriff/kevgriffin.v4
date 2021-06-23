@@ -9,7 +9,7 @@ excerpt: "Online learning? In person training?  I have you covered!"
 
 ### SignalR Mastery
 
-This is my first independently published course!
+`youtube:https://www.youtube.com/watch?v=oqSPvW5FsYk`
 
 > SignalR is a library for .NET which allows developers to add real-time capabilities to their applications.  It provides a framework for managing connections from various clients, including web pages, mobile apps, desktop applications, and more.  It handles all of the grunt work.
 
