@@ -19,6 +19,7 @@ module.exports = {
         route: '/:permalink',
         plugins: [
           ['griffin-email-cta', {}],
+          ['gridsome-plugin-remark-youtube'],
           ['gridsome-plugin-remark-shiki', { theme: 'Material-Theme-Palenight', skipInline: true }]
         ],
       }
