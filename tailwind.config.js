@@ -2,7 +2,11 @@ var emailCtaClass = [
   "border-solid",
   "border-4",
   "w-full",
-  "mt-5"
+  "mt-5",
+  "fa",
+  "fa-star",
+  "yellow-font",
+  "bg-green-700"
 ];
 
 module.exports = {

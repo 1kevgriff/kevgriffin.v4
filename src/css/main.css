@@ -59,7 +59,7 @@
 }
 
 a {
-  @apply text-green-700 font-bold;
+  @apply font-bold text-green-700;
 }
 
 a:hover {
@@ -68,7 +68,7 @@ a:hover {
 
 nav .active {
   font-weight: bold;
-  @apply border-black border-b;
+  @apply border-b border-black;
 }
 
 .container-inner {
@@ -117,4 +117,8 @@ nav .active {
 
 .text-center {
   text-align: center;
+}
+
+.font-yellow {
+  color: #ffd600;
 }

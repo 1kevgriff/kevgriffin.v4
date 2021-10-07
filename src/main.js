@@ -8,11 +8,11 @@ import VueDisqus from 'vue-disqus';
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { config, library } from '@fortawesome/fontawesome-svg-core';
-import { faSearch } from '@fortawesome/free-solid-svg-icons'
+import { faSearch, faStar } from '@fortawesome/free-solid-svg-icons'
 import '@fortawesome/fontawesome-svg-core/styles.css';
 
 config.autoAddCss = false;
-library.add(faSearch);
+library.add(faSearch, faStar);
 
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
