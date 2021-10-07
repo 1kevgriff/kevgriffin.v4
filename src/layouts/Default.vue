@@ -43,9 +43,9 @@
           <li class="mb-6 mr-8 lg:mb-0">
             <g-link to="/consulting" class="text-copy-primary hover:text-gray-600">Consulting</g-link>
           </li>
-          <li class="mb-6 mr-8 lg:mb-0">
+          <!-- <li class="mb-6 mr-8 lg:mb-0">
             <g-link to="/training" class="text-copy-primary hover:text-gray-600">Training</g-link>
-          </li>
+          </li> -->
           <li class="mb-6 mr-8 lg:mb-0">
             <g-link to="/articles" class="text-copy-primary hover:text-gray-600">Articles</g-link>
           </li>
