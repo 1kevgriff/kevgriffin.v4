@@ -4,8 +4,12 @@ date: 2021-12-08 08:00:00
 permalink: rapid-project-upgrades-with-dotnet-upgrade-assistant
 categories:
   - .NET
-summary: ""
-excerpt: ""
+summary: "I was leary of upgrading to .NET 6, until I learned about the .NET Upgrade Assistant!  It's an amazing tool that'll help you upgrade almost any project from older versions of .NET (including framework) to the latest .NET available!"
+excerpt: "I knew that I wanted to move this application to .NET 6, as it would be the new LTS version, and I was foregoing several dependency updates.  In particular, there was one dependency that was still based on .NET Framework that was giving me concern.  It never made the jump to .NET Standard, so I worried about future compatibility. 
+
+It was during the amazing Visual Studio 2021 launch video, I saw mention of the .NET upgrade assistant.  Now - I feel like a fool because this tool has been around for a while, but it was getting an update to support .NET 6.
+
+Maybe this was the tool that would help us go live with .NET 6?"
 ---
 
 > This is my yearly submission for [CS Advent 2021](https://www.csadvent.christmas)!  Please take a moment to check out all the other great submissions from folks in the community.
@@ -63,7 +67,7 @@ There is also an option to provide more detail on each step.  If you're not sure
 
 ![Upgrade Assistant](./images/2021-12-08-Upgrade-Assistant-sample.png)
 
-## Go live time!
+## Go live time!  
 
 Here was the funny part - my upgrade process compiled perfectly the first time.
 
