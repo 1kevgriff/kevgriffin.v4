@@ -30,7 +30,7 @@ Maybe this was the tool that would help us go live with .NET 6?
 
 All tools should be as straight forward to install as the .NET Upgrade Assistant.  We'll assume you already have the .NET 6 SDK and Runtimes installed on your machine.  
 
-```
+```bash
 dotnet tool install -g upgrade-assistant
 ```
 
@@ -38,12 +38,50 @@ After a moment, you'll have all the tools and a new command `upgrade-assistant`.
 
 ### Analysis
 
+If you run the command `upgrade-assistant analyze [.sln or .csproj]`, you will be provided with a guided path of what an upgrade would look like.
 
+This involves a couple things:
+
+* What TFM (Target Framework) should be used for the project?
+* Do any of the project's dependencies need to be updated?
+* Are there significant code changes that need to be made to support the upgrade?
+* And more!
+
+For my .NET 3.1 project, there were a couple small changes to some of my ASP.NET Core Controllers - but there wasn't a significant code change.
+
+I had another test project that I had taken from .NET Framework 4.6 to .NET Core 6.  This one was a concern, because things such as ASP.NET Identity had radically changed.  You could not do the upgrade without breaking the code.
+
+In all of these cases, the upgrade assistant will tell you what needs to be done and make as many changes it can.
 
 ### Upgrade
 
+If you do the analysis step, then the upgrade is basically the same thing except you're provided an option to skip the step or perform the action.
+
+For example, the first step is to Backup all of the projects and code being worked on.  Since I do all of my work in Git branches, I skipped this step because source control.  I recommend you do the same.
+
+There is also an option to provide more detail on each step.  If you're not sure if the step will be expensive or cause a break your code, the upgrade assistant will tell you.
+
+![Upgrade Assistant](./images/2021-12-08-Upgrade-Assistant-sample.png)
 
 ## Go live time!
+
+Here was the funny part - my upgrade process compiled perfectly the first time.
+
+And that's scary.
+
+We went through the proper motions for testing, and everything worked great.  The application was a bit faster, and the memory usage decreased.
+
+I was really not looking forward to upgrading the project, but the upgrade assistant made it a breeze! 
+
+# Questions Answered
+
+## Does this handle solutions or just single projects?
+
+When I ran the upgrade assistant against my primary project (with ~20 projects in it), the upgrade assistant asked for to designate the entrypoint for the application.
+
+From there, the upgrade assistant looked at all the dependencies, their dependencies, and graphed the best way to tackle the upgrade.
+
+I ended up repeating this process two more times because I had additional entrypoints for the solution (MVC application, an Azure Functions application, and a console service application).
 
 ## What .NET langages does the Upgrade Assistant support?
 
