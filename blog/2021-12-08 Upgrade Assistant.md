@@ -65,7 +65,7 @@ For example, the first step is to Backup all of the projects and code being work
 
 There is also an option to provide more detail on each step.  If you're not sure if the step will be expensive or cause a break your code, the upgrade assistant will tell you.
 
-![Upgrade Assistant](./images/2021-12-08-Upgrade-Assistant-sample.png)
+![Upgrade Assistant](./images/2021-12-08-upgrade-assistant-sample.png)
 
 ## Go live time!  
 
