@@ -64,10 +64,13 @@ export default {
             "https://previewify.app/i/769?url=https://consultwithgriff.com" +
             this.$page.post.path,
         },
-        { name: "previewify:title", content: this.$page.post.title},
-        { name: "previewify:reading_time", content: timeToRead},
-        { name: "previewify:category", content: ""},
-        { name: "previewify:image", content: "https://consultwithgriff.com" + kevin_rocks}
+        { name: "previewify:title", content: this.$page.post.title },
+        { name: "previewify:reading_time", content: this.$page.post.timeToRead },
+        { name: "previewify:category", content: "" },
+        {
+          name: "previewify:image",
+          content: "https://consultwithgriff.com" + kevin_rocks,
+        },
         {
           name: "description",
           content:
