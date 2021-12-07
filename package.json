@@ -23,7 +23,7 @@
     "griffin-email-cta": "file:localPlugins/email-cta-insert",
     "lodash.pick": "^4.4.0",
     "vue-disqus": "^4.0.1",
-    "vue-fuse": "^4.0.3",
+    "vue-fuse": "^2.2.1",
     "vue-scrollto": "^2.20.0",
     "vue-twitter": "^0.1.0"
   },
@@ -32,6 +32,6 @@
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fortawesome/vue-fontawesome": "^2.0.6",
-    "tailwindcss": "^2.2.19"
+    "tailwindcss": "^1.8.10"
   }
 }
