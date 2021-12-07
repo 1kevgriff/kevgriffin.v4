@@ -66,7 +66,8 @@ export default {
         },
         { name: "previewify:title", content: this.$page.post.title},
         { name: "previewify:reading_time", content: timeToRead},
-        { name: "previewify:category", content: ""}
+        { name: "previewify:category", content: ""},
+        { name: "previewify:image", content: "https://consultwithgriff.com" + kevin_rocks}
         {
           name: "description",
           content:
