@@ -65,8 +65,11 @@ export default {
             this.$page.post.path,
         },
         { name: "previewify:title", content: this.$page.post.title },
-        { name: "previewify:reading_time", content: this.$page.post.timeToRead },
-        { name: "previewify:category", content: "" },
+        {
+          name: "previewify:reading_time",
+          content: this.$page.post.timeToRead,
+        },
+        { name: "previewify:category", content: "Articles" },
         {
           name: "previewify:image",
           content: "https://consultwithgriff.com" + kevin_rocks,
