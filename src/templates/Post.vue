@@ -31,6 +31,7 @@ query Post ($path: String!) {
     summary
     content
     excerpt
+    timeToRead
     tags {
       title
       path
@@ -52,9 +53,27 @@ export default {
         { name: "twitter:site", content: "@1kevgriff" },
         {
           name: "twitter:image",
-          content: "https://consultwithgriff.com" + kevin_rocks,
+          content:
+            "https://previewify.app/i/769?url=https://consultwithgriff.com" +
+            this.$page.post.path,
         },
         { name: "twitter:creator", content: "@1kevgriff" },
+        {
+          name: "og:image",
+          content:
+            "https://previewify.app/i/769?url=https://consultwithgriff.com" +
+            this.$page.post.path,
+        },
+        { name: "previewify:title", content: this.$page.post.title },
+        {
+          name: "previewify:reading_time",
+          content: this.$page.post.timeToRead + " min read",
+        },
+        { name: "previewify:category", content: "Articles" },
+        {
+          name: "previewify:image",
+          content: "https://consultwithgriff.com" + kevin_rocks,
+        },
         {
           name: "description",
           content:

@@ -1,10 +1,10 @@
 <template>
   <Layout>
-    <div class="hero container-inner mx-auto flex flex-col sm:flex-row justify-between py-16">
-      <div class="text-4xl font-bold w-full sm:w-4/5 text-center sm:text-left">
+    <div class="flex flex-col justify-between py-16 mx-auto hero container-inner sm:flex-row">
+      <div class="w-full text-4xl font-bold text-center sm:w-4/5 sm:text-left">
         <div class="leading-tight">Hey there! I'm Kevin!</div>
         <div
-          class="text-green-700 leading-tight"
+          class="leading-tight text-green-700"
         >I'm a Microsoft MVP focused in ASP.NET (Core), Microsoft Azure, and Web Development.</div>
       </div>
       <div class="mt-8 sm:mt-0">
@@ -13,29 +13,29 @@
     </div>
     <!-- end hero -->
 
-    <div class="container-inner mx-auto border-4 border-green-700 bg-opacity-50 mb-5 p-5">
-      <h3 class="text-center text-2xl text-green-700 font-bold mb-5">Have you seen my latest article?</h3>
-      <p class="text-center mb-3">
+    <div class="p-5 mx-auto mb-5 bg-opacity-50 border-4 border-green-700 container-inner">
+      <h3 class="mb-5 text-2xl font-bold text-center text-green-700">Have you seen my latest article?</h3>
+      <p class="mb-3 text-center">
         <a :href="$page.posts.edges[0].node.path">{{$page.posts.edges[0].node.title}}</a></p>
-      <p class="border-l-4 px-4 border-green-700">{{$page.posts.edges[0].node.excerpt}}</p>
+      <p class="px-4 border-l-4 border-green-700">{{$page.posts.edges[0].node.excerpt}}</p>
     </div>
 
-    <div class="container-inner mx-auto">
+    <div class="mx-auto container-inner">
       <p
-        class="text-lg sm:text-xl pb-6"
+        class="pb-6 text-lg sm:text-xl"
       >This is pretty exciting! You have found my little piece of the internet, and I'm so humbled that you stopped by.</p>
       <p
-        class="text-lg sm:text-xl pb-6"
+        class="pb-6 text-lg sm:text-xl"
       >A little bit about me: I'm a husband and father of three amazing little boys. My background is originally in Computer Science (BS in CS from Old Dominion University), but nowadays I am an independent software consultant that helps businesses move into the 21st Century with their tech stacks.</p>
       <p
-        class="text-lg sm:text-x1 pb-12"
+        class="pb-12 text-lg sm:text-x1"
       >I'm a 11-time Microsoft MVP, with a focus in building web applications with ASP.NET Core and Microsoft Azure. I do regular trainings for private customers on a variety of topics, so if that is something that you're looking for, please contact me!</p>
     </div>
 
     <div class="newsletter bg-background-tertiary">
-      <div class="container-inner mx-auto py-16 pb-8 text-center textl-xl">
+      <div class="py-16 pb-8 mx-auto text-center container-inner textl-xl">
         <h2
-          class="text-2xl font-bold mb-8"
+          class="mb-8 text-2xl font-bold"
         >Live stream notifications? New posts? Thought-provoking conversations? Sign up today!</h2>
         <div class="w-4/5 mx-auto mb-8">
           <form method="POST" @submit="formSubmit">
@@ -45,7 +45,7 @@
                 name="fullname"
                 placeholder="Your name"
                 v-model="name"
-                class="w-full bg-background-form rounded sm:rounded-r-none px-4 py-4 leading-normal border border-border-color-primary sm:border-r-0 shadow outline-none focus:border-green-700 z-10"
+                class="z-10 w-full px-4 py-4 leading-normal border rounded shadow outline-none bg-background-form sm:rounded-r-none border-border-color-primary sm:border-r-0 focus:border-green-700"
                 required
               />
               <div class="mt-5">
@@ -54,13 +54,13 @@
                   name="email"
                   v-model="emailAddress"
                   placeholder="Your email address"
-                  class="w-full bg-background-form rounded sm:rounded-r-none px-4 py-4 leading-normal border border-border-color-primary sm:border-r-0 shadow outline-none focus:border-green-700 z-10"
+                  class="z-10 w-full px-4 py-4 leading-normal border rounded shadow outline-none bg-background-form sm:rounded-r-none border-border-color-primary sm:border-r-0 focus:border-green-700"
                   required
                 />
               </div>
               <button
                 data-element="submit"
-                class="w-40 uppercase bg-green-700 text-white rounded text-lg py-3 px-8 tracking-wide shadow focus:outline-none hover:bg-green-800 focus:bg-green-800 z-10 w-full sm:w-auto mt-5"
+                class="z-10 w-40 w-full px-8 py-3 mt-5 text-lg tracking-wide text-white uppercase bg-green-700 rounded shadow focus:outline-none hover:bg-green-800 focus:bg-green-800 sm:w-auto"
               >
                 <span>Subscribe</span>
               </button>
@@ -69,7 +69,7 @@
         </div>
       </div>
 
-      <div class="container-inner mx-auto -mt-32 pb-4 overflow-x-hidden">
+      <div class="pb-4 mx-auto -mt-32 overflow-x-hidden container-inner">
         <svg width="725" height="166" xmlns="http://www.w3.org/2000/svg">
           <g fill="none" fill-rule="evenodd">
             <g opacity=".515">
@@ -163,7 +163,7 @@ query {
   posts: allPost {
     edges {
       node {
-               id
+        id
         title
         date (format: "MMMM D, Y")
         summary
