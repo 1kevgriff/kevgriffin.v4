@@ -67,7 +67,7 @@ export default {
         { name: "previewify:title", content: this.$page.post.title },
         {
           name: "previewify:reading_time",
-          content: this.$page.post.timeToRead,
+          content: this.$page.post.timeToRead + " min read",
         },
         { name: "previewify:category", content: "Articles" },
         {
