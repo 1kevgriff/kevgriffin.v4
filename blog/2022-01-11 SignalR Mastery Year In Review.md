@@ -32,7 +32,7 @@ But I'm no Scott Hanselman.
 
 Getting the course out in front of a willing audience is key to success!
 
-My friend, [Bret Fisher](https://bretfisher.com), found a lot of success with his [Docker Mastery](https://dockermastery.com) course by hosting it on Udemy.  Publishing a course on Udemy is pretty low risk because, as the author, I retain 100% of its rights.  Nobody controls the course layout, the content, or how often I choose to make updates.
+My friend, [Bret Fisher](https://bretfisher.com), found a lot of success with his [Docker Mastery](https://bret.show/dockermastery) course by hosting it on Udemy.  Publishing a course on Udemy is pretty low risk because, as the author, I retain 100% of its rights.  Nobody controls the course layout, the content, or how often I choose to make updates.
 
 But Udemy severely limits the amount of money you make from a course.  When you look at the landing page, my course could be nine dollars or seventeen dollars.  If you buy directly from [https://signalrmastery.com](https://signalrmastery.com), I get roughly 95% of the amount.  But other promotions or affiliates could see me making less than 10%.  It varies.
 
