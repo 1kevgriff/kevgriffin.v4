@@ -58,6 +58,12 @@ I know what you might be thinking: Kevin... that's all??
 
 Well, yes.  The course has made about six thousand dollars (US), but I also have made over $30,000 from consulting engagement leads.  The riches are in the niches, as they like to say!
 
+## Post-launch support
+
+Suprisingly, SignalR Mastery students don't ask many questions.  A lot of the time, the questions are answered in the course and I need to direct the students to the correct answers.
+
+Other times, students want consulting from the Q&A, which is difficult to do due to individual circumstances.  Consulting involves many conversations, and having context into the overall problems a person is trying to solve.  
+
 ## Would I Do It Again?  
 
 Yes.  100%.
