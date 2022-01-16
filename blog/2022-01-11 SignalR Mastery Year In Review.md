@@ -10,7 +10,7 @@ summary: "In 2021, I released SignalR Mastery on Udemy.  After the first year, I
 excerpt: "In 2021, I released SignalR Mastery on Udemy.  After the first year, I wanted to take a moment to reflect on my journey of building and releasing the course."
 ---
 
-Last week marks the first anniversary of my course, `SignalR Mastery`, which I launched on Udemy on January 11th, 2021.
+Last week marks the first anniversary of my course, SignalR Mastery, which I launched on Udemy on January 11th, 2021.
 
 In private, I've been pretty detailed on the experience of building this course.  After a year in, I wanted to be open with the community on what I've picked up building and supporting this course.
 
