@@ -7,7 +7,7 @@ categories:
   - SignalR
   - ASP.NET
 summary: "In 2021, I released SignalR Mastery on Udemy.  After the first year, I wanted to take a moment to reflect on my journey of building and releasing the course."
-excerpt: ""
+excerpt: "In 2021, I released SignalR Mastery on Udemy.  After the first year, I wanted to take a moment to reflect on my journey of building and releasing the course."
 ---
 
 Last week marks the first anniversary of my course, `SignalR Mastery`, which I launched on Udemy on January 11th, 2021.
@@ -34,7 +34,7 @@ Getting the course out in front of a willing audience is key to success!
 
 My friend, [Bret Fisher](https://bretfisher.com), found a lot of success with his [Docker Mastery](https://dockermastery.com) course by hosting it on Udemy.  Publishing a course on Udemy is pretty low risk because, as the author, I retain 100% of its rights.  Nobody controls the course layout, the content, or how often I choose to make updates.
 
-But Udemy severely limits the amount of money you make from a course.  When you look at the landing page, my course could be nine dollars or seventeen dollars.  If you buy directly from [https://signalrmastery.com](signalrmastery.com), I get roughly 95% of the amount.  But other promotions or affiliates could see me making less than 10%.  It varies.
+But Udemy severely limits the amount of money you make from a course.  When you look at the landing page, my course could be nine dollars or seventeen dollars.  If you buy directly from [https://signalrmastery.com](https://signalrmastery.com), I get roughly 95% of the amount.  But other promotions or affiliates could see me making less than 10%.  It varies.
 
 But the Udemy marketplace opens up easily thousands of potential students that I wouldn't have otherwise have had access to.  So yes, I could've sold the course for more money - but would I have MADE more money?
 
