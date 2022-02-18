@@ -51,6 +51,7 @@ module.exports = {
     {
       use: 'gridsome-plugin-rss',
       options: {
+        latest: true,
         contentTypeName: 'Post',
         feedOptions: {
           title: 'Kevin W. Griffin | Developer, Training, Entrepreneur',
