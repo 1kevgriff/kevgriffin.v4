@@ -54,14 +54,14 @@ export default {
         {
           name: "twitter:image",
           content:
-            "https://previewify.app/i/769?url=https://consultwithgriff.com" +
+            "https://previewify.app/generate/templates/769/meta?url=https://consultwithgriff.com" +
             this.$page.post.path,
         },
         { name: "twitter:creator", content: "@1kevgriff" },
         {
           name: "og:image",
           content:
-            "https://previewify.app/i/769?url=https://consultwithgriff.com" +
+            "https://previewify.app/generate/templates/769/meta?url=https://consultwithgriff.com" +
             this.$page.post.path,
         },
         { name: "previewify:title", content: this.$page.post.title },
