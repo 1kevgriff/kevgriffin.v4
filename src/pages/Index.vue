@@ -29,7 +29,7 @@
       >A little bit about me: I'm a husband and father of three amazing little boys. My background is originally in Computer Science (BS in CS from Old Dominion University), but nowadays I am an independent software consultant that helps businesses move into the 21st Century with their tech stacks.</p>
       <p
         class="pb-12 text-lg sm:text-x1"
-      >I'm a 11-time Microsoft MVP, with a focus in building web applications with ASP.NET Core and Microsoft Azure. I do regular trainings for private customers on a variety of topics, so if that is something that you're looking for, please contact me!</p>
+      >I'm a 12-time Microsoft MVP, with a focus in building web applications with ASP.NET Core and Microsoft Azure. I do regular trainings for private customers on a variety of topics, so if that is something that you're looking for, please contact me!</p>
     </div>
 
     <div class="newsletter bg-background-tertiary">
