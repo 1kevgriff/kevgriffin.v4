@@ -8,6 +8,8 @@ excerpt: "Check out my roller coaster credits!"
 ---
 
 Total Coaster Credits: XXX
+Steel:
+Wood:
 
 ### Busch Gardens Williamsburg (Williamsburg, Virginia)
 
@@ -25,6 +27,18 @@ Total Coaster Credits: XXX
 * Pantheon
 
 ### Kings Dominion (Doswell, Virginia)
+
+* Anaconda
+* Outer Limits: Flight of Fear
+* Grizzly
+* Avalanche
+* Twisted Timbers
+* Hurler
+* Hypersonic XLC
+* Racer (North)
+* Racer (South)
+* Shockwave
+* Volcano: The Blast Coaster
 
 ### Motorworld (Virginia Beach, Virginia)
 
@@ -66,6 +80,11 @@ Total Coaster Credits: XXX
 
 ### Disneyland
 
+* Big THunder Mountain Railroad
+* Matterhorn Bobsled (Fantasyland)
+* Matterhorn Bobseld (Tomorrowland)
+* Space Mountain
+
 ### Walt Disney World (Magic Kingdom)
 
 * Space Mountain (Alpha)
@@ -74,3 +93,23 @@ Total Coaster Credits: XXX
 ### Walk Disney World (Hollywood Studios)
 
 * Rock 'n' Roller Coaster
+
+### Walt Disney World (Animal Kingdom)
+
+* Expedition Everest
+
+### Universal Studios
+
+* Harry Potter and the Escape from Gringotts
+* Hollywood Rip Ride RockIt
+* Revenge of the Mummy
+* Woody Woodpecker's Nuthouse Coaster
+
+### Unviersal's Islands of Adventure
+
+* Flight of the Hippogriff
+* Hagrid's Magical Creatures Moterbike Adventure
+* Harry Potter and the Forbidden Journey
+* The Incredible Hulk Coaster
+* VelociCoaster
+* Pterandon Flyers
