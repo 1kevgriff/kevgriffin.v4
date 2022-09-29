@@ -7,7 +7,7 @@ categories:
 excerpt: "Check out my roller coaster credits!"
 ---
 
-Total Coaster Credits: XXX
+Total Coaster Credits: 64
 Steel:
 Wood:
 
