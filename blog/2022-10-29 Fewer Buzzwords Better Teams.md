@@ -6,8 +6,8 @@ categories:
   - Arcitecture
   - Thought Leadering
   - CTO
-summary: ""
-excerpt: "In 2021, I released SignalR Mastery on Udemy.  After the first year, I wanted to take a moment to reflect on my journey of building and releasing the course."
+summary: "Our team with one product grew to include two new teams.  This meant more people, larger tech stack, and more complexity when it came to support and future growth."
+excerpt: "Our team with one product grew to include two new teams.  This meant more people, larger tech stack, and more complexity when it came to support and future growth."
 ---
 
 I read a post the other day about how some larger organizations allow their teams to choose which technologies they want to use individually. With teams managing different parts of a system, one group might use something boring but stable, like a C# or Java, and another might use something more mainstream, like Rust or Go.
