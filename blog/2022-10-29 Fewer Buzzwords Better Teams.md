@@ -56,6 +56,16 @@ Standardization will take time to happen. Some team members will require trainin
 
 I am not pushing standardization on the gamma stack, though. It's not a valid use case for us, and it's too different of a product that I would be irresponsible to move it to another stack.
 
+## Experimentation
+
+Standardizing the tech stack doesn't mean we'll be writing it stone.
+
+![commandments](https://media.giphy.com/media/11XcgX9MWV3a8M/giphy.gif)
+
+I'm a firm believer in the best tool for the job. I want to encourage the teams to experiment with new tech and recommend whether the group should integrate the latest tech into the stack. The unit can collectively decide, as everyone would be required to train on the new platform.
+
+Along the same lines, the team should continuously discuss whether any part of the tech stack should be deprecated and removed. Just because we're using it doesn't mean it is still valid. Can the tech be substituted with something else in our stack without degrading performance or support?
+
 ## Is this the right approach?
 
 Maybe? It's a nice pipedream to assume that independent teams would be able to make the best decisions for themselves. But those organizations have larger budgets and annual revenue than we do, and I'd treat a 100+ person development team differently than a 7-person development team.
