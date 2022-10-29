@@ -40,7 +40,7 @@ Recently, I've been going through the exercise of interviewing folks to join our
 
 As you can imagine, there is a lengthy conversation about the skill set that I'm expecting of a person to join the team. It would be nice if the future team member had all the alpha and beta stack checkboxes.
 
-<div style="width:100%;height:0;padding-bottom:57%;position:relative;"><iframe src="https://giphy.com/embed/s4bIoJ3U3Ilri" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/unicorn-unicorns-s4bIoJ3U3Ilri">via GIPHY</a></p>
+![Unicorn](https://media.giphy.com/media/s4bIoJ3U3Ilri/giphy.gif)
 
 You have probably seen or joked about how tech companies want 5+ years of experience in 30 technologies, which is never the case. Instead, head hunters throw out every possible buzzword in hopes of landing qualified applicants.
 
