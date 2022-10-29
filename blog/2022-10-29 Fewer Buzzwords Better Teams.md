@@ -24,6 +24,21 @@ Stack two (the beta stack) is NodeJS/Express service running in EC2 services on 
 
 Stack three (the gamma stack) is a niche product, and it's mostly C++ running directly on clients. 
 
+Let's looks at this a bit more visually:
+
+| Alpha Stack | Beta Stack | Gamma Stack |
+|---|---|---|
+| C#/.NET | NodeJS | C++ | 
+| ASP.NET | Express | |
+| Razor | Angular | |
+| Vue | AWS Services (EC2, S3) | |
+| React | MongoDB | |
+| Angular |  | |
+| SQL Server | | |
+| Redis | | |
+| Azure Services (Storage, Functions, App Services) | | |
+
+
 ## Support
 There is an expectation of support for the products we maintain. I don't mean pager duty "get out of bed" help, but "this needs to be addressed as soon as possible" support. Generally not an issue because we have a person on each team to deal with the situation.
 
@@ -50,7 +65,7 @@ Our team should have a small, concise list of technologies we support across our
 
 ## Standardization
 
-You've probably figured out where I'm going with this, and I've decreed that our alpha and beta stacks will standardize on a single stack. Specifically, we are going to be a .NET shop. There are various reasons, but most of our product is in the alpha stack, which makes sense.  
+You've probably figured out where I'm going with this, and I've decreed that our alpha and beta stacks will standardize on a single stack. Specifically, we are going to be a .NET shop. There are various reasons, but most of our product is in the alpha stack, which makes sense.  Hit me up on [Twitter](https://twitter.com/1kevgriff) if you'd like a diatribe about why nobody should be running NodeJS in production anymore.
 
 Standardization will take time to happen. Some team members will require training and mentoring, and others might leave altogether. As an organization, we're willing to make the sacrifices necessary to ensure the products have the best stewardship possible.
 
@@ -76,4 +91,4 @@ For our group, I need to ensure that every cog in the engine is interchangeable 
 
 ## What do you think?
 
-I'm interested in your opinion! Have you been on a team that standardized on a different tech stack than your own?
+I'm interested in your opinion! Have you been on a team that standardized on a different tech stack than your own?  Follow up with my on [Twitter](https://twitter.com/1kevgriff) or [LinkedIn](https://www.linkedin.com/in/1kevgriff)!
