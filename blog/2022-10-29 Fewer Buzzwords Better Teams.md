@@ -1,6 +1,6 @@
 ---
 title: Fewer Buzzwords, Better Teams
-date: 2022-10-30 08:00:00
+date: 2022-11-18 08:00:00
 permalink: fewer-buzzwords-better-teams
 categories:
   - Arcitecture
