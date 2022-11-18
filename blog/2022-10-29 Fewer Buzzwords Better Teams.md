@@ -26,18 +26,32 @@ Stack three (the gamma stack) is a niche product, and it's mostly C++ running di
 
 Let's looks at this a bit more visually:
 
-| Alpha Stack | Beta Stack | Gamma Stack |
-|---|---|---|
-| C#/.NET | NodeJS | C++ | 
-| ASP.NET | Express | |
-| Razor | Angular | |
-| Vue | AWS Services (EC2, S3) | |
-| React | MongoDB | |
-| Angular |  | |
-| SQL Server | | |
-| Redis | | |
-| Azure Services (Storage, Functions, App Services) | | |
+| Alpha Back End | Beta Back End |
+|---|---|
+| C#/.NET | NodeJS | 
+| ASP.NET Core | Express |
+| Azure Services (Storage, Functions, App Services) | AWS Services (EC2, S3) |
+| SQL Server  | MongoDB |
+| Redis | |
 
+| Alpha Front End | Beta Front End |
+|---|---|
+| Razor | Angular |
+| Vue |  |
+| React |  |
+| Angular |  |
+
+| Ideal Stack |
+|-------------|
+| C#/.NET |
+| ASP.NET Core |
+| Azure Services |
+| SQL Server |
+| MongoDB* |
+| Redis |
+| Razor (or Vue) |
+
+> *I don't consider MongoDB a problem in the current setup, although it's not my favorite to use.  I think there is a compromise between relational data in SQL Server and non-relational in MongoDB.  
 
 ## Support
 There is an expectation of support for the products we maintain. I don't mean pager duty "get out of bed" help, but "this needs to be addressed as soon as possible" support. Generally not an issue because we have a person on each team to deal with the situation.
