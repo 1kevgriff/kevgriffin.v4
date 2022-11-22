@@ -116,7 +116,7 @@ Tracking the little things and seeing changes in those numbers when I put someth
 
 What do you think? If you made it this far, I'm ready to beg you for some engagement. Do you track vanity numbers, either passively or regularly?
 
-I'd love to chat more! Hit me up on Twitter, Mastodon, or LinkedIn!
+I'd love to chat more! Hit me up on [Twitter](https://twitter.com/1kevgriff), [Mastodon](https://bbiz.io/1kevgriff), or [LinkedIn](https://linkedin.com/in/1kevgriff)!
 
 
 
