@@ -1,6 +1,6 @@
 ---
 title: Vanity Metrics
-date: 2022-11-18 08:00:00
+date: 2022-11-23 08:00:00
 permalink: vanity-metrics
 categories:
   - Personal
