@@ -1,5 +1,5 @@
 ---
-title: Vanity Metrics
+title: Reconsidering Vanity Metrics
 date: 2022-11-23 08:00:00
 permalink: vanity-metrics
 categories:
