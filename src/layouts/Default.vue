@@ -245,7 +245,10 @@
           </li>
           
           <li class="mr-8">
-            <a rel="me" href="https://bbiz.io/@1kevgriff">
+            <a rel="me" 
+              href="https://bbiz.io/@1kevgriff" 
+              target="_blank"
+              class="text-white hover:text-gray-400">
               <svg
                 width="20"
                 height="17"
