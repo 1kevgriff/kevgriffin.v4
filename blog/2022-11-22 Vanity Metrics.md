@@ -30,7 +30,7 @@ Did I release a good article on my site?    I hoped for a rise in Twitter follow
 
 Was my talk at NDC incredibly excellent?    I hoped for a rise in Twitter followers.
 
-Why is this a vanity metric?    Follower count is a poor indicator of popularity.    Suppose I release a new article or video on YouTube.    In that case, it doesn't directly impact the number of folks seeing that content.
+Why is this a vanity metric?    Follower count is a poor indicator of popularity.    Suppose I release a new article or video on YouTube.    It doesn't directly impact the number of folks seeing that content.
 
 "The Algorithm" does more of that work for me.    If my content is on fire, the algorithm will get it in front of the right eyes.
 
@@ -40,12 +40,16 @@ There is also the case of Twitter's impending downfall.    On this day in Novemb
 
 I created a new account on a Mastodon server and had to start from scratch.    ZERO followers.    Some friends from Twitter quickly moved to Mastodon as well, but not 4000 friends.
 
+Should I start tracking Mastodon followers as a metric?
+
 ### Twitch Followers
 In 2020, I jumped on the live-streaming bandwagon with many other developers.    It was a ton of fun to play around, teach some concepts, and interact with people during a time we could not interact with people in real life.
 
 I thought live streaming could turn into more, so I tracked my followers on Twitch.  
 
 But again, follower counts don't correlate to much of anything.    I see others doing the same live-streaming gig, and they have 10x the number of followers.    If you were to jump in on any of their streams, they'd probably have 20-30 people watching at a time.  
+
+Streaming is like watching syndicated TV shows. It's fun to have on in the background, or you need to be in the mood to watch, but it's going to be the thing you create a calendar item to remember.
 
 There is a line where follower count turns from a vanity metric into an actionable value for growth.    For every X number of followers I can add, that'll translate into Y dollars of ad revenue or subscriber benefits.    That line requires me to put way more effort into the platform than I can, so this is still a vanity metric.
 
@@ -56,7 +60,7 @@ YouTube is a place for videos from my .NET User Group, and I wanted to make vide
 
 The subscriber number is a lot of fun to watch.    Without significant effort into the channel, it grows by 2-5 people per week.    The YouTube channel has yet to reach an aspect where it has the numbers to achieve monetization, but I'm close!  
 
-So, for now, tracking YouTube subscribers is a vanity metric.    I'm watching its growth, but it's only valuable if I'm willing to take the channel seriously as a monetization device.
+So, for now, tracking YouTube subscribers is a vanity metric.    I'm watching its growth, but it's only valuable if I'm willing to take the channel seriously as a monetization device. 2023 could be the year I do that!
 
 ### Website Visitors 
 Having any eyes on your content is good, right?    This website helps me get ideas into the world, but other than the poorly designed "Contact" link at the top of the page, there isn't much about this site that puts money in the pocket.
@@ -117,20 +121,3 @@ Tracking the little things and seeing changes in those numbers when I put someth
 What do you think? If you made it this far, I'm ready to beg you for some engagement. Do you track vanity numbers, either passively or regularly?
 
 I'd love to chat more! Hit me up on [Twitter](https://twitter.com/1kevgriff), [Mastodon](https://bbiz.io/1kevgriff), or [LinkedIn](https://linkedin.com/in/1kevgriff)!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
