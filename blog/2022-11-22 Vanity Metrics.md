@@ -34,6 +34,8 @@ Why is this a vanity metric?    Follower count is a poor indicator of popularity
 
 "The Algorithm" does more of that work for me.    If my content is on fire, the algorithm will get it in front of the right eyes.
 
+![fire!](https://media.giphy.com/media/3o72FfM5HJydzafgUE/giphy.gif)
+
 Of course, having 4000 followers is better than 40.    But I should use something other than followers count as a critical indicator of my awesomeness.
 
 There is also the case of Twitter's impending downfall.    On this day in November 2022, we are still determining the future of Twitter.    Could all that "work" be for nothing?
@@ -50,6 +52,8 @@ I thought live streaming could turn into more, so I tracked my followers on Twit
 But again, follower counts don't correlate to much of anything.    I see others doing the same live-streaming gig, and they have 10x the number of followers.    If you were to jump in on any of their streams, they'd probably have 20-30 people watching at a time.  
 
 Streaming is like watching syndicated TV shows. It's fun to have on in the background, or you need to be in the mood to watch, but it's going to be the thing you create a calendar item to remember.
+
+![the office](https://media.giphy.com/media/U4DswrBiaz0p67ZweH/giphy.gif)
 
 There is a line where follower count turns from a vanity metric into an actionable value for growth.    For every X number of followers I can add, that'll translate into Y dollars of ad revenue or subscriber benefits.    That line requires me to put way more effort into the platform than I can, so this is still a vanity metric.
 
@@ -91,7 +95,9 @@ The student count in Udemy is also fuel for future courses. The way their system
 ## Fueling the Dopamine Machine
 It's worth talking about the Dopamine Machine.  
 
-What is Dopamine? Dopamine is the chemical your body creates that creates the feeling of pleasure.
+What is Dopamine? Dopamine is the chemical your body creates that creates the feeling of pleasure and excitement!
+
+![dopamine](https://media.giphy.com/media/wpkOy0WHt58QBbuWco/giphy.gif)
 
 That feeling when the scale is down 5 pounds after a week of hitting the gym hard. Dopamine!
 
