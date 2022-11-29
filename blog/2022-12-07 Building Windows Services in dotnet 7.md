@@ -195,6 +195,8 @@ info: Microsoft.Hosting.Lifetime[0]
 
 ![Watch Folder](images/windowservices-watchfolder.png)
 
+
+
 ## Creating / Deploying the Windows Services
 
 ## Cleaning up
