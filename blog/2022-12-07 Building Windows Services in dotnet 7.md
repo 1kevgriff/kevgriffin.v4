@@ -10,7 +10,11 @@ excerpt: "In preparation for my latest talk on Tactics for Building Background S
 
 > This article my entry to C# Advent 2022 and .NET Advent.  Please visit [C# Advent](https://www.csadvent.christmas/) and [.NET Advent](https://dotnet.christmas) to see all the other great articles!
 
+<<<<<<< Updated upstream
 In preparation for my latest talk on `Tactics for Building Background Services in .NET`, I've been working on a sample project to demonstrate the concepts.
+=======
+In preparation for my latest talk on **Tactics for Building Background Services in .NET**, I've been working on a sample project to demonstrate the concepts.
+>>>>>>> Stashed changes
 
 Last time I built a major Windows Service, it was during my time as the CTO of [Winsitter](https://www.bretfisher.com/winsitter/).  Winsitter was a service that would monitor your Windows Server, and notify you in we noticed anything weird happening.  It was a lot of fun to work on, and I wish it was still around today.
 
@@ -88,12 +92,21 @@ IHost host = Host.CreateDefaultBuilder(args)
 host.Run();
 ```
 
+<<<<<<< Updated upstream
 The method `UseWindowsService` will take care of all the configuration for you within Windows.
 
 If you never had to build a Windows Service in the .NET Framework days, you cannot understand how amazing that is.  We used to have libraries just to help do all the stuff that `UseWindowsService` does for us.  🤯
 
 ## Introduction to .NET Hosted Services
 As amazing as `UseWindowsService` is, I think it's important to understand what's going on behind the scenes.
+=======
+The method **UseWindowsService** will take care of all the configuration for you within Windows.
+
+If you never had to build a Windows Service in the .NET Framework days, you cannot understand how amazing that is.  We used to have libraries just to help do all the stuff that **UseWindowsService** does for us.  🤯
+
+## Introduction to .NET Hosted Services
+As amazing as **UseWindowsService** is, I think it's important to understand what's going on behind the scenes.
+>>>>>>> Stashed changes
 
 Let's quick talk about [.NET Hosted Services](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/host/hosted-services?WT.mc_id=DOP-MVP-4029061).  
 
@@ -124,7 +137,11 @@ public class Worker : BackgroundService
 }
 ```
 
+<<<<<<< Updated upstream
 This is a simple implementation of a Hosted Service.  It's a `BackgroundService` that will run in the background and log a message every second.
+=======
+This is a simple implementation of a Hosted Service.  It's a **BackgroundService** that will run in the background and log a message every second.
+>>>>>>> Stashed changes
 
 > Note: you can also build a service with IHostedService, but BackgroundService is a bit easier to work with.
 
