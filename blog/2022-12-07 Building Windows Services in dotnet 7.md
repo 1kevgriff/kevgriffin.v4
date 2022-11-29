@@ -1,0 +1,202 @@
+---
+title: Building Window Services in .NET 7
+date: 2022-12-06 08:00:00
+permalink: building-window-services-in-dotnet
+categories:
+  - .NET
+summary: "In preparation for my latest talk on Tactics for Building Background Services in .NET, I've been working on a sample project to demonstrate the concepts.  It's amazing how much easier it is to build Window Services today than it used to be!"
+excerpt: "In preparation for my latest talk on Tactics for Building Background Services in .NET, I've been working on a sample project to demonstrate the concepts.  It's amazing how much easier it is to build Window Services today than it used to be!"
+---
+
+> This article my entry to C# Advent 2022 and .NET Advent.  Please visit [C# Advent](https://www.csadvent.christmas/) and [.NET Advent](https://dotnet.christmas) to see all the other great articles!
+
+In preparation for my latest talk on `Tactics for Building Background Services in .NET`, I've been working on a sample project to demonstrate the concepts.
+
+Last time I built a major Windows Service, it was during my time as the CTO of [Winsitter](https://www.bretfisher.com/winsitter/).  Winsitter was a service that would monitor your Windows Server, and notify you in we noticed anything weird happening.  It was a lot of fun to work on, and I wish it was still around today.
+
+> The official Winsitter website went away a long time ago, so I linked to my buddy, Bret Fisher's, article about it.
+
+Winsitter worked by utilizing a Windows Service to gather metrics about the server it was running on.  We'd communicate these metrics to a service we hosted in Azure, where we'd analyze the data and send notifications to the user.
+
+Creating a Windows Services was a lot of work back then.  It was one of those processes that you spent days perfecting, and then NEVER TOUCHED AGAIN.  It becomes lost knowledge immediately after you're done.
+
+## Why do we still care about Window Services?
+
+You'd imagine that everything today was moving to the cloud, so Windows Services should be a thing of the past?  Well, not really.  There are still plenty of reasons to build a Windows Service.
+
+For most, you might be currently sitting at a Windows machine.  If you're not, just move on.  But if you are, that Windows machine has native applications that are running on it.  Behind the scenes there is a probably an associated Windows Service.
+
+Windows Services are benefical, as they run in the background and they're automatically managed by Windows.  You don't have to worry about them crashing, or restarting them.  They just run.
+
+## Bootstrapping a Windows Service Project
+
+From your terminal, run the following command to create a new project:
+
+```bash
+dotnet new worker -o WindowsService
+```
+
+This will create a new project with the following structure:
+
+```bash
+.
+├── WindowsService.csproj
+├── Program.cs
+└── Worker.cs
+```
+
+Inside of the Program.cs, you'll see the following code:
+
+```csharp
+using WindowsService;
+
+IHost host = Host.CreateDefaultBuilder(args)
+    .ConfigureServices(services =>
+    {
+        services.AddHostedService<Worker>();
+    })
+    .Build();
+
+host.Run();
+```
+
+This isn't a "Windows Service" yet, but it's a good start.  We're going to need to make a few changes to this code to make it a Windows Service.
+
+## Making it a Windows Service
+Back at the terminal, install the appropriate NuGet package for Window Services:
+
+```bash
+dotnet add package Microsoft.Extensions.Hosting.WindowsServices
+```
+
+Update the Program.cs to look like the following:
+
+```csharp
+using WindowsService;
+
+IHost host = Host.CreateDefaultBuilder(args)
+    .UseWindowsService(config =>
+    {
+        config.ServiceName = "Folder Cleaner Service";
+    })
+    .ConfigureServices(services =>
+    {
+        services.AddHostedService<Worker>();
+    })
+    .Build();
+
+host.Run();
+```
+
+The method `UseWindowsService` will take care of all the configuration for you within Windows.
+
+If you never had to build a Windows Service in the .NET Framework days, you cannot understand how amazing that is.  We used to have libraries just to help do all the stuff that `UseWindowsService` does for us.  🤯
+
+## Introduction to .NET Hosted Services
+As amazing as `UseWindowsService` is, I think it's important to understand what's going on behind the scenes.
+
+Let's quick talk about [.NET Hosted Services](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/host/hosted-services?WT.mc_id=DOP-MVP-4029061).  
+
+This was a cool little feature added to .NET Core 2.1.  It allows you to run code in the background, without having to worry about the details of how it's running.  Not only that, but you can manage and inject dependencies just like ASP.NET Core applications.  
+
+Open up Workers.cs and you'll see the following code:
+
+```csharp
+namespace WindowsService;
+
+public class Worker : BackgroundService
+{
+    private readonly ILogger<Worker> _logger;
+
+    public Worker(ILogger<Worker> logger)
+    {
+        _logger = logger;
+    }
+
+    protected override async Task ExecuteAsync(CancellationToken stoppingToken)
+    {
+        while (!stoppingToken.IsCancellationRequested)
+        {
+            _logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
+            await Task.Delay(1000, stoppingToken);
+        }
+    }
+}
+```
+
+This is a simple implementation of a Hosted Service.  It's a `BackgroundService` that will run in the background and log a message every second.
+
+> Note: you can also build a service with IHostedService, but BackgroundService is a bit easier to work with.
+
+## Building the Folder Cleaning Example
+The simple example we'd like to build is an application that monitors a folder for new files.  If we see any file older than one minute, delete it.
+
+Here is what the code for our new Worker.cs looks like:
+
+```csharp
+public class Worker : BackgroundService
+{
+    private readonly ILogger<Worker> _logger;
+
+    private const string FolderToWatch = @"C:\WatchFolder";
+    private const int DelayInMilliseconds = 10000;
+
+    public Worker(ILogger<Worker> logger)
+    {
+        // we could (and should) inject configuration here
+        _logger = logger;
+    }
+
+    protected override async Task ExecuteAsync(CancellationToken stoppingToken)
+    {
+        // create FolderToWatch if it doesn't exist
+        if (!Directory.Exists(FolderToWatch)) Directory.CreateDirectory(FolderToWatch);
+
+        while (!stoppingToken.IsCancellationRequested)
+        {
+            // check FolderToWatch for files
+            var files = Directory.GetFiles(FolderToWatch);
+
+            // delete any file older than 1 minute
+            foreach (var file in files)
+            {
+                var fileInfo = new FileInfo(file);
+                if (fileInfo.CreationTime < DateTime.Now.AddMinutes(-1))
+                {
+                    _logger.LogInformation($"Deleting {fileInfo.Name}");
+                    fileInfo.Delete();
+                }
+            }
+
+            await Task.Delay(DelayInMilliseconds, stoppingToken);
+        }
+    }
+}
+```
+
+## Testing Locally
+Ideally, you want to support a local development experience.  This is pretty easy!  Add the terminal, type:
+
+```bash
+dotnet run
+```
+
+This will start the application, and create our watch folder.
+
+```
+Building...
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: D:\Repos\WindowsService
+```
+
+![Watch Folder](images/windowservices-watchfolder.png)
+
+## Creating / Deploying the Windows Services
+
+## Cleaning up
+
+
