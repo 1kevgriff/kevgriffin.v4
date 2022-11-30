@@ -33,7 +33,7 @@ Windows Services are benefical, as they run in the background and they're automa
 From your terminal, run the following command to create a new project:
 
 ```bash
-dotnet new worker -o WindowsService
+> dotnet new worker -o WindowsService
 ```
 
 This will create a new project with the following structure:
@@ -66,7 +66,7 @@ This isn't a "Windows Service" yet, but it's a good start.  We're going to need 
 Back at the terminal, install the appropriate NuGet package for Window Services:
 
 ```bash
-dotnet add package Microsoft.Extensions.Hosting.WindowsServices
+> dotnet add package Microsoft.Extensions.Hosting.WindowsServices
 ```
 
 Update the Program.cs to look like the following:
@@ -178,7 +178,7 @@ public class Worker : BackgroundService
 Ideally, you want to support a local development experience.  This is pretty easy!  Add the terminal, type:
 
 ```bash
-dotnet run
+> dotnet run
 ```
 
 This will start the application, and create our watch folder.
@@ -195,10 +195,52 @@ info: Microsoft.Hosting.Lifetime[0]
 
 ![Watch Folder](images/windowservices-watchfolder.png)
 
+Drop a new file into the folder (one you don't mind losing because it'll be deleted).  
 
+
+```
+info: WindowsService.Worker[0]
+      Deleting New Microsoft Word Document.docx
+```
 
 ## Creating / Deploying the Windows Services
 
+Okay!  We're ready to test our new application as a Windows Service.  You'll need to build a production version of the service.
+
+```bash
+> dotnet publish -c Release 
+```
+
+Next, you'll need to open a command prompt as an Administrator.  We're going to issue a Windows command to create the new windows service.
+
+```bash
+> sc create FolderCleaner binPath= "D:\Repos\WindowsService\bin\Release\net7.0\publish\WindowsService.exe"
+
+[SC] CreateService SUCCESS
+```
+
+> Note: your binPath might be different than mine.  
+
+You can open your **Services** view in Windows to see the new service.
+
+![Windows Services](images/windowservices-serviceview.png)
+
+Right click on the new service, and select **Start**.  It's status should change to **Running**.
+
+Go back to your watch folder, and drop a new file in.  It should be deleted after a minute.
+
+![In Action](images/windowservices-inaction.gif)
+
 ## Cleaning up
+
+You probably don't want to keep your test service around, so go ahead and stop it.  Then issue the following command to remove it:
+
+```bash
+> sc delete FolderCleaner
+```
+
+And that's it!  You've created your first Windows Service with .NET 7.  🎉
+
+I hope this tutorial has been helpful for you!  If it has, please reach out to me on [Twitter](https://twitter.com/1kevgriff) or [Mastodon](https:/bbiz.io/1kevgriff).  I'd love to hear from you!
 
 
