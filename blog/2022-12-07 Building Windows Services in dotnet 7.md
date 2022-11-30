@@ -193,7 +193,7 @@ info: Microsoft.Hosting.Lifetime[0]
       Content root path: D:\Repos\WindowsService
 ```
 
-![Watch Folder](images/windowservices-watchfolder.png)
+![Watch Folder](./images/windowservices-watchfolder.png)
 
 Drop a new file into the folder (one you don't mind losing because it'll be deleted).  
 
@@ -223,13 +223,13 @@ Next, you'll need to open a command prompt as an Administrator.  We're going to 
 
 You can open your **Services** view in Windows to see the new service.
 
-![Windows Services](images/windowservices-serviceview.png)
+![Windows Services](./images/windowservices-serviceview.png)
 
 Right click on the new service, and select **Start**.  It's status should change to **Running**.
 
 Go back to your watch folder, and drop a new file in.  It should be deleted after a minute.
 
-![In Action](images/windowservices-inaction.gif)
+![In Action](./images/windowservices-inaction.gif)
 
 ## Cleaning up
 
