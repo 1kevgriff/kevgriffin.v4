@@ -12,6 +12,8 @@ excerpt: "In preparation for my latest talk on Tactics for Building Background S
 
 In preparation for my latest talk on **Tactics for Building Background Services in .NET**, I've been working on a sample project to demonstrate the concepts.
 
+> Just want the source code example? No problem! All source code for this project available in [Github](https://github.com/1kevgriff/WindowsServiceDotNetExample).
+
 The last time I built a Windows Service was as the CTO of [Winsitter](https://www.bretfisher.com/winsitter/). Winsitter was a service that would monitor your Windows Server and notify you in we noticed anything weird happening. It was a lot of fun to work on, and I wish it was still around today.
 
 > The official Winsitter website went away a long time ago, so I linked to my buddy Bret Fisher's article about it.
@@ -240,6 +242,8 @@ You probably don't want to keep your test service around, so go ahead and stop i
 ```
 
 And that's it! You've created your first Windows Service with .NET 7.  🎉
+
+All source code for this project available in [Github](https://github.com/1kevgriff/WindowsServiceDotNetExample).
 
 I hope this tutorial has been helpful to you! If it has, please reach out to me on [Twitter](https://twitter.com/1kevgriff) or [Mastodon](https:/bbiz.io/1kevgriff). I'd love to hear from you!
 
