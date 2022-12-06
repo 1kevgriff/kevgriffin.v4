@@ -1,5 +1,5 @@
 ---
-title: Building Window Services in .NET 7
+title: Building Windows Services in .NET 7
 date: 2022-12-06 08:00:00
 permalink: building-window-services-in-dotnet
 categories:
@@ -22,7 +22,7 @@ Winsitter used a Windows Service to gather metrics about the server it was runni
 
 Creating Windows Services was a lot of work back then, and it was one of those processes you spent days perfecting, and then NEVER TOUCHED AGAIN. It becomes lost knowledge immediately after you're done.
 
-## Why do we still care about Window Services?
+## Why do we still care about WindowsServices?
 
 You'd imagine that everything today was moving to the cloud, so Windows Services should be a thing of the past? Well, not really. There are still plenty of reasons to build a Windows Service.
 
