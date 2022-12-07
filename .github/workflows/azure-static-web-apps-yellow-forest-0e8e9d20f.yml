@@ -16,7 +16,7 @@ jobs:
     name: Build and Deploy Job
     steps:
     - name: Setup Node.js for use with actions
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v3
       with:
         # Version Spec of the version to use.  Examples: 10.x, 10.15.1, >=10.15.0, lts
         version: 12.x
