@@ -26,7 +26,7 @@ jobs:
     - name: Gridsome Build
       run: gridsome build
     - name: Azure Blob Storage Upload
-      uses: bacongobbler/azure-blob-storage-upload@v1.1.1
+      uses: bacongobbler/azure-blob-storage-upload@v1.2.0
       with:
         # The name of the directory you want to upload
         source_dir: dist
