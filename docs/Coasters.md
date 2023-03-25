@@ -7,11 +7,13 @@ categories:
 excerpt: "Check out my roller coaster credits!"
 ---
 
-Total Coaster Credits: 64
+Total Coaster Credits: 76
 Steel:
 Wood:
 
 ### Busch Gardens Williamsburg (Williamsburg, Virginia)
+
+12 Coasters
 
 * Loch Ness Monster
 * Big Bad Wolf
@@ -26,7 +28,32 @@ Wood:
 * InvadR
 * Pantheon
 
+### Busch Gardens Tampa (Tamp, Florida)
+
+9 Coasters
+
+* Iron Gwazi
+* Scorpion
+* Kumba
+* Montu
+* Sand Serpent
+* SheiKra
+* Cheetah Hunt
+* Cobra's Curse
+* Tigris
+
+### Seaworld (Orlando, Florida)
+
+4 Coasters 
+
+* Kraken
+* Manta
+* Ice Breaker
+* Mako
+
 ### Kings Dominion (Doswell, Virginia)
+
+11 Coasters
 
 * Anaconda
 * Outer Limits: Flight of Fear
@@ -46,6 +73,8 @@ Wood:
 
 ### Dollywood (Pigeon Forge, Tennessee)
 
+7 Coasters
+
 * Lightning Rod
 * Blazing Fury
 * Firechaser Express
@@ -60,10 +89,14 @@ Wood:
 
 ### Mall of America (Bloomington, Minnesota)
 
+2 Coasters
+
 * Spongebob Squarepants Rock Bottom Plunge
 * Pepsi Orange Streak
 
 ### Cedar Point
+
+12 Coasters
 
 * Blue Streak
 * Cedar Creek Mine Ride
@@ -78,7 +111,9 @@ Wood:
 * Valravn
 * Gemini (Red)
 
-### Disneyland
+### Disneyland (California)
+
+4 Coasters
 
 * Big THunder Mountain Railroad
 * Matterhorn Bobsled (Fantasyland)
@@ -100,12 +135,16 @@ Wood:
 
 ### Universal Studios
 
+4 Coasters
+
 * Harry Potter and the Escape from Gringotts
 * Hollywood Rip Ride RockIt
 * Revenge of the Mummy
 * Woody Woodpecker's Nuthouse Coaster
 
 ### Unviersal's Islands of Adventure
+
+6 Coasters
 
 * Flight of the Hippogriff
 * Hagrid's Magical Creatures Moterbike Adventure
