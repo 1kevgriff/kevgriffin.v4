@@ -4,5 +4,9 @@
         "MD025": {
             "front_matter_title": ""
         }
+    },
+    "yaml.schemas": {
+        "file:///c%3A/Users/kevin/.vscode/extensions/docsmsft.docs-yaml-1.0.0/dist/toc.schema.json": "/toc\\.yml/i",
+        "https://json.schemastore.org/github-workflow.json": "file:///d%3A/repos/kevgriffin.v4/.github/workflows/deploy.yml"
     }
 }
