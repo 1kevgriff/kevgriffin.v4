@@ -7,6 +7,22 @@ categories:
 excerpt: "Online learning? In person training?  I have you covered!"
 ---
 
+### Building Background Services in .NET with HangFire
+
+[![Building Background Services in .NET with HangFire](../blog/images/hangfire-thumbnail.png)](https://www.udemy.com/course/building-background-services-in-net-with-hangfire/?referralCode=ADE705B8BB4A44749A7D)
+
+> This comprehensive course is designed to teach you how to build background services in .NET using HangFire, a powerful open-source library that makes it easy to create and manage background jobs. Throughout the course, you'll learn from Kevin Griffin, a Microsoft MVP with over 17 years of experience in software development, who will guide you through the entire process, from setting up HangFire to building and managing background jobs.
+>
+> With Kevin's guidance, you'll start by exploring the fundamental concepts of background jobs and how they can improve the performance and scalability of your .NET application. You'll then dive into HangFire and learn how to set it up and configure it for your needs. You'll learn how to create and manage background jobs using the HangFire dashboard and how to schedule recurring jobs that run automatically at specified intervals.
+>
+>In addition to these core concepts, Kevin will also cover more advanced topics, such as handling errors that may occur during job execution, using HangFire with other .NET libraries and frameworks, and scaling background services to handle large volumes of jobs. You'll also learn best practices for building efficient and reliable background services that can help you optimize your application's performance and scalability.
+>
+>By the end of the course, you'll have a deep understanding of how to build background services in .NET using HangFire, and you'll be ready to apply these skills to your projects. Whether you're a seasoned .NET developer looking to take your skills to the next level, or a newcomer to the world of background services, this course has something for everyone. So why wait? Sign up now and start building efficient and reliable background services in .NET today!
+
+[Learn More](https://www.udemy.com/course/building-background-services-in-net-with-hangfire/?referralCode=ADE705B8BB4A44749A7D)
+
+***
+
 ### SignalR Mastery
 
 `youtube:https://www.youtube.com/watch?v=oqSPvW5FsYk`
@@ -23,7 +39,7 @@ excerpt: "Online learning? In person training?  I have you covered!"
 
 > As web applications grow in popularity and we see a greater uptick in web frameworks, creating robust application programming interfaces (APIs) for internal and external use is becoming increasingly more important.This course will teach developers the fundamentals of building APIs with ASP.NET Core, including testing, validation, and designing interfaces that will allow them to be good API citizens.  
 
-> This course has been unpublished and it's not currently available online.  I'm working to get it working again in a new location!
+[Check it out for FREE on YouTube](https://www.youtube.com/playlist?list=PL4z_hOgrhWyCqR8e4EVWdw9N-Kog2r3jL)
 
 ***
 
@@ -31,12 +47,6 @@ excerpt: "Online learning? In person training?  I have you covered!"
 
 > This course covers the fundamentals for tracking the performance and health of your applications with Application Insights on Azure. We will begin with how to provision an Application Insights instance on Azure followed by how to configure your applications to send telemetry data.Once your application is sending telemetry, we will walk though the scenarios on how to use Application Insights to investigate application failures and poor performance.This course will conclude with an overview of the Application Insights Log Analytics, and how to write KQL (Kusto Query Language) to extract more information from your telemetry.  
   
-> This course has been unpublished and it's not currently available online.  I'm working to get it working again in a new location!
+[Check it out for FREE on YouTube](https://www.youtube.com/playlist?list=PL4z_hOgrhWyCCSQQhaka9MO3hswfFUFeq)
 
 ***
-
-### Mastering SignalR
-
-> SignalR is an ASP.NET library for building real-time, two-way Web applications that support server-to-client communications as well as client-to-server communications. Under the hood, it uses HTML5 WebSockets for bidirectional communications, but it also works without WebSockets. Whether you’re building a chat application, a real-time game, or anything else that requires two-way communications between a Web browser and a Web server, SignalR abstracts away the underlying protocol and reduces two-way communications to a few simple function calls. Take a ride on the SignalR train as Kevin Griffin takes you step by step through the library and its features.
-
-[Join WintellectNOW and Watch Today!](https://www.wintellectnow.com/Home/SeriesDetail?seriesId=mastering-signalr)
