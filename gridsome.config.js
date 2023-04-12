@@ -66,7 +66,7 @@ module.exports = {
           date: node.date
         }),
         output: {
-          dir: './static',
+          dir: './dist',
           name: 'rss.xml'
         }
       }
