@@ -229,3 +229,5 @@ That's different from what you were expecting. It is ideal for a conference to h
 I sincerely hope this breakdown of Hampton Roads DevFest was helpful for you. Running and funding a conference is a lot of work, and DevFest is only a small event. A few weeks ago, I did a podcast episode with Clark Sell where we talked about [The Business of Conferences](https://podcast.multithreadedincome.com/episodes/the-business-of-conferences-multithreaded-income-episode-38-with-clark-sell). Clark is working with a much larger budget than I am, but as Biggie and Puffy said, "mo money mo problems."
 
 I'd love to chat with you about this article. Please find me on Twitter/X as [@1kevgriff](https://x.com/1kevgriff) or [LinkedIn](https://www.linkedin.com/in/1kevgriff).  Thanks for taking this journey with me!  
+
+> Photo credits: Check out all the photos from Hampton Roads DevFest [here](https://photos.app.goo.gl/inns2rgRnBj6Px5s8)
