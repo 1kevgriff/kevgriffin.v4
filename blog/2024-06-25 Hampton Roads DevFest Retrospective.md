@@ -7,10 +7,10 @@ categories:
     - Retrospective
     - Hampton Roads DevFest
 summary: "On May 31st, 2024, Hampton Roads DevFest successfully re-engaged the local developer community in Virginia Beach, Virginia, with 183 attendees. Organized by the non-profit RevolutionVA, the event featured local speakers and took place at the Zeider's American Dream Theater, chosen for its affordability and unique setting. Ticket sales and sponsorships, including support from Microsoft, contributed to the event's income, though it ended with a net loss of $486.63. Despite this, the event was deemed a success, effectively revitalizing the community and providing valuable insights for future events."
-except: "Because we needed to rebuild trust in the community, and more importantly, we wanted to get the word out to the community that we exist, it was time to bring back DevFest."
+excerpt: "On May 31st, 2024, Hampton Roads DevFest successfully re-engaged the local developer community in Virginia Beach, Virginia, with 183 attendees. Organized by the non-profit RevolutionVA, the event featured local speakers and took place at the Zeider's American Dream Theater, chosen for its affordability and unique setting. Ticket sales and sponsorships, including support from Microsoft, contributed to the event's income, though it ended with a net loss of $486.63. Despite this, the event was deemed a success, effectively revitalizing the community and providing valuable insights for future events."
 ---
 
-On May 31st, 2024, we held the fifth Hampton Roads DevFest in Virginia Beach, Virginia. DevFest was Southeast Virginia's first significant software development event before COVID. I'm excited to say it was a massive success.
+On May 31st, 2024, we held the fifth Hampton Roads DevFest in Virginia Beach, Virginia. DevFest was Southeast Virginia's first significant software development event since before COVID. I'm excited to say it was a massive success.
 
 In this post, I aim to provide a comprehensive event retrospective, offering valuable insights to those interested in the intricacies of running a small-scale software development conference. These insights, gleaned from our experience, can empower you to navigate the challenges and maximize the potential of your own events.
 
