@@ -6,8 +6,8 @@ categories:
     - Conferences
     - Retrospective
     - Hampton Roads DevFest
-summary: "During my recent project where I migrated an ASP.NET Core application to Azure SignalR Service, I encountered a notable issue with HttpContext. In standard ASP.NET SignalR setups, I could easily access HttpContext via IHttpContextAccessor in my Hub class. This approach had been working flawlessly for me for years. However, after the migration to Azure SignalR Service, I noticed that IHttpContextAccessor didn't provide the same level of information. This change is understandable, considering the connection in Azure SignalR Service is between the client and Azure, rather than directly to my server's hub. To adapt, I shifted my strategy to directly pass essential data, such as timezone information, from the client to the hub. This method of passing parameters directly turned out to be a more efficient solution. Additionally, I appreciated how Azure SignalR Service manages IPrincipal information from HttpContext, which is useful for identity management using the Context.User property. This experience was a valuable addition to my ongoing journey of mastering evolving technologies in the .NET and Azure ecosystems."
-excerpt: "Last week, the team and I were migrating an application built with ASP.NET Core and SignalR to use the Azure SignalR Service. We ran into an issue with the HttpContext when using Azure SignalR Service. Unlike in a normal SignalR integration, where you can access HttpContext via IHttpContextAccessor in the Hub class, with Azure SignalR Service the connection changes, affecting the available HttpContext data. This required a shift in our approach, leading us to directly pass the necessary information from the client to the hub."
+summary: "On May 31st, 2024, Hampton Roads DevFest successfully re-engaged the local developer community in Virginia Beach, Virginia, with 183 attendees. Organized by the non-profit RevolutionVA, the event featured local speakers and took place at the Zeider's American Dream Theater, chosen for its affordability and unique setting. Ticket sales and sponsorships, including support from Microsoft, contributed to the event's income, though it ended with a net loss of $486.63. Despite this, the event was deemed a success, effectively revitalizing the community and providing valuable insights for future events."
+except: "Because we needed to rebuild trust in the community, and more importantly, we wanted to get the word out to the community that we exist, it was time to bring back DevFest."
 ---
 
 On May 31st, 2024, we held the fifth Hampton Roads DevFest in Virginia Beach, Virginia. DevFest was Southeast Virginia's first significant software development event before COVID. I'm excited to say it was a massive success.
@@ -22,7 +22,7 @@ Since starting in 2016, we've run four instances of RevolutionConf, our flagship
 
 ## Getting the Itch (again)
 
-As you're probably aware, in 2020, the world ended. This series of events was catastrophic to the Hampton Roads developer community. Many of the local meetups just faded away. People changed jobs. Some folks left the area, and a new crop moved in! 
+As you're probably aware, in 2020, the world ended. This series of events was catastrophic to the Hampton Roads developer community. Many of the local meetups just faded away. People changed jobs. Some folks left the area, and a new crop moved in!  
 
 My RevolutionVA partner-in-crime, Linda Nichols, and I had coffee in 2023 about the developer community's future in Hampton Roads. 
 
@@ -38,6 +38,10 @@ I feel bad saying that, but I'm unsure how to respond to a potential $75,000 inv
 
 The solution to having doubts like this is to do something smaller, and thankfully, we already had a brand for a more minor, hyper-local event called Hampton Roads DevFest.
 
+> ![Linda, Alex, and Kevin](./images/20240625-devfest-kevin-linda-alex.jpg)
+> 
+> Let it be known, I could not have done DevFest without Linda and Alex. They're awesome members of this community.
+
 ## Hampton Roads DevFest
 
 DevFest started before RevolutionConf did, and we always wanted DevFest to focus on the local developer community. Speakers should always be local. It wouldn't be a multitrack event. At most, DevFest would have two concurrent speakers.  
@@ -48,29 +52,32 @@ DevFest was an easy sell. RevolutionVA had about $10,000 left in the bank from t
 
 The playbook is simple: find a venue, book a date, find some speakers, sell some tickets, and get some sponsors.
 
+![Crowds at Hampton Roads DevFest](./images/20240625-devfest-crowd.jpg)
+
 ## Finding a New Venue
 
 I start doing budget work once I have a reasonable idea of WHERE to host the event. Our initial attendee expectation for DevFest was 150 people, and that was being generous.  
 
 The venue plays a huge factor in the costs of an event. Venues fall into one of these categories:
 
-Low, reasonable cost for the space
-Free, but you have food and beverage minimums
-Low cost, but food and beverage minimums
-Reasonable cost, but still, food and beverage minimums
-Expensive, and food and beverage minimums
-Omg that's the price?  
+* Low, reasonable cost for the space
+* Free, but you have food and beverage minimums
+* Low cost, but food and beverage minimums
+* Reasonable cost, but still, food and beverage minimums
+* Expensive, and food and beverage minimums
+* Omg that's the price?  
+
 We were looking for a space that had reasonable cost but was also unique. I'm not too fond of conference centers. They're just dull, and you need to take a lot of steps to make them not seem boring. Codemash and THAT Conference do an excellent job of this. They'll convert a dull conference area into a vibe, and I'm here for it!
 
 I had my eye on two unique venues. First was the [Family Fun Experience Theater](https://www.ffxshow.org) in Virginia Beach, VA. Definitely unique! Typically, this theater is used for improv shows and family theater events. It was also right near the beach!  
 
 It seems exciting that it's near the beach, but it's too far on the outskirts of the area for a hyper-local event. I wanted something more central.
 
-Second was [Zeiders American Dream Theater](https://thez.org) in Virginia Beach, VA. This theater popped up in Virginia Beach Town Center in 2019. Their website has an excellent first-person tour of the facility, showing off this incredible stadium seating theater. They're also a non-profit organization like RevolutionVA. I love it when we're able to support local!
+Second was [Zeider's American Dream Theater](https://thez.org) in Virginia Beach, VA. This theater popped up in Virginia Beach Town Center in 2019. Their website has an excellent first-person tour of the facility, showing off this incredible stadium seating theater. They're also a non-profit organization like RevolutionVA. I love it when we're able to support local!
 
 We booked a tour with Zeiders and walked into the "big room." We all got TED-talk vibes, and we knew there wasn't any more looking to be had. We found the location for Hampton Roads DevFest 2024.
 
-[picture here of the theater]
+![Zeider's Theater](./images/20240625-devfest-theater.jpg)
 
 ## Let's Talk Finances
 
@@ -108,6 +115,8 @@ Sessionize was also a great way to communicate with speakers leading up to the e
 
 In the end, we ended up with a fantastic crew of local Hampton Roads talent to put on display: Monica Rathbun, Travis Webb, Chazona Baum, Michael Buckbee, Jenah Parman, Marla Schuchman, Ken Collins, Omar McNeil, and Guillermo Fisher.  
 
+![Omar McNeil](./images//20240625-devfest-speaker.jpg)
+
 > Quick aside: diversity is essential. Too many conferences try to get away with, "Oh, we accidentally booked a slate of white dudes."  Thankfully, for Hampton Roads DevFest, I would've had to actively try to get nothing but white dudes. Our community is already diverse, and the speaker list reflects that.
 
 ## Food
@@ -116,13 +125,15 @@ Early in my career, I was a frequent speaker at a series of events called "Code 
 
 With DevFest, we knew we needed to provide coffee and some subsidence to convince people to be there early for the first sessions.
 
+![Breakfast](./images/20240625-devfest-breakfast1.jpeg)
+
 Zeider's had no requirements of us for vendors, so we opted to do a catering order with the local Wegman's grocery store. They'd provide all our coffee, juices, bagels, breads, and sweets. 
 
 For lunch, we were basic. Next door to our venue was TASTE, an excellent sandwich chain. They have a full catering menu, and we opted for various box lunches that included a sandwich, chips, and a cookie. There were offerings for our gluten-free and veggie friends, too.
 
 In hindsight, we didn't have a good offering for vegan attendees. I had assumed we had all the bases covered regarding dietary restrictions. There was one person we couldn't provide for, and I apologize for that.
 
-[picture of food]
+![Lunch](./images/20240625-devfest-lunch1.jpeg)
 
 Along with box lunches, everyone got a bottle of water. I know, it's boring. But cheap!
 
@@ -186,7 +197,7 @@ Our design work was one of the least expensive aspects of Hampton Roads DevFest.
 
 Our designer, Trisha Tobias, was terrific! We took a bunch of our ideas and threw together some mocks.  
 
-[main poster]
+![Poster](./images/20240625-devfest-poster.png)
 
 We spent $190 on design work, a drop in the bucket. Trisha isn't based in the United States, so she can charge lower rates. I recommend devoting some of your budget to design. It'll pay off in the long run.
 
@@ -210,12 +221,11 @@ Income: $12,682.31 (between ticket sales and sponsorships)
 
 Expenses: $13,168.94  
 
-===============
+===============  
 Net Loss of $486.63
 
 That's different from what you were expecting. It is ideal for a conference to have some extra money in the bank; we failed to do that.  
 
 I really hope this breakdown of Hampton Roads DevFest was helpful for you. Running and funding a conference is a lot of work, and DevFest is only a small event. A few weeks ago, I did a podcast episode with Clark Sell where we talked about [The Business of Conferences](https://podcast.multithreadedincome.com/episodes/the-business-of-conferences-multithreaded-income-episode-38-with-clark-sell). Clark is working with a much larger budget than I am, but as Biggie and Puffy said, "mo money mo problems."
 
-I'd love to chat with you about this article. Please find me on Twitter/X as [@1kevgriff](https://x.com/1kevgriff) or [LinkedIn](https://www.linkedin.com/in/1kevgriff).  Thanks for taking this journey with me!
-
+I'd love to chat with you about this article. Please find me on Twitter/X as [@1kevgriff](https://x.com/1kevgriff) or [LinkedIn](https://www.linkedin.com/in/1kevgriff).  Thanks for taking this journey with me!  
