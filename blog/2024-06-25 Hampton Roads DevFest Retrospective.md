@@ -40,7 +40,7 @@ The solution to having doubts like this is to do something smaller, and thankful
 
 > ![Linda, Alex, and Kevin](./images/20240625-devfest-kevin-linda-alex.jpg)
 > 
-> Let it be known, I could not have done DevFest without Linda and Alex. They're awesome members of this community.
+> Let it be known, I could not have done DevFest without Linda and Alex. They are invaluable members of this community.
 
 ## Hampton Roads DevFest
 
