@@ -123,7 +123,7 @@ In the end, we ended up with a fantastic crew of local Hampton Roads talent to p
 
 Early in my career, I was a frequent speaker at a series of events called "Code Camps." This still exists today in various forms, but there were a couple key tenants. One of the things we'll do is make sure you get fed.
 
-With DevFest, we knew we needed to provide coffee and some subsidence to convince people to be there early for the first sessions.
+With DevFest, we knew we needed to provide coffee and some sustenance to convince people to be there early for the first sessions.
 
 ![Breakfast](./images/20240625-devfest-breakfast1.jpeg)
 
