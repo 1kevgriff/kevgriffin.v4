@@ -1,15 +1,14 @@
 ---
 title: Coaster Credits
 date: 2022-09-06 12:00:00
+updated: 2024-07-07 00:00:00
 permalink: coasters
 categories:
   - Roller Coasters
 excerpt: "Check out my roller coaster credits!"
 ---
 
-Total Coaster Credits: 76
-Steel:
-Wood:
+Total Coaster Credits: 82
 
 ### Busch Gardens Williamsburg (Williamsburg, Virginia)
 
@@ -28,7 +27,7 @@ Wood:
 * InvadR
 * Pantheon
 
-### Busch Gardens Tampa (Tamp, Florida)
+### Busch Gardens Tampa (Tampa, Florida)
 
 9 Coasters
 
@@ -44,7 +43,7 @@ Wood:
 
 ### Seaworld (Orlando, Florida)
 
-4 Coasters 
+4 Coasters  
 
 * Kraken
 * Manta
@@ -142,7 +141,7 @@ Wood:
 * Revenge of the Mummy
 * Woody Woodpecker's Nuthouse Coaster
 
-### Unviersal's Islands of Adventure
+### Universals's Islands of Adventure
 
 6 Coasters
 
@@ -152,3 +151,13 @@ Wood:
 * The Incredible Hulk Coaster
 * VelociCoaster
 * Pterandon Flyers
+
+### Worlds of Fun (Kansas City, Missouri)
+
+5 Coasters
+
+* Mamba
+* Patriot
+* Prowler
+* Timber Wolf
+* Zambezi Zinger (2023)
