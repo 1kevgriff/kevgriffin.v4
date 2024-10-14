@@ -1,14 +1,14 @@
 ---
 title: Coaster Credits
 date: 2022-09-06 12:00:00
-updated: 2024-07-07 00:00:00
+updated: 2024-10-14 00:00:00
 permalink: coasters
 categories:
   - Roller Coasters
 excerpt: "Check out my roller coaster credits!"
 ---
 
-Total Coaster Credits: 82
+Total Coaster Credits: 92
 
 ### Busch Gardens Williamsburg (Williamsburg, Virginia)
 
@@ -52,17 +52,22 @@ Total Coaster Credits: 82
 
 ### Kings Dominion (Doswell, Virginia)
 
-11 Coasters
+16 Coasters
 
+* Apple Zapple
+* Backlot Stunt Coaster
+* Dominator
 * Anaconda
-* Outer Limits: Flight of Fear
+* Flight of Fear
+* Intimidator 305 (Project 305)
 * Grizzly
-* Avalanche
+* Avalanche (Reptilian)
 * Twisted Timbers
 * Hurler
+* Tumbili
 * Hypersonic XLC
-* Racer (North)
-* Racer (South)
+* Racer 75 (North) (Rebel Yell)
+* Racer 75 (South) (Rebel Yell)
 * Shockwave
 * Volcano: The Blast Coaster
 
@@ -72,10 +77,11 @@ Total Coaster Credits: 82
 
 ### Dollywood (Pigeon Forge, Tennessee)
 
-7 Coasters
+8 Coasters
 
 * Lightning Rod
 * Blazing Fury
+* Wild Eagle
 * Firechaser Express
 * Mystery Mine
 * Tennessee Tornado
@@ -84,14 +90,9 @@ Total Coaster Credits: 82
 
 ### New York New York (Las Vegas, Nevada)
 
+1 Coaster
+
 * The Big Apple Coaster
-
-### Mall of America (Bloomington, Minnesota)
-
-2 Coasters
-
-* Spongebob Squarepants Rock Bottom Plunge
-* Pepsi Orange Streak
 
 ### Cedar Point
 
@@ -101,6 +102,7 @@ Total Coaster Credits: 82
 * Cedar Creek Mine Ride
 * Corkscrew
 * Gatekeeper
+* Gemini (Red)
 * Iron Dragon
 * Magnum XL-200
 * Maverick
@@ -108,27 +110,32 @@ Total Coaster Credits: 82
 * Raptor
 * Rougarou
 * Valravn
-* Gemini (Red)
 
 ### Disneyland (California)
 
-4 Coasters
+3 Coasters
 
 * Big THunder Mountain Railroad
-* Matterhorn Bobsled (Fantasyland)
 * Matterhorn Bobseld (Tomorrowland)
 * Space Mountain
 
 ### Walt Disney World (Magic Kingdom)
 
+3 Coasters
+
 * Space Mountain (Alpha)
 * Space Mountain (Omega)
+* Big Thunder Mountain Railroad
 
 ### Walk Disney World (Hollywood Studios)
+
+1 Coaster
 
 * Rock 'n' Roller Coaster
 
 ### Walt Disney World (Animal Kingdom)
+
+1 Coaster
 
 * Expedition Everest
 
@@ -139,7 +146,7 @@ Total Coaster Credits: 82
 * Harry Potter and the Escape from Gringotts
 * Hollywood Rip Ride RockIt
 * Revenge of the Mummy
-* Woody Woodpecker's Nuthouse Coaster
+* Woody Woodpecker's Nuthouse Coaster (Trolls Trollercoaster)
 
 ### Universals's Islands of Adventure
 
@@ -161,3 +168,12 @@ Total Coaster Credits: 82
 * Prowler
 * Timber Wolf
 * Zambezi Zinger (2023)
+
+### Six Flags America (Bowie, Maryland)
+
+* Firebird
+* Professor Sceamore's Skywinder
+* Ragin' Cajun
+* Roar
+* Superman - Ride of Steel
+* Wild One
