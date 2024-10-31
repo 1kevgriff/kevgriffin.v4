@@ -29,7 +29,7 @@ So how do you figure out which function is messed up or missing the bindings?  T
 
 The function metadata is generated at compile time, and it's stored in a file named **functions.metadata**.  I found the file in my **bin** folder for the project.  Within moments, I saw the problem.
 
-> Hey there!  If this article was helpful or you have any constructive tidbits to add, please let me know on [X](https://x.com/1kevgriff), [BlueSky](https://bsky.social/@consultwithgriff), or [LinkedIn](https://www.linkedin.com/in/1kevgriff/).
+> Hey there!  If this article was helpful or you have any constructive tidbits to add, please let me know on [X](https://x.com/1kevgriff), [BlueSky](https://bsky.app/profile/consultwithgriff.com), or [LinkedIn](https://www.linkedin.com/in/1kevgriff/).
 
 First, here is an example of a well-defined function:
 
