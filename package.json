@@ -4,7 +4,9 @@
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
-    "explore": "gridsome explore"
+    "explore": "gridsome explore",
+    "docker:build": "docker build -t kevgriffin.v4:latest .",
+    "docker:develop": "docker run -p 8080:8080 -v ${PWD}/blog:/usr/src/app/blog kevgriffin.v4:latest"
   },
   "dependencies": {
     "@gridsome/plugin-google-analytics": "^0.1.2",
