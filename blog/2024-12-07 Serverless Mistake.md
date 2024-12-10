@@ -12,7 +12,7 @@ excerpt: "I made a serverless mistake that cost me $8,000. Here's what I learned
 
 Hello 👋, I'm Kevin, a member of a very exclusive club.  
 
-![Pam from office, exclusive club](./images/2024-12-10-exclusive-club.webp)
+![Pam from office, exclusive club](./images/2024-12-10-exclusive-club.gif)
 
 I'm a member of the "Accidentally Spent a Lot of Money on Cloud" club.  We have a special handshake, too; it looks like this:
 
