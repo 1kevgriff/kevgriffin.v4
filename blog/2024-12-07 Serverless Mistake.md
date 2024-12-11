@@ -10,6 +10,8 @@ summary: "I made an $8,000 mistake with Azure Functions, and it taught me some v
 excerpt: "What started as a cost-effective solution ballooned into a costly oversight as Azure ramped up resources to handle the load. After this experience, I realized not every problem is a serverless problem and shifted memory-intensive tasks to Azure Container Apps, which provided better control over resources."
 ---
 
+> This article is my entry to C# Advent 2024. Please visit [C# Advent](https://www.csadvent.christmas/) to see all the other great articles!
+
 Hello 👋, I'm Kevin, a member of a very exclusive club.  
 
 ![Pam from office, exclusive club](./images/2024-12-10-exclusive-club.gif)
@@ -90,8 +92,4 @@ I think Serverless is an amazing solution and viable for a multitude of problems
 
 After seeing this mistake in production, we took steps to move many of our memory-intensive jobs to Azure Container Apps. We still have the flexibility for scaling, but the resources for one particular container are greater than what we were seeing with Azure Functions.
 
-Of course, other ways exist to solve this problem, and I'd love to hear your thoughts. Let's continue this conversation on Bluesky or LinkedIn!
-
-
-
-
+Of course, other ways exist to solve this problem, and I'd love to hear your thoughts. Let's continue this conversation on [X](https://x.com/1kevgriff), [BlueSky](https://bsky.app/profile/consultwithgriff.com), or [LinkedIn](https://www.linkedin.com/in/1kevgriff/).
