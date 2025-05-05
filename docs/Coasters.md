@@ -1,14 +1,14 @@
 ---
 title: Coaster Credits
 date: 2022-09-06 12:00:00
-updated: 2024-10-14 00:00:00
+updated: 2025-05-05 00:00:00
 permalink: coasters
 categories:
   - Roller Coasters
 excerpt: "Check out my roller coaster credits!"
 ---
 
-Total Coaster Credits: 92
+Total Coaster Credits: 103
 
 ### Busch Gardens Williamsburg (Williamsburg, Virginia)
 
@@ -177,3 +177,19 @@ Total Coaster Credits: 92
 * Roar
 * Superman - Ride of Steel
 * Wild One
+
+## Kings Island (Mason, Ohio)
+
+11 Coasters
+
+* Banshee
+* The Bat
+* Racer (Blue)
+* Racer (Red)
+* Orion
+* Diamondback
+* The Beast (100th Coaster)
+* Adventure Express
+* Snoopy's Soap Box Racers
+* Woodstock Express
+* Queen City Stunt Coaster
