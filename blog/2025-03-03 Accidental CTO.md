@@ -1,19 +1,26 @@
 ---
-title: "The Accidental CTO"
+title: "Azure Cloud Talk Podcast: The Accidental CTO"
 date: 2025-03-03 12:00:00
 summary: "In this episode of Azure Cloud Talk, Alec Harrison, Brian Gorman, and Kevin Griffin discuss the nuances of AI and data science, the productivity gains AI can bring, and the challenges of working with AI tools. They also touch on the importance of networking and community engagement in the tech industry."
 excerpt: "In this episode of Azure Cloud Talk, Alec Harrison, Brian Gorman, and Kevin Griffin discuss the nuances of AI and data science, the productivity gains AI can bring, and the challenges of working with AI tools. They also touch on the importance of networking and community engagement in the tech industry."
-
+categories:
+    - Azure
+    - AI
+    - Podcast
 tags: ["career", "CTO", "leadership", "technology"]
 ---
 
-I recently joined hosts Alec Harrison and Brian Gorman on Azure Cloud Talk to share some thoughts on technology adoption from my perspective as an "accidental CTO." We had a candid conversation about AI tools, and I didn't hold back my frustrations with Cursor Composer - I've literally found myself fighting with it saying, "Why can't you figure this out? You're going around in circles!" While Alec has found productivity gains using AI for routine tasks, I've hit this loop too many times where I could have just done the work myself instead of wrestling with AI for hours. During our chat, I found myself agreeing with Brian's pragmatic approach to technology adoption - avoiding bleeding edge tech in favor of waiting for things to mature. In my experience, new technology should either save us money or improve our workflow, not just be shiny for the sake of being shiny. My most passionate moment came when comparing greenfield software development to raising children - it's constant upkeep for at least eight years before you think about doing it again! This helps explain why established systems like COBOL banking platforms persist: "It's not the five or six major use cases you could think of, it's the 50,000 use cases you haven't considered yet." Throughout my career, I've found that technology choices must serve business needs first. The folks paying me don't care about our tech stack - they just want to know if we're solving their problems. That's why my team's recent UI architecture upgrade wasn't for our technical satisfaction but because implementing new business features in our old system would have been too cumbersome. In an industry obsessed with the next shiny object, I've found success by focusing on business value rather than technological novelty.  
+I recently joined hosts Alec Harrison and Brian Gorman on Azure Cloud Talk to share some thoughts on technology adoption from my perspective as an "accidental CTO." We had a candid conversation about AI tools, and I didn't hold back my frustrations with Cursor Composer. I've literally found myself fighting with it, saying, "Why can't you figure this out? You're going around in circles!"
+
+While Alec has found productivity gains using AI for routine tasks, I've hit this loop too many times where I could have just done the work myself instead of wrestling with AI for hours. During our chat, I found myself agreeing with Brian's pragmatic approach to technology adoption—avoiding bleeding edge tech in favor of waiting for things to mature. In my experience, new technology should either save us money or improve our workflow, not just be shiny for the sake of being shiny.
+
+My most passionate moment came when comparing greenfield software development to raising children—it's constant upkeep for at least eight years before you think about doing it again! This helps explain why established systems like COBOL banking platforms persist: "It's not the five or six major use cases you could think of, it's the 50,000 use cases you haven't considered yet."
+
+Throughout my career, I've found that technology choices must serve business needs first. The folks paying me don't care about our tech stack—they just want to know if we're solving their problems. That's why my team's recent UI architecture upgrade wasn't for our technical satisfaction but because implementing new business features in our old system would have been too cumbersome. In an industry obsessed with the next shiny object, I've found success by focusing on business value rather than technological novelty.  
 
 <iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/b8eb1619-0be1-4f4a-8b71-9633b9fc7dd8?dark=false"></iframe>
 
-## Transcript
-
-# Azure Cloud Talk Transcript
+## Azure Cloud Talk Transcript
 
 **Alec Harrison:** We're live. Welcome to the next installment of Azure Cloud Talk. I'm one of your co-hosts, Alec Harrison, here with Brian, and our special guest, now clearly reigning MVP for most popular guest, Kevin Griffin. How's it going, Kevin?
 
