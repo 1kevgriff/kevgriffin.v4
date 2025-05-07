@@ -116,7 +116,7 @@ Total Coaster Credits: 103
 3 Coasters
 
 * Big THunder Mountain Railroad
-* Matterhorn Bobseld (Tomorrowland)
+* Matterhorn Bobsleds (Tomorrowland)
 * Space Mountain
 
 ### Walt Disney World (Magic Kingdom)
@@ -172,7 +172,7 @@ Total Coaster Credits: 103
 ### Six Flags America (Bowie, Maryland)
 
 * Firebird
-* Professor Sceamore's Skywinder
+* Professor Sceramore's Skywinder
 * Ragin' Cajun
 * Roar
 * Superman - Ride of Steel
