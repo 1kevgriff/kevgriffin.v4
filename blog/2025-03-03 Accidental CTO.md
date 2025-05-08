@@ -4,9 +4,10 @@ date: 2025-03-03 12:00:00
 summary: "In this episode of Azure Cloud Talk, Alec Harrison, Brian Gorman, and Kevin Griffin discuss the nuances of AI and data science, the productivity gains AI can bring, and the challenges of working with AI tools. They also touch on the importance of networking and community engagement in the tech industry."
 excerpt: "In this episode of Azure Cloud Talk, Alec Harrison, Brian Gorman, and Kevin Griffin discuss the nuances of AI and data science, the productivity gains AI can bring, and the challenges of working with AI tools. They also touch on the importance of networking and community engagement in the tech industry."
 categories:
-    - Azure
-    - AI
-    - Podcast
+categories:
+  - Azure
+  - AI
+  - Podcast
 tags: ["career", "CTO", "leadership", "technology"]
 ---
 
