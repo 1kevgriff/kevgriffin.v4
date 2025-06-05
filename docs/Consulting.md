@@ -32,4 +32,4 @@ Another core aspect of the consulting work I've done is focused on performance. 
 
 ## Let's Connect!
 
-Shoot me an [email](mailto:connect@consultwithgriff.com) with a little information about your needs, and I'll respond with availability and a rate sheet.
+[Book a consultation](https://app.onecal.io/b/kevin-griffin/chat) to discuss your needs, or shoot me an [email](mailto:connect@consultwithgriff.com) with a little information about your needs, and I'll respond with availability and a rate sheet.
