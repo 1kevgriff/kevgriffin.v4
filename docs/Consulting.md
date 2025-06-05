@@ -12,7 +12,7 @@ What are some ways that we can engage with each other?
 
 ### ASP.NET Core Architecture and Implementation
 
-As a 10-time Microsoft MVP, my primary focus and enjoyment comes from designing and implementing solutions built on top of ASP.NET Core. I have worked with several clients to modernize their applicaitons on ASP.NET Core, as I feel it is one of the best solutions on the market for building and maintaining scalable, flexible, and performant web applications.
+As a 16-time Microsoft MVP, my primary focus and enjoyment comes from designing and implementing solutions built on top of ASP.NET Core. I have worked with several clients to modernize their applicaitons on ASP.NET Core, as I feel it is one of the best solutions on the market for building and maintaining scalable, flexible, and performant web applications.
 
 ### Microsoft Azure Architecture and Implementation
 
@@ -32,4 +32,4 @@ Another core aspect of the consulting work I've done is focused on performance. 
 
 ## Let's Connect!
 
-Shoot me an [email](mailto:connect@consultwithgriff.com) with a little information about your needs, and I'll respond with availability and a rate sheet.
+[Book a consultation](https://app.onecal.io/b/kevin-griffin/chat) to discuss your needs, or shoot me an [email](mailto:connect@consultwithgriff.com) with a little information about your needs, and I'll respond with availability and a rate sheet.
