@@ -1,5 +1,5 @@
 ---
-title: "Fervent Four Podcast"
+title: "Tech Communities, AI in Development and Roller Coasters | Fervent Four Podcast"
 date: 2025-06-10 10:00:00
 description: "Last week I had the pleasure of being on the Fervent Four podcast with Zack Miller and Tim Ryan.  We talked about vibing coding and how AI needs to be handled the same way using offshore talent is handled.  We discussed roller coasters (because of course) and the origin of my Shedquarters!  And talked a lot also about the software development community in the Norfolk / Virginia Beach area."
 summary: "Last week I had the pleasure of being on the Fervent Four podcast with Zack Miller and Tim Ryan.  We talked about vibing coding and how AI needs to be handled the same way using offshore talent is handled.  We discussed roller coasters (because of course) and the origin of my Shedquarters!  And talked a lot also about the software development community in the Norfolk / Virginia Beach area."
