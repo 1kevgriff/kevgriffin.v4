@@ -8,8 +8,6 @@ categories:
     - Podcast
 ---
 
-# Fervent Four Podcast
-
 Last week I had the pleasure of being on the Fervent Four podcast with [Zack Miller](https://www.linkedin.com/in/zackmillersays/) and [Tim Ryan](https://www.linkedin.com/in/ryantnt/).  We talked about vibing coding and how AI needs to be handled the same way using offshore talent is handled.  We discussed roller coasters (because of course) and the origin of my Shedquarters!  And talked a lot also about the software development community in the Norfolk / Virginia Beach area.
 
 I'd love for you to watch and let me know what you think!
