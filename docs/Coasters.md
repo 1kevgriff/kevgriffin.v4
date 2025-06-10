@@ -115,7 +115,7 @@ Total Coaster Credits: 105
 
 3 Coasters
 
-* Big THunder Mountain Railroad
+* Big Thunder Mountain Railroad
 * Matterhorn Bobseld (Tomorrowland)
 * Space Mountain
 
@@ -127,7 +127,7 @@ Total Coaster Credits: 105
 * Space Mountain (Omega)
 * Big Thunder Mountain Railroad
 
-### Walk Disney World (Hollywood Studios)
+### Walt Disney World (Hollywood Studios)
 
 1 Coaster
 
