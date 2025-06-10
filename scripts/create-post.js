@@ -28,6 +28,14 @@ rl.question('Enter the title of your blog post: ', (title) => {
   const filename = `${today}-${slug}.md`;
   const filepath = path.join(BLOG_DIR, filename);
 
+  // Check if file already exists
+  if (fs.existsSync(filepath)) {
+    console.error(`\nError: A file named "${filename}" already exists.`);
+    console.error('Please choose a different title or delete the existing file.');
+    rl.close();
+    return;
+  }
+
   // Create frontmatter and initial content
   const content = `---
 title: "${title}"
@@ -40,9 +48,14 @@ tags: []
 
 `;
 
-  // Write the file
-  fs.writeFileSync(filepath, content);
-  console.log(`\nCreated new blog post: ${filename}`);
-  console.log(`Location: ${filepath}`);
+  // Write the file with error handling
+  try {
+    fs.writeFileSync(filepath, content);
+    console.log(`\nCreated new blog post: ${filename}`);
+    console.log(`Location: ${filepath}`);
+  } catch (error) {
+    console.error('\nError creating blog post:');
+    console.error(error.message);
+  }
   rl.close();
 }); 
