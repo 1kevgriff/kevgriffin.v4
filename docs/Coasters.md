@@ -8,7 +8,7 @@ categories:
 excerpt: "Check out my roller coaster credits!"
 ---
 
-Total Coaster Credits: 92
+Total Coaster Credits: 105
 
 ### Busch Gardens Williamsburg (Williamsburg, Virginia)
 
@@ -115,7 +115,7 @@ Total Coaster Credits: 92
 
 3 Coasters
 
-* Big THunder Mountain Railroad
+* Big Thunder Mountain Railroad
 * Matterhorn Bobseld (Tomorrowland)
 * Space Mountain
 
@@ -127,7 +127,7 @@ Total Coaster Credits: 92
 * Space Mountain (Omega)
 * Big Thunder Mountain Railroad
 
-### Walk Disney World (Hollywood Studios)
+### Walt Disney World (Hollywood Studios)
 
 1 Coaster
 
@@ -171,9 +171,29 @@ Total Coaster Credits: 92
 
 ### Six Flags America (Bowie, Maryland)
 
+6 Coasters
+
 * Firebird
 * Professor Sceamore's Skywinder
 * Ragin' Cajun
 * Roar
 * Superman - Ride of Steel
 * Wild One
+
+### Kings Island (Mason, Ohio)
+
+13 Coasters
+
+* The Beast (100th!)
+* Banshee
+* Diamondback
+* Orion
+* Adventure Express
+* Racer (Red)
+* Racer (Blue)
+* Queen City Stunt Coaster
+* Woodstock Express
+* The Bat
+* Mystic Timbers
+* Snoopy's Soap Box Racers
+* Invertigo
