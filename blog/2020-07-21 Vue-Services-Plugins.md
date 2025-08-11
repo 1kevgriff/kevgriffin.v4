@@ -21,4 +21,3 @@ Here is an offering from the Vue.JS Online Meetup on July 22nd, 2020:
 [Twitter](https://twitter.com/1kevgriff)  
 [My Twitch Channel](https://www.twitch.tv/1kevgriff)  
 
-`cta:`

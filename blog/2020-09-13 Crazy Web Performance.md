@@ -51,7 +51,6 @@ Here's a real life example.  At the bottom of the screen you might see the icon 
 
 I use reCAPTCHA for the mailing list opt-in on the page...  which by the way:
 
-`cta:`
 
 Okay.  reCAPTCHA requires a server aspect in order to work successfully.  When you press "submit" on opt-in form, reCAPTCHA gives me a token.  I need to validate that token in order to submit the request to my mailing list provider.  That validation needs to be in a trusted location, and while you're a perfectly nice person, the browser is not a trusted location.
 

@@ -27,4 +27,3 @@ In this course, we'll take a structured look at how SignalR works and how you ca
 
 [Get the course](https://www.udemy.com/course/signalr-mastery/learn/?referralCode=5F129296A976F8353B79)
 
-`cta:`

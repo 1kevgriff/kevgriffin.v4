@@ -28,4 +28,3 @@ Do you have questions about Dapper?  Drop me a message on [Twitter](https://twit
 [My Twitch Channel](https://www.twitch.tv/1kevgriff)  
 [Dapper GitHub Repo](https://github.com/DapperLib/Dapper)  
 
-`cta:`

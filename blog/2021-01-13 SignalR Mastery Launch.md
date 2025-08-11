@@ -27,7 +27,6 @@ What subject should I do the course on?  I decided it was time to revisit one of
 
 SignalR Mastery was born!  It's my new approach to teaching.  Each video in the series has me directly working with you to learn a new subject.  I've worked hard to remove all the fluff.  The context needed to learn a topic or facet of SignalR has been minimized.
 
-`cta: `
 
 What's the course about? [See the full course outline, including upcoming bits.](https://www.udemy.com/course/signalr-mastery/learn/?referralCode=5F129296A976F8353B79)  Here is the synopsis:
 

@@ -24,4 +24,3 @@ Here is a replay of this talk that I did at NDC London 2020:
 [Vue.JS](https://vuejs.org/)
 
 
-`cta:`

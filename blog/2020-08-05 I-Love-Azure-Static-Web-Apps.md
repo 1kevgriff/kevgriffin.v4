@@ -33,7 +33,6 @@ I liked Azure Blob Storage for hosting my sites, and I liked Azure Functions for
 
 Recently, Azure released [Static Web Apps](https://azure.microsoft.com/en-us/services/app-service/static?WT.mc_id=DOP-MVP-4029061) which helps to combine all the great parts of static web sites with Azure Functions, in one easy to use package! 
 
-`cta:`
 
 ## What's the process of deploying to Azure Static Web Apps?  
 

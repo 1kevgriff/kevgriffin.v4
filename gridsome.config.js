@@ -18,7 +18,6 @@ module.exports = {
         template: './src/templates/Documentation.vue', // Optional
         route: '/:permalink',
         plugins: [
-          ['griffin-email-cta', {}],
           ['gridsome-plugin-remark-youtube'],
           ['gridsome-plugin-remark-shiki', { theme: 'Material-Theme-Palenight', skipInline: true }]
         ],
@@ -39,7 +38,6 @@ module.exports = {
         remark: {
           plugins: [
             ['@noxify/gridsome-plugin-remark-embed', { 'enabledProviders': ['Youtube', 'Twitter', 'Gist'], }],
-            ['griffin-email-cta', {}],
             ['gridsome-plugin-remark-youtube'],
             ['gridsome-plugin-remark-shiki', { theme: 'Material-Theme-Palenight', skipInline: false },
             ],

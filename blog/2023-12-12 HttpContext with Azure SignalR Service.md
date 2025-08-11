@@ -43,7 +43,6 @@ There is a bit of problem now that we migrated this code to Azure SignalR Servic
 
 If you think about it for a moment, or [read this Github issue from 2019](https://github.com/dotnet/aspnetcore/issues/12535), you'll realize that it makes sense.  The HttpContext is from a connection between the client and the SignalR. When Azure SignalR Service is used, the hub is still on your server, but the connection is between the client and the Azure SignalR Service.  The Azure SignalR Service then forwards the messages to your hub.  
 
-`cta: `
 
 ## What's a better approach?  
 

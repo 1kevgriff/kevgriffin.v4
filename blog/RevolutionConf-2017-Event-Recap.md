@@ -1,5 +1,6 @@
 ---
 title: RevolutionConf 2017 Event Recap
+permalink: revolutionconf-2017-event-recap
 categories:
   - 'Community, User Groups, and Conferences'
 date: 2017-06-08 14:34:43

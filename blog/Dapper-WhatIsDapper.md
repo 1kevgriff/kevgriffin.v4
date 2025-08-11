@@ -174,7 +174,6 @@ using (var connection = new SqlConnection(CONNECTION_STRING))
 
 That's it.  No need to `.Open` the connection.  Just create it and call the `Query` or `QueryAsync` method.  
 
-`cta:`
 
 ## What about parameters?  How do I avoid SQL injection?
 

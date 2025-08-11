@@ -38,7 +38,6 @@ But Udemy severely limits the amount of money you make from a course.  When you 
 
 But the Udemy marketplace opens up easily thousands of potential students that I wouldn't have otherwise have had access to.  So yes, I could've sold the course for more money - but would I have MADE more money?
 
-`cta: `
 
 ## Why SignalR?  
 

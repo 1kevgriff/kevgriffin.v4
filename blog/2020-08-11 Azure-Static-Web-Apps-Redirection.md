@@ -46,7 +46,6 @@ The `staticwebapp.config.json` does a lot more than just redirects, but for toda
 
 [Check out the reference](https://docs.microsoft.com/en-us/azure/static-web-apps/configuration)
 
-`cta:`
 
 ## Let's see it in action
 

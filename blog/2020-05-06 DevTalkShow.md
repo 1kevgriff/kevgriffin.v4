@@ -18,4 +18,3 @@ Thanks for attending The Dev Talk Show!  If you missed the episode, catch the re
 [The Dev Talk Show](https://thedevtalkshow.com/)
 
 
-`cta:`

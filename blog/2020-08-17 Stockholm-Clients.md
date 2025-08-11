@@ -32,7 +32,6 @@ There wasn’t a way that I could win.  But I kept moving forward with the clien
 
 Every person I’ve told this story tells me, “why haven’t you fired them?”
 
-`cta:`
 
 And it’s because they were a Stockholm client.  I was sympathizing with them and thinking that I was the problem.  This caused me to be regularly stressed out, and neglectful of other aspects of my life and career.  
 

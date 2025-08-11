@@ -28,7 +28,6 @@ And this is only fair.  As a consultant, you shouldn't be able to fire someone o
 
 There is a big asterisk here.  **If the client doesn't pay, you should be free to terminate that agreement IMMEDIATELY.**  Don't stay with clients that don't pay.  But your lawyer should cover that.
 
-`cta:`
 
 ## How much notice would you want from a client?
 
