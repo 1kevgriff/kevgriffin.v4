@@ -33,43 +33,7 @@
     </div>
 
     <div class="newsletter bg-background-tertiary">
-      <div class="py-16 pb-8 mx-auto text-center container-inner textl-xl">
-        <h2
-          class="mb-8 text-2xl font-bold"
-        >Live stream notifications? New posts? Thought-provoking conversations? Sign up today!</h2>
-        <div class="w-4/5 mx-auto mb-8">
-          <form method="POST" @submit="formSubmit">
-            <div>
-              <input
-                type="text"
-                name="fullname"
-                placeholder="Your name"
-                v-model="name"
-                class="z-10 w-full px-4 py-4 leading-normal border rounded shadow outline-none bg-background-form sm:rounded-r-none border-border-color-primary sm:border-r-0 focus:border-green-700"
-                required
-              />
-              <div class="mt-5">
-                <input
-                  type="email"
-                  name="email"
-                  v-model="emailAddress"
-                  placeholder="Your email address"
-                  class="z-10 w-full px-4 py-4 leading-normal border rounded shadow outline-none bg-background-form sm:rounded-r-none border-border-color-primary sm:border-r-0 focus:border-green-700"
-                  required
-                />
-              </div>
-              <button
-                data-element="submit"
-                class="z-10 w-40 w-full px-8 py-3 mt-5 text-lg tracking-wide text-white uppercase bg-green-700 rounded shadow focus:outline-none hover:bg-green-800 focus:bg-green-800 sm:w-auto"
-              >
-                <span>Subscribe</span>
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
-
-      <div class="pb-4 mx-auto -mt-32 overflow-x-hidden container-inner">
+      <div class="pb-4 mx-auto overflow-x-hidden container-inner">
         <svg width="725" height="166" xmlns="http://www.w3.org/2000/svg">
           <g fill="none" fill-rule="evenodd">
             <g opacity=".515">
@@ -177,49 +141,10 @@ query {
 </page-query>
 
 <script>
-import axios from "axios";
-
 export default {
   metaInfo: {
     title: "Home",
     description: "Kevin W. Griffin | Developer, Training, Entrepreneur"
-  },
-  data() {
-    return {
-      name: "",
-      emailAddress: ""
-    };
-  },
-  methods: {
-    formSubmit(evt) {
-      evt.preventDefault();
-
-      grecaptcha.ready(() => {
-        grecaptcha
-          .execute(window.recaptcha_site_key, { action: "submit" })
-          .then(token => {
-            // Add your logic to submit to your backend server here.
-            console.log(token);
-
-            // redirect to azure function
-            var payload = {
-              name: this.name,
-              emailAddress: this.emailAddress,
-              token: token,
-              ctaLocation: window.location.href
-            };
-
-            axios.post(`${window.functionsUrl}ValidateCtaForm`, payload).then(
-              res => {
-                window.location.pathname = "thanks-signup";
-              },
-              reason => {
-                console.log("Error submitting form");
-              }
-            );
-          });
-      });
-    }
   }
 };
 </script>

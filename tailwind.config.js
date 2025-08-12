@@ -1,14 +1,3 @@
-var emailCtaClass = [
-  "border-solid",
-  "border-4",
-  "w-full",
-  "mt-5",
-  "fa",
-  "fa-star",
-  "yellow-font",
-  "bg-green-700"
-];
-
 module.exports = {
   theme: {
     extend: {
@@ -113,7 +102,7 @@ module.exports = {
       './src/**/*.js',
     ],
     options: {
-      whitelist: [...emailCtaClass],
+      whitelist: [],
       whitelistPatterns: [/^fa-/, /^svg-inline--fa/], 
       whitelistPatternsChildren: [/^token/, /^pre/, /^code/], 
     }

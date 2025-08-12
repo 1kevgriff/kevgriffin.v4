@@ -33,8 +33,7 @@ This is a Gridsome-based static site (Vue.js) for Kevin W. Griffin's personal bl
 - **Pages** (`/src/pages/`): Static pages like Index, Contact, Articles list
 
 ### Plugin System
-The site uses both Gridsome plugins and custom local plugins:
-- **Custom Email CTA Plugin** (`/localPlugins/email-cta-insert/`): Automatically inserts email CTAs into blog posts
+The site uses Gridsome plugins:
 - **Remark Plugins**: Handle YouTube embeds, Twitter embeds, and syntax highlighting
 - Content is processed through the remark pipeline configured in `gridsome.config.js`
 
@@ -65,5 +64,4 @@ Gridsome provides a GraphQL data layer for querying content:
 - When modifying content queries, rebuild to see changes
 - The site uses static generation, so dynamic features require client-side JavaScript
 - Legacy URL redirects are critical for SEO - check `staticwebapp.config.json` before removing redirects
-- Email CTAs are automatically inserted via the custom plugin - no manual insertion needed
 - For local Gridsome dev, build inside docker container because i don't want to downground Node
