@@ -66,3 +66,4 @@ Gridsome provides a GraphQL data layer for querying content:
 - The site uses static generation, so dynamic features require client-side JavaScript
 - Legacy URL redirects are critical for SEO - check `staticwebapp.config.json` before removing redirects
 - Email CTAs are automatically inserted via the custom plugin - no manual insertion needed
+- For local Gridsome dev, build inside docker container because i don't want to downground Node

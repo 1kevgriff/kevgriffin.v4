@@ -1,0 +1,242 @@
+COMPREHENSIVE BLOG POST ANALYSIS
+================================
+
+Total files analyzed: 84
+
+## FRONTMATTER ISSUES
+
+### Missing Description Field (83 posts)
+All posts except one are missing the 'description' field:
+  - 2009-02-06 A-Diet-Programmers-Can-Relate-To.md
+  - 2017-05-03 About-Blog-Posts.md
+  - 2020-05-06 DevTalkShow.md
+  - 2020-05-13 21st-Century-Background-Services.md
+  - 2020-05-14 Dapper Resources.md
+  - 2020-05-18 Twitch Badge.md
+  - 2020-05-25 Recaptcha in Azure Functions.md
+  - 2020-07-21 Vue-Services-Plugins.md
+  - 2020-08-05 I-Love-Azure-Static-Web-Apps.md
+  - 2020-08-11 Azure-Static-Web-Apps-Redirection.md
+  - 2020-08-17 Stockholm-Clients.md
+  - 2020-08-20 Single Page Architectures with VueJS and AspNetCore.md
+  - 2020-09-13 Crazy Web Performance.md
+  - 2020-10-14 Upgrading-DotNet-Templates.md
+  - 2020-11-18 Installing-DotNet-5-For-Beginners.md
+  - 2020-12-09 SignalR ConnectionIds.md
+  - 2021-01-11 Debugging CSS Hover Events.md
+  - 2021-01-13 SignalR Mastery Launch.md
+  - 2021-02-23 Monitoring Application Health with Health Checks.md
+  - 2021-02-24 Logic App Epoch Times.md
+  - 2021-02-25 SignalR AbortController Undefined.md
+  - 2021-04-01 SignalR Message Deliverability.md
+  - 2021-04-09 Streaming MP4 to Twitch and YouTube with FFMPEG.md
+  - 2021-12-08 Upgrade Assistant.md
+  - 2022-01-11 SignalR Mastery Year In Review.md
+  - 2022-10-29 Fewer Buzzwords Better Teams.md
+  - 2022-11-22 Vanity Metrics.md
+  - 2022-12-07 Building Windows Services in dotnet 7.md
+  - 2023-04-03 HangFire Course Launch.md
+  - 2023-06-19 Five Reasons I Love HangFire.md
+  - 2023-12-12 HttpContext with Azure SignalR Service.md
+  - 2024-06-25 Hampton Roads DevFest Retrospective.md
+  - 2024-10-31 Azure Function Binding Errors.md
+  - 2024-12-07 Serverless Mistake.md
+  - 2025-03-03 Accidental CTO.md
+  - Are-we-too-dependent-on-the-Internet.md
+  - Banks-ATMS-and-Horrible-User-Experiences.md
+  - Building-better-ConnectionStrings-with-ConnectionStringBuilder.md
+  - Colossal-Failures.md
+  - Console-Games-Why-do-we-have-to-press-start.md
+  - Consultant-Termination-Policies.md
+  - Dapper-StoredProcedures.md
+  - Dapper-WhatIsDapper.md
+  - Definition-of-a-Computer-Scientist.md
+  - Enable-SignalR-Logging-with-One-Simple-Line.md
+  - Enhancing-Your-Applications-For-Windows-7.md
+  - Enhancing-Your-Career-with-a-Mastermind-Group.md
+  - Exploring-C-7-0-Out-Variables.md
+  - How-I-m-Beating-Email-Addiction.md
+  - How-to-run-Visual-Studio-Code-From-Mac-OSX.md
+  - i-removed-email-from-my-phone.md
+  - I-suck-at-writing-unit-tests-but-I-m-trying-to-change.md
+  - If-You-Reach-Just-One-Person.md
+  - Learn-about-Windows-7-Task-Dialogs.md
+  - Leaving-It-Better-Than-You-Found-It.md
+  - Maintaining-SignalR-ConnectionId-rsquo-s-Across-Page-Instances.md
+  - Managing-Your-User-Group-Calendar-Roulette.md
+  - Managing-Your-User-Group-Food.md
+  - Managing-Your-User-Group-Locations.md
+  - Managing-Your-User-Group-Sponsor-Relationships.md
+  - MongoDB-Setting-TTL-on-Documents.md
+  - My-Attempt-at-LINQ-Pagination.md
+  - My-Defacto-gitignore-file.md
+  - No-matter-what-you-do-add-value.md
+  - Node-js-Using-require-to-load-your-own-files.md
+  - Non-Tech-Factors-to-Consider-When-Choosing-Your-Tech-Stack.md
+  - One-Simple-Rule-for-Successful-Consulting.md
+  - Open-Source-Mentality-of-Choosing-Your-Tech-Stack.md
+  - Paying-Attention.md
+  - Powershell-How-to-recursively-delete-files-based-of-file-extension.md
+  - Preloading-Multiple-Audio-Tags-in-Internet-Explorer-9.md
+  - Quick-Introduction-to-SignalR-Streaming.md
+  - Remote-Tools-With-Bret-Fisher.md
+  - RevolutionConf-2017-Event-Recap.md
+  - Shedquarters.md
+  - SignalR-Transports-Explained.md
+  - Specifying-Visual-Studio-Version-in-NPM-Installs.md
+  - The-10-Rule-to-Presentations.md
+  - The-Non-Techie-Guide-to-Source-Control.md
+  - Using-Unity-for-Dependency-Injection-with-SignalR.md
+  - What-Makes-A-Good-Bug-Report.md
+  - Why-should-ASP-NET-developers-consider-SignalR-for-ALL-projects.md
+  - Wildcard-search-with-LINQ.md
+
+### Missing Summary Field (14 posts)
+  - 2020-05-06 DevTalkShow.md ('The Dev Talk Show Recap and Resources')
+  - 2020-05-13 21st-Century-Background-Services.md ('21st Century Background Services Resources and Replays')
+  - 2020-05-14 Dapper Resources.md ('Better Object Mapping with Dapper Resources')
+  - 2020-05-18 Twitch Badge.md ('Building a Twitch Badge For My Site')
+  - 2020-05-25 Recaptcha in Azure Functions.md ('Adding reCAPTCHA to Static Sites with Azure Functions')
+  - 2020-07-21 Vue-Services-Plugins.md ('Building Vue Services and Plugins')
+  - 2020-08-05 I-Love-Azure-Static-Web-Apps.md ('I Love Azure Static Web Apps')
+  - 2020-08-11 Azure-Static-Web-Apps-Redirection.md ('How to Redirect with Azure Static Web Apps')
+  - 2020-08-17 Stockholm-Clients.md ('Stockholm Clients')
+  - 2020-08-20 Single Page Architectures with VueJS and AspNetCore.md ('Single Page Architectures with Vue.JS and ASP.NET Core')
+  - 2020-09-13 Crazy Web Performance.md ('Crazy Web Performance with Azure Static Web Apps and Azure Functions')
+  - Dapper-StoredProcedures.md ('How do you call a stored procedure with Dapper?')
+  - Dapper-WhatIsDapper.md ('What is Dapper, and why you should consider it for your .NET projects')
+  - I-suck-at-writing-unit-tests-but-I-m-trying-to-change.md ('I suck at writing unit tests, but I'm trying to change')
+
+### Missing Tags Field (78 posts)
+Most posts are missing tags:
+  - 2009-02-06 A-Diet-Programmers-Can-Relate-To.md
+  - 2017-05-03 About-Blog-Posts.md
+  - 2020-05-06 DevTalkShow.md
+  - 2020-05-13 21st-Century-Background-Services.md
+  - 2020-05-14 Dapper Resources.md
+  - 2020-05-18 Twitch Badge.md
+  - 2020-05-25 Recaptcha in Azure Functions.md
+  - 2020-07-21 Vue-Services-Plugins.md
+  - 2020-08-05 I-Love-Azure-Static-Web-Apps.md
+  - 2020-08-11 Azure-Static-Web-Apps-Redirection.md
+  ... and 68 more
+
+### Posts with 'excerpt' that need conversion to 'summary' (13 posts)
+  - 2020-05-06 DevTalkShow.md ('The Dev Talk Show Recap and Resources')
+  - 2020-05-13 21st-Century-Background-Services.md ('21st Century Background Services Resources and Replays')
+  - 2020-05-14 Dapper Resources.md ('Better Object Mapping with Dapper Resources')
+  - 2020-05-18 Twitch Badge.md ('Building a Twitch Badge For My Site')
+  - 2020-05-25 Recaptcha in Azure Functions.md ('Adding reCAPTCHA to Static Sites with Azure Functions')
+  - 2020-07-21 Vue-Services-Plugins.md ('Building Vue Services and Plugins')
+  - 2020-08-05 I-Love-Azure-Static-Web-Apps.md ('I Love Azure Static Web Apps')
+  - 2020-08-11 Azure-Static-Web-Apps-Redirection.md ('How to Redirect with Azure Static Web Apps')
+  - 2020-08-17 Stockholm-Clients.md ('Stockholm Clients')
+  - 2020-08-20 Single Page Architectures with VueJS and AspNetCore.md ('Single Page Architectures with Vue.JS and ASP.NET Core')
+  - 2020-09-13 Crazy Web Performance.md ('Crazy Web Performance with Azure Static Web Apps and Azure Functions')
+  - Dapper-StoredProcedures.md ('How do you call a stored procedure with Dapper?')
+  - Dapper-WhatIsDapper.md ('What is Dapper, and why you should consider it for your .NET projects')
+
+### Posts with 'updated' field to remove (8 posts)
+  - 2009-02-06 A-Diet-Programmers-Can-Relate-To.md ('A Diet Programmers Can Relate To')
+  - 2020-08-11 Azure-Static-Web-Apps-Redirection.md ('How to Redirect with Azure Static Web Apps')
+  - Are-we-too-dependent-on-the-Internet.md ('Are we too dependent on the Internet?')
+  - Banks-ATMS-and-Horrible-User-Experiences.md ('Banks, ATMS, and Horrible User Experiences')
+  - If-You-Reach-Just-One-Person.md ('If You Reach Just One Person')
+  - Learn-about-Windows-7-Task-Dialogs.md ('Learn about Windows 7 Task Dialogs')
+  - Powershell-How-to-recursively-delete-files-based-of-file-extension.md ('Powershell: How to recursively delete files based of file extension?')
+  - What-Makes-A-Good-Bug-Report.md ('What Makes A Good Bug Report?')
+
+## FILENAME STANDARDIZATION
+
+### Posts with dates in filename (36 posts)
+These follow a date pattern but may need format standardization.
+
+### Posts without dates in filename (48 posts)
+These need complete filename restructuring:
+  - Are-we-too-dependent-on-the-Internet.md -> 2010-01-19-are-we-too-dependent-on-the-internet.md
+  - Banks-ATMS-and-Horrible-User-Experiences.md -> 2015-08-03-banks-atms-and-horrible-user-experiences.md
+  - Building-better-ConnectionStrings-with-ConnectionStringBuilder.md -> 2011-02-14-building-better-connectionstrings-with-connectionstringbuilder.md
+  - Colossal-Failures.md -> 2010-03-02-colossal-failures.md
+  - Console-Games-Why-do-we-have-to-press-start.md -> 2010-01-05-console-games-why-do-we-have-to-press-start.md
+  - Consultant-Termination-Policies.md -> 2020-03-10-what-should-my-consulting-termination-policy-be.md
+  - Dapper-StoredProcedures.md -> 2020-05-15-how-do-you-call-a-stored-procedure-with-dapper.md
+  - Dapper-WhatIsDapper.md -> 2020-05-15-what-is-dapper-and-why-you-should-consider-it-for-your-net-projects.md
+  - Definition-of-a-Computer-Scientist.md -> 2009-03-04-definition-of-a-computer-scientist.md
+  - Enable-SignalR-Logging-with-One-Simple-Line.md -> 2015-08-28-enable-signalr-logging-with-one-simple-line.md
+  - Enhancing-Your-Applications-For-Windows-7.md -> 2009-11-17-enhancing-your-applications-for-windows-7.md
+  - Enhancing-Your-Career-with-a-Mastermind-Group.md -> 2019-02-08-enhancing-your-career-with-a-mastermind-group.md
+  - Exploring-C-7-0-Out-Variables.md -> 2016-11-08-exploring-c-70-out-variables.md
+  - How-I-m-Beating-Email-Addiction.md -> 2015-05-21-how-im-beating-email-addiction.md
+  - How-to-run-Visual-Studio-Code-From-Mac-OSX.md -> 2020-04-07-how-to-run-visual-studio-code-on-mac-osx.md
+  - i-removed-email-from-my-phone.md -> 2018-05-01-i-removed-email-from-my-phone.md
+  - I-suck-at-writing-unit-tests-but-I-m-trying-to-change.md -> 2015-02-26-i-suck-at-writing-unit-tests-but-im-trying-to-change.md
+  - If-You-Reach-Just-One-Person.md -> 2010-03-29-if-you-reach-just-one-person.md
+  - Learn-about-Windows-7-Task-Dialogs.md -> 2009-12-01-learn-about-windows-7-task-dialogs.md
+  - Leaving-It-Better-Than-You-Found-It.md -> 2010-01-26-leaving-it-better-than-you-found-it.md
+  - Maintaining-SignalR-ConnectionId-rsquo-s-Across-Page-Instances.md -> 2012-02-15-maintaining-signalr-connectionids-across-page-instances.md
+  - Managing-Your-User-Group-Calendar-Roulette.md -> 2015-03-06-managing-your-user-group-calendar-roulette.md
+  - Managing-Your-User-Group-Food.md -> 2015-10-13-managing-your-user-group-food.md
+  - Managing-Your-User-Group-Locations.md -> 2015-07-02-managing-your-user-group-locations.md
+  - Managing-Your-User-Group-Sponsor-Relationships.md -> 2015-01-26-managing-your-user-group-sponsor-relationships.md
+  - MongoDB-Setting-TTL-on-Documents.md -> 2014-10-13-mongodb-setting-ttl-on-documents.md
+  - My-Attempt-at-LINQ-Pagination.md -> 2009-10-16-my-attempt-at-linq-pagination.md
+  - My-Defacto-gitignore-file.md -> 2012-11-12-my-defacto-gitignore-file.md
+  - No-matter-what-you-do-add-value.md -> 2015-05-14-no-matter-what-you-do-add-value.md
+  - Node-js-Using-require-to-load-your-own-files.md -> 2012-12-31-nodejs-using-require-to-load-your-own-files.md
+  - Non-Tech-Factors-to-Consider-When-Choosing-Your-Tech-Stack.md -> 2016-05-10-non-tech-factors-to-consider-when-choosing-your-tech-stack.md
+  - One-Simple-Rule-for-Successful-Consulting.md -> 2014-09-03-one-simple-rule-for-successful-consulting.md
+  - Open-Source-Mentality-of-Choosing-Your-Tech-Stack.md -> 2016-07-04-open-source-mentality-of-choosing-your-tech-stack.md
+  - Paying-Attention.md -> 2015-07-23-paying-attention.md
+  - Powershell-How-to-recursively-delete-files-based-of-file-extension.md -> 2016-07-15-powershell-how-to-recursively-delete-files-based-of-file-extension.md
+  - Preloading-Multiple-Audio-Tags-in-Internet-Explorer-9.md -> 2012-11-02-preloading-multiple-audio-tags-in-internet-explorer-9.md
+  - Quick-Introduction-to-SignalR-Streaming.md -> 2018-12-13-quick-introduction-to-signalr-streaming.md
+  - Remote-Tools-With-Bret-Fisher.md -> 2020-04-14-talking-remote-tools-for-developers-with-bret-fisher.md
+  - RevolutionConf-2017-Event-Recap.md -> 2017-06-08-revolutionconf-2017-event-recap.md
+  - Shedquarters.md -> 2017-05-26-shedquarters.md
+  - SignalR-Transports-Explained.md -> 2015-08-17-signalr-transports-explained.md
+  - Specifying-Visual-Studio-Version-in-NPM-Installs.md -> 2013-05-14-specifying-visual-studio-version-in-npm-installs.md
+  - The-10-Rule-to-Presentations.md -> 2016-03-24-the-10-rule-to-presentations.md
+  - The-Non-Techie-Guide-to-Source-Control.md -> 2014-10-30-the-non-techie-guide-to-source-control.md
+  - Using-Unity-for-Dependency-Injection-with-SignalR.md -> 2013-01-08-using-unity-for-dependency-injection-with-signalr.md
+  - What-Makes-A-Good-Bug-Report.md -> 2009-09-23-what-makes-a-good-bug-report.md
+  - Why-should-ASP-NET-developers-consider-SignalR-for-ALL-projects.md -> 2012-07-09-why-should-aspnet-developers-consider-signalr-for-all-projects.md
+  - Wildcard-search-with-LINQ.md -> 2009-04-21-wildcard-search-with-linq.md
+
+### All filename changes needed (84 posts)
+Current -> Proposed mapping:
+  - 2009-02-06 A-Diet-Programmers-Can-Relate-To.md -> 2009-02-06-a-diet-programmers-can-relate-to.md
+  - 2017-05-03 About-Blog-Posts.md -> 2017-05-03-about-blog-posts.md
+  - 2020-05-06 DevTalkShow.md -> 2020-05-07-the-dev-talk-show-recap-and-resources.md
+  - 2020-05-13 21st-Century-Background-Services.md -> 2020-05-13-21st-century-background-services-resources-and-replays.md
+  - 2020-05-14 Dapper Resources.md -> 2020-05-14-better-object-mapping-with-dapper-resources.md
+  - 2020-05-18 Twitch Badge.md -> 2020-05-18-building-a-twitch-badge-for-my-site.md
+  - 2020-05-25 Recaptcha in Azure Functions.md -> 2020-05-25-adding-recaptcha-to-static-sites-with-azure-functions.md
+  - 2020-07-21 Vue-Services-Plugins.md -> 2020-07-20-building-vue-services-and-plugins.md
+  - 2020-08-05 I-Love-Azure-Static-Web-Apps.md -> 2020-08-05-i-love-azure-static-web-apps.md
+  - 2020-08-11 Azure-Static-Web-Apps-Redirection.md -> 2020-08-11-how-to-redirect-with-azure-static-web-apps.md
+  - 2020-08-17 Stockholm-Clients.md -> 2020-08-17-stockholm-clients.md
+  - 2020-08-20 Single Page Architectures with VueJS and AspNetCore.md -> 2020-08-17-single-page-architectures-with-vuejs-and-aspnet-core.md
+  - 2020-09-13 Crazy Web Performance.md -> 2020-09-15-crazy-web-performance-with-azure-static-web-apps-and-azure-functions.md
+  - 2020-10-14 Upgrading-DotNet-Templates.md -> 2020-10-14-how-to-upgrade-net-cli-templates.md
+  - 2020-11-18 Installing-DotNet-5-For-Beginners.md -> 2020-11-18-installing-net-5-for-beginners.md
+  ... and 69 more
+
+## SUMMARY
+
+Perfect posts (all fields correct): 1
+  - 2025-06-10-fervent-four-podcast.md
+
+## ACTION PLAN
+
+### Phase 1: Frontmatter Standardization
+1. Add 'description' field to 83 posts
+2. Add 'summary' field to 14 posts
+3. Convert 'excerpt' to 'summary' in 13 posts
+4. Add 'tags' field to 78 posts
+5. Remove 'updated' field from 8 posts
+
+### Phase 2: Filename Standardization
+1. Rename 84 posts to YYYY-MM-DD-{title}.md format
+
+### Total posts requiring changes: 83
+### Posts already compliant: 1
