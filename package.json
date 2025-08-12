@@ -2,8 +2,8 @@
   "name": "kevgriffin.v4",
   "private": true,
   "scripts": {
-    "build": "gridsome build",
-    "develop": "gridsome develop",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider gridsome build",
+    "develop": "NODE_OPTIONS=--openssl-legacy-provider gridsome develop",
     "explore": "gridsome explore",
     "docker:build": "docker build -t kevgriffin.v4:latest .",
     "docker:develop": "docker run -p 8080:8080 -v ${PWD}/blog:/usr/src/app/blog kevgriffin.v4:latest",
