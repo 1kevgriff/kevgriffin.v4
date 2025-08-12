@@ -25,10 +25,6 @@ jobs:
     
     - name: YARN install
       run: yarn install
-
-    - name: YARN link local plugins
-      working-directory: ./localPlugins/email-cta-insert
-      run: yarn link
       
     - name: Install Gridsome
       run: yarn global add @gridsome/cli
