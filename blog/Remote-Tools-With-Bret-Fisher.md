@@ -14,4 +14,3 @@ Check it out below:
 
 `youtube:https://www.youtube.com/embed/sK48ZyRXAFo`
 
-`cta:`

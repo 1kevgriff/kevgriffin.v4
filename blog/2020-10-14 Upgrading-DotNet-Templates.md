@@ -30,4 +30,3 @@ dotnet new --update-apply
 
 > Checks if there are updates available for the template packs that are currently installed and installs them. Available since .NET Core 3.0 SDK.
 
-`cta:`

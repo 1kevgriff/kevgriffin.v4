@@ -50,7 +50,6 @@ If you're running multiple versions of your server at any moment, I'm going to a
 
 Additionally, you're writing A LOT of unnecessary code when you could simply use the built-in mechanisms of SignalR to do this work for you.  
 
-`cta:`
 
 ## What's a better alternative?
 

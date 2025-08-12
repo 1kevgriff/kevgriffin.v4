@@ -9,7 +9,7 @@ excerpt: "Online learning? In person training?  I have you covered!"
 
 ### Building Background Services in .NET with HangFire
 
-[![Building Background Services in .NET with HangFire](../blog/images/hangfire-thumbnail.png)](https://www.udemy.com/course/building-background-services-in-net-with-hangfire/?referralCode=ADE705B8BB4A44749A7D)
+[![Building Background Services in .NET with HangFire](/images/hangfire-thumbnail.png)](https://www.udemy.com/course/building-background-services-in-net-with-hangfire/?referralCode=ADE705B8BB4A44749A7D)
 
 > This comprehensive course is designed to teach you how to build background services in .NET using HangFire, a powerful open-source library that makes it easy to create and manage background jobs. Throughout the course, you'll learn from Kevin Griffin, a Microsoft MVP with over 17 years of experience in software development, who will guide you through the entire process, from setting up HangFire to building and managing background jobs.
 >

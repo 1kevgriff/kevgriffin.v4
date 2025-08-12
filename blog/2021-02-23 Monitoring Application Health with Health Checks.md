@@ -119,7 +119,6 @@ What does this look like if you hit the endpoint?
 }
 ```
 
-`cta: `
 
 ## Okay, cool - but that's just testing uptime and connectivity
 

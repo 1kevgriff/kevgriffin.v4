@@ -12,4 +12,3 @@ excerpt: "Are you new to .NET, and you're looking at how to get started?  This v
 
 .NET 5 is the new hotness on street, and if you're new to .NET you might be wondering HOW do you get started?  In this video, I'll walk you through downloading the .NET 5 SDK and scaffolding out your own `Hello World` example!
 
-`cta:`

@@ -19,16 +19,12 @@ jobs:
       uses: actions/setup-node@v3
       with:
         # Version Spec of the version to use.  Examples: 10.x, 10.15.1, >=10.15.0, lts
-        node-version: 16
+        node-version: 20
 
     - uses: actions/checkout@v3
     
     - name: YARN install
       run: yarn install
-
-    - name: YARN link local plugins
-      working-directory: ./localPlugins/email-cta-insert
-      run: yarn link
       
     - name: Install Gridsome
       run: yarn global add @gridsome/cli

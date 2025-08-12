@@ -2,8 +2,8 @@
   "name": "kevgriffin.v4",
   "private": true,
   "scripts": {
-    "build": "gridsome build",
-    "develop": "gridsome develop",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider gridsome build",
+    "develop": "NODE_OPTIONS=--openssl-legacy-provider gridsome develop",
     "explore": "gridsome explore",
     "docker:build": "docker build -t kevgriffin.v4:latest .",
     "docker:develop": "docker run -p 8080:8080 -v ${PWD}/blog:/usr/src/app/blog kevgriffin.v4:latest",
@@ -24,7 +24,6 @@
     "gridsome-plugin-remark-twitter": "^0.2.1",
     "gridsome-plugin-remark-youtube": "^1.0.1",
     "gridsome-plugin-rss": "^1.2.0",
-    "griffin-email-cta": "file:localPlugins/email-cta-insert",
     "lodash.pick": "^4.4.0",
     "postcss": "^8.0.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",

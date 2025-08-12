@@ -29,4 +29,3 @@ Adjust the time accordingly, but you should have 5 seconds to cause the mouse-ov
 
 Yay!  You can now inspect the proper elements and make your changes.
 
-`cta: `

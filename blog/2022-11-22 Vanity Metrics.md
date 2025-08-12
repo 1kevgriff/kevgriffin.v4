@@ -77,7 +77,6 @@ But what does this do for my growth?    Will readers convert to Twitter follower
 
 Will readers buy my courses?    Maybe!    I should drop a call-to-action below and see if that converts.
 
-`cta: `
 
 What would happen if this article were to go viral is that I would feel terrific about myself for a couple days.    I would have the energy to write more content or do a new YouTube video.
 

@@ -66,7 +66,6 @@ This method would let me call a HTTP endpoint, like `https://myazurefunctions.co
 
 > Note: The `await twitch.IsChannelOnlineAsync(name)` is a wrapper around the TwitchLib code I wrote above.  Sorry if that was misleading!
 
-`cta:`
 
 ## Shields.io
 With my new Azure Function deployed, I need to set up to show if it said online or offline.  

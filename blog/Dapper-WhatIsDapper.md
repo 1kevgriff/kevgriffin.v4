@@ -14,7 +14,7 @@ tags:
 excerpt: "I have a pretty firm opinion that if you're using a relational database with .NET, you need to have Dapper in your stack."
 ---
 
-On the speaking circuit, I've been doing a good number of presentations on Dapper.  My talk is entitled `Better Object Mapping in .NET with Dapper` and this is an attempt to catch the eyes of developers who might have heard of object mapping from things like Entity Framework.  
+On the speaking circuit, I've been doing a good number of presentations on Dapper.  My talk is entitled **Better Object Mapping in .NET with Dapper** and this is an attempt to catch the eyes of developers who might have heard of object mapping from things like Entity Framework.  
 
 ## What is Dapper?
 Dapper is a `Micro-ORM` or `Micro Object Relational Mapper`.  
@@ -174,7 +174,6 @@ using (var connection = new SqlConnection(CONNECTION_STRING))
 
 That's it.  No need to `.Open` the connection.  Just create it and call the `Query` or `QueryAsync` method.  
 
-`cta:`
 
 ## What about parameters?  How do I avoid SQL injection?
 

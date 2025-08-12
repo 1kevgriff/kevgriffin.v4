@@ -1,14 +1,3 @@
-var emailCtaClass = [
-  "border-solid",
-  "border-4",
-  "w-full",
-  "mt-5",
-  "fa",
-  "fa-star",
-  "yellow-font",
-  "bg-green-700"
-];
-
 module.exports = {
   theme: {
     extend: {
@@ -113,7 +102,14 @@ module.exports = {
       './src/**/*.js',
     ],
     options: {
-      whitelist: [...emailCtaClass],
+      // When upgrading Tailwind/PurgeCSS, migrate to safelist:
+      // safelist: [
+      //   { pattern: /^fa-/ },
+      //   { pattern: /^svg-inline--fa/ },
+      //   { pattern: /^token/, deep: true },
+      //   { pattern: /^pre/, deep: true },
+      //   { pattern: /^code/, deep: true }
+      // ]
       whitelistPatterns: [/^fa-/, /^svg-inline--fa/], 
       whitelistPatternsChildren: [/^token/, /^pre/, /^code/], 
     }

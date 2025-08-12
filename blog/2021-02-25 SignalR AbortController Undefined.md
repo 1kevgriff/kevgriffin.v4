@@ -55,7 +55,6 @@ if (typeof fetch !== "undefined" && typeof AbortController === "undefined") {
 
 Why does this work?  Well, if `fetch` is defined but `AbortController` is not, we know we're going to have issues.  SignalR has its own polyfill for `fetch` if `fetch` doesn't exist.  So we simply make fetch undefined globally and let SignalR do it's work for us!
 
-`cta: `
 
 > NOTE: no warranty how this affects other libraries that use `fetch`.  I'm using Axios in addition to our SignalR stuff, and had zero problems.
 

@@ -24,7 +24,6 @@ using (var connection = new SqlConnection(CONNECTION_STRING))
 
 Looking at the code above, calling a stored procedure is similar to calling any other query with Dapper.
 
-`cta:`
 
 But what if your Stored Procedure doesn't return a result?  No problem.  `ExecuteAsync` works just as well.
 

@@ -22,4 +22,3 @@ Thanks for attending 21st Century Background Services with Azure Logic Apps and 
 [Logic Apps on Azure](https://azure.microsoft.com/en-us/services/logic-apps/?WT.mc_id=DOP-MVP-4029061)  
 [Custom Connector in Azure Logic Apps](https://docs.microsoft.com/en-us/connectors/custom-connectors/create-logic-apps-connector?WT.mc_id=DOP-MVP-4029061)  
 
-`cta:`

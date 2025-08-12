@@ -7,7 +7,7 @@ categories:
 excerpt: "Thanks for Better Object Mapping with Dapper!"
 ---
 
-Thanks for my talk on `Better Object Mapping with Dapper`.  Please check out the resources below, and join my mailing list for future updates!
+Thanks for my talk on **Better Object Mapping with Dapper**.  Please check out the resources below, and join my mailing list for future updates!
 
 ## Some questions, answered
 
@@ -28,4 +28,3 @@ Do you have questions about Dapper?  Drop me a message on [Twitter](https://twit
 [My Twitch Channel](https://www.twitch.tv/1kevgriff)  
 [Dapper GitHub Repo](https://github.com/DapperLib/Dapper)  
 
-`cta:`

@@ -44,7 +44,6 @@ What if the client misses a series of messages?  Do we send just the last one?  
 
 Would you like me to go on?
 
-`cta: `
 
 ## Large problems don't have easy solutions
 

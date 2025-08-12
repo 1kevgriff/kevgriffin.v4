@@ -28,7 +28,6 @@ It was during the amazing Visual Studio 2021 launch video, I saw mention of the 
 
 Maybe this was the tool that would help us go live with .NET 6?
 
-`cta: `
 
 ## Getting Started with Upgrade Assistant
 
