@@ -102,7 +102,14 @@ module.exports = {
       './src/**/*.js',
     ],
     options: {
-      whitelist: [],
+      // When upgrading Tailwind/PurgeCSS, migrate to safelist:
+      // safelist: [
+      //   { pattern: /^fa-/ },
+      //   { pattern: /^svg-inline--fa/ },
+      //   { pattern: /^token/, deep: true },
+      //   { pattern: /^pre/, deep: true },
+      //   { pattern: /^code/, deep: true }
+      // ]
       whitelistPatterns: [/^fa-/, /^svg-inline--fa/], 
       whitelistPatternsChildren: [/^token/, /^pre/, /^code/], 
     }

@@ -19,7 +19,7 @@ module.exports = {
         route: '/:permalink',
         plugins: [
           ['gridsome-plugin-remark-youtube'],
-          ['gridsome-plugin-remark-shiki', { theme: 'material-palenight', skipInline: true }]
+          ['gridsome-plugin-remark-shiki', { theme: 'material-theme-palenight', skipInline: true }]
         ],
       }
     },
@@ -39,7 +39,7 @@ module.exports = {
           plugins: [
             ['@noxify/gridsome-plugin-remark-embed', { 'enabledProviders': ['Youtube', 'Twitter', 'Gist'], }],
             ['gridsome-plugin-remark-youtube'],
-            ['gridsome-plugin-remark-shiki', { theme: 'material-palenight', skipInline: false },
+            ['gridsome-plugin-remark-shiki', { theme: 'material-theme-palenight', skipInline: false },
             ],
             ['gridsome-plugin-remark-twitter']
           ]
