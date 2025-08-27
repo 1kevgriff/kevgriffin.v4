@@ -21,7 +21,7 @@ The Framework 16 has been generating significant buzz in the tech community as a
 
 ## Video Review
 
-https://youtu.be/rVQ-cbnrcYo
+`youtube:https://youtu.be/rVQ-cbnrcYo`
 
 ## My Experience with the Framework 16
 
