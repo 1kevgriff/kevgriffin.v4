@@ -1,10 +1,16 @@
 ---
-title: I Removed Email From My Phone
+title: "I Removed Email From My Phone"
+date: 2018-05-01T09:54:52Z
+permalink: good-bye-email
+description: "What's the next step after beating email addiction? Learn how removing email from my phone reduced anxiety and improved focus."
+summary: "What's the next step after beating email addiction?"
+tags:
+  - Productivity
+  - Email
+  - Work-Life Balance
+  - Digital Detox
 categories:
   - Deep Thoughts
-permalink: good-bye-email
-date: 2018-05-01 09:54:52
-summary: "What's the next step after beating email addicition?"
 ---
 
 Several years ago, [I wrote about how I was taking steps to reduce my dependence on email](https://consultwithgriff.com/beating-email-addiction/). You should go give it a read if you haven't before.

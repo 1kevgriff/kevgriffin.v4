@@ -1,10 +1,17 @@
 ---
 title: "What Should My Consulting Termination Policy Be?"
+date: 2020-03-10T22:28:00Z
 permalink: consultant-termination-policy
+description: "If you're working as an independent consultant or freelancer, what is a reasonable termination policy? Learn the key considerations."
+summary: "If you're working as an independent consultant or freelancer, what is a reasonable termination policy?"
+tags:
+  - Consulting
+  - Business
+  - Freelancing
+  - Contracts
+  - Policy
 categories:
   - "Independent Consulting"
-date: 2020-03-10 22:28:00
-summary: "If you're working as a independent consultant or freelancer, what is a reasonable termination policy?"
 ---
 
 This question popped up recently in a discussion I was having with some fellow independent software consultants:

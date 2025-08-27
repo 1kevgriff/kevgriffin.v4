@@ -1,10 +1,16 @@
 ---
-title: Specifying Visual Studio Version in NPM Installs
+title: "Specifying Visual Studio Version in NPM Installs"
+date: 2013-05-14T06:34:08Z
+permalink: specifying-visual-studio-version-in-npm-installs
+description: "How to specify Visual Studio versions with NPM installs to avoid build tool compatibility issues."
+summary: "How to specify Visual Studio versions with NPM installs"
+tags:
+  - NPM
+  - Visual Studio
+  - Node.js
+  - Build Tools
 categories:
   - Development
-permalink: specifying-visual-studio-version-in-npm-installs
-date: 2013-05-14 06:34:08
-summary: "How to specify Visual Studio versions with NPM installs"
 ---
 
 Sometimes when you install a NPM package, you'll run into an issue like this:
