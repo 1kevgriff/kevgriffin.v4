@@ -220,7 +220,7 @@
             </a>
           </li>
 
-          <li>
+          <li class="mr-8">
             <a
               href="https://instagram.com/1kevgriff"
               target="_blank"
@@ -237,6 +237,17 @@
                   fill-rule="nonzero"
                 />
               </svg>
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://mvp.microsoft.com/"
+              target="_blank"
+              class="text-white hover:text-gray-400"
+              title="Microsoft MVP"
+            >
+              <img src="/MVP_Badge_Horizontal_Secondary_White_RGB.png" width="60" alt="Microsoft MVP Logo" class="opacity-90 hover:opacity-100" />
             </a>
           </li>
         </ul>
