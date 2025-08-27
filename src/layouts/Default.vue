@@ -247,7 +247,7 @@
               class="text-white hover:text-gray-400"
               title="Microsoft MVP"
             >
-              <g-image src="../../static/mvp-logo.svg" width="60" alt="Microsoft MVP Logo" class="opacity-90 hover:opacity-100" />
+              <img src="/MVP_Badge_Horizontal_Secondary_White_RGB.png" width="60" alt="Microsoft MVP Logo" class="opacity-90 hover:opacity-100" />
             </a>
           </li>
         </ul>
