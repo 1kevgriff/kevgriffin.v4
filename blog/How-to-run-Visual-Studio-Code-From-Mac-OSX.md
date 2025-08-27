@@ -1,10 +1,16 @@
 ---
-title: How to run Visual Studio Code on Mac OSX
+title: "How to run Visual Studio Code on Mac OSX"
+date: "2020-04-07T13:27:04Z"
+description: "Step-by-step guide to set up Visual Studio Code command line integration for both Terminal and Zsh on macOS."
+summary: "Using Visual Studio Code on OSX?  Here's how to set up the command line for Zsh or Terminal."
+tags:
+  - Visual Studio Code
+  - macOS
+  - Terminal
+  - Zsh
 categories:
   - Development
 permalink: how-to-run-visual-studio-code-from-mac-osx
-date: 2020-04-07 13:27:04
-summary: "Using Visual Studio Code on OSX?  Here's how to set up the command line for Zsh or Terminal."
 ---
 
 **EDIT:** [You can just do this from Visual Studio Code now.](https://code.visualstudio.com/docs/setup/mac)

@@ -1,10 +1,17 @@
 ---
-title: Stockholm Clients
-date: 2020-08-17 00:00:00
+title: "Stockholm Clients"
+date: 2020-08-17T00:00:00Z
 permalink: stockholm-clients
 categories:
   - Freelancing
-  - Entreprenuer
+  - Entrepreneur
+description: "What happens when an amazing client turns into a nightmare client in the matter of weeks. You might be dealing with a Stockholm Client."
+summary: "What happens when an amazing client turns into a nightmare client in the matter of weeks.  You might be dealing with a Stockholm Client."
+tags:
+  - Freelancing
+  - Client Management
+  - Business
+  - Psychology
 excerpt: "What happens when an amazing client turns into a nightmare client in the matter of weeks.  You might be dealing with a Stockholm Client."
 ---
 

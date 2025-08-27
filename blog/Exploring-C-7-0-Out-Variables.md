@@ -1,14 +1,16 @@
 ---
 title: "Exploring C# 7.0: Out Variables"
+date: 2016-11-08T18:41:48Z
 permalink: exploring-csharp70-out-variables
+description: "New in C# 7.0 - out variables will save you some time! Learn how to declare variables inline with method calls."
+summary: "New in C# 7.0 - out variables will save you some time!"
+tags:
+  - .NET
+  - dotnet
+  - C#
+  - "C# 7.0"
 categories:
   - "Development - C#"
-tags:
-  - .net
-  - dotnet
-  - asp.net
-date: 2016-11-08 18:41:48
-summary: "New in C# 7.0 - out varibles will save you some time!"
 ---
 
 Using the out keyword within C# is nothing new. If you declare a variable within a method called with **out**, you are instructing the compile that you are expecting the method to set the values of those at runtime.

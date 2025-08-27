@@ -1,10 +1,16 @@
 ---
-title: The 10% Rule to Presentations
+title: "The 10% Rule to Presentations"
+date: 2016-03-24T09:18:59Z
+description: "A presentation strategy for technical speakers: aim to give your audience 10% of your knowledge on a subject to build foundations for learning."
+summary: "When mentoring new technical speakers, I like to cite what I call 'the 10% rule'."
+tags:
+  - public speaking
+  - presentations
+  - technical speaking
+  - mentoring
 categories:
   - Deep Thoughts
 permalink: the-10-rule-to-presentations
-date: 2016-03-24 09:18:59
-summary: "When mentoring new technical speakers, I like to cite what I call 'the 10% rule'."
 ---
 
 When mentoring new technical speakers, I like to cite what I call "the 10% rule".

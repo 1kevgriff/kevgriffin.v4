@@ -1,9 +1,16 @@
 ---
-title: Building Vue Services and Plugins
-date: 2020-07-20 00:30:00
+title: "Building Vue Services and Plugins"
+date: 2020-07-20T00:30:00Z
 permalink: vue-services-plugins
 categories:
   - Misc
+description: "Thanks for attending Building Custom Vue Services and Plugins!"
+summary: "Thanks for attending Building Custom Vue Services and Plugins!"
+tags:
+  - Vue.js
+  - JavaScript
+  - Plugins
+  - Services
 excerpt: "Thanks for attending Building Custom Vue Services and Plugins!"
 ---
 

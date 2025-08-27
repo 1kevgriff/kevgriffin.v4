@@ -1,14 +1,18 @@
 ---
 title: "Azure Cloud Talk Podcast: The Accidental CTO"
-date: 2025-03-03 12:00:00
+date: 2025-03-03T12:00:00Z
+description: "Join Kevin Griffin on Azure Cloud Talk as he discusses his journey as an 'accidental CTO' and shares honest thoughts on AI tools, software development challenges, and why he prefers brownfield over greenfield projects."
 permalink: azure-cloud-talk-accidental-cto
 summary: "I joined Azure Cloud Talk to chat about my journey as an 'accidental CTO' and share some honest thoughts on AI tools (including my love-hate relationship with Cursor Composer). We talked about the real challenges of software development, why I prefer stable brownfield projects over shiny new tech, and my controversial take that building greenfield software is like having a newborn – painful but somehow we forget and do it again."
-excerpt: "I joined Azure Cloud Talk to chat about my journey as an 'accidental CTO' and share some honest thoughts on AI tools (including my love-hate relationship with Cursor Composer). We talked about the real challenges of software development, why I prefer stable brownfield projects over shiny new tech, and my controversial take that building greenfield software is like having a newborn – painful but somehow we forget and do it again."
+tags:
+  - "career"
+  - "CTO"
+  - "leadership"
+  - "technology"
 categories:
   - Azure
   - AI
   - Podcast
-tags: ["career", "CTO", "leadership", "technology"]
 ---
 
 I jumped on Azure Cloud Talk recently with Alec Harrison and Brian Gorman to talk tech from my perspective as an "accidental CTO." We got real about AI tools, and I vented about my struggles with Cursor Composer - there have been times I'm literally yelling at my screen, "Why can't you figure this out? You're going around in circles!"

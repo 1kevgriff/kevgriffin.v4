@@ -1,10 +1,16 @@
 ---
-title: Wildcard search with LINQ
+title: "Wildcard search with LINQ"
 categories:
   - "Development - C#"
 permalink: wildcard-search-with-linq
-date: 2009-04-21 09:17:26
+date: 2009-04-21T09:17:26Z
 summary: "An example of wildcard search with LINQ"
+description: "Learn how to perform wildcard searches using LINQ to Entities with the Contains() method as an alternative to SQL LIKE operations."
+tags:
+  - LINQ
+  - C#
+  - Entity Framework
+  - Database
 ---
 
 I just a situation where I needed to perform a wildcard search on a table in my database.  When I used to do ADO.NET, I would simply write my SELECT statements with LIKE keywords to do wildcard searches.

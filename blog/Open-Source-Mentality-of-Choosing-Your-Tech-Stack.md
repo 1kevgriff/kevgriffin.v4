@@ -1,10 +1,15 @@
 ---
-title: Open Source Mentality of Choosing Your Tech Stack
+title: "Open Source Mentality of Choosing Your Tech Stack"
+date: 2016-07-04T16:06:21Z
+permalink: open-source-mentality-of-choosing-your-tech-stack
+description: "Exploring how open source considerations should impact your technology stack decisions and the value of support vs. free alternatives."
+summary: "Exploring how open source considerations should impact your technology stack decisions and the value of support vs. free alternatives."
+tags:
+  - Open Source
+  - Technology
+  - Development
 categories:
   - Deep Thoughts
-permalink: open-source-mentality-of-choosing-your-tech-stack
-date: 2016-07-04 16:06:21
-summary: Lorem
 ---
 
 When I initially wrote *Non-Tech Factors to Consider When Choosing Your Tech Stack*, I left out one important conversation point: Open Source.

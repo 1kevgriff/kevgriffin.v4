@@ -1,9 +1,16 @@
 ---
-title: Single Page Architectures with Vue.JS and ASP.NET Core
-date: 2020-08-17 00:00:00
+title: "Single Page Architectures with Vue.JS and ASP.NET Core"
+date: 2020-08-17T00:00:00Z
 permalink: spas-with-vuejs-aspnetcore
 categories:
   - ASP.NET Core
+description: "Thanks for attending my session on building Single Page Architectures with Vue.JS and ASP.NET Core."
+summary: "Thanks for attending my session on building Single Page Architectures with Vue.JS and ASP.NET Core."
+tags:
+  - Vue.js
+  - ASP.NET Core
+  - SPA
+  - JavaScript
 excerpt: "Thanks for attending my session on building Single Page Architectures with Vue.JS and ASP.NET Core."
 ---
 

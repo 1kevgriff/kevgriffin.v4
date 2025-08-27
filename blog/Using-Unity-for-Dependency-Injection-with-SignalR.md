@@ -1,10 +1,17 @@
 ---
-title: Using Unity for Dependency Injection with SignalR
+title: "Using Unity for Dependency Injection with SignalR"
+date: 2013-01-08T06:00:31Z
+description: "Learn how to configure Unity dependency injection container to work with SignalR hubs, including custom dependency resolver implementation and hub registration."
+summary: "Using Unity for Dependency Injection with SignalR"
+tags:
+  - SignalR
+  - Unity
+  - dependency injection
+  - ASP.NET
+  - IoC
 categories:
   - "Development - ASP.NET"
 permalink: using-unity-for-dependency-injection-with-signalr
-date: 2013-01-08 06:00:31
-summary: "Using Unity for Dependency Injection with SignalR"
 ---
 
 I've had bit of a day, and a large part of it was learning how to wrangle SignalR into using my dependency injection provider (in this case, being Unity).  There are a couple thoughts, that I'd like to communicate to you all in case you're looking to do the same thing.  Also, if you have suggestions on what I could do differently, I'm more than open to hearing.  This is solution that worked for me, and I'm hoping it'll work for you.

@@ -1,9 +1,16 @@
 ---
-title: Adding reCAPTCHA to Static Sites with Azure Functions
-date: 2020-05-25 19:30:00
+title: "Adding reCAPTCHA to Static Sites with Azure Functions"
+date: 2020-05-25T19:30:00Z
 permalink: recaptcha-static-sites-azure-functions
 categories:
   - Azure
+description: "My mailing list was suffering from spam signups due to an unprotected form. Since it was a static site, I needed a solution that didn't require me to host infrastructure. In this article, I'll discuss how I used Azure Functions to process reCAPTCHA tokens for my static site."
+summary: "My mailing list was suffering from spam signups due to an unprotected form.  Since it was a static site, I needed a solution that didn't require me to host infrastructure. In this article, I'll discuss how I used Azure Functions to process reCAPTCHA tokens for my static site."
+tags:
+  - Azure Functions
+  - reCAPTCHA
+  - Static Sites
+  - Serverless
 excerpt: "My mailing list was suffering from spam signups due to an unprotected form.  Since it was a static site, I needed a solution that didn't require me to host infrastructure. In this article, I'll discuss how I used Azure Functions to process reCAPTCHA tokens for my static site."
 ---
 

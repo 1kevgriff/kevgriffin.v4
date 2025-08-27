@@ -1,10 +1,17 @@
 ---
-title: SignalR Transports Explained
+title: "SignalR Transports Explained"
+date: 2015-08-17T21:52:00Z
+permalink: signalr-transports-explained
+description: "How do transports work in SignalR? Learn about the different communication protocols SignalR uses and how it chooses the best one."
+summary: "How do transports work in SignalR?"
+tags:
+  - SignalR
+  - ASP.NET
+  - Transports
+  - WebSockets
+  - Real-time
 categories:
   - Development - ASP.NET
-permalink: signalr-transports-explained
-date: 2015-08-17 21:52:00
-summary: "How do transports work in SignalR?"
 ---
 
 When I sit down to talk to people about SignalR, a common discussion we have is around transports and what the difference between them are.  While SignalR gives you the flexibility to choose your own transport, it is often a better bet to simply allow the library to choose for you.

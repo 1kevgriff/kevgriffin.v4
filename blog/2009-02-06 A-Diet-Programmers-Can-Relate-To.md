@@ -1,11 +1,16 @@
 ---
-title: A Diet Programmers Can Relate To
+title: "A Diet Programmers Can Relate To"
+date: 2009-02-06T06:52:21Z
 permalink: a-diet-programmers-can-relate-to
+description: "I gave Weight Watchers a try, and it was pretty cool! Learn how the Weight Watchers point system works like a programming algorithm."
+summary: "I gave Weight Watchers a try, and it was pretty cool! Learn how the Weight Watchers point system works like a programming algorithm."
+tags:
+  - Health
+  - Programming
+  - Weight Watchers
+  - Personal Development
 categories: 
   - Health
-updated: '2009-02-06 06:52:21'
-date: 2009-02-06 06:52:21
-summary: "I gave Weight Watchers a try, and it was pretty cool!"
 ---
 
 Consider this: programmers are typically overweight.  It's our nature.  Ninety-five percent of our job is sitting behind a desk and hacking at a keyboard.  The most movement we get is walking to the bathroom, and going to our car to go to the drive thru.

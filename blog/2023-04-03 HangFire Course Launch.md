@@ -1,7 +1,14 @@
 ---
-title: Building Background Services with HangFire Course Launch!
-date: 2023-04-03 08:00:00
+title: "Building Background Services with HangFire Course Launch!"
+date: 2023-04-03T08:00:00Z
 permalink: building-background-services-with-hangfire-course-launch
+description: "Announcing the launch of a comprehensive course on building background services in .NET using HangFire, covering job management, scheduling, and scalability."
+tags:
+  - HangFire
+  - ".NET"
+  - "Background Services"
+  - Course
+  - Udemy
 categories:
   - .NET
 summary: "This article announces the launch of a new course called Building Background Services in .NET with HangFire. The course aims to teach how to create and manage background jobs using HangFire, a powerful open-source library that can help improve the performance and scalability of .NET applications. The course covers fundamental concepts of background jobs, setting up and configuring HangFire, creating and managing background jobs using the HangFire dashboard, scheduling recurring jobs, handling errors, and scaling background services."

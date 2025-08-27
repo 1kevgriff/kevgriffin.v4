@@ -1,10 +1,12 @@
 ---
-title: Colossal Failures
+title: "Colossal Failures"
 categories:
   - Deep Thoughts
 permalink: colossal-failures
-date: 2010-03-02 06:00:00
-summary: Have you ever screwed up horribly?
+date: 2010-03-02T06:00:00Z
+description: "Lessons learned from Adam Savage's talk on colossal failures and why failing is a method of learning in software development."
+tags: ["failure", "learning", "MythBusters", "Adam Savage", "problem solving", "teamwork"]
+summary: "Have you ever screwed up horribly?"
 ---
 
 One of my favorite television shows is Mythbusters.  It’s not that I’m enthralled with the myths themselves, but the engineering required prove the myths correct or incorrect (“Confirmed” or "Busted!”).

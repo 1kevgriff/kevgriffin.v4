@@ -1,12 +1,18 @@
 ---
-title: My $8,000 Serverless Mistake
-date: 2024-12-11 00:00:00
+title: "My $8,000 Serverless Mistake"
+date: 2024-12-11T00:00:00Z
 permalink: my-8000-serverless-mistake
 categories:
-    - Serverless
-    - Azure
-    - Mistake
-summary: "I made an $8,000 mistake with Azure Functions, and it taught me some valuable lessons about serverless architecture. I’ve always loved Azure Functions for their affordability, simplicity, and ability to scale with demand, making them perfect for handling background tasks like processing queues. But I learned the hard way that scaling can spiral out of control, especially when using Elastic Premium instances with constant back pressure. What started as a cost-effective solution ballooned into a costly oversight as Azure ramped up resources to handle the load. After this experience, I realized not every problem is a serverless problem and shifted memory-intensive tasks to Azure Container Apps, which provided better control over resources. It’s a painful but important reminder to understand cloud scaling and pricing before letting workloads run wild."
+  - Serverless
+  - Azure
+  - Mistake
+description: "I made an $8,000 mistake with Azure Functions, and it taught me some valuable lessons about serverless architecture and cloud scaling costs."
+summary: "I made an $8,000 mistake with Azure Functions, and it taught me some valuable lessons about serverless architecture. I've always loved Azure Functions for their affordability, simplicity, and ability to scale with demand, making them perfect for handling background tasks like processing queues. But I learned the hard way that scaling can spiral out of control, especially when using Elastic Premium instances with constant back pressure. What started as a cost-effective solution ballooned into a costly oversight as Azure ramped up resources to handle the load. After this experience, I realized not every problem is a serverless problem and shifted memory-intensive tasks to Azure Container Apps, which provided better control over resources. It's a painful but important reminder to understand cloud scaling and pricing before letting workloads run wild."
+tags:
+  - Serverless
+  - Azure Functions
+  - Cloud Costs
+  - Scaling
 excerpt: "What started as a cost-effective solution ballooned into a costly oversight as Azure ramped up resources to handle the load. After this experience, I realized not every problem is a serverless problem and shifted memory-intensive tasks to Azure Container Apps, which provided better control over resources."
 ---
 

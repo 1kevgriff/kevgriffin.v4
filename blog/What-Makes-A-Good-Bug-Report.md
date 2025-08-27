@@ -1,12 +1,18 @@
 ---
-title: What Makes A Good Bug Report?
+title: "What Makes A Good Bug Report?"
+date: 2009-09-23T06:00:39Z
+description: "Essential guidelines for writing effective bug reports that help developers quickly understand, reproduce, and fix software issues."
+summary: "Reporting issues in software?  Here are some tips to make it easy to replicate and fix!"
+tags:
+  - bug reporting
+  - software testing
+  - quality assurance
+  - development process
 categories:
   - Development
 permalink: what-makes-a-good-bug-report
 id: 618
-updated: "2009-09-23 06:00:39"
-date: 2009-09-23 06:00:39
-summary: "Reporting issues in software?  Here are some tips to make it easy to replicate and fix!"
+updated: "2009-09-23T06:00:39Z"
 ---
 
 As developers, we understand one fundamental truth: our software is going to break.  It's not a matter of if, it's a matter of when.  Hopefully on your team, you have a dedicated testing staff.  Other teams are not quite as lucky.  Their testers might be the project manager, or a single person who's responsible for testing all software produced by your company.

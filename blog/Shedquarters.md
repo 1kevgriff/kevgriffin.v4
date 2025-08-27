@@ -1,10 +1,16 @@
 ---
-title: Shedquarters
-date: 2017-05-26 12:57:44
+title: "Shedquarters"
+date: 2017-05-26T12:57:44Z
+description: "Building and customizing my own home office shed - a complete guide to creating the perfect work from home space with proper foundation, electrical, and finishing work."
+summary: "I upped my work at home game with a Shedquarters"
+tags:
+  - home office
+  - construction
+  - work from home
+  - DIY
 categories:
   - Business
 permalink: shedquarters
-summary: "I upped my work at home game with a Shedquarters"
 ---
 
 ## May 25th, 2017

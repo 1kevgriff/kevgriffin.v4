@@ -1,10 +1,16 @@
 ---
-title: Preloading Multiple Audio Tags in Internet Explorer 9
+title: "Preloading Multiple Audio Tags in Internet Explorer 9"
+date: 2012-11-02T06:00:59Z
+permalink: preloading-multiple-audio-tags-in-internet-explorer-9
+description: "Learn how to preload multiple audio files in Internet Explorer 9, including workarounds for IE's limitations with HTML5 audio preloading."
+summary: "Learn how to preload multiple audio files in Internet Explorer 9, including workarounds for IE's limitations with HTML5 audio preloading."
+tags:
+  - HTML5
+  - Audio
+  - Internet Explorer
+  - JavaScript
 categories:
   - Development
-permalink: preloading-multiple-audio-tags-in-internet-explorer-9
-date: 2012-11-02 06:00:59
-summary: Lorem
 ---
 
 I had a unique problem.  I have an app I'm working on where I needed to preload about 50 audio files for use during the page's lifetime.  If you're up on your HTML5-fu, this is a simple task:

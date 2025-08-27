@@ -1,12 +1,19 @@
 ---
-title: How to Debug CSS/JavaScript Mouse or Hover Events
-date: 2021-01-11 00:00:00
+title: "How to Debug CSS/JavaScript Mouse or Hover Events"
+date: 2021-01-11T00:00:00Z
 permalink: debug-javascript-css-hover-mouseover-events
 categories:
   - JavaScript
   - CSS
   - Web Development
+description: "How do you debug or style elements that only exist in the DOM during hover or mouse-over events?"
 summary: "How do you debug or style elements that only exist in the DOM during hover or mouse-over events?"
+tags:
+  - CSS
+  - JavaScript
+  - Debugging
+  - DOM
+  - DevTools
 excerpt: "You're working on an issue the requires to debug or style an element on a page that ONLY appears in the course of a hover or mouse-over event.  However, when the event is not occurring, the element you want to work with does not exist in the DOM."
 ---
 

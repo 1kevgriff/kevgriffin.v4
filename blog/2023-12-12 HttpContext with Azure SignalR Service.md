@@ -1,12 +1,18 @@
 ---
-title: HttpContext Issues with Azure SignalR Service
-date: 2023-12-12 08:00:00
+title: "HttpContext Issues with Azure SignalR Service"
+date: 2023-12-12T08:00:00Z
 permalink: httpcontext-issues-azure-signalr-service
 categories:
   - .NET
   - Azure
   - Azure SignalR
+description: "During my recent project where I migrated an ASP.NET Core application to Azure SignalR Service, I encountered a notable issue with HttpContext and how it differs from standard SignalR setups."
 summary: "During my recent project where I migrated an ASP.NET Core application to Azure SignalR Service, I encountered a notable issue with HttpContext. In standard ASP.NET SignalR setups, I could easily access HttpContext via IHttpContextAccessor in my Hub class. This approach had been working flawlessly for me for years. However, after the migration to Azure SignalR Service, I noticed that IHttpContextAccessor didn't provide the same level of information. This change is understandable, considering the connection in Azure SignalR Service is between the client and Azure, rather than directly to my server's hub. To adapt, I shifted my strategy to directly pass essential data, such as timezone information, from the client to the hub. This method of passing parameters directly turned out to be a more efficient solution. Additionally, I appreciated how Azure SignalR Service manages IPrincipal information from HttpContext, which is useful for identity management using the Context.User property. This experience was a valuable addition to my ongoing journey of mastering evolving technologies in the .NET and Azure ecosystems."
+tags:
+  - Azure SignalR
+  - HttpContext
+  - .NET
+  - ASP.NET Core
 excerpt: "Last week, the team and I were migrating an application built with ASP.NET Core and SignalR to use the Azure SignalR Service. We ran into an issue with the HttpContext when using Azure SignalR Service. Unlike in a normal SignalR integration, where you can access HttpContext via IHttpContextAccessor in the Hub class, with Azure SignalR Service the connection changes, affecting the available HttpContext data. This required a shift in our approach, leading us to directly pass the necessary information from the client to the hub."
 ---
 

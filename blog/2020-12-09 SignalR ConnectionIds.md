@@ -1,11 +1,17 @@
 ---
-title: Managing SignalR ConnectionIds (or why you shouldn't)
-date: 2020-12-09 00:00:00
+title: "Managing SignalR ConnectionIds (or why you shouldn't)"
+date: 2020-12-09T00:00:00Z
 permalink: signalr-connection-ids
 categories:
   - .NET
   - ASP.NET
+description: "For C# Advent 2020, I want to talk about SignalR ConnectionIds and the biggest mistake I see people making when trying to manage them theirselves."
 summary: "For C# Advent 2020, I want to talk about SignalR ConnectionIds and the biggest mistake I see people making when trying to manage them theirselves."
+tags:
+  - SignalR
+  - ConnectionIds
+  - ASP.NET Core
+  - .NET
 excerpt: "One of the commons issues I see when reading questions on StackOverflow or Reddit is that many SignalR users do not know how to effectively manage connections their hubs. Or worse, they make mistakes that'll cause performance problems in the long run."
 ---
 

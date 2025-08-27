@@ -1,10 +1,16 @@
 ---
-title: 'MongoDB: Setting TTL on Documents'
+title: "MongoDB: Setting TTL on Documents"
+date: 2014-10-13T14:08:05Z
 permalink: mongodb-setting-ttl-on-documents
-date: 2014-10-13 14:08:05
+description: "Learn how to automatically remove MongoDB documents after a specified time period using Time To Live (TTL) indexes."
+summary: "Learn how to automatically remove MongoDB documents after a specified time period using Time To Live (TTL) indexes."
+tags:
+  - MongoDB
+  - Database
+  - TTL
+  - NoSQL
 categories:
   - Development
-summary: Lorem
 ---
 
 On some recent work I was doing with Winsitter, I needed an approach that would systematically remove documents after a specified period of time within MongoDB.

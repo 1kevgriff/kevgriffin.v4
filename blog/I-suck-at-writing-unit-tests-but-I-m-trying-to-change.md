@@ -1,10 +1,15 @@
 ---
-title: 'I suck at writing unit tests, but I''m trying to change'
-permalink: i-suck-at-writing-unit-tests
+title: "I suck at writing unit tests, but I'm trying to change"
+date: "2015-02-26T22:25:55Z"
+description: "A personal journey of learning to write meaningful unit tests and overcoming the challenges of testing real-world applications with external dependencies."
+summary: "A developer's honest reflection on struggling with unit testing and the journey to writing better tests for real-world applications."
+tags:
+  - Unit Testing
+  - Software Development
+  - Testing Practices
 categories:
   - Deep Thoughts
-date: 2015-02-26 22:25:55
-summary: ""
+permalink: i-suck-at-writing-unit-tests
 ---
 
 *65 tests*

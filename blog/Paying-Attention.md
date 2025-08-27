@@ -1,10 +1,16 @@
 ---
-title: Paying Attention
+title: "Paying Attention"
+date: 2015-07-23T06:43:54Z
 permalink: paying-attention
-date: 2015-07-23 06:43:54
+description: "Don't assume. Pay attention. A lesson learned from a simple timezone mix-up during remote training."
+summary: "Don't assume. Pay attention."
+tags:
+  - Communication
+  - Remote Work
+  - Lessons Learned
+  - Professional
 categories:
   - Deep Thoughts
-summary: "Don't assume.  Pay attention."
 ---
 
 Last week I did a training gig for a great group of folks out on the west coast.  I worked from the comfort of my home office, and presented all the material remotely.  

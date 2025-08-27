@@ -1,11 +1,17 @@
 ---
-title: RevolutionConf 2017 Event Recap
+title: "RevolutionConf 2017 Event Recap"
+date: 2017-06-08T14:34:43Z
+description: "An insider's view of RevolutionConf 2017 - what went right, what could be better, and lessons learned from organizing a 300-person technology conference."
 permalink: revolutionconf-2017-event-recap
-categories:
-  - 'Community, User Groups, and Conferences'
-date: 2017-06-08 14:34:43
 summary: "RevolutionConf 2017 went fantastically!"
 tags:
+  - "RevolutionConf"
+  - "conference organizing"
+  - "event planning"
+  - "technology conference"
+  - "Virginia Beach"
+categories:
+  - 'Community, User Groups, and Conferences'
 ---
 
 On June 1st and 2nd, 2017, a crew of over 300 people embarked on Virginia Beach, VA for the 2nd ever RevolutionConf.

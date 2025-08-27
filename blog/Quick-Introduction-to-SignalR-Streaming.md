@@ -1,16 +1,17 @@
 ---
-title: Quick Introduction to SignalR Streaming
-date: 2018-12-13 23:39:46
+title: "Quick Introduction to SignalR Streaming"
+date: 2018-12-13T23:39:46Z
+permalink: quick-introduction-to-signalr-streaming
+description: "What is streaming in SignalR? Learn about the new Streaming APIs built into SignalR for ASP.NET Core."
+summary: "What is streaming in SignalR? I'll show you!"
+tags:
+  - ASP.NET Core
+  - SignalR
+  - WebSockets
+  - Streaming
+  - ".NET Core"
 categories:
   - ASP.NET Core
-permalink: quick-introduction-to-signalr-streaming
-tags:
-  - asp.net core
-  - signalr
-  - websockets
-  - streaming
-  - .net core
-summary: "What is streaming in SignalR?  I'll show you!"
 ---
 For my entry this year for [C# Advent](https://crosscuttingconcerns.com/The-Second-Annual-C-Advent), I wanted to do something a little bit different.
 

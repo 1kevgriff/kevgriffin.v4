@@ -1,10 +1,16 @@
 ---
-title: Building Windows Services in .NET 7
-date: 2022-12-06 08:00:00
+title: "Building Windows Services in .NET 7"
+date: 2022-12-06T08:00:00Z
 permalink: building-window-services-in-dotnet
+description: "Learn how to build Windows Services in .NET 7 with modern techniques that make it much easier than in the past."
+summary: "In preparation for my latest talk on Tactics for Building Background Services in .NET, I've been working on a sample project to demonstrate the concepts. It's amazing how much easier it is to build Window Services today than it used to be!"
+tags:
+  - ".NET 7"
+  - "Windows Services"
+  - "Background Services"
+  - ".NET"
 categories:
   - .NET
-summary: "In preparation for my latest talk on Tactics for Building Background Services in .NET, I've been working on a sample project to demonstrate the concepts. It's amazing how much easier it is to build Window Services today than it used to be!"
 excerpt: "In preparation for my latest talk on Tactics for Building Background Services in .NET, I've been working on a sample project to demonstrate the concepts. It's amazing how much easier it is to build Window Services today than it used to be!"
 ---
 

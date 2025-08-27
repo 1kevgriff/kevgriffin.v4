@@ -1,13 +1,16 @@
 ---
-title: Enhancing Your Career with a Mastermind Group
-date: 2019-02-08 11:04:49
+title: "Enhancing Your Career with a Mastermind Group"
+date: 2019-02-08T11:04:49Z
+permalink: Enhancing-Your-Career-with-a-Mastermind-Group
+description: "When I quit my job to create my own business, I needed a group to help support me and give me advice. These MasterMind sessions were my key to growth and success."
+summary: "When I quit my job to create my own business, I needed a group to help support me and give me advice. These MasterMind sessions were my key to growth and success."
+tags:
+  - Career
+  - Mastermind
+  - Business
+  - Entrepreneurship
 categories:
   - Business
-tags:
-  - career
-  - mastermind
-permalink: Enhancing-Your-Career-with-a-Mastermind-Group
-summary: "When I quit my job to create my own business, I needed a group to help support me and give me advice.  These MasterMind sessions were my key to growth and success."
 ---
 
 In 2011, I did something pretty out of character - I quit my job.  Mind you, I didn't do it because I had another job lined up.  Nope.  I quit my job to go out on my own as a business owner.  On top of this, I had a newborn at home and no guarentee that the income would be flowing every two weeks.

@@ -1,6 +1,8 @@
 ---
-title: What is Dapper, and why you should consider it for your .NET projects
-date: 2020-05-15 09:30:00
+title: "What is Dapper, and why you should consider it for your .NET projects"
+date: 2020-05-15T09:30:00Z
+description: "An introduction to Dapper, the micro-ORM that simplifies data mapping in .NET applications with better performance than Entity Framework."
+summary: "I have a pretty firm opinion that if you're using a relational database with .NET, you need to have Dapper in your stack."
 permalink: what-is-dapper
 categories:
   - .NET

@@ -1,10 +1,16 @@
 ---
-title: About Blog Posts
-date: 2017-05-03 12:50:43
+title: "About Blog Posts"
+date: 2017-05-03T12:50:43Z
 permalink: about-blog-posts
 categories:
-    - Deep Thoughts
+  - Deep Thoughts
+description: "After overhauling my personal site, I learned that I dislike the term `blog`. Instead, I want to be more professional by writing `articles`."
 summary: "After overhauling my personal site, I learned that I dislike the term `blog`.  Instead, I want to be more professional by writing `articles`."
+tags:
+  - Blogging
+  - Writing
+  - Professional
+  - Content
 ---
 I just recently spent a couple days overhauling my personal site - or as I used to call it, my blog.
 

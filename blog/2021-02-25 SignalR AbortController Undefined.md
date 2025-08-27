@@ -1,13 +1,19 @@
 ---
-title: SignalR AbortController is Undefined on Older Browsers
-date: 2021-03-03 11:00:00
-permalink: signalr-abortcontroller-undefined
+title: "SignalR AbortController is Undefined on Older Browsers"
+date: "2021-03-03T11:00:00Z"
+description: "Fix SignalR AbortController undefined errors on older browsers like SmartTVs by implementing a workaround for missing fetch/AbortController support."
+summary: "Recently, I updated a client application to the latest versions of SignalR (including the NPM module). One of our users uses a SmartTV to view the page, and it stopped working due to 'AbortController is Undefined'."
+excerpt: "Recently, I updated a client application to the latest versions of SignalR (including the NPM module). One of our users uses a SmartTV to view the page, and it stopped working due to 'AbortController is Undefined'."
+tags:
+  - SignalR
+  - Browser Compatibility
+  - AbortController
+  - SmartTV
 categories:
   - .NET
   - ASP.NET
   - Web Development
-summary: "Recently, I updated a client application to the latest versions of SignalR (including the NPM module). One of our users uses a SmartTV to view the page, and it stopped working due to 'AbortController is Undefined'."
-excerpt: "Recently, I updated a client application to the latest versions of SignalR (including the NPM module). One of our users uses a SmartTV to view the page, and it stopped working due to 'AbortController is Undefined'."
+permalink: signalr-abortcontroller-undefined
 ---
 
 Recently, I updated a client application to the latest versions of SignalR (including the NPM module).  One of our users uses a SmartTV to view the page, and it stopped working.

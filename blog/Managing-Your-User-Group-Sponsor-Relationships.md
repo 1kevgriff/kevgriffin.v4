@@ -1,10 +1,17 @@
 ---
-title: 'Managing Your User Group: Sponsor Relationships'
+title: "Managing Your User Group: Sponsor Relationships"
+date: 2015-01-26T11:58:38Z
 permalink: user-group-sponsor-relationship
+description: "Who holds the leverage in a sponsor/user group relationship? Learn how to balance sponsor needs with attendee experience."
+summary: "Who holds the leverage in a sponsor/user group relationship?"
+tags:
+  - User Groups
+  - Community
+  - Sponsors
+  - Leadership
+  - Management
 categories:
   - Community, User Groups, and Conferences
-date: 2015-01-26 11:58:38
-summary: "Who holds the leverage in a sponsor/user group relationship?"
 ---
 
 As a user group leader, you might have this feeling that you need to get sponsors for your user group.  **This is a common feeling!**  

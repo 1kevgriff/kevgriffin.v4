@@ -1,6 +1,9 @@
 ---
-title: How do you call a stored procedure with Dapper?
-date: 2020-05-15 08:30:00
+title: "How do you call a stored procedure with Dapper?"
+date: 2020-05-15T08:30:00Z
+description: "Learn how to use Dapper with stored procedures in .NET applications, including both query and non-query scenarios."
+summary: "Are you interested in using Dapper, but your database uses Stored Procedures? No problem!"
+tags: ["Dapper", "stored procedures", "C#", ".NET", "database", "SQL Server"]
 permalink: dapper-stored-procedures
 categories:
   - .NET

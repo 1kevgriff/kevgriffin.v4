@@ -1,13 +1,20 @@
 ---
-title: Hampton Roads DevFest 2024 Retrospective
-date: 2024-06-25 00:00:00
+title: "Hampton Roads DevFest 2024 Retrospective"
+date: 2024-06-25T00:00:00Z
 permalink: hampton-roads-devfest-2024-retrospective
-categories:
-    - Conferences
-    - Retrospective
-    - Hampton Roads DevFest
+description: "A comprehensive retrospective of Hampton Roads DevFest 2024, including attendance numbers, financial breakdown, venue selection, and lessons learned from organizing a successful developer conference."
 summary: "On May 31st, 2024, Hampton Roads DevFest successfully re-engaged the local developer community in Virginia Beach, Virginia, with 183 attendees. Organized by the non-profit RevolutionVA, the event featured local speakers and took place at the Zeider's American Dream Theater, chosen for its affordability and unique setting. Ticket sales and sponsorships, including support from Microsoft, contributed to the event's income, though it ended with a net loss of $486.63. Despite this, the event was deemed a success, effectively revitalizing the community and providing valuable insights for future events."
-excerpt: "On May 31st, 2024, Hampton Roads DevFest successfully re-engaged the local developer community in Virginia Beach, Virginia, with 183 attendees. Organized by the non-profit RevolutionVA, the event featured local speakers and took place at the Zeider's American Dream Theater, chosen for its affordability and unique setting. Ticket sales and sponsorships, including support from Microsoft, contributed to the event's income, though it ended with a net loss of $486.63. Despite this, the event was deemed a success, effectively revitalizing the community and providing valuable insights for future events."
+categories:
+  - Conferences
+  - Retrospective
+  - Hampton Roads DevFest
+tags:
+  - Hampton Roads DevFest
+  - RevolutionVA
+  - Conference Organization
+  - Developer Community
+  - Event Planning
+  - Virginia Beach
 ---
 
 On May 31st, 2024, we held the fifth Hampton Roads DevFest in Virginia Beach, Virginia. DevFest was Southeast Virginia's first significant software development event since before COVID. I'm excited to say it was a massive success.

@@ -1,11 +1,18 @@
 ---
-title: Streaming an MP4 to Twitch and YouTube with FFMPEG
-date: 2021-04-09 11:00:00
-permalink: streaming-mp4-to-twitch-youtube-with-ffmpeg
-categories:
-  - Misc.
+title: "Streaming an MP4 to Twitch and YouTube with FFMPEG"
+date: "2021-04-09T11:00:00Z"
+description: "Learn how to stream pre-recorded MP4 videos live to Twitch and YouTube using FFMPEG with proper RTMP configuration and settings."
 summary: "In this post, I discuss how I was able to 'stream' an MP4 LIVE to YouTube and Twitch using FFMPEG"
 excerpt: "Recently, I regained some of the rights to some video courses I've built over the past two years. Because this was specially created content, I wanted to see if there was a way that I could distribute it that was more than just \"posting it on YouTube\"."
+tags:
+  - FFMPEG
+  - Streaming
+  - Twitch
+  - YouTube
+  - RTMP
+categories:
+  - Misc.
+permalink: streaming-mp4-to-twitch-youtube-with-ffmpeg
 ---
 
 Recently, I regained some of the rights to some video courses I've built over the past two years.  Because this was specially created content, I wanted to see if there was a way that I could distribute it that was more than just "posting it on YouTube".

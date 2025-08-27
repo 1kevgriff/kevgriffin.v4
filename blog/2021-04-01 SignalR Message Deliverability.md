@@ -1,13 +1,19 @@
 ---
-title: Does SignalR Guarantee Message Deliverability?
-date: 2021-04-06 11:00:00
-permalink: signalr-message-guarantee-deliverability
+title: "Does SignalR Guarantee Message Deliverability?"
+date: "2021-04-06T11:00:00Z"
+description: "Understanding SignalR's message delivery limitations and strategies for handling message reliability in real-time applications."
+summary: "SignalR doesn't guarantee the deliverability of messages sent from the server.  This might be a problem for you, so let's discuss the problem and why SignalR doesn't try to solve it automatically."
+excerpt: "Kevin, I have two clients.  Client 1 sends a message to client 2.  Client 1 loses its connection to the server.  Client 2, during this time, sends a message to Client 1.  That message is lost because Client 1 was disconnected.  How can we solve this problem?"
+tags:
+  - SignalR
+  - Message Reliability
+  - Real-time Communication
+  - Distributed Systems
 categories:
   - .NET
   - ASP.NET
   - Web Development
-summary: "SignalR doesn't guarantee the deliverability of messages sent from the server.  This might be a problem for you, so let's discuss the problem and why SignalR doesn't try to solve it automatically."
-excerpt: "Kevin, I have two clients.  Client 1 sends a message to client 2.  Client 1 loses its connection to the server.  Client 2, during this time, sends a message to Client 1.  That message is lost because Client 1 was disconnected.  How can we solve this problem?"
+permalink: signalr-message-guarantee-deliverability
 ---
 
 I recently received a new question in [SignalR Mastery](https://www.udemy.com/course/signalr-mastery/learn/?referralCode=5F129296A976F8353B79) asking about message deliverability?

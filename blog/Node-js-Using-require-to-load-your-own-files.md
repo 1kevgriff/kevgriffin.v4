@@ -1,10 +1,16 @@
 ---
-title: 'Node.js: Using require to load your own files'
+title: "Node.js: Using require to load your own files"
+date: 2012-12-31T06:00:31Z
+permalink: node-js-using-require-to-load-your-own-files
+description: "Learn how to use Node.js require() to load your own modules and keep your code clean and organized."
+summary: "Learn how to use Node.js require() to load your own modules and keep your code clean and organized."
+tags:
+  - Node.js
+  - JavaScript
+  - Modules
+  - require
 categories:
   - Development
-permalink: node-js-using-require-to-load-your-own-files
-date: 2012-12-31 06:00:31
-summary: Lorem
 ---
 
 For a lot of JavaScript developers that are moving over from traditional "browser" development to node.js, they might be casually aware of the require keyword that node.js provides you.
