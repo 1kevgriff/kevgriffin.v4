@@ -1,10 +1,16 @@
 ---
-title: 'No matter what you do: add value'
+title: "No matter what you do: add value"
+date: 2015-05-14T11:38:29Z
+permalink: no-matter-what-you-do-add-value
+description: "Always strive to add value in your interactions, whether with clients, colleagues, or potential business opportunities."
+summary: "Always strive to add value in your interactions, whether with clients, colleagues, or potential business opportunities."
+tags:
+  - Consulting
+  - Business
+  - Mentoring
+  - Professional Development
 categories:
   - Deep Thoughts
-permalink: no-matter-what-you-do-add-value
-date: 2015-05-14 11:38:29
-summary: Lorem
 ---
 
 Yesterday I had the pleasure of chatting with a gentleman about a potential mentoring gig.  The way I like to approach these sort of talks is to determine high level goals.  In this case, the client was looking for someone to be a set of expert eyes on a codebase.  He is certainly a capable developer, but he's also aware enough to know when he has hit a roadblock.

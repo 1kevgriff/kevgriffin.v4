@@ -1,10 +1,16 @@
 ---
-title: Maintaining SignalR ConnectionIds Across Page Instances
+title: "Maintaining SignalR ConnectionIds Across Page Instances"
+date: 2012-02-15T10:00:52Z
+permalink: maintaining-signalr-connectionids-across-page-instances
+description: "Learn how to maintain SignalR ConnectionIds across page refreshes using cookies and custom connection ID factories."
+summary: "Learn how to maintain SignalR ConnectionIds across page refreshes using cookies and custom connection ID factories."
+tags:
+  - SignalR
+  - Real-time
+  - JavaScript
+  - ASP.NET
 categories:
   - Development
-permalink: maintaining-signalr-connectionids-across-page-instances
-date: 2012-02-15 10:00:52
-summary: Lorem
 ---
 
 <strong> 2/28/2013 - With the 1.0 release of SignalR, I can't guarantee the solution below will work the same.  The big problem with this solution is that ConnectionIds are reused across tabs and browser windows since it's cookie based.  You might not have the results you're expecting.  The SignalR team doesn't recommend this action, and I can agree.  I didn't see it when I wrote the post.  This is a decent guide for overriding the connection id factory, so I'll leave it up for archival purposes.</strong>
