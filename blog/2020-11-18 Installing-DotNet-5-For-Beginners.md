@@ -1,11 +1,18 @@
 ---
 title: "Installing .NET 5 for Beginners"
-date: 2020-11-18 00:00:00
+date: 2020-11-18T00:00:00Z
 permalink: installing-dotnet-5-for-beginners
+description: "A beginner-friendly video tutorial walking through the process of installing .NET 5 SDK and creating your first Hello World application."
+summary: "Are you new to .NET, and you're looking at how to get started?  This video is just for you!"
 categories:
   - .NET
-summary: "Are you new to .NET, and you're looking at how to get started?  This video is just for you!"
-excerpt: "Are you new to .NET, and you're looking at how to get started?  This video is just for you!"
+tags:
+  - .NET 5
+  - Beginners
+  - Installation
+  - Tutorial
+  - Hello World
+  - Getting Started
 ---
 
 `youtube:https://www.youtube.com/watch?v=karSxhTb_38`

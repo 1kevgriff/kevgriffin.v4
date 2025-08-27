@@ -1,6 +1,7 @@
 ---
 title: "Framework 16 Laptop Review"
-date: 2025-08-26 00:00:00
+date: 2025-08-26T00:00:00Z
+description: "My comprehensive review of the Framework 16 laptop, exploring its modular design, performance capabilities, and whether it lives up to the hype as a truly repairable and upgradeable laptop for developers and power users."
 permalink: framework-16-laptop-review
 categories:
     - Hardware

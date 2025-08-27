@@ -1,9 +1,11 @@
 ---
-title: Building better ConnectionStrings with ConnectionStringBuilder
+title: "Building better ConnectionStrings with ConnectionStringBuilder"
 categories:
   - "Development - C#"
 permalink: building-better-connectionstrings-with-connectionstringbuilder
-date: 2011-02-14 05:00:02
+date: 2011-02-14T05:00:02Z
+description: "Learn how to use .NET's ConnectionStringBuilder classes to create clean, flexible connection strings for OleDb, SQL Server, and Entity Framework."
+tags: ["C#", ".NET", "database", "connection strings", "OleDb", "SQL Server", "Entity Framework"]
 summary: "ConnectionStringBuilder makes it fool-proof to generate connection strings."
 ---
 

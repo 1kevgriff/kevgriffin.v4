@@ -3,8 +3,10 @@ title: 'Banks, ATMS, and Horrible User Experiences'
 permalink: banks-atms-and-horrible-user-experiences
 categories: 
   - Deep Thoughts
-updated: '2015-08-20 21:52:06'
-date: 2015-08-03 09:18:46
+updated: '2015-08-20T21:52:06Z'
+date: 2015-08-03T09:18:46Z
+description: "A frustrating experience with a malfunctioning bank ATM and the poor customer service that followed, highlighting the need for better failsafes in critical systems."
+tags: ["banking", "ATM", "user experience", "customer service", "technology failures"]
 summary: "I had a horrible bank ATM experience."
 ---
 

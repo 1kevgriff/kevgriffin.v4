@@ -1,10 +1,16 @@
 ---
-title: 'Managing Your User Group: Calendar Roulette'
+title: "Managing Your User Group: Calendar Roulette"
 permalink: calendar-roulette
 categories:
   - Community, User Groups, and Conferences
-date: 2015-03-06 22:39:16
+date: 2015-03-06T22:39:16Z
 summary: "If you're running a community, pick a day and stick with it!"
+description: "Learn why consistency in scheduling is crucial for user group success and how to choose the right meeting day for maximum attendance."
+tags:
+  - User Groups
+  - Community Management
+  - Scheduling
+  - Leadership
 ---
 
 One trait of successful user groups is don't play calendar roulette.  Meaning: they chose a time or day each month to hold the group meeting.

@@ -1,10 +1,18 @@
 ---
-title: Crazy Web Performance with Azure Static Web Apps and Azure Functions
-date: 2020-09-15 00:00:00
+title: "Crazy Web Performance with Azure Static Web Apps and Azure Functions"
+date: 2020-09-15T00:00:00Z
 permalink: crazy-web-performance-azure-static-web-apps-and-functions
+description: "Explore how Azure Static Web Apps combines the performance of static sites with the power of serverless Azure Functions for optimal web applications."
+summary: "With the new Azure Static Web Apps, you can include Azure Functions as a part of your deployment which gives you the best of both worlds when you deploy static sites.  Crazy performance, but access to Azure Functions when you absolutely need to write a little bit of code."
 categories:
   - Azure
-excerpt: "With the new Azure Static Web Apps, you can include Azure Functions as a part of your deployment which gives you the best of both worlds when you deploy static sites.  Crazy performance, but access to Azure Functions when you absolutely need to \"write a little bit of code\"."
+tags:
+  - Azure Static Web Apps
+  - Azure Functions
+  - Static Sites
+  - Web Performance
+  - Serverless
+  - CDN
 ---
 
 >This article is part of [#ServerlessSeptember](https://aka.ms/ServerlessSeptember2020). You'll find other helpful articles, detailed tutorials, and videos in this all-things-Serverless content collection. New articles from community members and cloud advocates are published every week from Monday to Thursday through September.  

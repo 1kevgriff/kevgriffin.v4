@@ -1,10 +1,16 @@
 ---
-title: The Dev Talk Show Recap and Resources
-date: 2020-05-07 00:30:00
+title: "The Dev Talk Show Recap and Resources"
+date: 2020-05-07T00:30:00Z
 permalink: thedevtalkshow
+description: "Resources and replay from The Dev Talk Show episode covering Logic Apps and Azure development."
+summary: "Thanks for attending The Dev Talk Show! Here are the resources and replay from our discussion about Logic Apps and Azure development."
 categories:
   - Misc
-excerpt: "Thanks for Attending The Dev Talk Show!"
+tags:
+  - Dev Talk Show
+  - Logic Apps
+  - Azure
+  - Microsoft
 ---
 
 Thanks for attending The Dev Talk Show!  If you missed the episode, catch the replay at:

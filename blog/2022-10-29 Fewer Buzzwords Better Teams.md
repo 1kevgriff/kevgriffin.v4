@@ -1,12 +1,18 @@
 ---
-title: Fewer Buzzwords, Better Teams
-date: 2022-11-18 08:00:00
+title: "Fewer Buzzwords, Better Teams"
+date: 2022-11-18T08:00:00Z
 permalink: fewer-buzzwords-better-teams
 categories:
-  - Arcitecture
-  - Thought Leadering
+  - Architecture
+  - Thought Leadership
   - CTO
+description: "Our team with one product grew to include two new teams. This meant more people, larger tech stack, and more complexity when it came to support and future growth."
 summary: "Our team with one product grew to include two new teams.  This meant more people, larger tech stack, and more complexity when it came to support and future growth."
+tags:
+  - Team Management
+  - Technology Stack
+  - Architecture
+  - Standardization
 excerpt: "Our team with one product grew to include two new teams.  This meant more people, larger tech stack, and more complexity when it came to support and future growth."
 ---
 

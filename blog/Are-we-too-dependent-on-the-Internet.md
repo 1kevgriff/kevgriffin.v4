@@ -1,10 +1,12 @@
 ---
-title: Are we too dependent on the Internet?
+title: "Are we too dependent on the Internet?"
 permalink: are-we-too-dependent-on-the-internet
 categories:
   - Deep Thoughts
-updated: "2010-01-19 06:00:00"
-date: 2010-01-19 06:00:00
+updated: "2010-01-19T06:00:00Z"
+date: 2010-01-19T06:00:00Z
+description: "Exploring our dependency on the internet and how it affects our productivity and learning capabilities when we lose connectivity."
+tags: ["internet", "productivity", "dependency", "technology", "learning"]
 summary: "Does the internet make us stronger, or is it making us weaker?"
 ---
 

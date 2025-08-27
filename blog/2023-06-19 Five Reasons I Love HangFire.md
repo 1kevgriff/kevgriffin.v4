@@ -1,10 +1,16 @@
 ---
-title: Five Reasons Why I Love HangFire
-date: 2023-06-21 08:00:00
+title: "Five Reasons Why I Love HangFire"
+date: 2023-06-21T08:00:00Z
 permalink: five-reasons-why-i-love-hangfire
 categories:
   - .NET
+description: "In this article, I highlight five reasons I love using HangFire to create background services in my .NET applications - from its straightforward setup to its excellent error management system."
 summary: "In this article, I highlight five reasons I love using HangFire to create background services in my .NET applications. First, HangFire's setup process is extremely straightforward - I need to install the NuGet package and do a bit of configuration. Second, HangFire allows me to use my existing code, thus reducing any dependency on specific vendors and increasing the flexibility of my applications. The third factor I appreciate is the user-friendly dashboard of HangFire, which provides a clear and concise overview of all my running, failed, and scheduled jobs. Fourth, HangFire simplifies the process of scheduling and creating recurring jobs, offering flexible configurations to suit my needs. Lastly, HangFire's error management system is commendable. It attempts to run a job multiple times if it fails, making my debugging process significantly more efficient. I also introduce my new course on HangFire in the article, aiming to help others improve the performance and scalability of their .NET applications using this remarkable tool."
+tags:
+  - HangFire
+  - Background Jobs
+  - .NET
+  - Scheduling
 excerpt: "Setting up HangFire in my .NET applications is effortless. This library helps me offload the strenuous tasks from my web applications by establishing background services using my existing code without requiring special interfaces. Its dashboard is handy for managing jobs and gives me a clear view of the active, failed, and scheduled jobs. For scheduling and recurring jobs, HangFire provides flexible configurations. If it fails, it'll make multiple attempts to run a job, making debugging a breeze for me."
 ---
 

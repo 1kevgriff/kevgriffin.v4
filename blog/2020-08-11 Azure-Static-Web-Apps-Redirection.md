@@ -1,11 +1,19 @@
 ---
-title: How to Redirect with Azure Static Web Apps
-date: 2020-08-11 00:30:00
-updated: 2021-06-03 03:33:00
+title: "How to Redirect with Azure Static Web Apps"
+date: 2020-08-11T00:30:00Z
+updated: 2021-06-03T03:33:00Z
 permalink: how-to-redirect-with-azure-static-web-apps
+description: "Learn how to implement 301 redirects in Azure Static Web Apps using the staticwebapp.config.json routing configuration file."
+summary: "When deploying to Azure Static Web Apps, a common question that comes up is \"How do I do 301 redirects?\". Let's explore how in this simple tutorial."
 categories:
   - Microsoft Azure
-excerpt: "When deploying to Azure Static Web Apps, a common question that comes up is \"How do I do 301 redirects?\".  Let's explore how in this simple tutorial."
+tags:
+  - Azure Static Web Apps
+  - Redirects
+  - Routing
+  - staticwebapp.config.json
+  - Static Sites
+  - SEO
 ---
 
 > Updated 2021-06-03: Now that Azure Static Web Apps is GA, 

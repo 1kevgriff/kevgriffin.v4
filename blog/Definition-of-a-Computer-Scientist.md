@@ -1,10 +1,12 @@
 ---
-title: Definition of a Computer Scientist
+title: "Definition of a Computer Scientist"
 permalink: definition-of-a-computer-scientist
 categories:
   - Deep Thoughts
-date: 2009-03-04 15:26:24
-summary: What is a computer scientist?  A person that innovates?  Or a person that solves problems?
+date: 2009-03-04T15:26:24Z
+description: "Challenging the academic notion that computer scientists should innovate, arguing instead that the real job is to solve problems effectively."
+tags: ["computer science", "problem solving", "innovation", "academia", "software development", "career advice"]
+summary: "What is a computer scientist? A person that innovates? Or a person that solves problems?"
 ---
 
 What is a computer scientist?  Google gives the definition: a scientist who specializes in the theory of computation and the design of computers.  In most of our minds, a computer scientist is a person that builds computer systems.  More recognizable names (at least in terms of what a person with a computer science degree would be hired for) for a computer scientist would be developer, coder, software engineer, or software architect.  A lot of people will argue with me that computer scientist is more than just a coder, and I would fully agree.  Although, when a person wants to be a software developer, they are forced most of the time into a computer science program, as it's the best way for they to obtain the skills required to build large software systems.

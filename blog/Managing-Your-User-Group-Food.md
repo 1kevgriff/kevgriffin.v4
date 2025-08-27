@@ -1,10 +1,16 @@
 ---
-title: 'Managing Your User Group: Food'
+title: "Managing Your User Group: Food"
 categories:
   - Community, User Groups, and Conferences
 permalink: user-group-food
-date: 2015-10-13 18:45:40
+date: 2015-10-13T18:45:40Z
 summary: "If you run a community, add some variety to your food choices."
+description: "Creative alternatives to pizza and sandwiches for user group meetings that will make your sponsors memorable and attendees happy."
+tags:
+  - User Groups
+  - Community Management
+  - Event Planning
+  - Sponsorship
 ---
 
 *Edit: Based off some comments, I've included options for non-lovers of meat.  Also added other comments.*

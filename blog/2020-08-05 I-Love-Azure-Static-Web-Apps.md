@@ -1,10 +1,18 @@
 ---
-title: I Love Azure Static Web Apps
-date: 2020-08-05 00:30:00
+title: "I Love Azure Static Web Apps"
+date: 2020-08-05T00:30:00Z
 permalink: i-love-azure-static-web-apps
+description: "Exploring Azure Static Web Apps and how it solves common deployment challenges for static websites with integrated Azure Functions."
+summary: "I've spent a little bit of time working with Azure Static Web Apps in their preview phase, and it's an amazing solution to a couple core problems I had with deploying static apps."
 categories:
   - Microsoft Azure
-excerpt: "I've spent a little bit of time working with Azure Static Web Apps in their preview phase, and it's an amazing solution to a couple core problems I had with deploying static apps."
+tags:
+  - Azure Static Web Apps
+  - Static Sites
+  - Azure Functions
+  - GitHub Actions
+  - Gridsome
+  - Deployment
 ---
 
 As a web developer, I have fully embraced the idea that to extract pure performance out of our web applications we need to reduce the amount of time that a server needs to churn on request.  Statically generated web sites really scratch that itch.

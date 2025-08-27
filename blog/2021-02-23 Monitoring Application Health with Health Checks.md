@@ -1,13 +1,19 @@
 ---
-title: Monitoring ASP.NET Core Application Health with Health Checks 🩺
-date: 2021-02-23 00:00:00
+title: "Monitoring ASP.NET Core Application Health with Health Checks 🩺"
+date: 2021-02-23T00:00:00Z
 permalink: monitoring-aspnet-core-application-health-with-health-checks
 categories:
   - .NET
   - ASP.NET
   - Web Development
+description: "Failures in your application often are not just because the code you wrote is bad, it's often because services or dependencies you depend on are having an issue. Health Checks in ASP.NET Core help you identify the problem areas."
 summary: "Failures in your application often are not just because the code you wrote is bad, it's often because services or dependencies you depend on are having an issue.  Health Checks in ASP.NET Core help you identify the problem areas."
-excerpt: ""
+tags:
+  - Health Checks
+  - Monitoring
+  - ASP.NET Core
+  - Dependencies
+excerpt: "Failures in your application often are not just because the code you wrote is bad, it's often because services or dependencies you depend on are having an issue.  Health Checks in ASP.NET Core help you identify the problem areas."
 ---
 
 Your application isn't just your code.

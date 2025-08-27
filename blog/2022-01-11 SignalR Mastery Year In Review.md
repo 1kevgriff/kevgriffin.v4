@@ -1,13 +1,19 @@
 ---
-title: SignalR Mastery Year in Review 2022
-date: 2022-01-17 08:00:00
+title: "SignalR Mastery Year in Review 2022"
+date: 2022-01-17T08:00:00Z
 permalink: signalr-mastery-year-in-review-2022
+description: "Reflecting on the first year of my SignalR Mastery course on Udemy, including metrics, lessons learned, and future plans."
+summary: "In 2021, I released SignalR Mastery on Udemy.  After the first year, I wanted to take a moment to reflect on my journey of building and releasing the course."
 categories:
   - .NET
   - SignalR
   - ASP.NET
-summary: "In 2021, I released SignalR Mastery on Udemy.  After the first year, I wanted to take a moment to reflect on my journey of building and releasing the course."
-excerpt: "In 2021, I released SignalR Mastery on Udemy.  After the first year, I wanted to take a moment to reflect on my journey of building and releasing the course."
+tags:
+  - SignalR
+  - Udemy
+  - Online Course
+  - Teaching
+  - .NET
 ---
 
 Last week marks the first anniversary of my course, SignalR Mastery, which I launched on Udemy on January 11th, 2021.

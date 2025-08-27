@@ -1,12 +1,18 @@
 ---
-title: Converting Epoch Time into DateTime with Azure Logic Apps
-date: 2021-02-24 00:00:00
-permalink: azure-logic-apps-epoch-time
+title: "Converting Epoch Time into DateTime with Azure Logic Apps"
+date: "2021-02-24T00:00:00Z"
+description: "Learn how to convert Epoch time to readable DateTime format in Azure Logic Apps when working with APIs like Stripe that use Unix timestamps."
+summary: "Some APIs use Epoch time to designate a DateTime object.  In Azure Logic Apps, how do you convert this into something useful?"
+excerpt: "Recently, I've been building a handful of Azure Logic Apps that work with Stripe webhooks and I've need to convert Epoch DATETIME into a more useful format."
+tags:
+  - Azure Logic Apps
+  - Epoch Time
+  - DateTime Conversion
+  - Stripe
 categories:
   - Azure
   - Web Development
-summary: "Some APIs use Epoch time to designate a DateTime object.  In Azure Logic Apps, how do you convert this into something useful?"
-excerpt: "Recently, I've been building a handful of Azure Logic Apps that work with Stripe webhooks and I've need to convert Epoch DATETIME into a more useful format."
+permalink: azure-logic-apps-epoch-time
 ---
 
 Recently, I've been building a handful of Azure Logic Apps that work with Stripe webhooks.

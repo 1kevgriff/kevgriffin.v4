@@ -1,10 +1,18 @@
 ---
-title: Building a Twitch Badge For My Site
-date: 2020-05-18 15:30:00
+title: "Building a Twitch Badge For My Site"
+date: 2020-05-18T15:30:00Z
 permalink: building-a-twitch-badge
+description: "Learn how to create a live streaming status badge for your website using TwitchLib, Azure Functions, and Shields.io."
+summary: "I wanted viewers of my site to know if and when I was currently streaming on my Twitch channel.  So I created a handy badge that tells them when I'm online.  Here's how I did it!"
 categories:
   - Twitch
-excerpt: "I wanted viewers of my site to know if and when I was currently streaming on my Twitch channel.  So I created a handy badge that tells them when I'm online.  Here's how I did it!"
+tags:
+  - Twitch
+  - Azure Functions
+  - TwitchLib
+  - Shields.io
+  - Streaming
+  - C#
 ---
 
 On my [stream](https://www.twitch.tv/1kevgriff), I wanted to play around with building out some tools that help me connect better with my readers and viewers.

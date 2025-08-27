@@ -1,10 +1,16 @@
 ---
-title: 'Managing Your User Group: Locations'
+title: "Managing Your User Group: Locations"
 permalink: user-group-locations
 categories:
   - Community, User Groups, and Conferences
-date: 2015-07-02 14:21:32
+date: 2015-07-02T14:21:32Z
 summary: "If you run a community, here are some things to consider when choosing a location."
+description: "Essential considerations for choosing the right venue for your user group including location, accessibility, parking, and consistency."
+tags:
+  - User Groups
+  - Community Management
+  - Venue Selection
+  - Event Planning
 ---
 
 A common misconception a lot of new user group leaders have is that they need the _perfect_ location for their user group.  While that thought is partially correct, there are a lot of things to consider when trying to find a location for your group.

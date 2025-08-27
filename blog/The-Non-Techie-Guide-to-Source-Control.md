@@ -1,10 +1,16 @@
 ---
-title: The Non-Techie Guide to Source Control
-permalink: the-non-techie-guide-to-source-control
+title: "The Non-Techie Guide to Source Control"
+date: 2014-10-30T16:45:19Z
+description: "A comprehensive guide explaining source control concepts to non-technical stakeholders, covering why it's essential and how to implement it for project protection."
+summary: "Explaining source control to non technical people."
+tags:
+  - source control
+  - git
+  - project management
+  - business protection
 categories:
   - Deep Thoughts
-date: 2014-10-30 16:45:19
-summary: "Explaining source control to non technical people."
+permalink: the-non-techie-guide-to-source-control
 ---
 
 _Update 1: Brandon pointed out a mistake in my math.  Adjusted to reflect his comments._

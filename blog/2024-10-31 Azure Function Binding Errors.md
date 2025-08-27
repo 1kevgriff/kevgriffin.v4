@@ -1,13 +1,21 @@
 ---
 title: "Azure Functions: No bindings were found in the function $func"
-date: 2024-10-31 00:00:00
+date: 2024-10-31T00:00:00Z
 permalink: azure-function-no-bindings-found-in-function
-categories:
-    - Azure
-    - Azure Functions
-    - C#
-    - .NET
+description: "Troubleshooting guide for resolving the 'No bindings were found in the function' error in Azure Functions when missing triggers."
 summary: "How do you resolve a 'No bindings were found in the function $func' error when using Azure Functions?"
+categories:
+  - Azure
+  - Azure Functions
+  - C#
+  - .NET
+tags:
+  - Azure Functions
+  - Troubleshooting
+  - Error Resolution
+  - Function Bindings
+  - Triggers
+  - .NET
 ---
 
 Don't you just hate errors that will tell you something is wrong, but not tell you what?  I ran into that case recently while refactoring an Azure Functions project.  

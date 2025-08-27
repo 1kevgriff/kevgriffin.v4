@@ -1,10 +1,16 @@
 ---
-title: Reconsidering Vanity Metrics
-date: 2022-11-23 08:00:00
+title: "Reconsidering Vanity Metrics"
+date: 2022-11-23T08:00:00Z
 permalink: vanity-metrics
 categories:
   - Personal
+description: "I have an obsession with vanity metrics. They're not supposed to be useful, but I think there is an excellent argument for tracking them."
 summary: "I have an obsession with vanity metrics. They're not supposed to be useful, but I think there is an excellent arguement for tracking them."
+tags:
+  - Metrics
+  - Social Media
+  - Growth
+  - Analytics
 excerpt: "I have an obsession with vanity metrics. They're not supposed to be useful, but I think there is an excellent arguement for tracking them."
 ---
 I have an obsession with vanity metrics.

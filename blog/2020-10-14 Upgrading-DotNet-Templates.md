@@ -1,11 +1,18 @@
 ---
-title: How to Upgrade .NET CLI Templates
-date: 2020-10-14 00:00:00
+title: "How to Upgrade .NET CLI Templates"
+date: 2020-10-14T00:00:00Z
 permalink: how-to-upgrade-dotnet-cli-templates
+description: "Learn how to check for and apply updates to your .NET CLI templates using simple dotnet commands introduced in .NET Core 3.0."
+summary: "How do you update the .NET CLI templates?  Turns out there is a command just for you!"
 categories:
   - .NET
-summary: "How do you update the .NET CLI templates?  Turns out there is a command just for you!"
-excerpt: "How do you update the .NET CLI templates?  Turns out there is a command just for you!"
+tags:
+  - .NET CLI
+  - Templates
+  - dotnet
+  - .NET Core
+  - Updates
+  - Command Line
 ---
 
 I saw an awesome tweet on Twitter today:

@@ -1,13 +1,20 @@
 ---
-title: 🚀 Launched Today!  SignalR Mastery 🚀
-date: 2021-01-13 00:00:00
+title: "🚀 Launched Today!  SignalR Mastery 🚀"
+date: 2021-01-13T00:00:00Z
 permalink: signal-mastery-launched
 categories:
   - .NET
   - ASP.NET
   - Web Development
 coverImage: "./images/signalr-mastery-thumbnail.png"
+description: "Do you want to become a master in building real-time applications on .NET?  I have the course for you!"
 summary: "Do you want to become a master in building real-time applications on .NET?  I have the course for you!"
+tags:
+  - SignalR
+  - Course
+  - Real-time
+  - .NET
+  - Udemy
 excerpt: "Do you want to become a master in building real-time applications on .NET?  My new course is designed to take you on a journey through all the bits and advanced topics of SignalR, a real-time communication library built on .NET!"
 ---
 
