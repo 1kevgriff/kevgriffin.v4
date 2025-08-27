@@ -1,6 +1,6 @@
 ---
 title: "Framework 16 Laptop Review"
-date: 2025-08-27 00:00:00
+date: 2025-08-26 00:00:00
 permalink: framework-16-laptop-review
 categories:
     - Hardware
