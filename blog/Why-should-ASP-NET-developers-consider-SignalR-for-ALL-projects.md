@@ -1,10 +1,17 @@
 ---
-title: Why should ASP.NET developers consider SignalR for ALL projects?
+title: "Why should ASP.NET developers consider SignalR for ALL projects?"
+date: 2012-07-09T07:00:07Z
+permalink: why-should-asp-net-developers-consider-signalr-for-all-projects
+description: "Why should you use SignalR for all projects? Learn how real-time communication can enhance any web application."
+summary: "Why should you use SignalR for all projects?"
+tags:
+  - SignalR
+  - ASP.NET
+  - WebSockets
+  - Real-time
+  - Web Development
 categories:
   - "Development - ASP.NET"
-permalink: why-should-asp-net-developers-consider-signalr-for-all-projects
-date: 2012-07-09 07:00:07
-summary: "Why should you use SignalR for all projects?"
 ---
 
 The concept of the “static” web went away a long time ago.  When web developers started looking towards jQuery to build “ajax” web applications, we hit a wall where an instance of a page was a dynamic object to be manipulated.
