@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 150" width="300" height="150">
+  <!-- Microsoft MVP Logo -->
+  <defs>
+    <linearGradient id="msBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0078D4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0052A3;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="300" height="150" fill="white"/>
+  
+  <!-- Microsoft Logo Squares -->
+  <rect x="20" y="40" width="25" height="25" fill="#F25022"/>
+  <rect x="47" y="40" width="25" height="25" fill="#7FBA00"/>
+  <rect x="20" y="67" width="25" height="25" fill="#00A4EF"/>
+  <rect x="47" y="67" width="25" height="25" fill="#FFB900"/>
+  
+  <!-- MVP Text -->
+  <text x="85" y="60" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600" fill="#323130">
+    Microsoft
+  </text>
+  <text x="85" y="85" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" fill="url(#msBlue)">
+    MVP
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="20" y="115" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#605E5C">
+    Most Valuable Professional
+  </text>
+</svg>
