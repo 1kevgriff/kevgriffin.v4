@@ -12,7 +12,6 @@ tags:
   - RTMP
 categories:
   - Misc.
-excerpt: "Recently, I regained some of the rights to some video courses I've built over the past two years. Because this was specially created content, I wanted to see if there was a way that I could distribute it that was more than just \\\\"posting it on YouTube\\\\"."
 ---
 
 Recently, I regained some of the rights to some video courses I've built over the past two years.  Because this was specially created content, I wanted to see if there was a way that I could distribute it that was more than just "posting it on YouTube".
