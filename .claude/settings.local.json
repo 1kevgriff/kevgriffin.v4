@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(yarn run build:*)"
+      "Bash(yarn run build:*)",
+      "Bash(npm create:*)",
+      "Bash(npx astro add tailwind:*)"
     ],
     "deny": [],
     "ask": []
