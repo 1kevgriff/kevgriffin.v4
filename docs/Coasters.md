@@ -8,7 +8,7 @@ categories:
 excerpt: "Check out my roller coaster credits!"
 ---
 
-Total Coaster Credits: 107
+Total Coaster Credits: 102
 
 ### Busch Gardens Williamsburg (Williamsburg, Virginia)
 
@@ -22,7 +22,7 @@ Total Coaster Credits: 107
 * Alpengeist
 * Griffon
 * Tempesto
-* Grovers Alpine Express
+* Grover's Alpine Express
 * Verbolten
 * InvadR
 * Pantheon
@@ -52,7 +52,7 @@ Total Coaster Credits: 107
 
 ### Kings Dominion (Doswell, Virginia)
 
-16 Coasters
+15 Coasters
 
 * Apple Zapple
 * Backlot Stunt Coaster
@@ -63,7 +63,6 @@ Total Coaster Credits: 107
 * Grizzly
 * Avalanche (Reptilian)
 * Twisted Timbers
-* Hurler
 * Tumbili
 * Hypersonic XLC
 * Racer 75 (North) (Rebel Yell)
@@ -72,6 +71,8 @@ Total Coaster Credits: 107
 * Volcano: The Blast Coaster
 
 ### Motorworld (Virginia Beach, Virginia)
+
+1 Coaster
 
 * Crazy Mouse
 
@@ -94,7 +95,7 @@ Total Coaster Credits: 107
 
 * The Big Apple Coaster
 
-### Cedar Point
+### Cedar Point (Sandusky, Ohio)
 
 12 Coasters
 
@@ -122,7 +123,7 @@ Total Coaster Credits: 107
 3 Coasters
 
 * Big Thunder Mountain Railroad
-* Matterhorn Bobseld (Tomorrowland)
+* Matterhorn Bobsleds (Tomorrowland)
 * Space Mountain
 
 ### Walt Disney World (Magic Kingdom)
@@ -156,14 +157,12 @@ Total Coaster Credits: 107
 
 ### Universals's Islands of Adventure
 
-6 Coasters
+4 Coasters
 
 * Flight of the Hippogriff
-* Hagrid's Magical Creatures Moterbike Adventure
-* Harry Potter and the Forbidden Journey
+* Hagrid's Magical Creatures Motorbike Adventure
 * The Incredible Hulk Coaster
 * VelociCoaster
-* Pterandon Flyers
 
 ### Worlds of Fun (Kansas City, Missouri)
 
@@ -177,13 +176,11 @@ Total Coaster Credits: 107
 
 ### Six Flags America (Bowie, Maryland)
 
-7 Coasters
+5 Coasters
 
 * Firebird
 * Joker's Jinx
-* Professor Sceamore's Skywinder
 * Ragin' Cajun
-* Roar
 * Superman - Ride of Steel
 * Wild One
 
