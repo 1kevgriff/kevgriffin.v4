@@ -7,3 +7,6 @@ dist
 .env
 .env.*
 static/rss.xml
+# Lock files and generated search index
+package-lock.json
+static/search.json
