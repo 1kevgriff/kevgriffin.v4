@@ -8,7 +8,7 @@ categories:
 excerpt: "Check out my roller coaster credits!"
 ---
 
-Total Coaster Credits: 102
+Total Coaster Credits: 106
 
 ### Busch Gardens Williamsburg (Williamsburg, Virginia)
 
@@ -52,7 +52,7 @@ Total Coaster Credits: 102
 
 ### Kings Dominion (Doswell, Virginia)
 
-15 Coasters
+16 Coasters
 
 * Apple Zapple
 * Backlot Stunt Coaster
@@ -63,6 +63,7 @@ Total Coaster Credits: 102
 * Grizzly
 * Avalanche (Reptilian)
 * Twisted Timbers
+* Hurler
 * Tumbili
 * Hypersonic XLC
 * Racer 75 (North) (Rebel Yell)
@@ -157,12 +158,13 @@ Total Coaster Credits: 102
 
 ### Universals's Islands of Adventure
 
-4 Coasters
+5 Coasters
 
 * Flight of the Hippogriff
 * Hagrid's Magical Creatures Motorbike Adventure
 * The Incredible Hulk Coaster
 * VelociCoaster
+* Pteranodon Flyers
 
 ### Worlds of Fun (Kansas City, Missouri)
 
@@ -176,11 +178,13 @@ Total Coaster Credits: 102
 
 ### Six Flags America (Bowie, Maryland)
 
-5 Coasters
+7 Coasters
 
 * Firebird
 * Joker's Jinx
+* Professor Screamore's SkyWinder
 * Ragin' Cajun
+* Roar
 * Superman - Ride of Steel
 * Wild One
 
