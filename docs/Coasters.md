@@ -1,14 +1,14 @@
 ---
 title: Coaster Credits
 date: 2022-09-06 12:00:00
-updated: 2024-10-14 00:00:00
+updated: 2025-11-07 00:00:00
 permalink: coasters
 categories:
   - Roller Coasters
 excerpt: "Check out my roller coaster credits!"
 ---
 
-Total Coaster Credits: 105
+Total Coaster Credits: 107
 
 ### Busch Gardens Williamsburg (Williamsburg, Virginia)
 
@@ -111,6 +111,12 @@ Total Coaster Credits: 105
 * Rougarou
 * Valravn
 
+### Camelback Resort (Tannersville, Pennsylvania)
+
+1 Coaster
+
+* Camelback Mountain Coaster
+
 ### Disneyland (California)
 
 3 Coasters
@@ -171,9 +177,10 @@ Total Coaster Credits: 105
 
 ### Six Flags America (Bowie, Maryland)
 
-6 Coasters
+7 Coasters
 
 * Firebird
+* Joker's Jinx
 * Professor Sceamore's Skywinder
 * Ragin' Cajun
 * Roar
