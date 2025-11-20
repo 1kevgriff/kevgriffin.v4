@@ -21,7 +21,7 @@ jobs:
         # Version Spec of the version to use.  Examples: 10.x, 10.15.1, >=10.15.0, lts
         node-version: 20
 
-    - uses: actions/checkout@v5
+    - uses: actions/checkout@v6
     
     - name: YARN install
       run: yarn install
