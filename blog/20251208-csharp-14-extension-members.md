@@ -114,9 +114,9 @@ public static class DateTimeExtensions
 }
 ```
 
-- **`public static class DateTimeExtensions`** — Extension members must be declared inside a static class (similar to extension methods)
-- **`extension (DateTime date)`** — The `extension` keyword followed by a parameter declaration in parentheses. This parameter represents the instance being extended
-- **`date`** — Inside the extension block, you use this parameter name (not `this`) to access the instance
+- **public static class DateTimeExtensions** — Extension members must be declared inside a static class (similar to extension methods)
+- **extension (DateTime date)** — The **extension** keyword followed by a parameter declaration in parentheses. This parameter represents the instance being extended
+- **date** — Inside the extension block, you use this parameter name (not **this**) to access the instance
 
 ### Inside the Extension Body
 
@@ -131,20 +131,20 @@ Inside the extension block, you define members just like you would in a regular 
 }
 ```
 
-- **`public DateTime MondayOfCurrentWeek`** — A property declaration (no `this` parameter needed in the signature)
-- **`get { ... }`** — Standard property getter syntax
-- **`date`** — Inside the getter, you use the parameter name from the extension declaration to access the instance
+- **public DateTime MondayOfCurrentWeek** — A property declaration (no **this** parameter needed in the signature)
+- **get { ... }** — Standard property getter syntax
+- **date** — Inside the getter, you use the parameter name from the extension declaration to access the instance
 
 ### Key Differences from Extension Methods
 
 | Extension Methods (Old) | Extension Members (New) |
 |-------------------------|-------------------------|
-| `public static class` with static methods | `public static class` with `extension(...)` block |
-| `this DateTime date` parameter in method signature | `extension (DateTime date)` block parameter |
-| Method syntax: `MondayOfCurrentWeek()` | Property syntax: `MondayOfCurrentWeek` |
+| **public static class** with static methods | **public static class** with **extension(...)** block |
+| **this DateTime date** parameter in method signature | **extension (DateTime date)** block parameter |
+| Method syntax: **MondayOfCurrentWeek()** | Property syntax: **MondayOfCurrentWeek** |
 | Static method calls | Instance property access |
 
-The mental model shifts: instead of "a static method that takes `this` as the first parameter," you're defining "members that belong to the type, just defined elsewhere."
+The mental model shifts: instead of "a static method that takes **this** as the first parameter," you're defining "members that belong to the type, just defined elsewhere."
 
 > **Important:** Extension members compile to static helper code — they don't modify the original type's metadata. From the compiler's perspective, they're still static methods (or static accessor methods for properties) in a helper class. The original type remains unchanged, but consumers get a more natural API experience.
 
@@ -160,7 +160,7 @@ No need to explain to the next developer why “MondayOfCurrentWeek()” looks l
 
 This reads like part of the language — not bolted-on utility code.
 
-> **Note on Overload Resolution:** Extension members follow normal overload resolution and member lookup rules. While having both a property and a method with the same name can create ambiguity in some scenarios, the compiler can resolve many cases through normal overload resolution. If ambiguity occurs, you can resolve it using fully qualified static invocation or `using static` directives. In practice, it's often clearer to use distinct names when providing both property and method variants (e.g., `MondayOfCurrentWeek` for the property and `GetMondayOfCurrentWeek()` for the method).
+> **Note on Overload Resolution:** Extension members follow normal overload resolution and member lookup rules. While having both a property and a method with the same name can create ambiguity in some scenarios, the compiler can resolve many cases through normal overload resolution. If ambiguity occurs, you can resolve it using fully qualified static invocation or **using static** directives. In practice, it's often clearer to use distinct names when providing both property and method variants (e.g., **MondayOfCurrentWeek** for the property and **GetMondayOfCurrentWeek()** for the method).
 
 ## Limitations & Gotchas
 
