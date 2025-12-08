@@ -1,6 +1,6 @@
 ---
 title: "What's New in C# 14: Extension Members"
-date: 2025-08-26T00:00:00Z
+date: 2025-12-08T00:00:00Z
 permalink: csharp-14-extension-members
 description: "What's new in C# 14: Extension Members"
 summary: "What's new in C# 14: Extension Members"
@@ -24,7 +24,7 @@ But then you hit that one moment — every developer eventually does — where y
 
 And C# finally did something about it.
 
-Let’s walk through that feeling using a tiny example we all know and love: counting the words in a string.
+Let's walk through that feeling using a tiny example we all know and love: working with dates.
 
 ## An Example of Extension "Methods"
 
@@ -76,7 +76,7 @@ But historically, C# forced us to fake that semantics with a method.
 It worked, but it never felt quite right.
 
 This is exactly the conceptual gap that extension members were designed to fill.
- 
+
 ## Sample Example, but with Extension Members
 
 With C# 14’s extension members, you get to model the feature correctly — as a property, not a method:
@@ -97,14 +97,23 @@ extension DateTimeExtensions for DateTime
 
 Usage now matches the semantics perfectly:
 
+```csharp
 var monday = DateTime.Now.MondayOfCurrentWeek;
-
+```
 
 No parenthesis.
 No method-call mental overhead.
 No need to explain to the next developer why “MondayOfCurrentWeek()” looks like a method but represents a property.
 
 This reads like part of the language — not bolted-on utility code.
+
+> **Note:** Extension methods and extension properties must have unique names. You cannot overload them or share names between methods and properties.
+>
+> For example, you cannot have both:
+> - `MondayOfCurrentWeek` as an extension property
+> - `MondayOfCurrentWeek()` as an extension method
+>
+> The compiler requires that extension member names be unique within the same extension scope. This means if you want to provide both a property and a method version, you'll need to use different names (e.g., `MondayOfCurrentWeek` for the property and `GetMondayOfCurrentWeek()` for the method).
 
 ## Closing Thoughts: A Small Feature That Unlocks a Lot
 
@@ -116,4 +125,4 @@ They let your code read the way your brain already thinks.
 
 If you care about clean API design, rich domain models, or writing code that feels more “English-like” and less “compiler-like,” extension members are going to slide right into your toolbox.
 
-And I promise, once you use them a few times, you’ll wonder how we lived without them.
+And I promise, once you use them a few times, you'll wonder how we lived without them.
