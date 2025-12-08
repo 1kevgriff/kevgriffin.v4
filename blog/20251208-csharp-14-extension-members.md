@@ -95,6 +95,50 @@ extension DateTimeExtensions for DateTime
 }
 ```
 
+## Breaking Down the Syntax
+
+If you're looking at that code and thinking "wait, that's not how extension methods work," you're absolutely right. Extension members use a completely different syntax. Let's break it down:
+
+### The Declaration: `extension ... for ...`
+
+```csharp
+extension DateTimeExtensions for DateTime
+```
+
+- **`extension`** — This is the new keyword that declares an extension type
+- **`DateTimeExtensions`** — The name of your extension (like a class name, but it's not a class)
+- **`for DateTime`** — The type you're extending (the `for` keyword connects the extension to the target type)
+
+This replaces the old pattern of `public static class DateTimeExtensions` with static methods.
+
+### Inside the Extension Body
+
+Inside the extension, you define members just like you would in a regular class:
+
+```csharp
+{
+    public DateTime MondayOfCurrentWeek
+    {
+        get { ... }
+    }
+}
+```
+
+- **`public DateTime MondayOfCurrentWeek`** — A property declaration (no `this` parameter needed in the signature)
+- **`get { ... }`** — Standard property getter syntax
+- **`this`** — Inside the getter, `this` refers to the instance of `DateTime` you're extending
+
+### Key Differences from Extension Methods
+
+| Extension Methods (Old) | Extension Members (New) |
+|-------------------------|-------------------------|
+| `public static class` | `extension ... for` |
+| `this DateTime date` parameter | `this` keyword inside body |
+| Method syntax: `MondayOfCurrentWeek()` | Property syntax: `MondayOfCurrentWeek` |
+| Static method calls | Instance property access |
+
+The mental model shifts: instead of "a static method that takes `this` as the first parameter," you're defining "members that belong to the type, just defined elsewhere."
+
 Usage now matches the semantics perfectly:
 
 ```csharp
@@ -114,6 +158,10 @@ This reads like part of the language — not bolted-on utility code.
 > - `MondayOfCurrentWeek()` as an extension method
 >
 > The compiler requires that extension member names be unique within the same extension scope. This means if you want to provide both a property and a method version, you'll need to use different names (e.g., `MondayOfCurrentWeek` for the property and `GetMondayOfCurrentWeek()` for the method).
+
+## Want to See More Examples?
+
+If you want to explore extension members (and other C# 14 features) with hands-on, runnable demos, check out my [C# 14 Demos repository on GitHub](https://github.com/1kevgriff/Griffin.CSharp14Demos). It includes complete working examples with side-by-side comparisons of traditional approaches vs. the new C# 14 syntax.
 
 ## Closing Thoughts: A Small Feature That Unlocks a Lot
 
