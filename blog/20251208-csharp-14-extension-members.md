@@ -12,7 +12,7 @@ categories:
   - "Development - C#"
 ---
 
-If you’ve been writing C# for longer than you care to admit (hi, friend), you probably remember the moment extension methods landed in the language. It felt like someone quietly slipped a cheat code under the table. Suddenly we could add methods to types we didn’t own. No subclassing. No wrappers. No modifying third-party libraries. Just… magic.
+If you've been writing C# for longer than you care to admit, you probably remember the moment extension methods landed in the language. It felt like someone quietly slipped a cheat code under the table. Suddenly we could add methods to types we didn't own. No subclassing. No wrappers. No modifying third-party libraries. Just… magic.
 
 LINQ? Built almost entirely on extension methods. Fluent APIs? Extension methods. Half the helper utilities sitting in every enterprise codebase? Extension methods.
 
@@ -20,7 +20,7 @@ They were a revelation. And for a long time, they were enough.
 
 But then you hit that one moment — every developer eventually does — where you think:
 
-“Okay, this works… but it still feels weird to call a method when what I really want is a property.”
+"Okay, this works… but it still feels wrong to call a method when what I really want is a property."
 
 And C# finally did something about it.
 
@@ -79,17 +79,20 @@ This is exactly the conceptual gap that extension members were designed to fill.
 
 ## Sample Example, but with Extension Members
 
-With C# 14’s extension members, you get to model the feature correctly — as a property, not a method:
+With C# 14's extension members, you get to model the feature correctly — as a property, not a method:
 
 ```csharp
-extension DateTimeExtensions for DateTime
+public static class DateTimeExtensions
 {
-    public DateTime MondayOfCurrentWeek
+    extension (DateTime date)
     {
-        get
+        public DateTime MondayOfCurrentWeek
         {
-            int diff = (7 + (this.DayOfWeek - DayOfWeek.Monday)) % 7;
-            return this.Date.AddDays(-diff);
+            get
+            {
+                int diff = (7 + (date.DayOfWeek - DayOfWeek.Monday)) % 7;
+                return date.Date.AddDays(-diff);
+            }
         }
     }
 }
@@ -99,21 +102,25 @@ extension DateTimeExtensions for DateTime
 
 If you're looking at that code and thinking "wait, that's not how extension methods work," you're absolutely right. Extension members use a completely different syntax. Let's break it down:
 
-### The Declaration: `extension ... for ...`
+### The Declaration: Static Class with Extension Block
 
 ```csharp
-extension DateTimeExtensions for DateTime
+public static class DateTimeExtensions
+{
+    extension (DateTime date)
+    {
+        // members go here
+    }
+}
 ```
 
-- **`extension`** — This is the new keyword that declares an extension type
-- **`DateTimeExtensions`** — The name of your extension (like a class name, but it's not a class)
-- **`for DateTime`** — The type you're extending (the `for` keyword connects the extension to the target type)
-
-This replaces the old pattern of `public static class DateTimeExtensions` with static methods.
+- **`public static class DateTimeExtensions`** — Extension members must be declared inside a static class (similar to extension methods)
+- **`extension (DateTime date)`** — The `extension` keyword followed by a parameter declaration in parentheses. This parameter represents the instance being extended
+- **`date`** — Inside the extension block, you use this parameter name (not `this`) to access the instance
 
 ### Inside the Extension Body
 
-Inside the extension, you define members just like you would in a regular class:
+Inside the extension block, you define members just like you would in a regular class:
 
 ```csharp
 {
@@ -126,18 +133,20 @@ Inside the extension, you define members just like you would in a regular class:
 
 - **`public DateTime MondayOfCurrentWeek`** — A property declaration (no `this` parameter needed in the signature)
 - **`get { ... }`** — Standard property getter syntax
-- **`this`** — Inside the getter, `this` refers to the instance of `DateTime` you're extending
+- **`date`** — Inside the getter, you use the parameter name from the extension declaration to access the instance
 
 ### Key Differences from Extension Methods
 
 | Extension Methods (Old) | Extension Members (New) |
 |-------------------------|-------------------------|
-| `public static class` | `extension ... for` |
-| `this DateTime date` parameter | `this` keyword inside body |
+| `public static class` with static methods | `public static class` with `extension(...)` block |
+| `this DateTime date` parameter in method signature | `extension (DateTime date)` block parameter |
 | Method syntax: `MondayOfCurrentWeek()` | Property syntax: `MondayOfCurrentWeek` |
 | Static method calls | Instance property access |
 
 The mental model shifts: instead of "a static method that takes `this` as the first parameter," you're defining "members that belong to the type, just defined elsewhere."
+
+> **Important:** Extension members compile to static helper code — they don't modify the original type's metadata. From the compiler's perspective, they're still static methods (or static accessor methods for properties) in a helper class. The original type remains unchanged, but consumers get a more natural API experience.
 
 Usage now matches the semantics perfectly:
 
@@ -151,13 +160,23 @@ No need to explain to the next developer why “MondayOfCurrentWeek()” looks l
 
 This reads like part of the language — not bolted-on utility code.
 
-> **Note:** Extension methods and extension properties must have unique names. You cannot overload them or share names between methods and properties.
->
-> For example, you cannot have both:
-> - `MondayOfCurrentWeek` as an extension property
-> - `MondayOfCurrentWeek()` as an extension method
->
-> The compiler requires that extension member names be unique within the same extension scope. This means if you want to provide both a property and a method version, you'll need to use different names (e.g., `MondayOfCurrentWeek` for the property and `GetMondayOfCurrentWeek()` for the method).
+> **Note on Overload Resolution:** Extension members follow normal overload resolution and member lookup rules. While having both a property and a method with the same name can create ambiguity in some scenarios, the compiler can resolve many cases through normal overload resolution. If ambiguity occurs, you can resolve it using fully qualified static invocation or `using static` directives. In practice, it's often clearer to use distinct names when providing both property and method variants (e.g., `MondayOfCurrentWeek` for the property and `GetMondayOfCurrentWeek()` for the method).
+
+## Limitations & Gotchas
+
+While extension members are powerful, there are some important constraints to keep in mind:
+
+- **No State:** Extension members cannot add fields or state to the target type. They remain stateless wrappers that compute values or perform operations based on the existing instance.
+
+- **Generic Constraints:** Some generic scenarios or signature constraints from traditional extension methods may not translate directly to the new extension syntax. You may need to use traditional extension methods for certain advanced generic patterns.
+
+## When to Use Extension Members vs. Extension Methods
+
+- **Use Extension Members** when you want to model computed state or relationships as properties. They're ideal for "what is this?" scenarios.
+
+- **Use Extension Methods** when you need parameters beyond the instance, or when working with complex generic scenarios that don't fit the extension member pattern.
+
+Both syntaxes will continue to coexist — extension members complement, rather than replace, extension methods.
 
 ## Want to See More Examples?
 
