@@ -2,8 +2,8 @@
 title: "What's New in C# 14: Extension Members"
 date: 2025-12-08T00:00:00Z
 permalink: csharp-14-extension-members
-description: "What's new in C# 14: Extension Members"
-summary: "What's new in C# 14: Extension Members"
+description: "Explore how C# 14 extension members let you add computed properties—like MondayOfCurrentWeek—to existing .NET types."
+summary: "A hands-on look at using extension members to improve expressiveness and eliminate boilerplate in C#."
 tags:
   - C#
   - .NET
@@ -166,7 +166,7 @@ This reads like part of the language — not bolted-on utility code.
 
 While extension members are powerful, there are some important constraints to keep in mind:
 
-- **No State:** Extension members cannot add fields or state to the target type. They remain stateless wrappers that compute values or perform operations based on the existing instance.
+- **No Backing Fields / Computed-Only Properties:** Extension members cannot define backing fields or add state to the target type. This means properties in extension members must be computed on every access — you can't cache state or maintain a field. They remain stateless wrappers that compute values or perform operations based on the existing instance.
 
 - **Generic Constraints:** Some generic scenarios or signature constraints from traditional extension methods may not translate directly to the new extension syntax. You may need to use traditional extension methods for certain advanced generic patterns.
 
