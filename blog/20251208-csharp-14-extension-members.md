@@ -14,6 +14,8 @@ categories:
 image: /og/csharp-14-extension-members.png
 ---
 
+> This is my entry for [C# Advent 2025](https://www.csadvent.christmas/)! Take a moment to check out all the other great articles from the community.
+
 If you've been writing C# for longer than you care to admit, you probably remember the moment extension methods landed in the language. It felt like someone quietly slipped a cheat code under the table. Suddenly we could add methods to types we didn't own. No subclassing. No wrappers. No modifying third-party libraries. Just… magic.
 
 LINQ? Built almost entirely on extension methods. Fluent APIs? Extension methods. Half the helper utilities sitting in every enterprise codebase? Extension methods.
