@@ -10,6 +10,7 @@ tags:
   - Extension Members
 categories:
   - "Development - C#"
+image: /og/csharp-14-extension-members.png
 ---
 
 If you've been writing C# for longer than you care to admit, you probably remember the moment extension methods landed in the language. It felt like someone quietly slipped a cheat code under the table. Suddenly we could add methods to types we didn't own. No subclassing. No wrappers. No modifying third-party libraries. Just… magic.
