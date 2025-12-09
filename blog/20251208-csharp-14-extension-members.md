@@ -2,8 +2,9 @@
 title: "What's New in C# 14: Extension Members"
 date: 2025-12-08T00:00:00Z
 permalink: csharp-14-extension-members
-description: "Explore how C# 14 extension members let you add computed properties—like MondayOfCurrentWeek—to existing .NET types."
+description: "Explore how C# 14 extension members let you add computed properties to existing .NET types."
 summary: "A hands-on look at using extension members to improve expressiveness and eliminate boilerplate in C#."
+excerpt: "Explore how C# 14 extension members let you add computed properties to existing .NET types."
 tags:
   - C#
   - .NET
