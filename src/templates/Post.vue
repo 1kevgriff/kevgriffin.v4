@@ -55,6 +55,9 @@ export default {
         { property: "og:url", content: postUrl },
         { property: "og:site_name", content: "Consult With Griff" },
         { property: "og:image", content: ogImage },
+        { property: "og:image:width", content: "1200" },
+        { property: "og:image:height", content: "630" },
+        { property: "og:image:alt", content: this.$page.post.title },
         // Twitter
         { name: "twitter:card", content: "summary_large_image" },
         { name: "twitter:title", content: this.$page.post.title },
@@ -62,6 +65,7 @@ export default {
         { name: "twitter:site", content: "@1kevgriff" },
         { name: "twitter:creator", content: "@1kevgriff" },
         { name: "twitter:image", content: ogImage },
+        { name: "twitter:image:alt", content: this.$page.post.title },
         // General
         { name: "description", content: description },
       ],
