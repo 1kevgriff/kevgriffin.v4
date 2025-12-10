@@ -1,0 +1,28 @@
+---
+title: Quick Introduction to SignalR Streaming
+permalink: quick-introduction-to-signalr-streaming
+description: >-
+  What is streaming in SignalR? Learn about the new Streaming APIs built into
+  SignalR for ASP.NET Core.
+summary: What is streaming in SignalR? I'll show you!
+tags:
+  - ASP.NET Core
+  - SignalR
+  - WebSockets
+  - Streaming
+  - .NET Core
+categories:
+  - ASP.NET Core
+pubDate: '2018-12-13T23:39:46.000Z'
+draft: false
+---
+
+For my entry this year for [C# Advent](https://crosscuttingconcerns.com/The-Second-Annual-C-Advent), I wanted to do something a little bit different.
+
+As of late, I've been wanting to start doing several tidbits around cool things that I see in .NET Core and ASP.NET Core.  And by the recommendation of my friend, [Brady Gaster](https://twitter.com/bradygaster), I took a look at the new Streaming APIs built into SignalR (for ASP.NET Core).  
+
+And WOW!  I'm super impressed with that I saw.  
+
+Check out my video introduction below, and lemme know what you think in the comments!
+
+`youtube:https://www.youtube.com/embed/xLtWgRzB2_g`
