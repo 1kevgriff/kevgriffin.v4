@@ -1,5 +1,5 @@
 # Use the official Node.js 18 image with build tools
-FROM node:18-bullseye
+FROM node:24-bullseye
 
 # Set the working directory in the container
 WORKDIR /usr/src/app
